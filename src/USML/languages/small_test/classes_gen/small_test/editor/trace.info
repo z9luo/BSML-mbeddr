@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="EditorAspectDescriptorImpl.java" startLine="13" startPosition="0" endLine="33" endPosition="0" unitName="small_test.editor.EditorAspectDescriptorImpl" />
+  <root nodeRef="r:6680899f-def8-4093-86c4-043c547c13b5(small_test.editor)/8607120610927578040">
+    <nodeInfo nodeId="8607120610927578040" fileName="HelloString_Editor.java" startLine="12" startPosition="79" endLine="13" endPosition="61" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8607120610927578093" fileName="HelloString_Editor.java" startLine="16" startPosition="87" endLine="17" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8607120610927578093" fileName="HelloString_Editor.java" startLine="17" startPosition="101" endLine="18" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610927578093" fileName="HelloString_Editor.java" startLine="18" startPosition="46" endLine="19" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610927578093" fileName="HelloString_Editor.java" startLine="19" startPosition="28" endLine="20" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610927578093" fileName="HelloString_Editor.java" startLine="20" startPosition="34" endLine="21" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8607120610927578040" fileName="HelloString_Editor.java" startLine="12" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8607120610927578093" fileName="HelloString_Editor.java" startLine="16" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_1omr5g_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <scopeInfo nodeId="8607120610927578040" fileName="HelloString_Editor.java" startLine="12" startPosition="79" endLine="13" endPosition="61" />
+    <scopeInfo nodeId="8607120610927578040" fileName="HelloString_Editor.java" startLine="12" startPosition="0" endLine="15" endPosition="0">
+      <varInfo nodeId="8607120610927578040" varName="editorContext" />
+      <varInfo nodeId="8607120610927578040" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8607120610927578093" fileName="HelloString_Editor.java" startLine="16" startPosition="87" endLine="21" endPosition="22">
+      <varInfo nodeId="8607120610927578093" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="8607120610927578093" fileName="HelloString_Editor.java" startLine="16" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="8607120610927578093" varName="editorContext" />
+      <varInfo nodeId="8607120610927578093" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="8607120610927578040" fileName="HelloString_Editor.java" startLine="11" startPosition="0" endLine="24" endPosition="0" unitName="small_test.editor.HelloString_Editor" />
+  </root>
+</debugInfo>
+

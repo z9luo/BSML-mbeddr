@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="ay085un3m0yz7zgqhklv1sclq98tke4">
+  <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" hash="-cn8rhfjcox25qmdrj9crfalfclcib4g" />
+  <dep model="r:7db67fb8-d2c9-4e02-89e5-cbea9152661c(com.mbeddr.core.util.generator.template.main@generator)" hash="-2gm67tmrlzszxu9b2hfihnk6dntax8a" />
+  <dep model="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" hash="-8occ4vh5c7mjxqosuxbkrq12g89pior" />
+  <common hash="4z8p2ivhhw988c1ispwuqg1ujlrc3ab">
+    <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" />
+    <dep model="r:7db67fb8-d2c9-4e02-89e5-cbea9152661c(com.mbeddr.core.util.generator.template.main@generator)" />
+    <dep model="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
+    <file name="Makefile" />
+    <file name="TypeSizeConfiguration (s.sandbox)" />
+    <file name="testhello.c" />
+    <file name="testhello.h" />
+  </common>
+  <source id="8607120610927583787" name="testhello" hash="-2xn1tqu8zhsv6p5vuo46tmlo2nje2xq" />
+  <source id="8607120610927583901" name="TypeSizeConfiguration (s.sandbox)" hash="5yimbm0xrpdsdv0k0q60ba9nfvw2zyt" />
+  <source id="8607120610927585039" name="BuildConfiguration (s.sandbox)" hash="23ytm29d1kfhd070q6wdzfgi622jb6v" />
+</dependencies>
+

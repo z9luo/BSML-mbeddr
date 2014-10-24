@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="103" endPosition="0" unitName="USML.structure.StructureAspectDescriptor" />
+  <root nodeRef="r:af2571ec-9abb-4256-9741-d67b225d6f04(USML.structure)/5600653557319230941">
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="18" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="20" startPosition="27" endLine="21" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="24" startPosition="36" endLine="25" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="28" startPosition="56" endLine="29" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="29" startPosition="94" endLine="30" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="30" startPosition="75" endLine="31" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="31" startPosition="71" endLine="32" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="32" startPosition="71" endLine="33" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="33" startPosition="69" endLine="34" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="34" startPosition="72" endLine="35" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="35" startPosition="81" endLine="36" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="36" startPosition="73" endLine="37" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="40" startPosition="48" endLine="41" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="45" startPosition="24" endLine="46" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="48" startPosition="74" endLine="49" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="51" startPosition="70" endLine="52" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="54" startPosition="70" endLine="55" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="57" startPosition="68" endLine="58" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="60" startPosition="71" endLine="61" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="63" startPosition="80" endLine="64" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="66" startPosition="72" endLine="67" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="68" startPosition="5" endLine="69" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="72" startPosition="0" endLine="73" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myValue" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="74" startPosition="45" endLine="75" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="75" startPosition="23" endLine="76" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="79" startPosition="25" endLine="80" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAsString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDefault#()LUSML/structure/CompositionOpEnum;" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="44" startPosition="60" endLine="47" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="47" startPosition="5" endLine="50" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="50" startPosition="5" endLine="53" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="53" startPosition="5" endLine="56" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="56" startPosition="5" endLine="59" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="59" startPosition="5" endLine="62" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="62" startPosition="5" endLine="65" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="65" startPosition="5" endLine="68" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="79" startPosition="0" endLine="82" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()I" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="74" startPosition="0" endLine="78" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CompositionOpEnum#(Ljava/lang/String;I)V" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="28" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getConstants#()Ljava/util/List;" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="44" startPosition="0" endLine="71" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="parseValue#(Ljava/lang/String;)LUSML/structure/CompositionOpEnum;" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="13" startPosition="5" endLine="14" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="15" startPosition="33" endLine="16" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="20" startPosition="5" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="27" startPosition="5" endLine="28" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="29" startPosition="33" endLine="30" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="34" startPosition="5" endLine="35" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="38" startPosition="49" endLine="39" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="42" startPosition="5" endLine="43" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="10" startPosition="44" endLine="13" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="16" startPosition="52" endLine="19" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="24" startPosition="47" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="30" startPosition="52" endLine="33" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="39" startPosition="69" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="14" startPosition="111" endLine="20" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="28" startPosition="111" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canSetValue#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="20" startPosition="27" endLine="21" endPosition="23" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="24" startPosition="36" endLine="25" endPosition="29" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="40" startPosition="48" endLine="41" endPosition="42" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="45" startPosition="24" endLine="46" endPosition="44" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="48" startPosition="74" endLine="49" endPosition="44" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="51" startPosition="70" endLine="52" endPosition="40" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="54" startPosition="70" endLine="55" endPosition="40" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="57" startPosition="68" endLine="58" endPosition="38" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="60" startPosition="71" endLine="61" endPosition="41" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="63" startPosition="80" endLine="64" endPosition="50" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="66" startPosition="72" endLine="67" endPosition="42" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="79" startPosition="25" endLine="80" endPosition="24" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="74" startPosition="45" endLine="76" endPosition="25" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="20" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="24" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="40" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="79" startPosition="0" endLine="82" endPosition="0" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="74" startPosition="0" endLine="78" endPosition="0">
+      <varInfo nodeId="5600653557319230941" varName="name" />
+      <varInfo nodeId="5600653557319230941" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="28" startPosition="56" endLine="37" endPosition="16">
+      <varInfo nodeId="5600653557319230941" varName="list" />
+    </scopeInfo>
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="28" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="44" startPosition="60" endLine="69" endPosition="42" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="44" startPosition="0" endLine="71" endPosition="0">
+      <varInfo nodeId="5600653557319230941" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" />
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="15" startPosition="33" endLine="19" endPosition="7">
+      <varInfo nodeId="5600653557319230941" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="29" startPosition="33" endLine="33" endPosition="7">
+      <varInfo nodeId="5600653557319230941" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="38" startPosition="49" endLine="43" endPosition="14">
+      <varInfo nodeId="5600653557319230941" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="5600653557319230941" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="10" startPosition="44" endLine="21" endPosition="17">
+      <varInfo nodeId="5600653557319230941" varName="constants" />
+    </scopeInfo>
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="24" startPosition="47" endLine="35" endPosition="16">
+      <varInfo nodeId="5600653557319230941" varName="constants" />
+    </scopeInfo>
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="5600653557319230941" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="5600653557319230941" varName="value" />
+    </scopeInfo>
+    <unitInfo nodeId="5600653557319230941" fileName="CompositionOpEnum.java" startLine="9" startPosition="0" endLine="83" endPosition="0" unitName="USML.structure.CompositionOpEnum" />
+    <unitInfo nodeId="5600653557319230941" fileName="CompositionOpEnum_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="USML.structure.CompositionOpEnum_PropertySupport" />
+  </root>
+  <root nodeRef="r:af2571ec-9abb-4256-9741-d67b225d6f04(USML.structure)/6318815719351411612">
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="16" startPosition="27" endLine="17" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="20" startPosition="36" endLine="21" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="24" startPosition="60" endLine="25" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="25" startPosition="102" endLine="26" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="26" startPosition="73" endLine="27" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="27" startPosition="76" endLine="28" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="28" startPosition="71" endLine="29" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="32" startPosition="52" endLine="33" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="37" startPosition="24" endLine="38" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="40" startPosition="72" endLine="41" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="43" startPosition="75" endLine="44" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="46" startPosition="70" endLine="47" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="48" startPosition="5" endLine="49" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="52" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myValue" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="54" startPosition="49" endLine="55" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="55" startPosition="23" endLine="56" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="59" startPosition="25" endLine="60" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAsString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDefault#()LUSML/structure/BigStepMaximalityEnum;" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="36" startPosition="64" endLine="39" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="39" startPosition="5" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="42" startPosition="5" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="45" startPosition="5" endLine="48" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="59" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()I" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="54" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="BigStepMaximalityEnum#(Ljava/lang/String;I)V" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="24" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getConstants#()Ljava/util/List;" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="36" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="parseValue#(Ljava/lang/String;)LUSML/structure/BigStepMaximalityEnum;" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="13" startPosition="5" endLine="14" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="15" startPosition="33" endLine="16" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="20" startPosition="5" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="27" startPosition="5" endLine="28" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="29" startPosition="33" endLine="30" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="34" startPosition="5" endLine="35" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="38" startPosition="49" endLine="39" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="42" startPosition="5" endLine="43" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="10" startPosition="44" endLine="13" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="16" startPosition="56" endLine="19" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="24" startPosition="47" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="30" startPosition="56" endLine="33" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="39" startPosition="77" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="14" startPosition="119" endLine="20" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="28" startPosition="119" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canSetValue#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="16" startPosition="27" endLine="17" endPosition="23" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="20" startPosition="36" endLine="21" endPosition="29" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="32" startPosition="52" endLine="33" endPosition="40" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="37" startPosition="24" endLine="38" endPosition="48" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="40" startPosition="72" endLine="41" endPosition="42" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="43" startPosition="75" endLine="44" endPosition="45" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="46" startPosition="70" endLine="47" endPosition="40" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="59" startPosition="25" endLine="60" endPosition="24" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="54" startPosition="49" endLine="56" endPosition="25" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="16" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="20" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="59" startPosition="0" endLine="62" endPosition="0" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="54" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="6318815719351411612" varName="name" />
+      <varInfo nodeId="6318815719351411612" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="24" startPosition="60" endLine="29" endPosition="16">
+      <varInfo nodeId="6318815719351411612" varName="list" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="24" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="36" startPosition="64" endLine="49" endPosition="46" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="36" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="6318815719351411612" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="15" startPosition="33" endLine="19" endPosition="7">
+      <varInfo nodeId="6318815719351411612" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="29" startPosition="33" endLine="33" endPosition="7">
+      <varInfo nodeId="6318815719351411612" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="38" startPosition="49" endLine="43" endPosition="14">
+      <varInfo nodeId="6318815719351411612" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="6318815719351411612" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="10" startPosition="44" endLine="21" endPosition="17">
+      <varInfo nodeId="6318815719351411612" varName="constants" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="24" startPosition="47" endLine="35" endPosition="16">
+      <varInfo nodeId="6318815719351411612" varName="constants" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="6318815719351411612" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="6318815719351411612" varName="value" />
+    </scopeInfo>
+    <unitInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="9" startPosition="0" endLine="63" endPosition="0" unitName="USML.structure.BigStepMaximalityEnum" />
+    <unitInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="USML.structure.BigStepMaximalityEnum_PropertySupport" />
+  </root>
+  <root nodeRef="r:af2571ec-9abb-4256-9741-d67b225d6f04(USML.structure)/6318815719351411883">
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="15" startPosition="27" endLine="16" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="19" startPosition="36" endLine="20" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="23" startPosition="54" endLine="24" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="24" startPosition="90" endLine="25" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="25" startPosition="67" endLine="26" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="26" startPosition="65" endLine="27" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="30" startPosition="46" endLine="31" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="35" startPosition="24" endLine="36" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="38" startPosition="66" endLine="39" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="41" startPosition="64" endLine="42" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="43" startPosition="5" endLine="44" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="47" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myValue" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="49" startPosition="43" endLine="50" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="50" startPosition="23" endLine="51" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="54" startPosition="25" endLine="55" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="15" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="19" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAsString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDefault#()LUSML/structure/ConcurrencyEnum;" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="34" startPosition="58" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="37" startPosition="5" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="40" startPosition="5" endLine="43" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="54" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()I" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="49" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ConcurrencyEnum#(Ljava/lang/String;I)V" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="23" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getConstants#()Ljava/util/List;" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="34" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="parseValue#(Ljava/lang/String;)LUSML/structure/ConcurrencyEnum;" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="13" startPosition="5" endLine="14" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="15" startPosition="33" endLine="16" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="20" startPosition="5" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="27" startPosition="5" endLine="28" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="29" startPosition="33" endLine="30" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="34" startPosition="5" endLine="35" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="38" startPosition="49" endLine="39" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="42" startPosition="5" endLine="43" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="10" startPosition="44" endLine="13" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="16" startPosition="50" endLine="19" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="24" startPosition="47" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="30" startPosition="50" endLine="33" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="39" startPosition="65" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="14" startPosition="107" endLine="20" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="28" startPosition="107" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canSetValue#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="15" startPosition="27" endLine="16" endPosition="23" />
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="19" startPosition="36" endLine="20" endPosition="29" />
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="30" startPosition="46" endLine="31" endPosition="34" />
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="35" startPosition="24" endLine="36" endPosition="42" />
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="38" startPosition="66" endLine="39" endPosition="36" />
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="41" startPosition="64" endLine="42" endPosition="34" />
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="54" startPosition="25" endLine="55" endPosition="24" />
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="49" startPosition="43" endLine="51" endPosition="25" />
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="15" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="19" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="30" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="54" startPosition="0" endLine="57" endPosition="0" />
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="23" startPosition="54" endLine="27" endPosition="16">
+      <varInfo nodeId="6318815719351411883" varName="list" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="49" startPosition="0" endLine="53" endPosition="0">
+      <varInfo nodeId="6318815719351411883" varName="name" />
+      <varInfo nodeId="6318815719351411883" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="23" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="34" startPosition="58" endLine="44" endPosition="40" />
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="34" startPosition="0" endLine="46" endPosition="0">
+      <varInfo nodeId="6318815719351411883" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" />
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" />
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" />
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" />
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" />
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="15" startPosition="33" endLine="19" endPosition="7">
+      <varInfo nodeId="6318815719351411883" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="29" startPosition="33" endLine="33" endPosition="7">
+      <varInfo nodeId="6318815719351411883" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="38" startPosition="49" endLine="43" endPosition="14">
+      <varInfo nodeId="6318815719351411883" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="6318815719351411883" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="10" startPosition="44" endLine="21" endPosition="17">
+      <varInfo nodeId="6318815719351411883" varName="constants" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="24" startPosition="47" endLine="35" endPosition="16">
+      <varInfo nodeId="6318815719351411883" varName="constants" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="6318815719351411883" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="6318815719351411883" varName="value" />
+    </scopeInfo>
+    <unitInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum.java" startLine="9" startPosition="0" endLine="58" endPosition="0" unitName="USML.structure.ConcurrencyEnum" />
+    <unitInfo nodeId="6318815719351411883" fileName="ConcurrencyEnum_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="USML.structure.ConcurrencyEnum_PropertySupport" />
+  </root>
+  <root nodeRef="r:af2571ec-9abb-4256-9741-d67b225d6f04(USML.structure)/6318815719351412031">
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="15" startPosition="27" endLine="16" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="19" startPosition="36" endLine="20" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="23" startPosition="53" endLine="24" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="24" startPosition="88" endLine="25" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="25" startPosition="70" endLine="26" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="26" startPosition="74" endLine="27" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="30" startPosition="45" endLine="31" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="35" startPosition="24" endLine="36" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="38" startPosition="69" endLine="39" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="41" startPosition="73" endLine="42" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="43" startPosition="5" endLine="44" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="47" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myValue" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="49" startPosition="42" endLine="50" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="50" startPosition="23" endLine="51" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="54" startPosition="25" endLine="55" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="15" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="19" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAsString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDefault#()LUSML/structure/PreemptionEnum;" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="34" startPosition="57" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="37" startPosition="5" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="40" startPosition="5" endLine="43" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="54" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()I" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="49" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="PreemptionEnum#(Ljava/lang/String;I)V" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="23" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getConstants#()Ljava/util/List;" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="34" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="parseValue#(Ljava/lang/String;)LUSML/structure/PreemptionEnum;" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="13" startPosition="5" endLine="14" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="15" startPosition="33" endLine="16" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="20" startPosition="5" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="27" startPosition="5" endLine="28" endPosition="105" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="29" startPosition="33" endLine="30" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="34" startPosition="5" endLine="35" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="38" startPosition="49" endLine="39" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="42" startPosition="5" endLine="43" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="10" startPosition="44" endLine="13" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="16" startPosition="49" endLine="19" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="24" startPosition="47" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="30" startPosition="49" endLine="33" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="39" startPosition="63" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="14" startPosition="105" endLine="20" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="28" startPosition="105" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canSetValue#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="15" startPosition="27" endLine="16" endPosition="23" />
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="19" startPosition="36" endLine="20" endPosition="29" />
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="30" startPosition="45" endLine="31" endPosition="37" />
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="35" startPosition="24" endLine="36" endPosition="41" />
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="38" startPosition="69" endLine="39" endPosition="39" />
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="41" startPosition="73" endLine="42" endPosition="43" />
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="54" startPosition="25" endLine="55" endPosition="24" />
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="49" startPosition="42" endLine="51" endPosition="25" />
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="15" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="19" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="30" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="54" startPosition="0" endLine="57" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="23" startPosition="53" endLine="27" endPosition="16">
+      <varInfo nodeId="6318815719351412031" varName="list" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="49" startPosition="0" endLine="53" endPosition="0">
+      <varInfo nodeId="6318815719351412031" varName="name" />
+      <varInfo nodeId="6318815719351412031" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="23" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="34" startPosition="57" endLine="44" endPosition="39" />
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="34" startPosition="0" endLine="46" endPosition="0">
+      <varInfo nodeId="6318815719351412031" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" />
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" />
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" />
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" />
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" />
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="15" startPosition="33" endLine="19" endPosition="7">
+      <varInfo nodeId="6318815719351412031" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="29" startPosition="33" endLine="33" endPosition="7">
+      <varInfo nodeId="6318815719351412031" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="38" startPosition="49" endLine="43" endPosition="14">
+      <varInfo nodeId="6318815719351412031" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="6318815719351412031" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="10" startPosition="44" endLine="21" endPosition="17">
+      <varInfo nodeId="6318815719351412031" varName="constants" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="24" startPosition="47" endLine="35" endPosition="16">
+      <varInfo nodeId="6318815719351412031" varName="constants" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="6318815719351412031" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="6318815719351412031" varName="value" />
+    </scopeInfo>
+    <unitInfo nodeId="6318815719351412031" fileName="PreemptionEnum.java" startLine="9" startPosition="0" endLine="58" endPosition="0" unitName="USML.structure.PreemptionEnum" />
+    <unitInfo nodeId="6318815719351412031" fileName="PreemptionEnum_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="USML.structure.PreemptionEnum_PropertySupport" />
+  </root>
+  <root nodeRef="r:af2571ec-9abb-4256-9741-d67b225d6f04(USML.structure)/6318815719351412035">
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="15" startPosition="27" endLine="16" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="19" startPosition="36" endLine="20" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="23" startPosition="63" endLine="24" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="24" startPosition="108" endLine="25" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="25" startPosition="99" endLine="26" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="26" startPosition="86" endLine="27" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="30" startPosition="55" endLine="31" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="35" startPosition="24" endLine="36" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="38" startPosition="98" endLine="39" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="41" startPosition="85" endLine="42" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="43" startPosition="5" endLine="44" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="47" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myValue" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="49" startPosition="52" endLine="50" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="50" startPosition="23" endLine="51" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="54" startPosition="25" endLine="55" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="15" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="19" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAsString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDefault#()LUSML/structure/SmallStepConsistencyEnum;" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="34" startPosition="67" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="37" startPosition="5" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="40" startPosition="5" endLine="43" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="54" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()I" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="49" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="SmallStepConsistencyEnum#(Ljava/lang/String;I)V" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="23" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getConstants#()Ljava/util/List;" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="34" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="parseValue#(Ljava/lang/String;)LUSML/structure/SmallStepConsistencyEnum;" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="13" startPosition="5" endLine="14" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="15" startPosition="33" endLine="16" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="20" startPosition="5" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="27" startPosition="5" endLine="28" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="29" startPosition="33" endLine="30" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="34" startPosition="5" endLine="35" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="38" startPosition="49" endLine="39" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="42" startPosition="5" endLine="43" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="10" startPosition="44" endLine="13" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="16" startPosition="59" endLine="19" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="24" startPosition="47" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="30" startPosition="59" endLine="33" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="39" startPosition="83" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="14" startPosition="125" endLine="20" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="28" startPosition="125" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canSetValue#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="15" startPosition="27" endLine="16" endPosition="23" />
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="19" startPosition="36" endLine="20" endPosition="29" />
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="30" startPosition="55" endLine="31" endPosition="66" />
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="35" startPosition="24" endLine="36" endPosition="51" />
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="38" startPosition="98" endLine="39" endPosition="68" />
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="41" startPosition="85" endLine="42" endPosition="55" />
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="54" startPosition="25" endLine="55" endPosition="24" />
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="49" startPosition="52" endLine="51" endPosition="25" />
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="15" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="19" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="30" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="54" startPosition="0" endLine="57" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="23" startPosition="63" endLine="27" endPosition="16">
+      <varInfo nodeId="6318815719351412035" varName="list" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="49" startPosition="0" endLine="53" endPosition="0">
+      <varInfo nodeId="6318815719351412035" varName="name" />
+      <varInfo nodeId="6318815719351412035" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="23" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="34" startPosition="67" endLine="44" endPosition="49" />
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="34" startPosition="0" endLine="46" endPosition="0">
+      <varInfo nodeId="6318815719351412035" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" />
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" />
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" />
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" />
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" />
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="15" startPosition="33" endLine="19" endPosition="7">
+      <varInfo nodeId="6318815719351412035" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="29" startPosition="33" endLine="33" endPosition="7">
+      <varInfo nodeId="6318815719351412035" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="38" startPosition="49" endLine="43" endPosition="14">
+      <varInfo nodeId="6318815719351412035" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="6318815719351412035" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="10" startPosition="44" endLine="21" endPosition="17">
+      <varInfo nodeId="6318815719351412035" varName="constants" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="24" startPosition="47" endLine="35" endPosition="16">
+      <varInfo nodeId="6318815719351412035" varName="constants" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="6318815719351412035" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="6318815719351412035" varName="value" />
+    </scopeInfo>
+    <unitInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum.java" startLine="9" startPosition="0" endLine="58" endPosition="0" unitName="USML.structure.SmallStepConsistencyEnum" />
+    <unitInfo nodeId="6318815719351412035" fileName="SmallStepConsistencyEnum_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="USML.structure.SmallStepConsistencyEnum_PropertySupport" />
+  </root>
+  <root nodeRef="r:af2571ec-9abb-4256-9741-d67b225d6f04(USML.structure)/6318815719351412039">
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="16" startPosition="27" endLine="17" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="20" startPosition="36" endLine="21" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="24" startPosition="56" endLine="25" endPosition="94" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="25" startPosition="94" endLine="26" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="26" startPosition="75" endLine="27" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="27" startPosition="76" endLine="28" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="28" startPosition="76" endLine="29" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="32" startPosition="48" endLine="33" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="37" startPosition="24" endLine="38" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="40" startPosition="74" endLine="41" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="43" startPosition="75" endLine="44" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="46" startPosition="75" endLine="47" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="48" startPosition="5" endLine="49" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="52" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myValue" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="54" startPosition="45" endLine="55" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="55" startPosition="23" endLine="56" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="59" startPosition="25" endLine="60" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAsString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDefault#()LUSML/structure/EventLifelineEnum;" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="36" startPosition="60" endLine="39" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="39" startPosition="5" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="42" startPosition="5" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="45" startPosition="5" endLine="48" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="59" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()I" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="54" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="EventLifelineEnum#(Ljava/lang/String;I)V" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="24" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getConstants#()Ljava/util/List;" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="36" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="parseValue#(Ljava/lang/String;)LUSML/structure/EventLifelineEnum;" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="13" startPosition="5" endLine="14" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="15" startPosition="33" endLine="16" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="20" startPosition="5" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="27" startPosition="5" endLine="28" endPosition="111" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="29" startPosition="33" endLine="30" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="34" startPosition="5" endLine="35" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="38" startPosition="49" endLine="39" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="42" startPosition="5" endLine="43" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="10" startPosition="44" endLine="13" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="16" startPosition="52" endLine="19" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="24" startPosition="47" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="30" startPosition="52" endLine="33" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="39" startPosition="69" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="14" startPosition="111" endLine="20" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="28" startPosition="111" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canSetValue#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="16" startPosition="27" endLine="17" endPosition="23" />
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="20" startPosition="36" endLine="21" endPosition="29" />
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="32" startPosition="48" endLine="33" endPosition="42" />
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="37" startPosition="24" endLine="38" endPosition="44" />
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="40" startPosition="74" endLine="41" endPosition="44" />
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="43" startPosition="75" endLine="44" endPosition="45" />
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="46" startPosition="75" endLine="47" endPosition="45" />
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="59" startPosition="25" endLine="60" endPosition="24" />
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="54" startPosition="45" endLine="56" endPosition="25" />
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="16" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="20" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="59" startPosition="0" endLine="62" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="54" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="6318815719351412039" varName="name" />
+      <varInfo nodeId="6318815719351412039" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="24" startPosition="56" endLine="29" endPosition="16">
+      <varInfo nodeId="6318815719351412039" varName="list" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="24" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="36" startPosition="60" endLine="49" endPosition="42" />
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="36" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="6318815719351412039" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" />
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" />
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" />
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" />
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" />
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="15" startPosition="33" endLine="19" endPosition="7">
+      <varInfo nodeId="6318815719351412039" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="29" startPosition="33" endLine="33" endPosition="7">
+      <varInfo nodeId="6318815719351412039" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="38" startPosition="49" endLine="43" endPosition="14">
+      <varInfo nodeId="6318815719351412039" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="6318815719351412039" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="10" startPosition="44" endLine="21" endPosition="17">
+      <varInfo nodeId="6318815719351412039" varName="constants" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="24" startPosition="47" endLine="35" endPosition="16">
+      <varInfo nodeId="6318815719351412039" varName="constants" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="6318815719351412039" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="6318815719351412039" varName="value" />
+    </scopeInfo>
+    <unitInfo nodeId="6318815719351412039" fileName="EventLifelineEnum.java" startLine="9" startPosition="0" endLine="63" endPosition="0" unitName="USML.structure.EventLifelineEnum" />
+    <unitInfo nodeId="6318815719351412039" fileName="EventLifelineEnum_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="USML.structure.EventLifelineEnum_PropertySupport" />
+  </root>
+  <root nodeRef="r:af2571ec-9abb-4256-9741-d67b225d6f04(USML.structure)/6318815719351412043">
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="16" startPosition="27" endLine="17" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="20" startPosition="36" endLine="21" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="24" startPosition="55" endLine="25" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="25" startPosition="92" endLine="26" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="26" startPosition="73" endLine="27" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="27" startPosition="71" endLine="28" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="28" startPosition="67" endLine="29" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="32" startPosition="47" endLine="33" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="37" startPosition="24" endLine="38" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="40" startPosition="72" endLine="41" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="43" startPosition="70" endLine="44" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="46" startPosition="66" endLine="47" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="48" startPosition="5" endLine="49" endPosition="41" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="52" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myValue" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="54" startPosition="44" endLine="55" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="55" startPosition="23" endLine="56" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="59" startPosition="25" endLine="60" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAsString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDefault#()LUSML/structure/VariableLifeline;" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="36" startPosition="59" endLine="39" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="39" startPosition="5" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="42" startPosition="5" endLine="45" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="45" startPosition="5" endLine="48" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="59" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()I" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="54" startPosition="0" endLine="58" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="VariableLifeline#(Ljava/lang/String;I)V" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="24" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getConstants#()Ljava/util/List;" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="36" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="parseValue#(Ljava/lang/String;)LUSML/structure/VariableLifeline;" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="13" startPosition="5" endLine="14" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="15" startPosition="33" endLine="16" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="20" startPosition="5" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="27" startPosition="5" endLine="28" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="29" startPosition="33" endLine="30" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="34" startPosition="5" endLine="35" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="38" startPosition="49" endLine="39" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="42" startPosition="5" endLine="43" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="10" startPosition="44" endLine="13" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="16" startPosition="51" endLine="19" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="24" startPosition="47" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="30" startPosition="51" endLine="33" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="39" startPosition="67" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="14" startPosition="109" endLine="20" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="28" startPosition="109" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canSetValue#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="16" startPosition="27" endLine="17" endPosition="23" />
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="20" startPosition="36" endLine="21" endPosition="29" />
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="32" startPosition="47" endLine="33" endPosition="40" />
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="37" startPosition="24" endLine="38" endPosition="43" />
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="40" startPosition="72" endLine="41" endPosition="42" />
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="43" startPosition="70" endLine="44" endPosition="40" />
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="46" startPosition="66" endLine="47" endPosition="36" />
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="59" startPosition="25" endLine="60" endPosition="24" />
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="54" startPosition="44" endLine="56" endPosition="25" />
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="16" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="20" startPosition="0" endLine="23" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="59" startPosition="0" endLine="62" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="54" startPosition="0" endLine="58" endPosition="0">
+      <varInfo nodeId="6318815719351412043" varName="name" />
+      <varInfo nodeId="6318815719351412043" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="24" startPosition="55" endLine="29" endPosition="16">
+      <varInfo nodeId="6318815719351412043" varName="list" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="24" startPosition="0" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="36" startPosition="59" endLine="49" endPosition="41" />
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="36" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="6318815719351412043" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" />
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" />
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" />
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" />
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" />
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="15" startPosition="33" endLine="19" endPosition="7">
+      <varInfo nodeId="6318815719351412043" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="29" startPosition="33" endLine="33" endPosition="7">
+      <varInfo nodeId="6318815719351412043" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="38" startPosition="49" endLine="43" endPosition="14">
+      <varInfo nodeId="6318815719351412043" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="6318815719351412043" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="10" startPosition="44" endLine="21" endPosition="17">
+      <varInfo nodeId="6318815719351412043" varName="constants" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="24" startPosition="47" endLine="35" endPosition="16">
+      <varInfo nodeId="6318815719351412043" varName="constants" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="6318815719351412043" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="6318815719351412043" varName="value" />
+    </scopeInfo>
+    <unitInfo nodeId="6318815719351412043" fileName="VariableLifeline.java" startLine="9" startPosition="0" endLine="63" endPosition="0" unitName="USML.structure.VariableLifeline" />
+    <unitInfo nodeId="6318815719351412043" fileName="VariableLifeline_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="USML.structure.VariableLifeline_PropertySupport" />
+  </root>
+  <root nodeRef="r:af2571ec-9abb-4256-9741-d67b225d6f04(USML.structure)/6318815719351412047">
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="15" startPosition="27" endLine="16" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="19" startPosition="36" endLine="20" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="23" startPosition="51" endLine="24" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="24" startPosition="84" endLine="25" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="25" startPosition="66" endLine="26" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="26" startPosition="70" endLine="27" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="30" startPosition="43" endLine="31" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="35" startPosition="24" endLine="36" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="38" startPosition="65" endLine="39" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="41" startPosition="69" endLine="42" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="43" startPosition="5" endLine="44" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="47" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myValue" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="49" startPosition="40" endLine="50" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="50" startPosition="23" endLine="51" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="54" startPosition="25" endLine="55" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="15" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="19" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValueAsString#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getDefault#()LUSML/structure/PriorityEnum;" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="34" startPosition="55" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="37" startPosition="5" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="40" startPosition="5" endLine="43" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="54" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getValue#()I" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="49" startPosition="0" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="PriorityEnum#(Ljava/lang/String;I)V" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="23" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getConstants#()Ljava/util/List;" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="34" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="parseValue#(Ljava/lang/String;)LUSML/structure/PriorityEnum;" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="13" startPosition="5" endLine="14" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="15" startPosition="33" endLine="16" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="20" startPosition="5" endLine="21" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="27" startPosition="5" endLine="28" endPosition="101" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="29" startPosition="33" endLine="30" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="34" startPosition="5" endLine="35" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="38" startPosition="49" endLine="39" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="42" startPosition="5" endLine="43" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="10" startPosition="44" endLine="13" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="16" startPosition="47" endLine="19" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="24" startPosition="47" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="30" startPosition="47" endLine="33" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="39" startPosition="59" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="14" startPosition="101" endLine="20" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="28" startPosition="101" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="canSetValue#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="15" startPosition="27" endLine="16" endPosition="23" />
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="19" startPosition="36" endLine="20" endPosition="29" />
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="30" startPosition="43" endLine="31" endPosition="33" />
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="35" startPosition="24" endLine="36" endPosition="39" />
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="38" startPosition="65" endLine="39" endPosition="35" />
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="41" startPosition="69" endLine="42" endPosition="39" />
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="54" startPosition="25" endLine="55" endPosition="24" />
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="49" startPosition="40" endLine="51" endPosition="25" />
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="15" startPosition="0" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="19" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="30" startPosition="0" endLine="33" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="54" startPosition="0" endLine="57" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="23" startPosition="51" endLine="27" endPosition="16">
+      <varInfo nodeId="6318815719351412047" varName="list" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="49" startPosition="0" endLine="53" endPosition="0">
+      <varInfo nodeId="6318815719351412047" varName="name" />
+      <varInfo nodeId="6318815719351412047" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="23" startPosition="0" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="34" startPosition="55" endLine="44" endPosition="37" />
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="34" startPosition="0" endLine="46" endPosition="0">
+      <varInfo nodeId="6318815719351412047" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="11" startPosition="24" endLine="12" endPosition="18" />
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="17" startPosition="45" endLine="18" endPosition="20" />
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="25" startPosition="24" endLine="26" endPosition="18" />
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="31" startPosition="45" endLine="32" endPosition="43" />
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="40" startPosition="27" endLine="41" endPosition="32" />
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="15" startPosition="33" endLine="19" endPosition="7">
+      <varInfo nodeId="6318815719351412047" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="29" startPosition="33" endLine="33" endPosition="7">
+      <varInfo nodeId="6318815719351412047" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="38" startPosition="49" endLine="43" endPosition="14">
+      <varInfo nodeId="6318815719351412047" varName="constant" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="38" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="6318815719351412047" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="10" startPosition="44" endLine="21" endPosition="17">
+      <varInfo nodeId="6318815719351412047" varName="constants" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="24" startPosition="47" endLine="35" endPosition="16">
+      <varInfo nodeId="6318815719351412047" varName="constants" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="10" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="6318815719351412047" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="6318815719351412047" varName="value" />
+    </scopeInfo>
+    <unitInfo nodeId="6318815719351412047" fileName="PriorityEnum.java" startLine="9" startPosition="0" endLine="58" endPosition="0" unitName="USML.structure.PriorityEnum" />
+    <unitInfo nodeId="6318815719351412047" fileName="PriorityEnum_PropertySupport.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="USML.structure.PriorityEnum_PropertySupport" />
+  </root>
+</debugInfo>
+

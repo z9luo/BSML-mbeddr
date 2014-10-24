@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="small_test.sandbox.Makefile" file="Makefile" />
+  <dependency className="small_test.sandbox.TypeSizeConfiguration (s.sandbox)" file="TypeSizeConfiguration (s.sandbox)" />
+  <dependency className="small_test.sandbox.testhello" file="testhello.c" />
+  <dependency className="small_test.sandbox.testhello" file="testhello.h" />
+</dependenciesRoot>
+
