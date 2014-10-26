@@ -555,7 +555,7 @@
       <property name="name" nameId="tpck.1169194664001" value="sm_msg" />
       <property name="exported" nameId="x27k.1317894735999272944" value="true" />
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="3372386639991496082" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="true" />
+        <property name="active" nameId="k146.2688792604367947988" value="false" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="name" nameId="tpck.1169194664001" value="SM_initialized" />
         <property name="text" nameId="k146.2688792604367903089" value="initialize state machine" />
@@ -568,7 +568,7 @@
         </node>
       </node>
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="3372386639991496085" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="true" />
+        <property name="active" nameId="k146.2688792604367947988" value="false" />
         <property name="name" nameId="tpck.1169194664001" value="transition_occur" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="text" nameId="k146.2688792604367903089" value="transition occurred" />
@@ -595,19 +595,19 @@
         </node>
       </node>
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="3372386639991496090" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="true" />
+        <property name="active" nameId="k146.2688792604367947988" value="false" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="name" nameId="tpck.1169194664001" value="start_big_step" />
         <property name="text" nameId="k146.2688792604367903089" value="start execute a big step" />
       </node>
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="3372386639991496091" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="true" />
+        <property name="active" nameId="k146.2688792604367947988" value="false" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="name" nameId="tpck.1169194664001" value="end_big_step" />
         <property name="text" nameId="k146.2688792604367903089" value="finish execute a big step" />
       </node>
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="8607120610935207440" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="true" />
+        <property name="active" nameId="k146.2688792604367947988" value="false" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="name" nameId="tpck.1169194664001" value="other" />
         <property name="text" nameId="k146.2688792604367903089" value="other info" />

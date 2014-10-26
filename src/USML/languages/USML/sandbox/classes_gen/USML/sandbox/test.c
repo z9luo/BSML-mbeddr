@@ -22,11 +22,11 @@ struct test__SMArray {
 };
 
 typedef test__SMArray_t test_SMArray;
-static SM_Header_Event* test_get_event(void);
+static SM_Header_Event* test_get_in_event(void);
 
-static void test_put_event(SM_Header_Event* data);
+static void test_put_in_event(SM_Header_Event* data);
 
-static void test_f(bool b);
+static void test_handle_out1(bool b);
 
 static void test_execute_big_step_test__sm(SM_Header_Event* present_events[], SM_Header_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
 
@@ -90,12 +90,12 @@ static struct SM_Header__Event* test_blockexpr_main_164(void);
 
 static struct SM_Header__Event* test_blockexpr_action__test__sm__main__on__r1__t1_71(void);
 
-static SM_Header_Event* test_get_event(void) 
+static SM_Header_Event* test_get_in_event(void) 
 {
   return ((SM_Header_Event*)(g_async_queue_pop(test_event_queue)));
 }
 
-static void test_put_event(SM_Header_Event* data) 
+static void test_put_in_event(SM_Header_Event* data) 
 {
   g_async_queue_push(test_event_queue, data);
 }
@@ -104,48 +104,38 @@ int32_t main(int32_t argc, char* argv[])
 {
   test_event_queue = g_async_queue_new();
   GThread* sm_thread_h = g_thread_new("", &test_sm_start_test__sm, 0);
-  test_put_event(((SM_Header_Event*)(test_blockexpr_main_15())));
+  test_put_in_event(((SM_Header_Event*)(test_blockexpr_main_15())));
   test_TS_t ts;
   ts.s1 = "TS 1st member";
   ts.s2 = "TS 2nd member";
   
-  test_put_event(((SM_Header_Event*)(test_blockexpr_main_68(ts))));
-  test_put_event(((SM_Header_Event*)(test_blockexpr_main_164())));
+  test_put_in_event(((SM_Header_Event*)(test_blockexpr_main_68(ts))));
+  test_put_in_event(((SM_Header_Event*)(test_blockexpr_main_164())));
   {
     SM_Header_Event* term_event = ((SM_Header_Event*)(malloc(sizeof(SM_Header_Event))));
     term_event->type = test_test__sm_EventEnum___sm_terminate_h;
-    test_put_event(term_event);
+    test_put_in_event(term_event);
     gpointer retval = g_thread_join(sm_thread_h);
     if ( retval != 0 ) 
     {
-      printf("$$other: other info (");
-      printf("info=%s",(((char*)(((char*)(retval))))));
-      printf(") @test:main?null\n");
-      
     }
   }
   return 0;
 }
 
-static void test_f(bool b) 
+static void test_handle_out1(bool b) 
 {
   printf("$$print_string: string (");
   printf("info=%s",(((char*)("out event out1 is triggered."))));
-  printf(") @test:f?r:1c303b66-ffd2-4cc0-8da6-6f2758257635(USML.sandbox)#1983669701634519920\n");
+  printf(") @test:handle_out1?r:1c303b66-ffd2-4cc0-8da6-6f2758257635(USML.sandbox)#1983669701634519920\n");
   
 }
 
 static void test_execute_big_step_test__sm(SM_Header_Event* present_events[], SM_Header_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow) 
 {
-  printf("$$start_big_step:   (");
-  printf(") @test:execute_big_step_test__sm?null\n");
-  
   test_SMArray* enabled_transitions = test_smarray_new(20);
   do{
     test_smarray_clear(enabled_transitions);
-    printf("$$start_small_step:   (");
-    printf(") @test:execute_big_step_test__sm:1?null\n");
-    
     {
       /* 
        * handle transitions in subregions
@@ -444,14 +434,8 @@ static void test_execute_big_step_test__sm(SM_Header_Event* present_events[], SM
 
     memcpy(present_events, ((void* const )(present_events_shadow)), 7 * sizeof(SM_Header_Event*));
     memcpy(sm_info, ((void* const )(sm_info_shadow)), sizeof(test_test__sm_SMStruct_t));
-    printf("$$end_small_step:   (");
-    printf(") @test:execute_big_step_test__sm:2?null\n");
-    
   } while (enabled_transitions->size != 0);
   test_smarray_free(enabled_transitions);
-  printf("$$end_big_step:   (");
-  printf(") @test:execute_big_step_test__sm:3?null\n");
-  
 }
 
 static void test_on_entry_test__sm__main(SM_Header_Event* present_events[], SM_Header_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow) 
@@ -557,7 +541,7 @@ static void test_action__test__sm__main__on__r1__t1(SM_Header_Event** present_ev
       SM_Header_Event* internal_event = test_blockexpr_action__test__sm__main__on__r1__t1_71();
       present_events_shadow[internal_event->type] = internal_event;
     };
-    test_f(true);;
+    test_handle_out1(true);;
     
   }
 }
@@ -602,12 +586,6 @@ static void test_handle_transition(SM_Header_Event* present_events[], SM_Header_
     return ;
   }
   *(trans->__cur_state) = trans->new_cur_state_value;
-  printf("$$transition_occur: transition occurred (");
-  printf("id=%s",(((char*)(trans->trans_id))));
-  printf(", from=%s",(((char*)(trans->source_state))));
-  printf(", to=%s",(((char*)(trans->target_state))));
-  printf(") @test:handle_transition?null\n");
-  
   (*trans->action_ref)(present_events,present_events_shadow,sm_info,sm_info_shadow);
   (*trans->on_entry_ref)(present_events,present_events_shadow,sm_info,sm_info_shadow);
 }
@@ -641,7 +619,7 @@ gpointer test_sm_start_test__sm(gpointer dummy_ptr)
     test_free_pointer_array(((void**)(present_event_test__sm)), 7);
     test_reset_pointer_array(((void**)(present_event_test__sm)), 7);
     memcpy(present_event_test__sm_shadow, present_event_test__sm, 7 * sizeof(SM_Header_Event*));
-    SM_Header_Event* in_event = test_get_event();
+    SM_Header_Event* in_event = test_get_in_event();
     if ( in_event == 0 || in_event->type == test_test__sm_EventEnum___sm_terminate_h ) 
     {
       char* retval = "terminate event received. state machine terminated successfully.";
