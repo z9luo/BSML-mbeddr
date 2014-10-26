@@ -347,6 +347,9 @@
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="USML.behavior.OutEventDeclaration_Behavior" file="OutEventDeclaration_Behavior.java">
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
   <dependency className="USML.behavior.OutEventDeclaration_BehaviorDescriptor" file="OutEventDeclaration_BehaviorDescriptor.java">
     <classNode dependClassName="USML.behavior.AbstractEventDeclaration_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />

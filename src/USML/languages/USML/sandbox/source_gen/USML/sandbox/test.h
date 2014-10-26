@@ -27,6 +27,7 @@ typedef enum ___test_test__sm_EventEnum{
   test_test__sm_EventEnum__test__sm__main__e4,
   test_test__sm_EventEnum__test__sm__main__e5,
   test_test__sm_EventEnum__test__sm__main__e6,
+  test_test__sm_EventEnum__test__sm__main__out1,
   test_test__sm_EventEnum___sm_terminate_h = -1
 } test_test__sm_EventEnum;
 

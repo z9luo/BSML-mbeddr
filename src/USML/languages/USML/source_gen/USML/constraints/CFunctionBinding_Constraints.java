@@ -24,7 +24,7 @@ public class CFunctionBinding_Constraints extends BaseConstraintsDescriptor {
   @Override
   protected Map<String, ReferenceConstraintsDescriptor> getNotDefaultReferences() {
     Map<String, ReferenceConstraintsDescriptor> references = new HashMap();
-    references.put("var", new BaseReferenceConstraintsDescriptor("var", this) {
+    references.put("binding", new BaseReferenceConstraintsDescriptor("binding", this) {
       @Override
       public boolean hasOwnScopeProvider() {
         return true;

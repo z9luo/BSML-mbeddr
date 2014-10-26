@@ -3,7 +3,7 @@
   <persistence version="8" />
   <language namespace="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1(jetbrains.mps.lang.constraints)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="jc91" modelUID="r:af2571ec-9abb-4256-9741-d67b225d6f04(USML.structure)" version="29" />
+  <import index="jc91" modelUID="r:af2571ec-9abb-4256-9741-d67b225d6f04(USML.structure)" version="30" />
   <import index="x27k" modelUID="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" version="9" />
   <import index="c4fa" modelUID="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" version="9" />
   <import index="isrv" modelUID="r:6f1b4e76-ff8d-444c-8b2e-46f68cedc0e7(USML.behavior)" version="-1" />
@@ -1001,6 +1001,10 @@
         </node>
       </node>
     </node>
+  </root>
+  <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="1983669701634531155" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
+    <link role="concept" roleId="tp1t.1213093996982" targetNodeId="jc91.4517681580277207790" resolveInfo="OutEventDeclaration" />
   </root>
 </model>
 

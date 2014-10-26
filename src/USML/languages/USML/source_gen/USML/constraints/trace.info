@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="51" endPosition="0" unitName="USML.constraints.ConstraintsAspectDescriptor" />
+  <unitInfo fileName="ConstraintsAspectDescriptor.java" startLine="9" startPosition="0" endLine="53" endPosition="0" unitName="USML.constraints.ConstraintsAspectDescriptor" />
   <root nodeRef="r:71f758a2-801a-4ae6-a7a9-e33b9ff69342(USML.constraints)/1054945346934937882">
     <nodeInfo nodeId="1054945346934937882" fileName="StateLocalDeclaration_Constraints.java" startLine="17" startPosition="46" endLine="18" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
     <nodeInfo nodeId="1054945346934937882" fileName="StateLocalDeclaration_Constraints.java" startLine="22" startPosition="44" endLine="23" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -113,6 +113,13 @@
     <unitInfo nodeId="130687814479181947" fileName="CreateEventInstance_Constraints.java" startLine="28" startPosition="32" endLine="49" endPosition="5" unitName="USML.constraints.CreateEventInstance_Constraints$1" />
     <unitInfo nodeId="130687814479181947" fileName="CreateEventInstance_Constraints.java" startLine="50" startPosition="39" endLine="71" endPosition="5" unitName="USML.constraints.CreateEventInstance_Constraints$2" />
     <unitInfo nodeId="130687814479181947" fileName="CreateEventInstance_Constraints.java" startLine="20" startPosition="0" endLine="78" endPosition="0" unitName="USML.constraints.CreateEventInstance_Constraints" />
+  </root>
+  <root nodeRef="r:71f758a2-801a-4ae6-a7a9-e33b9ff69342(USML.constraints)/1983669701634531155">
+    <nodeInfo nodeId="1983669701634531155" fileName="OutEventDeclaration_Constraints.java" startLine="8" startPosition="44" endLine="9" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="1983669701634531155" fileName="OutEventDeclaration_Constraints.java" startLine="8" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="OutEventDeclaration_Constraints#()V" />
+    <scopeInfo nodeId="1983669701634531155" fileName="OutEventDeclaration_Constraints.java" startLine="8" startPosition="44" endLine="9" endPosition="48" />
+    <scopeInfo nodeId="1983669701634531155" fileName="OutEventDeclaration_Constraints.java" startLine="8" startPosition="0" endLine="11" endPosition="0" />
+    <unitInfo nodeId="1983669701634531155" fileName="OutEventDeclaration_Constraints.java" startLine="7" startPosition="0" endLine="12" endPosition="0" unitName="USML.constraints.OutEventDeclaration_Constraints" />
   </root>
   <root nodeRef="r:71f758a2-801a-4ae6-a7a9-e33b9ff69342(USML.constraints)/2486662774781121542">
     <nodeInfo nodeId="2486662774781121542" fileName="IRegion_Constraints.java" startLine="14" startPosition="32" endLine="15" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
@@ -811,7 +818,7 @@
     </scopeInfo>
     <scopeInfo nodeId="8607120610933611226" fileName="CFunctionBinding_Constraints.java" startLine="24" startPosition="0" endLine="51" endPosition="0" />
     <unitInfo nodeId="8607120610933611226" fileName="CFunctionBinding_Constraints.java" startLine="36" startPosition="19" endLine="46" endPosition="9" unitName="USML.constraints.CFunctionBinding_Constraints$2" />
-    <unitInfo nodeId="8607120610933611226" fileName="CFunctionBinding_Constraints.java" startLine="27" startPosition="30" endLine="48" endPosition="5" unitName="USML.constraints.CFunctionBinding_Constraints$1" />
+    <unitInfo nodeId="8607120610933611226" fileName="CFunctionBinding_Constraints.java" startLine="27" startPosition="34" endLine="48" endPosition="5" unitName="USML.constraints.CFunctionBinding_Constraints$1" />
     <unitInfo nodeId="8607120610933611226" fileName="CFunctionBinding_Constraints.java" startLine="19" startPosition="0" endLine="54" endPosition="0" unitName="USML.constraints.CFunctionBinding_Constraints" />
   </root>
 </debugInfo>

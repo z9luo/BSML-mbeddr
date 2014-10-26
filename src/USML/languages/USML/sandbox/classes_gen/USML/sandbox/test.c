@@ -26,7 +26,7 @@ static SM_Header_Event* test_get_event(void);
 
 static void test_put_event(SM_Header_Event* data);
 
-static void test_f(void);
+static void test_f(bool b);
 
 static void test_execute_big_step_test__sm(SM_Header_Event* present_events[], SM_Header_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
 
@@ -127,8 +127,11 @@ int32_t main(int32_t argc, char* argv[])
   return 0;
 }
 
-static void test_f(void) 
+static void test_f(bool b) 
 {
+  printf("$$print_string: string (");
+  printf("info=%s",(((char*)("out event out1 is triggered."))));
+  printf(") @test:f?r:1c303b66-ffd2-4cc0-8da6-6f2758257635(USML.sandbox)#1983669701634519920\n");
   
 }
 
@@ -179,7 +182,7 @@ static void test_execute_big_step_test__sm(SM_Header_Event* present_events[], SM
             switch (sm_info->test__sm__main__on__r1____cur_state)
             {
               case test_test__sm_StateEnum__test__sm__main__on__r1__a1: {
-                for ( int8_t index = 0; index < 6; index++ )
+                for ( int8_t index = 0; index < 7; index++ )
                 {
                   if ( present_events[index] == 0 ) 
                   {
@@ -212,7 +215,7 @@ static void test_execute_big_step_test__sm(SM_Header_Event* present_events[], SM
                 break;
               }
               case test_test__sm_StateEnum__test__sm__main__on__r1__a2: {
-                for ( int8_t index = 0; index < 6; index++ )
+                for ( int8_t index = 0; index < 7; index++ )
                 {
                   if ( present_events[index] == 0 ) 
                   {
@@ -245,7 +248,7 @@ static void test_execute_big_step_test__sm(SM_Header_Event* present_events[], SM
                 break;
               }
               case test_test__sm_StateEnum__test__sm__main__on__r1__a3: {
-                for ( int8_t index = 0; index < 6; index++ )
+                for ( int8_t index = 0; index < 7; index++ )
                 {
                   if ( present_events[index] == 0 ) 
                   {
@@ -290,7 +293,7 @@ static void test_execute_big_step_test__sm(SM_Header_Event* present_events[], SM
             switch (sm_info->test__sm__main__on__r2____cur_state)
             {
               case test_test__sm_StateEnum__test__sm__main__on__r2__b1: {
-                for ( int8_t index = 0; index < 6; index++ )
+                for ( int8_t index = 0; index < 7; index++ )
                 {
                   if ( present_events[index] == 0 ) 
                   {
@@ -323,7 +326,7 @@ static void test_execute_big_step_test__sm(SM_Header_Event* present_events[], SM
                 break;
               }
               case test_test__sm_StateEnum__test__sm__main__on__r2__b2: {
-                for ( int8_t index = 0; index < 6; index++ )
+                for ( int8_t index = 0; index < 7; index++ )
                 {
                   if ( present_events[index] == 0 ) 
                   {
@@ -357,7 +360,7 @@ static void test_execute_big_step_test__sm(SM_Header_Event* present_events[], SM
       switch (sm_info->test__sm__main____cur_state)
       {
         case test_test__sm_StateEnum__test__sm__main__off: {
-          for ( int8_t index = 0; index < 6; index++ )
+          for ( int8_t index = 0; index < 7; index++ )
           {
             if ( present_events[index] == 0 ) 
             {
@@ -390,7 +393,7 @@ static void test_execute_big_step_test__sm(SM_Header_Event* present_events[], SM
           break;
         }
         case test_test__sm_StateEnum__test__sm__main__on: {
-          for ( int8_t index = 0; index < 6; index++ )
+          for ( int8_t index = 0; index < 7; index++ )
           {
             if ( present_events[index] == 0 ) 
             {
@@ -439,7 +442,7 @@ static void test_execute_big_step_test__sm(SM_Header_Event* present_events[], SM
      * copy shdow values to present_events and sm_info
      */
 
-    memcpy(present_events, ((void* const )(present_events_shadow)), 6 * sizeof(SM_Header_Event*));
+    memcpy(present_events, ((void* const )(present_events_shadow)), 7 * sizeof(SM_Header_Event*));
     memcpy(sm_info, ((void* const )(sm_info_shadow)), sizeof(test_test__sm_SMStruct_t));
     printf("$$end_small_step:   (");
     printf(") @test:execute_big_step_test__sm:2?null\n");
@@ -554,6 +557,8 @@ static void test_action__test__sm__main__on__r1__t1(SM_Header_Event** present_ev
       SM_Header_Event* internal_event = test_blockexpr_action__test__sm__main__on__r1__t1_71();
       present_events_shadow[internal_event->type] = internal_event;
     };
+    test_f(true);;
+    
   }
 }
 
@@ -623,19 +628,19 @@ test_Transition* test_create_trans(test_test__sm_StateEnum* __cur_state, test_te
 
 gpointer test_sm_start_test__sm(gpointer dummy_ptr) 
 {
-  static SM_Header_Event* present_event_test__sm[6];
-  static SM_Header_Event* present_event_test__sm_shadow[6];
-  test_reset_pointer_array(((void**)(present_event_test__sm)), 6);
-  memcpy(present_event_test__sm_shadow, present_event_test__sm, 6 * sizeof(SM_Header_Event*));
+  static SM_Header_Event* present_event_test__sm[7];
+  static SM_Header_Event* present_event_test__sm_shadow[7];
+  test_reset_pointer_array(((void**)(present_event_test__sm)), 7);
+  memcpy(present_event_test__sm_shadow, present_event_test__sm, 7 * sizeof(SM_Header_Event*));
   static test_test__sm_SMStruct_t sm_info_test__sm;
   static test_test__sm_SMStruct_t sm_info_test__sm_shadow;
   test_init_test__sm(present_event_test__sm, present_event_test__sm, &sm_info_test__sm, &sm_info_test__sm);
   memcpy(&sm_info_test__sm_shadow, ((void* const )(&sm_info_test__sm)), sizeof(test_test__sm_SMStruct_t));
   while (true)
   {
-    test_free_pointer_array(((void**)(present_event_test__sm)), 6);
-    test_reset_pointer_array(((void**)(present_event_test__sm)), 6);
-    memcpy(present_event_test__sm_shadow, present_event_test__sm, 6 * sizeof(SM_Header_Event*));
+    test_free_pointer_array(((void**)(present_event_test__sm)), 7);
+    test_reset_pointer_array(((void**)(present_event_test__sm)), 7);
+    memcpy(present_event_test__sm_shadow, present_event_test__sm, 7 * sizeof(SM_Header_Event*));
     SM_Header_Event* in_event = test_get_event();
     if ( in_event == 0 || in_event->type == test_test__sm_EventEnum___sm_terminate_h ) 
     {

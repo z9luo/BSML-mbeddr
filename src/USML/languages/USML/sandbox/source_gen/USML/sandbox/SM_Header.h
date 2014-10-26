@@ -26,9 +26,9 @@ struct SM_Header__Event {
 };
 
 typedef SM_Header__Event_t SM_Header_Event;
-void SM_Header_destroy_event(SM_Header_Event* event);
-
 SM_Header_Event* SM_Header_create_event(uint32_t type, void** args);
+
+void SM_Header_destroy_event(SM_Header_Event* event);
 
 
 #ifdef __cplusplus

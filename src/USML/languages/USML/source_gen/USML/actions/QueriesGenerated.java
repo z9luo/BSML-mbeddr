@@ -146,4 +146,37 @@ public class QueriesGenerated {
     });
     return result;
   }
+
+  public static List<SubstituteAction> sideTransform_ActionsFactory_OutEventDeclaration_1983669701635281583(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<SubstituteAction> result = ListSequence.fromList(new ArrayList<SubstituteAction>());
+    ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(SConceptOperations.findConceptDeclaration("USML.structure.OutEventDeclaration"), _context.getSourceNode()) {
+      public SNode doSubstitute(@Nullable final EditorContext editorContext, String pattern) {
+        if (SLinkOperations.getTarget(_context.getSourceNode(), "binding", true) == null) {
+          SNodeFactoryOperations.setNewChild(_context.getSourceNode(), "binding", "USML.structure.CFunctionBinding");
+        }
+        return SLinkOperations.getTarget(_context.getSourceNode(), "binding", true);
+      }
+
+      public String getMatchingText(String pattern) {
+        return "=";
+      }
+
+      public String getVisibleMatchingText(String pattern) {
+        return getMatchingText(pattern);
+      }
+
+      public String getDescriptionText(String pattern) {
+        return "add binding";
+      }
+
+      @Override
+      protected boolean isEnabled() {
+        SNode sourceNode = getSourceNode();
+        SNode parent = SNodeOperations.getParent(sourceNode);
+        SNode containingLink = SNodeOperations.getContainingLinkDeclaration(sourceNode);
+        return parent == null || containingLink == null || (ModelConstraints.canBeParent(parent, SConceptOperations.findConceptDeclaration("USML.structure.OutEventDeclaration"), containingLink, null, null) && ModelConstraints.canBeAncestor(parent, null, SConceptOperations.findConceptDeclaration("USML.structure.OutEventDeclaration"), null));
+      }
+    });
+    return result;
+  }
 }

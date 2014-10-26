@@ -42,6 +42,14 @@ public class QueriesGenerated {
     return (SNodeOperations.getAncestor(SLinkOperations.getTarget(_context.getNode(), "var", false), "USML.structure.IStateMachine", false, false) != null) && ((SNodeOperations.getAncestor(_context.getNode(), "USML.structure.AbstractBlock", false, false) != null) || ((SNodeOperations.getAncestor(_context.getNode(), "USML.structure.ITransition", false, false) != null))) && ((SNodeOperations.getAncestor(SLinkOperations.getTarget(_context.getNode(), "var", false), "USML.structure.AbstractBlock", false, false) == null) && ((SNodeOperations.getAncestor(SLinkOperations.getTarget(_context.getNode(), "var", false), "USML.structure.ITransition", false, false) == null)));
   }
 
+  public static boolean baseMappingRule_Condition_1983669701634937654(final BaseMappingRuleContext _context) {
+    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "eventRef", false), "USML.structure.OutEventDeclaration") && SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "eventRef", false), "USML.structure.OutEventDeclaration"), "binding", true) != null;
+  }
+
+  public static boolean baseMappingRule_Condition_1983669701634962269(final BaseMappingRuleContext _context) {
+    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "eventRef", false), "USML.structure.LocalEventDeclaration");
+  }
+
   public static Object propertyMacro_GetPropertyValue_1054945346933275900(final PropertyMacroContext _context) {
     return SNodeOperations.getIndexInParent(SLinkOperations.getTarget(_context.getNode(), "arg", false)) + "";
   }
@@ -364,7 +372,7 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_8607120610935674553(final ReferenceMacroContext _context) {
-    return SLinkOperations.getTarget(SLinkOperations.getTarget(Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "content", true), "statements", true), "USML.structure.GetEventBinding")).first(), "cbinding", true), "var", false);
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "content", true), "statements", true), "USML.structure.GetEventBinding")).first(), "cbinding", true), "binding", false);
   }
 
   public static Object referenceMacro_GetReferent_8607120610939267658(final ReferenceMacroContext _context) {
@@ -476,7 +484,7 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_6727232360810837345(final ReferenceMacroContext _context) {
-    return SLinkOperations.getTarget(SLinkOperations.getTarget(Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "sm_ref", false), "content", true), "statements", true), "USML.structure.PutEventBinding")).first(), "cbinding", true), "var", false);
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "sm_ref", false), "content", true), "statements", true), "USML.structure.PutEventBinding")).first(), "cbinding", true), "binding", false);
   }
 
   public static Object referenceMacro_GetReferent_6727232360810998509(final ReferenceMacroContext _context) {
@@ -493,6 +501,10 @@ public class QueriesGenerated {
 
   public static Object referenceMacro_GetReferent_7466645974728471347(final ReferenceMacroContext _context) {
     return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(_context.getNode(), "eventRef", false), "virtual_id_3372386639989961954", new Object[]{});
+  }
+
+  public static Object referenceMacro_GetReferent_1983669701635038059(final ReferenceMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "eventRef", false), "USML.structure.OutEventDeclaration"), "binding", true), "binding", false), "name");
   }
 
   public static boolean ifMacro_Condition_3946458319588738100(final IfMacroContext _context) {
@@ -720,6 +732,10 @@ public class QueriesGenerated {
   }
 
   public static Iterable<SNode> sourceNodesQuery_7466645974728471327(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "actuals", true);
+  }
+
+  public static Iterable<SNode> sourceNodesQuery_1983669701636143864(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "actuals", true);
   }
 

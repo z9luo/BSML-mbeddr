@@ -38,6 +38,7 @@
     <classNode dependClassName="USML.constraints.IRegion_Constraints" />
     <classNode dependClassName="USML.constraints.IState_Constraints" />
     <classNode dependClassName="USML.constraints.ITransition_Constraints" />
+    <classNode dependClassName="USML.constraints.OutEventDeclaration_Constraints" />
     <classNode dependClassName="USML.constraints.RegionLocalDeclaration_Constraints" />
     <classNode dependClassName="USML.constraints.SMGlobalDeclaration_Constraints" />
     <classNode dependClassName="USML.constraints.StateLocalDeclaration_Constraints" />
@@ -159,6 +160,9 @@
     <classNode dependClassName="jetbrains.mps.smodel.runtime.CheckingNodeContext" />
     <classNode dependClassName="org.jetbrains.annotations.Nullable" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
+  </dependency>
+  <dependency className="USML.constraints.OutEventDeclaration_Constraints" file="OutEventDeclaration_Constraints.java">
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
   </dependency>
   <dependency className="USML.constraints.RegionLocalDeclaration_Constraints" file="RegionLocalDeclaration_Constraints.java">

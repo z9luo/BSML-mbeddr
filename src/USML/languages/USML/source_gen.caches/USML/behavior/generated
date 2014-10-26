@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-47gc5fbeqgyfm4i1yiw30rdjhrsqyd2">
+<dependencies version="2" modelHash="-6ts3gnta0bhif86fhg4gzo2l43uavwx">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang.reflect(JDK/java.lang.reflect@java_stub)" />
@@ -25,7 +25,7 @@
   <dep model="r:9058158e-0926-42f8-8d00-d1d86f1ff722(com.mbeddr.core.debug.behavior)" hash="8529kvo0kpt5o5xbm742l99qf4z703u" />
   <dep model="r:95397225-9080-48bc-b1aa-0ce7c4f3d2ce(jetbrains.mps.lang.traceable.behavior)" hash="-8tt98n4qboxyxzyzfjb0fiyw2n67xb3" />
   <dep model="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" hash="-8occ4vh5c7mjxqosuxbkrq12g89pior" />
-  <dep model="r:af2571ec-9abb-4256-9741-d67b225d6f04(USML.structure)" hash="-8f7iwieg5v2foygtwp5fn866lu8cvrn" />
+  <dep model="r:af2571ec-9abb-4256-9741-d67b225d6f04(USML.structure)" hash="-4ltqfbyearc33vpoqx8l9kzgqqcphye" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
   <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="e5zswcvgdspmt039m3gg97emcadi0ez" />
   <dep model="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" hash="3tekhil1vgqucmcvsc7j6y1xfp76q82" />
@@ -36,10 +36,11 @@
   <dep model="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" hash="4tblidgmwerurfnnzdj80jt3c8s50id" />
   <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="-8chtguhcvj45cjy0bx3xiqekte2lox7" />
   <dep model="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" hash="-eqw8sjuc5fn9kv5fldfnd0r8htvu5d7" />
-  <common hash="1rpes6vsyalme1cxo5yaq0cvvv142tv" dependsOnNodes="true">
+  <common hash="-eimfxbolxorq76fxahajjhxleog65kt" dependsOnNodes="true">
     <dep root="1054945346924198051" />
     <dep root="1054945346926843634" />
     <dep root="1054945346934450560" />
+    <dep root="1983669701635281353" />
     <dep root="2486662774780313938" />
     <dep root="2486662774781081661" />
     <dep root="2486662774781139470" />
@@ -371,6 +372,10 @@
     <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
     <dep model="r:af2571ec-9abb-4256-9741-d67b225d6f04(USML.structure)" />
     <file name="IAbstrackBlockContainer_Behavior.java" />
+  </source>
+  <source id="1983669701635281353" name="OutEventDeclaration_Behavior" hash="dscx18ivychsrlbgtlv10bbq7kuh2gl">
+    <dep model="r:af2571ec-9abb-4256-9741-d67b225d6f04(USML.structure)" />
+    <file name="OutEventDeclaration_Behavior.java" />
   </source>
 </dependencies>
 

@@ -18,7 +18,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 1:
         return new ConceptDescriptorBuilder("USML.structure.AbstractEventDeclaration").super_("com.mbeddr.core.statements.structure.Statement").parents("com.mbeddr.core.statements.structure.Statement", "jetbrains.mps.lang.core.structure.INamedConcept", "USML.structure.IEvent", "com.mbeddr.core.base.structure.IContainerOfUniqueNames").children(new String[]{"args"}, new boolean[]{true}).abstract_().create();
       case 2:
-        return new ConceptDescriptorBuilder("USML.structure.CFunctionBinding").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").references("var").alias("", "reference to a C function").create();
+        return new ConceptDescriptorBuilder("USML.structure.CFunctionBinding").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").references("binding").alias("", "reference to a C function").create();
       case 3:
         return new ConceptDescriptorBuilder("USML.structure.CreateEventInstance").super_("com.mbeddr.core.expressions.structure.Expression").parents("com.mbeddr.core.expressions.structure.Expression", "com.mbeddr.core.modules.structure.ICallLike").references("statemachine", "event").children(new String[]{"actuals"}, new boolean[]{true}).alias("create_event", "activate an event to trigger state machine").create();
       case 4:
@@ -62,7 +62,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 23:
         return new ConceptDescriptorBuilder("USML.structure.LocalEventDeclaration").super_("USML.structure.AbstractEventDeclaration").parents("USML.structure.AbstractEventDeclaration").alias("local event", "").create();
       case 24:
-        return new ConceptDescriptorBuilder("USML.structure.OutEventDeclaration").super_("USML.structure.AbstractEventDeclaration").parents("USML.structure.AbstractEventDeclaration").alias("outevent", "").create();
+        return new ConceptDescriptorBuilder("USML.structure.OutEventDeclaration").super_("USML.structure.AbstractEventDeclaration").parents("USML.structure.AbstractEventDeclaration").children(new String[]{"binding"}, new boolean[]{false}).alias("outevent", "").create();
       case 25:
         return new ConceptDescriptorBuilder("USML.structure.PutEventBinding").super_("com.mbeddr.core.statements.structure.Statement").parents("com.mbeddr.core.statements.structure.Statement").children(new String[]{"cbinding"}, new boolean[]{false}).alias("PutEventBinding", "").create();
       case 26:

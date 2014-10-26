@@ -24,6 +24,8 @@ import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandlerElementKeyMap;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
+import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class OutEventDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -39,6 +41,10 @@ public class OutEventDeclaration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_gajsen_c0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_gajsen_d0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_gajsen_e0(editorContext, node));
+    if (renderingCondition_gajsen_a5a(node, editorContext)) {
+      editorCell.addEditorCell(this.createRefNode_gajsen_f0(editorContext, node));
+    }
+    editorCell.addEditorCell(this.createConstant_gajsen_g0(editorContext, node));
     return editorCell;
   }
 
@@ -150,8 +156,42 @@ public class OutEventDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_gajsen_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ");");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_gajsen_e0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createRefNode_gajsen_f0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
+    provider.setRole("binding");
+    provider.setNoTargetText("<no binding>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    if (editorCell.getRole() == null) {
+      editorCell.setRole("binding");
+    }
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createNodeRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private static boolean renderingCondition_gajsen_a5a(SNode node, EditorContext editorContext) {
+    return SLinkOperations.getTarget(node, "binding", true) != null;
+  }
+
+  private EditorCell createConstant_gajsen_g0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ";");
+    editorCell.setCellId("Constant_gajsen_g0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.PUNCTUATION_LEFT, true);
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);

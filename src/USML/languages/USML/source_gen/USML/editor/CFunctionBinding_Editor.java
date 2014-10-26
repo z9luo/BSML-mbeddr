@@ -38,14 +38,14 @@ public class CFunctionBinding_Editor extends DefaultNodeEditor {
 
   private EditorCell createRefCell_x4jp01_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
-    provider.setRole("var");
-    provider.setNoTargetText("<no var>");
+    provider.setRole("binding");
+    provider.setNoTargetText("<no binding>");
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new CFunctionBinding_Editor._Inline_x4jp01_a1a());
     editorCell = provider.createEditorCell(editorContext);
     if (editorCell.getRole() == null) {
       editorCell.setReferenceCell(true);
-      editorCell.setRole("var");
+      editorCell.setRole("binding");
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

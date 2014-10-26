@@ -180,5 +180,11 @@
     </dependencies>
     <rename id="jc91.8607120610933633627" type="CONCEPT" from="GetInEventBinding" to="GetEventBinding" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="jc91" modelUID="r:af2571ec-9abb-4256-9741-d67b225d6f04(USML.structure)" version="29" />
+    </dependencies>
+    <rename id="jc91.8607120610933610676" type="REFERENCE" from="var" to="binding" />
+  </StructureModification>
 </history>
 
