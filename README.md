@@ -110,7 +110,9 @@ statemachine BDS {
 3. Now you can create your own model with USML:)
 
 #### How to Create a Model
-0. Before you start, you need to apply a sequence of configuration. Following shows the step to configure and create a hello-world model.
+
+Before you start, you need to apply a sequence of configuration. Following shows the step to configure and create a hello-world model.
+
 1. Right click on your project and create a new **Solution**.
 2. Right click on your solution and create a new **Model**.
 3. Import language module **com.mbeddr.core.modules**, **com.mbeddr.core.buildconfig**, and **USML**.
