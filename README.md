@@ -95,7 +95,7 @@ statemachine BDS {
 * Static variable.
 * Name scoping for state/region/transition.
 * Entry block.
-* Guard condition in transition.
+* Guard condition for transitions.
 
 ## Quick Start
 
@@ -116,11 +116,20 @@ Before you start, you need to apply a sequence of configuration. Following shows
 1. Right click on your project and create a new **Solution**.
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/1.png">
 2. Right click on your solution and create a new **Model**.
+<img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/2.png">
 3. Import language module **com.mbeddr.core.modules**, **com.mbeddr.core.buildconfig**, and **USML**.
+<img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/3.png">
 4. Right click on your model, and create an implementation module (named "ImpModule") as well as a build configuration.
+<img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/4.png">
 5. For the following step, MPS will occasionally show errors which can be fixed by **intention**, such as "create a type size configuration" and "import missing language module". Use Alt+Enter to apply intentions.
+<img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/5.png">
+<img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/5-1.png">
 6. Import model **SM_Header** and specify it as imports for ImpModule. Note that due to MPS's issue, you must REBUILD the project after import it into ImpModule. Otherwise it won't take effect.
+<img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/6.png">
 7. Finally you can write the real stuff in ImpModule! Create your state-machine model, write a main function to trigger the state machine, as well as create a message queue for input events. In this example, a Glib asynchronous queue is created. Interface functions get_in_event()/put_in_event() are binded to the model.
+<img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/7.png">
 8. Write your configuration file, which should be like the following (NOTE that since MPS is a projectional editor, you cannot simply copy-and-paste the code but type them into MPS by hand):
-9. Build your solution, open a terminal, and direct to {Project_Root}/solutions/{Solution_Name}/source_gen/{Solution_Name}/{Model_Name} for the generated C code. There are a bunch of .c and .h files, together with a Makefile. Make the source and run the binary, and you can see the result:)
+<img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/8.png">
+9. Build your solution, open a terminal, and direct to {Project_Root}/solutions/{Solution_Name}/source_gen/{Solution_Name}/{Model_Name} for the generated C code. There are a bunch of .c and .h files, together with a Makefile. Make the source and run the binary, and you can see the result. Enjoy:)
+<img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/9.png">
 
