@@ -98,6 +98,24 @@
     </scopeInfo>
     <unitInfo nodeId="1983669701635281353" fileName="OutEventDeclaration_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="USML.behavior.OutEventDeclaration_Behavior" />
   </root>
+  <root nodeRef="r:6f1b4e76-ff8d-444c-8b2e-46f68cedc0e7(USML.behavior)/1983669701640816295">
+    <nodeInfo nodeId="1983669701640825457" fileName="GetEventBinding_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1983669701640816295" fileName="GetEventBinding_Behavior.java" startLine="9" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="1983669701640816297" fileName="GetEventBinding_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="89" />
+    <scopeInfo nodeId="1983669701640816295" fileName="GetEventBinding_Behavior.java" startLine="9" startPosition="0" endLine="12" endPosition="0">
+      <varInfo nodeId="1983669701640816295" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="1983669701640816295" fileName="GetEventBinding_Behavior.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="USML.behavior.GetEventBinding_Behavior" />
+  </root>
+  <root nodeRef="r:6f1b4e76-ff8d-444c-8b2e-46f68cedc0e7(USML.behavior)/1983669701640830925">
+    <nodeInfo nodeId="1983669701640830929" fileName="PutEventBinding_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="1983669701640830925" fileName="PutEventBinding_Behavior.java" startLine="9" startPosition="0" endLine="12" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="1983669701640830927" fileName="PutEventBinding_Behavior.java" startLine="9" startPosition="43" endLine="10" endPosition="89" />
+    <scopeInfo nodeId="1983669701640830925" fileName="PutEventBinding_Behavior.java" startLine="9" startPosition="0" endLine="12" endPosition="0">
+      <varInfo nodeId="1983669701640830925" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="1983669701640830925" fileName="PutEventBinding_Behavior.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="USML.behavior.PutEventBinding_Behavior" />
+  </root>
   <root nodeRef="r:6f1b4e76-ff8d-444c-8b2e-46f68cedc0e7(USML.behavior)/2486662774780313938">
     <nodeInfo nodeId="2486662774780313938" fileName="ITransition_Behavior.java" startLine="15" startPosition="70" endLine="16" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="2486662774780313938" fileName="ITransition_Behavior.java" startLine="20" startPosition="103" endLine="21" endPosition="254" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

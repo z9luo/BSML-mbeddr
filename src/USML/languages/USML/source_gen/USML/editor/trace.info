@@ -4459,94 +4459,103 @@
     <unitInfo nodeId="8607120610933610702" fileName="CFunctionBinding_Editor.java" startLine="18" startPosition="0" endLine="94" endPosition="0" unitName="USML.editor.CFunctionBinding_Editor" />
   </root>
   <root nodeRef="r:614f85ec-a080-4891-b593-7f818d62564b(USML.editor)/8607120610933633654">
-    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="20" startPosition="79" endLine="21" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="24" startPosition="89" endLine="25" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="25" startPosition="96" endLine="26" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="26" startPosition="48" endLine="27" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="27" startPosition="28" endLine="28" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="27" startPosition="28" endLine="28" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="28" startPosition="81" endLine="29" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="28" startPosition="81" endLine="29" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="29" startPosition="80" endLine="30" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="29" startPosition="80" endLine="30" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="30" startPosition="81" endLine="31" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8607120610933633666" fileName="GetEventBinding_Editor.java" startLine="34" startPosition="88" endLine="35" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8607120610933633666" fileName="GetEventBinding_Editor.java" startLine="35" startPosition="96" endLine="36" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610933633666" fileName="GetEventBinding_Editor.java" startLine="36" startPosition="47" endLine="37" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610933633666" fileName="GetEventBinding_Editor.java" startLine="37" startPosition="34" endLine="38" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8607120610933633675" fileName="GetEventBinding_Editor.java" startLine="41" startPosition="87" endLine="42" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8607120610933633675" fileName="GetEventBinding_Editor.java" startLine="42" startPosition="81" endLine="43" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610933633675" fileName="GetEventBinding_Editor.java" startLine="43" startPosition="33" endLine="44" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610933633675" fileName="GetEventBinding_Editor.java" startLine="44" startPosition="46" endLine="45" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8607120610933633675" fileName="GetEventBinding_Editor.java" startLine="45" startPosition="26" endLine="46" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610933633675" fileName="GetEventBinding_Editor.java" startLine="47" startPosition="39" endLine="48" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610933633675" fileName="GetEventBinding_Editor.java" startLine="49" startPosition="5" endLine="50" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610933633675" fileName="GetEventBinding_Editor.java" startLine="50" startPosition="73" endLine="51" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8607120610933633675" fileName="GetEventBinding_Editor.java" startLine="51" startPosition="57" endLine="52" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8607120610933633675" fileName="GetEventBinding_Editor.java" startLine="53" startPosition="35" endLine="54" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8607120610933633675" fileName="GetEventBinding_Editor.java" startLine="54" startPosition="72" endLine="55" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8607120610933633675" fileName="GetEventBinding_Editor.java" startLine="55" startPosition="78" endLine="56" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8607120610933633675" fileName="GetEventBinding_Editor.java" startLine="57" startPosition="10" endLine="58" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8607120610933702620" fileName="GetEventBinding_Editor.java" startLine="61" startPosition="88" endLine="62" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8607120610933702620" fileName="GetEventBinding_Editor.java" startLine="62" startPosition="87" endLine="63" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610933702620" fileName="GetEventBinding_Editor.java" startLine="63" startPosition="47" endLine="64" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8607120610933702620" fileName="GetEventBinding_Editor.java" startLine="64" startPosition="34" endLine="65" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610933702620" fileName="GetEventBinding_Editor.java" startLine="65" startPosition="54" endLine="66" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610933702620" fileName="GetEventBinding_Editor.java" startLine="66" startPosition="40" endLine="67" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610933702620" fileName="GetEventBinding_Editor.java" startLine="67" startPosition="34" endLine="68" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="8607120610933633675" fileName="GetEventBinding_Editor.java" startLine="46" startPosition="58" endLine="49" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8607120610933633666" fileName="GetEventBinding_Editor.java" startLine="34" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_2v3wph_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="8607120610933633675" fileName="GetEventBinding_Editor.java" startLine="52" startPosition="59" endLine="58" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="24" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_2v3wph_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="8607120610933702620" fileName="GetEventBinding_Editor.java" startLine="61" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_2v3wph_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="8607120610933633675" fileName="GetEventBinding_Editor.java" startLine="41" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_2v3wph_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <scopeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="20" startPosition="79" endLine="21" endPosition="63" />
-    <scopeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="27" startPosition="28" endLine="28" endPosition="81" />
-    <scopeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="28" startPosition="81" endLine="29" endPosition="80" />
-    <scopeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="29" startPosition="80" endLine="30" endPosition="81" />
-    <scopeInfo nodeId="8607120610933633675" fileName="GetEventBinding_Editor.java" startLine="47" startPosition="39" endLine="48" endPosition="37" />
-    <scopeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="20" startPosition="0" endLine="23" endPosition="0">
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="25" startPosition="89" endLine="26" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="26" startPosition="96" endLine="27" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="27" startPosition="48" endLine="28" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="30" startPosition="61" endLine="31" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="32" startPosition="5" endLine="33" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="32" startPosition="5" endLine="33" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="33" startPosition="81" endLine="34" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8607120610933633666" fileName="GetEventBinding_Editor.java" startLine="37" startPosition="88" endLine="38" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8607120610933633666" fileName="GetEventBinding_Editor.java" startLine="38" startPosition="96" endLine="39" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610933633666" fileName="GetEventBinding_Editor.java" startLine="39" startPosition="47" endLine="40" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610933633666" fileName="GetEventBinding_Editor.java" startLine="40" startPosition="34" endLine="41" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="44" startPosition="87" endLine="45" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="45" startPosition="81" endLine="46" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="46" startPosition="33" endLine="47" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="47" startPosition="46" endLine="48" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="48" startPosition="26" endLine="49" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="50" startPosition="39" endLine="51" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="52" startPosition="5" endLine="53" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="53" startPosition="73" endLine="54" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="54" startPosition="57" endLine="55" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="56" startPosition="35" endLine="57" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="57" startPosition="72" endLine="58" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="58" startPosition="78" endLine="59" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="60" startPosition="10" endLine="61" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1983669701640587901" fileName="GetEventBinding_Editor.java" startLine="64" startPosition="97" endLine="65" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8607120610933702620" fileName="GetEventBinding_Editor.java" startLine="68" startPosition="88" endLine="69" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8607120610933702620" fileName="GetEventBinding_Editor.java" startLine="69" startPosition="87" endLine="70" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610933702620" fileName="GetEventBinding_Editor.java" startLine="70" startPosition="47" endLine="71" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8607120610933702620" fileName="GetEventBinding_Editor.java" startLine="71" startPosition="34" endLine="72" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610933702620" fileName="GetEventBinding_Editor.java" startLine="72" startPosition="54" endLine="73" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610933702620" fileName="GetEventBinding_Editor.java" startLine="73" startPosition="40" endLine="74" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610933702620" fileName="GetEventBinding_Editor.java" startLine="74" startPosition="34" endLine="75" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="29" startPosition="81" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="29" startPosition="81" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="49" startPosition="58" endLine="52" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1983669701640587250" fileName="GetEventBinding_Editor.java" startLine="64" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_2v3wph_a1a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="8607120610933633666" fileName="GetEventBinding_Editor.java" startLine="37" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_2v3wph_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="55" startPosition="59" endLine="61" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8607120610933702620" fileName="GetEventBinding_Editor.java" startLine="68" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_2v3wph_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="25" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_2v3wph_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="44" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_2v3wph_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <scopeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" />
+    <scopeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="81" />
+    <scopeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="30" startPosition="61" endLine="31" endPosition="82" />
+    <scopeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="32" startPosition="5" endLine="33" endPosition="81" />
+    <scopeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="50" startPosition="39" endLine="51" endPosition="37" />
+    <scopeInfo nodeId="1983669701640587251" fileName="GetEventBinding_Editor.java" startLine="64" startPosition="97" endLine="65" endPosition="69" />
+    <scopeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="21" startPosition="0" endLine="24" endPosition="0">
       <varInfo nodeId="8607120610933633654" varName="editorContext" />
       <varInfo nodeId="8607120610933633654" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8607120610933633675" fileName="GetEventBinding_Editor.java" startLine="53" startPosition="35" endLine="56" endPosition="109">
-      <varInfo nodeId="8607120610933633675" varName="manager" />
-      <varInfo nodeId="8607120610933633675" varName="opContext" />
+    <scopeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="29" startPosition="81" endLine="32" endPosition="5" />
+    <scopeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="56" startPosition="35" endLine="59" endPosition="109">
+      <varInfo nodeId="8607120610933633654" varName="manager" />
+      <varInfo nodeId="8607120610933633654" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="8607120610933633666" fileName="GetEventBinding_Editor.java" startLine="34" startPosition="88" endLine="38" endPosition="22">
+    <scopeInfo nodeId="1983669701640587250" fileName="GetEventBinding_Editor.java" startLine="64" startPosition="0" endLine="67" endPosition="0">
+      <varInfo nodeId="1983669701640587250" varName="editorContext" />
+      <varInfo nodeId="1983669701640587250" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8607120610933633666" fileName="GetEventBinding_Editor.java" startLine="37" startPosition="88" endLine="41" endPosition="22">
       <varInfo nodeId="8607120610933633666" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="8607120610933633666" fileName="GetEventBinding_Editor.java" startLine="34" startPosition="0" endLine="40" endPosition="0">
+    <scopeInfo nodeId="8607120610933633666" fileName="GetEventBinding_Editor.java" startLine="37" startPosition="0" endLine="43" endPosition="0">
       <varInfo nodeId="8607120610933633666" varName="editorContext" />
       <varInfo nodeId="8607120610933633666" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="24" startPosition="89" endLine="31" endPosition="22">
-      <varInfo nodeId="8607120610933633654" varName="editorCell" />
-    </scopeInfo>
-    <scopeInfo nodeId="8607120610933702620" fileName="GetEventBinding_Editor.java" startLine="61" startPosition="88" endLine="68" endPosition="22">
+    <scopeInfo nodeId="8607120610933702620" fileName="GetEventBinding_Editor.java" startLine="68" startPosition="88" endLine="75" endPosition="22">
       <varInfo nodeId="8607120610933702620" varName="editorCell" />
       <varInfo nodeId="8607120610933702620" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="24" startPosition="0" endLine="33" endPosition="0">
-      <varInfo nodeId="8607120610933633654" varName="editorContext" />
-      <varInfo nodeId="8607120610933633654" varName="node" />
+    <scopeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="25" startPosition="89" endLine="34" endPosition="22">
+      <varInfo nodeId="8607120610933633654" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="8607120610933702620" fileName="GetEventBinding_Editor.java" startLine="61" startPosition="0" endLine="70" endPosition="0">
+    <scopeInfo nodeId="8607120610933702620" fileName="GetEventBinding_Editor.java" startLine="68" startPosition="0" endLine="77" endPosition="0">
       <varInfo nodeId="8607120610933702620" varName="editorContext" />
       <varInfo nodeId="8607120610933702620" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8607120610933633675" fileName="GetEventBinding_Editor.java" startLine="41" startPosition="87" endLine="58" endPosition="22">
-      <varInfo nodeId="8607120610933633675" varName="attributeConcept" />
-      <varInfo nodeId="8607120610933633675" varName="attributeKind" />
-      <varInfo nodeId="8607120610933633675" varName="editorCell" />
-      <varInfo nodeId="8607120610933633675" varName="provider" />
+    <scopeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="25" startPosition="0" endLine="36" endPosition="0">
+      <varInfo nodeId="8607120610933633654" varName="editorContext" />
+      <varInfo nodeId="8607120610933633654" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8607120610933633675" fileName="GetEventBinding_Editor.java" startLine="41" startPosition="0" endLine="60" endPosition="0">
-      <varInfo nodeId="8607120610933633675" varName="editorContext" />
-      <varInfo nodeId="8607120610933633675" varName="node" />
+    <scopeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="44" startPosition="87" endLine="61" endPosition="22">
+      <varInfo nodeId="8607120610933633654" varName="attributeConcept" />
+      <varInfo nodeId="8607120610933633654" varName="attributeKind" />
+      <varInfo nodeId="8607120610933633654" varName="editorCell" />
+      <varInfo nodeId="8607120610933633654" varName="provider" />
     </scopeInfo>
-    <unitInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="19" startPosition="0" endLine="71" endPosition="0" unitName="USML.editor.GetEventBinding_Editor" />
+    <scopeInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="44" startPosition="0" endLine="63" endPosition="0">
+      <varInfo nodeId="8607120610933633654" varName="editorContext" />
+      <varInfo nodeId="8607120610933633654" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="8607120610933633654" fileName="GetEventBinding_Editor.java" startLine="20" startPosition="0" endLine="78" endPosition="0" unitName="USML.editor.GetEventBinding_Editor" />
   </root>
   <root nodeRef="r:614f85ec-a080-4891-b593-7f818d62564b(USML.editor)/8607120610936004007">
     <nodeInfo nodeId="8607120610936004007" fileName="SMStart_Editor.java" startLine="22" startPosition="79" endLine="23" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -4799,94 +4808,103 @@
     <unitInfo nodeId="8607120610936004146" fileName="SMSafeTerm_Editor.java" startLine="21" startPosition="0" endLine="100" endPosition="0" unitName="USML.editor.SMSafeTerm_Editor" />
   </root>
   <root nodeRef="r:614f85ec-a080-4891-b593-7f818d62564b(USML.editor)/8607120610936797933">
-    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="20" startPosition="79" endLine="21" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="24" startPosition="89" endLine="25" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="25" startPosition="96" endLine="26" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="26" startPosition="48" endLine="27" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="27" startPosition="28" endLine="28" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="27" startPosition="28" endLine="28" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="28" startPosition="81" endLine="29" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="28" startPosition="81" endLine="29" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="29" startPosition="80" endLine="30" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="29" startPosition="80" endLine="30" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="30" startPosition="81" endLine="31" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8607120610936797935" fileName="PutEventBinding_Editor.java" startLine="34" startPosition="88" endLine="35" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8607120610936797935" fileName="PutEventBinding_Editor.java" startLine="35" startPosition="96" endLine="36" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610936797935" fileName="PutEventBinding_Editor.java" startLine="36" startPosition="47" endLine="37" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610936797935" fileName="PutEventBinding_Editor.java" startLine="37" startPosition="34" endLine="38" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8607120610936797936" fileName="PutEventBinding_Editor.java" startLine="41" startPosition="87" endLine="42" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8607120610936797936" fileName="PutEventBinding_Editor.java" startLine="42" startPosition="81" endLine="43" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610936797936" fileName="PutEventBinding_Editor.java" startLine="43" startPosition="33" endLine="44" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610936797936" fileName="PutEventBinding_Editor.java" startLine="44" startPosition="46" endLine="45" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8607120610936797936" fileName="PutEventBinding_Editor.java" startLine="45" startPosition="26" endLine="46" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610936797936" fileName="PutEventBinding_Editor.java" startLine="47" startPosition="39" endLine="48" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610936797936" fileName="PutEventBinding_Editor.java" startLine="49" startPosition="5" endLine="50" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610936797936" fileName="PutEventBinding_Editor.java" startLine="50" startPosition="73" endLine="51" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8607120610936797936" fileName="PutEventBinding_Editor.java" startLine="51" startPosition="57" endLine="52" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8607120610936797936" fileName="PutEventBinding_Editor.java" startLine="53" startPosition="35" endLine="54" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8607120610936797936" fileName="PutEventBinding_Editor.java" startLine="54" startPosition="72" endLine="55" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8607120610936797936" fileName="PutEventBinding_Editor.java" startLine="55" startPosition="78" endLine="56" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8607120610936797936" fileName="PutEventBinding_Editor.java" startLine="57" startPosition="10" endLine="58" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8607120610936797938" fileName="PutEventBinding_Editor.java" startLine="61" startPosition="88" endLine="62" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8607120610936797938" fileName="PutEventBinding_Editor.java" startLine="62" startPosition="87" endLine="63" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610936797938" fileName="PutEventBinding_Editor.java" startLine="63" startPosition="47" endLine="64" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="8607120610936797938" fileName="PutEventBinding_Editor.java" startLine="64" startPosition="34" endLine="65" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610936797938" fileName="PutEventBinding_Editor.java" startLine="65" startPosition="54" endLine="66" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610936797938" fileName="PutEventBinding_Editor.java" startLine="66" startPosition="40" endLine="67" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610936797938" fileName="PutEventBinding_Editor.java" startLine="67" startPosition="34" endLine="68" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="8607120610936797936" fileName="PutEventBinding_Editor.java" startLine="46" startPosition="58" endLine="49" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8607120610936797935" fileName="PutEventBinding_Editor.java" startLine="34" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_l7o3l5_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="8607120610936797936" fileName="PutEventBinding_Editor.java" startLine="52" startPosition="59" endLine="58" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="24" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_l7o3l5_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="8607120610936797938" fileName="PutEventBinding_Editor.java" startLine="61" startPosition="0" endLine="70" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_l7o3l5_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="8607120610936797936" fileName="PutEventBinding_Editor.java" startLine="41" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_l7o3l5_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <scopeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="20" startPosition="79" endLine="21" endPosition="63" />
-    <scopeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="27" startPosition="28" endLine="28" endPosition="81" />
-    <scopeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="28" startPosition="81" endLine="29" endPosition="80" />
-    <scopeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="29" startPosition="80" endLine="30" endPosition="81" />
-    <scopeInfo nodeId="8607120610936797936" fileName="PutEventBinding_Editor.java" startLine="47" startPosition="39" endLine="48" endPosition="37" />
-    <scopeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="20" startPosition="0" endLine="23" endPosition="0">
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="25" startPosition="89" endLine="26" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="26" startPosition="96" endLine="27" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="27" startPosition="48" endLine="28" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="30" startPosition="61" endLine="31" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="32" startPosition="5" endLine="33" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="32" startPosition="5" endLine="33" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="33" startPosition="81" endLine="34" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8607120610936797935" fileName="PutEventBinding_Editor.java" startLine="37" startPosition="88" endLine="38" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8607120610936797935" fileName="PutEventBinding_Editor.java" startLine="38" startPosition="96" endLine="39" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610936797935" fileName="PutEventBinding_Editor.java" startLine="39" startPosition="47" endLine="40" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610936797935" fileName="PutEventBinding_Editor.java" startLine="40" startPosition="34" endLine="41" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="44" startPosition="87" endLine="45" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="45" startPosition="81" endLine="46" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="46" startPosition="33" endLine="47" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="47" startPosition="46" endLine="48" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="48" startPosition="26" endLine="49" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="50" startPosition="39" endLine="51" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="52" startPosition="5" endLine="53" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="53" startPosition="73" endLine="54" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="54" startPosition="57" endLine="55" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="56" startPosition="35" endLine="57" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="57" startPosition="72" endLine="58" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="58" startPosition="78" endLine="59" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="60" startPosition="10" endLine="61" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1983669701640595768" fileName="PutEventBinding_Editor.java" startLine="64" startPosition="97" endLine="65" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8607120610936797938" fileName="PutEventBinding_Editor.java" startLine="68" startPosition="88" endLine="69" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8607120610936797938" fileName="PutEventBinding_Editor.java" startLine="69" startPosition="87" endLine="70" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610936797938" fileName="PutEventBinding_Editor.java" startLine="70" startPosition="47" endLine="71" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8607120610936797938" fileName="PutEventBinding_Editor.java" startLine="71" startPosition="34" endLine="72" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610936797938" fileName="PutEventBinding_Editor.java" startLine="72" startPosition="54" endLine="73" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610936797938" fileName="PutEventBinding_Editor.java" startLine="73" startPosition="40" endLine="74" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8607120610936797938" fileName="PutEventBinding_Editor.java" startLine="74" startPosition="34" endLine="75" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="29" startPosition="81" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="29" startPosition="81" endLine="32" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="49" startPosition="58" endLine="52" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="1983669701640595437" fileName="PutEventBinding_Editor.java" startLine="64" startPosition="0" endLine="67" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="renderingCondition_l7o3l5_a1a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+    <nodeInfo nodeId="8607120610936797935" fileName="PutEventBinding_Editor.java" startLine="37" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_l7o3l5_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="55" startPosition="59" endLine="61" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8607120610936797938" fileName="PutEventBinding_Editor.java" startLine="68" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_l7o3l5_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="25" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_l7o3l5_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="44" startPosition="0" endLine="63" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefNode_l7o3l5_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <scopeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" />
+    <scopeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="81" />
+    <scopeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="30" startPosition="61" endLine="31" endPosition="82" />
+    <scopeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="32" startPosition="5" endLine="33" endPosition="81" />
+    <scopeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="50" startPosition="39" endLine="51" endPosition="37" />
+    <scopeInfo nodeId="1983669701640595438" fileName="PutEventBinding_Editor.java" startLine="64" startPosition="97" endLine="65" endPosition="69" />
+    <scopeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="21" startPosition="0" endLine="24" endPosition="0">
       <varInfo nodeId="8607120610936797933" varName="editorContext" />
       <varInfo nodeId="8607120610936797933" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8607120610936797936" fileName="PutEventBinding_Editor.java" startLine="53" startPosition="35" endLine="56" endPosition="109">
-      <varInfo nodeId="8607120610936797936" varName="manager" />
-      <varInfo nodeId="8607120610936797936" varName="opContext" />
+    <scopeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="29" startPosition="81" endLine="32" endPosition="5" />
+    <scopeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="56" startPosition="35" endLine="59" endPosition="109">
+      <varInfo nodeId="8607120610936797933" varName="manager" />
+      <varInfo nodeId="8607120610936797933" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="8607120610936797935" fileName="PutEventBinding_Editor.java" startLine="34" startPosition="88" endLine="38" endPosition="22">
+    <scopeInfo nodeId="1983669701640595437" fileName="PutEventBinding_Editor.java" startLine="64" startPosition="0" endLine="67" endPosition="0">
+      <varInfo nodeId="1983669701640595437" varName="editorContext" />
+      <varInfo nodeId="1983669701640595437" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="8607120610936797935" fileName="PutEventBinding_Editor.java" startLine="37" startPosition="88" endLine="41" endPosition="22">
       <varInfo nodeId="8607120610936797935" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="8607120610936797935" fileName="PutEventBinding_Editor.java" startLine="34" startPosition="0" endLine="40" endPosition="0">
+    <scopeInfo nodeId="8607120610936797935" fileName="PutEventBinding_Editor.java" startLine="37" startPosition="0" endLine="43" endPosition="0">
       <varInfo nodeId="8607120610936797935" varName="editorContext" />
       <varInfo nodeId="8607120610936797935" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="24" startPosition="89" endLine="31" endPosition="22">
-      <varInfo nodeId="8607120610936797933" varName="editorCell" />
-    </scopeInfo>
-    <scopeInfo nodeId="8607120610936797938" fileName="PutEventBinding_Editor.java" startLine="61" startPosition="88" endLine="68" endPosition="22">
+    <scopeInfo nodeId="8607120610936797938" fileName="PutEventBinding_Editor.java" startLine="68" startPosition="88" endLine="75" endPosition="22">
       <varInfo nodeId="8607120610936797938" varName="editorCell" />
       <varInfo nodeId="8607120610936797938" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="24" startPosition="0" endLine="33" endPosition="0">
-      <varInfo nodeId="8607120610936797933" varName="editorContext" />
-      <varInfo nodeId="8607120610936797933" varName="node" />
+    <scopeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="25" startPosition="89" endLine="34" endPosition="22">
+      <varInfo nodeId="8607120610936797933" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="8607120610936797938" fileName="PutEventBinding_Editor.java" startLine="61" startPosition="0" endLine="70" endPosition="0">
+    <scopeInfo nodeId="8607120610936797938" fileName="PutEventBinding_Editor.java" startLine="68" startPosition="0" endLine="77" endPosition="0">
       <varInfo nodeId="8607120610936797938" varName="editorContext" />
       <varInfo nodeId="8607120610936797938" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8607120610936797936" fileName="PutEventBinding_Editor.java" startLine="41" startPosition="87" endLine="58" endPosition="22">
-      <varInfo nodeId="8607120610936797936" varName="attributeConcept" />
-      <varInfo nodeId="8607120610936797936" varName="attributeKind" />
-      <varInfo nodeId="8607120610936797936" varName="editorCell" />
-      <varInfo nodeId="8607120610936797936" varName="provider" />
+    <scopeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="25" startPosition="0" endLine="36" endPosition="0">
+      <varInfo nodeId="8607120610936797933" varName="editorContext" />
+      <varInfo nodeId="8607120610936797933" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="8607120610936797936" fileName="PutEventBinding_Editor.java" startLine="41" startPosition="0" endLine="60" endPosition="0">
-      <varInfo nodeId="8607120610936797936" varName="editorContext" />
-      <varInfo nodeId="8607120610936797936" varName="node" />
+    <scopeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="44" startPosition="87" endLine="61" endPosition="22">
+      <varInfo nodeId="8607120610936797933" varName="attributeConcept" />
+      <varInfo nodeId="8607120610936797933" varName="attributeKind" />
+      <varInfo nodeId="8607120610936797933" varName="editorCell" />
+      <varInfo nodeId="8607120610936797933" varName="provider" />
     </scopeInfo>
-    <unitInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="19" startPosition="0" endLine="71" endPosition="0" unitName="USML.editor.PutEventBinding_Editor" />
+    <scopeInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="44" startPosition="0" endLine="63" endPosition="0">
+      <varInfo nodeId="8607120610936797933" varName="editorContext" />
+      <varInfo nodeId="8607120610936797933" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="8607120610936797933" fileName="PutEventBinding_Editor.java" startLine="20" startPosition="0" endLine="78" endPosition="0" unitName="USML.editor.PutEventBinding_Editor" />
   </root>
 </debugInfo>
 

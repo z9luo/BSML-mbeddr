@@ -5,6 +5,11 @@
 #include <string.h>
 #include <stdlib.h>
 
+void SM_Header_destroy_event(SM_Header_Event* event) 
+{
+  
+}
+
 SM_Header_Event* SM_Header_create_event(uint32_t type, void** args) 
 {
   /* 
@@ -12,10 +17,5 @@ SM_Header_Event* SM_Header_create_event(uint32_t type, void** args)
    */
 
   return 0;
-}
-
-void SM_Header_destroy_event(SM_Header_Event* event) 
-{
-  
 }
 

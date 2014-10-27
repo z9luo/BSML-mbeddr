@@ -12,6 +12,7 @@ import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
@@ -26,7 +27,9 @@ public class GetEventBinding_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_2v3wph_a");
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_2v3wph_a0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_2v3wph_b0(editorContext, node));
+    if (renderingCondition_2v3wph_a1a(node, editorContext)) {
+      editorCell.addEditorCell(this.createRefNode_2v3wph_b0(editorContext, node));
+    }
     editorCell.addEditorCell(this.createConstant_2v3wph_c0(editorContext, node));
     return editorCell;
   }
@@ -56,6 +59,10 @@ public class GetEventBinding_Editor extends DefaultNodeEditor {
       return manager.createNodeRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
+  }
+
+  private static boolean renderingCondition_2v3wph_a1a(SNode node, EditorContext editorContext) {
+    return SLinkOperations.getTarget(node, "cbinding", true) != null;
   }
 
   private EditorCell createConstant_2v3wph_c0(EditorContext editorContext, SNode node) {
