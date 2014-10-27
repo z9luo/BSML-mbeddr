@@ -5,7 +5,7 @@ USML-mbeddr
 
 USML is a state-machine modelling language based on Mbeddr which is especially useful for modelling control system. The model is automatically transformed into C code that could compile with normal c compiler like gcc. Along with the model you can write C code as usual.
 
-##A quick Glimpse
+## First Glimpse
 The following model has two states "on" and "off", event "turn_on" triggered transition from "off" to "on" and execute action to print "hello world"
 ```
 statemachine BDS {
@@ -28,12 +28,67 @@ int main() {
 	return 0;
 }
 ```
-Any C code can be written along with the model. Following shows a complete USML model
-Except for the model part, any another code in your model can be the same 
-In a real model, you need main function where events are triggered. You also need to maintain your own queue for input event while passing the interface to the model;
+Any C code can be written along with the model. Following is a complete, and more sophisticated example:
+```
+//write any normal C code as you need
+enum Status {
+	ON;
+	OFF;
+}
+//define the state machine model
+statemachine BDS {
+	// create your own message queue and bind enqueue/dequeue interfaces to the model
+	getInEvent => get_in_event;
+	putInEvent => put_in_event; 
+	region main initial=off {
+		in event turn_on();
+		in event turn_off();
+		local event compute_speed(double cur_speed); // event with arguments allowed; you can also pass a struct as argument.
+		// out event can be binded to C functions
+		out event accel() => handle_accel();
+		out event decel() => handle_decel();
+		boolean elecEnabled=true;
+		double cur_speed=0.0;
+		static int countOff=0; // static variable, which won't be re-initialized after re-enterance.
+		Status status=ON;
+		state off {
+			entry { // code block that is executed each time the region/state is entered
+				countOff=countOff+1;
+			}
+		};
+		state on {	// composite state
+			// Each region will run concurrently with each other.
+			region accel_state intial=waitAccel {
+				state waitAccel { };
+				transition t_accel: on accel[true] waitAccel -> waitAccel {
+					// trigger out event or local event
+					computeSpeed(cur_speed);
+					handle_accel();
+				}
+			}
+			region decel_state intial=waitDecel {
+				......
+			}
+		 };
+		transition t1: on turn_on[elecEnabled] off -> on {
+			status=ON;
+		}
+		transition t2: on turn_off[true] on -> off { 
+			status=OFF; 
+		}
+	}
+}
+```
 
 ## Language Features
-* Code-model co-development.
+* Code-model co-development. You can write state machine model together with other C code.
+* Composite states. Each region can contain 1 or more states, while each state can contain 0 or more regions (0 region for simple state).
+* Concurrent execution of regions. Semantic difference to resolve conflict during concurrent execution is still under work.
+* Event with paramter.
+* static variable.
+* name scoping for state/region/transition.
+* entry block
+* guard condition in transition
 
 ## Quick Start
 
@@ -55,7 +110,7 @@ In a real model, you need main function where events are triggered. You also nee
 4. Right click on your model, and create an implementation module (say "ImpModule") as well as a build configuration.
 5. For the following step, MPS will occasionally show errors which can be fixed by _intention, such as create type size configuration and import denpendency language module. Use Alt+Enter to apply intentions.
 6. Import model _SM_Header and specify it as imports for ImpModule. Note that due to MPS's issue, you must REBUILD the project after import it into ImpModule. Otherwise it won't take effect.
-7. Then you can write the real stuff in ImpModule! Create the statem-achine model, create a message queue, and write a main function to trigger the state machine.
+7. Then you can write the real stuff in ImpModule! Create the statem-achine model, write a main function to trigger the state machine, as well as create a message queue. In this example, a Glib asynchronous queue is created and interface functions get_in_event()/put_in_event() are binded to the model.
 8. Write your configuration file, which should be like follow:
 9. After building your solution, open a terminal and direct to {Project_Root}/solutions/{Solution_Name}/source_gen/{Solution_Name}/{Model_Name}, you will see a bunch of familiar .c and .h files, together with a Makefile. Make the source and run the binary, and you can see the result.
 
