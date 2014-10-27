@@ -34,15 +34,19 @@ In a real model, you need main function where events are triggered. You also nee
 
 ## Language Features
 * Code-model co-development.
+
 ## Quick Start
+
 #### Prerequisite
 * USML is built based on **Mbeddr 0.8.1** (https://github.com/mbeddr/mbeddr.core/releases), which further requires **MPS 3.1.2**. Please first download MPS with correct version from mbeddr release page, and then download and install mbeddr as MPS language plugin. We assume our user is familiar with MPS basics.
 * The generated C code requires glib-2.0 library to execute.
 * Please make sure **pkg-config** is installed so that we can detect the path of your glib package correctly.
+
 #### Setup
 1. Make sure MPS, Mbeddr, Glib and pkg-config are installed on your computer.
 2. Download USML from our github repository. Open it in MPS as a MPS project.
 3. Now you can create your own model with USML!
+
 #### Create an hello-world example
 * Actually create a new solution (model) is not as easy. You need to apply a sequence of configuration before you start. Here shows the step to create a hello-world model which eventually is turned into executable C code.
 1. Right click on your project and create a new _Solution.
