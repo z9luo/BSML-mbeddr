@@ -128,7 +128,7 @@ Before you start, you need to apply a sequence of configuration. Following shows
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/6.png">
 7. Finally you can write the real stuff in ImpModule! Create your state-machine model, write a main function to trigger the state machine, as well as create a message queue for input events. In this example, a Glib asynchronous queue is created. Interface functions get_in_event()/put_in_event() are binded to the model.
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/7.png">
-8. Write your configuration file, which should be like the following (NOTE that since MPS is a projectional editor, you cannot simply copy-and-paste the code but type them into MPS by hand):
+8. Write your configuration file, which should be like the following (NOTE that since MPS is a projectional editor, you cannot simply copy-and-paste the code but type them into MPS by hand)
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/8.png">
 9. Build your solution, open a terminal, and direct to {Project_Root}/solutions/{Solution_Name}/source_gen/{Solution_Name}/{Model_Name} for the generated C code. There are a bunch of .c and .h files, together with a Makefile. Make the source and run the binary, and you can see the result. Enjoy:)
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/9.png">
