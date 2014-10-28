@@ -4,7 +4,6 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/USML/USML.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/USML/sandbox/USML.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/NewSolution/NewSolution.msd" folder="" />
     </projectModules>
   </component>
 </project>

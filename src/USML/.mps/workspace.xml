@@ -48,19 +48,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://USML.sandbox/USML.sandbox/test">
+      <file leaf-file-name="BuildConfiguration (U.sandbox)" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://USML.sandbox/USML.sandbox/BuildConfiguration (U.sandbox)">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="180">
+              <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="72" />
-                    <property name="caretX" value="427" />
+                    <property name="caretXRelative" value="16" />
+                    <property name="caretX" value="179" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:1c303b66-ffd2-4cc0-8da6-6f2758257635(USML.sandbox)/3465079989157974963" />
+                    <cellInfo cellId="DO_property_debugOptions" cellNumber="0" isInList="false">
+                      <node node_reference="r:1c303b66-ffd2-4cc0-8da6-6f2758257635(USML.sandbox)/5600653557315455310" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -68,7 +68,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:1c303b66-ffd2-4cc0-8da6-6f2758257635(USML.sandbox)/1054945346933907913" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -79,18 +79,18 @@
         </entry>
       </file>
       <file leaf-file-name="test" pinned="false" current="true" current-in-tab="true">
-        <entry file="mps://node://NewSolution/NewSolution.testModel/test">
+        <entry file="mps://node://USML.sandbox/USML.sandbox/test">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="24">
+              <memento viewPositionX="0" viewPositionY="360">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="255" />
+                    <property name="caretXRelative" value="8" />
+                    <property name="caretX" value="127" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="ReadOnlyModelAccessor_2b0q7v_a2a" cellNumber="0" isInList="false">
-                      <node node_reference="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" />
+                    <cellInfo cellId="Constant_jpw21l_c0" cellNumber="0" isInList="false">
+                      <node node_reference="r:1c303b66-ffd2-4cc0-8da6-6f2758257635(USML.sandbox)/1054945346933907913" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -98,247 +98,12 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:1c303b66-ffd2-4cc0-8da6-6f2758257635(USML.sandbox)/1054945346933907913" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OutEventDeclaration" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://USML/USML.structure/OutEventDeclaration">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:a1f63921-b191-4daf-87d6-fdf55c5c96f9(USML.intentions)/1983669701635296706" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PutEventBinding" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://USML/USML.structure/PutEventBinding">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="56" />
-                    <property name="caretX" value="247" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
-                      <node node_reference="r:6f1b4e76-ff8d-444c-8b2e-46f68cedc0e7(USML.behavior)/1983669701640836170" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:6f1b4e76-ff8d-444c-8b2e-46f68cedc0e7(USML.behavior)/1983669701640830925" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CFunctionBinding" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://USML/USML.structure/CFunctionBinding">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="15" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                      <node node_reference="r:af2571ec-9abb-4256-9741-d67b225d6f04(USML.structure)/8607120610933610675" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:af2571ec-9abb-4256-9741-d67b225d6f04(USML.structure)/8607120610933610675" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetEventBinding" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://USML/USML.structure/GetEventBinding">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="56" />
-                    <property name="caretX" value="247" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
-                      <node node_reference="r:6f1b4e76-ff8d-444c-8b2e-46f68cedc0e7(USML.behavior)/1983669701640830698" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:6f1b4e76-ff8d-444c-8b2e-46f68cedc0e7(USML.behavior)/1983669701640816295" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IRegion" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://USML/USML.structure/IRegion">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="172">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                    <property name="caretXRelative" value="-463" />
-                    <property name="caretX" value="0" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Collection_wnvs45_a" cellNumber="0" isInList="false">
-                      <node node_reference="r:f09f6dac-431a-45b0-94b4-12799c6a0b78(USML.generator.template.main@generator)/7466645974706076761" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:f09f6dac-431a-45b0-94b4-12799c6a0b78(USML.generator.template.main@generator)/3372386639991487489" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SMGlobalDeclaration" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://USML/USML.structure/SMGlobalDeclaration">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="192">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                    <property name="caretXRelative" value="-463" />
-                    <property name="caretX" value="0" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Collection_wnvs45_a" cellNumber="0" isInList="false">
-                      <node node_reference="r:f09f6dac-431a-45b0-94b4-12799c6a0b78(USML.generator.template.main@generator)/7466645974705194717" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:f09f6dac-431a-45b0-94b4-12799c6a0b78(USML.generator.template.main@generator)/3372386639990982164" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuildConfiguration (N.testModel)" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://NewSolution/NewSolution.testModel/BuildConfiguration (N.testModel)">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="80" />
-                    <property name="caretX" value="267" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_compilerOptions" cellNumber="0" isInList="false">
-                      <node node_reference="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701640439755" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateEventInstance" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://USML/USML.structure/CreateEventInstance">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="48" />
-                    <property name="caretX" value="307" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_ndq0bl_a0" cellNumber="0" isInList="false">
-                      <node node_reference="r:c9ed872e-e0df-47e7-bb05-0b22f068157b(USML.typesystem)/8607120610926933418" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:c9ed872e-e0df-47e7-bb05-0b22f068157b(USML.typesystem)/1054945346924084199" />
             </state>
           </provider>
         </entry>
@@ -916,28 +681,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Empty">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="NewSolution">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="NewSolution">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="NewSolution.testModel">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="FileSystem" />
@@ -972,6 +715,36 @@
           <option name="myModelId" />
         </MyState>
       </binary>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit Tests" factoryName="JUnit Tests">
+      <MyState />
+      <myJUnitSettings>
+        <MyState>
+          <option name="myModel" />
+          <option name="myModule" />
+          <option name="myTestCases">
+            <list />
+          </option>
+          <option name="myTestMethods">
+            <list />
+          </option>
+          <option name="myRunType" value="PROJECT" />
+        </MyState>
+      </myJUnitSettings>
+      <myJavaRunParameters>
+        <MyState>
+          <option name="myJavaRunParameters">
+            <JavaRunParameters>
+              <option name="jrePath" />
+              <option name="programParameters" />
+              <option name="useAlternativeJre" value="false" />
+              <option name="vmOptions" />
+              <option name="workingDirectory" />
+            </JavaRunParameters>
+          </option>
+        </MyState>
+      </myJavaRunParameters>
       <method />
     </configuration>
     <configuration default="false" name="USML" type="Mbeddr Binary" factoryName="mbeddr executable configuration">
@@ -1036,7 +809,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="24" width="1920" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Search" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1053,9 +826,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17447917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17447917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24322917" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3278856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3278856" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890704" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Feature Model Verification" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1896,91 +1669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://USML/USML.structure/SMSafeTerm">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="32" />
-                <property name="caretX" value="326" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:f09f6dac-431a-45b0-94b4-12799c6a0b78(USML.generator.template.main@generator)/6727232360812234943" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:7ba9a5aa-e3b3-4f4a-9817-3843cb97bc1c(USML.SM_Header)/3372386639991496085" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:f09f6dac-431a-45b0-94b4-12799c6a0b78(USML.generator.template.main@generator)/2041445662508425280" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://USML/USML.SM_Header/Template_Header">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="40" />
-                <property name="caretX" value="147" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:7ba9a5aa-e3b3-4f4a-9817-3843cb97bc1c(USML.SM_Header)/3372386639991496085" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:7ba9a5aa-e3b3-4f4a-9817-3843cb97bc1c(USML.SM_Header)/3372386639991496085" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://USML/USML.SM_Header/SM_Header">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="72" />
-                <property name="caretX" value="443" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:7ba9a5aa-e3b3-4f4a-9817-3843cb97bc1c(USML.SM_Header)/3946458319585507149" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701640584204" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://USML.sandbox/USML.sandbox/BuildConfiguration (U.sandbox)">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1988,11 +1676,11 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="35" />
+                <property name="caretXRelative" value="16" />
+                <property name="caretX" value="179" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="IANC_property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:1c303b66-ffd2-4cc0-8da6-6f2758257635(USML.sandbox)/5600653557315455309" />
+                <cellInfo cellId="DO_property_debugOptions" cellNumber="0" isInList="false">
+                  <node node_reference="r:1c303b66-ffd2-4cc0-8da6-6f2758257635(USML.sandbox)/5600653557315455310" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2000,7 +1688,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:7ba9a5aa-e3b3-4f4a-9817-3843cb97bc1c(USML.SM_Header)/3946458319585507149" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:1c303b66-ffd2-4cc0-8da6-6f2758257635(USML.sandbox)/1054945346933907913" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2009,18 +1697,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://USML.sandbox/USML.sandbox/TypeSizeConfiguration (U.sandbox)">
+    <entry file="mps://node://USML.sandbox/USML.sandbox/test">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
+          <memento viewPositionX="0" viewPositionY="360">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="35" />
+                <property name="caretXRelative" value="8" />
+                <property name="caretX" value="127" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="IANC_property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:1c303b66-ffd2-4cc0-8da6-6f2758257635(USML.sandbox)/4004560854229257061" />
+                <cellInfo cellId="Constant_jpw21l_c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:1c303b66-ffd2-4cc0-8da6-6f2758257635(USML.sandbox)/1054945346933907913" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2028,315 +1716,12 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:af2571ec-9abb-4256-9741-d67b225d6f04(USML.structure)/4517681580277207790" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:1c303b66-ffd2-4cc0-8da6-6f2758257635(USML.sandbox)/1054945346933907913" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
             <enabledHints />
           </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://USML/USML.SM_Header/glib_MemoryAlloc_stub">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="35" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="IANC_property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:7ba9a5aa-e3b3-4f4a-9817-3843cb97bc1c(USML.SM_Header)/6727232360812350683" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:af2571ec-9abb-4256-9741-d67b225d6f04(USML.structure)/4517681580277207790" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://USML/USML.structure/CreateEventInstance">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="48" />
-                <property name="caretX" value="307" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ndq0bl_a0" cellNumber="0" isInList="false">
-                  <node node_reference="r:c9ed872e-e0df-47e7-bb05-0b22f068157b(USML.typesystem)/8607120610926933418" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:c9ed872e-e0df-47e7-bb05-0b22f068157b(USML.typesystem)/1054945346924084199" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://NewSolution/NewSolution.testModel/test">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="24">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="255" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="ReadOnlyModelAccessor_2b0q7v_a2a" cellNumber="0" isInList="false">
-                  <node node_reference="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://NewSolution/NewSolution.testModel/BuildConfiguration (N.testModel)">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="80" />
-                <property name="caretX" value="267" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_compilerOptions" cellNumber="0" isInList="false">
-                  <node node_reference="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701640439755" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://USML/USML.structure/IRegion">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="172">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretXRelative" value="-463" />
-                <property name="caretX" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_wnvs45_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:f09f6dac-431a-45b0-94b4-12799c6a0b78(USML.generator.template.main@generator)/7466645974706076761" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:f09f6dac-431a-45b0-94b4-12799c6a0b78(USML.generator.template.main@generator)/3372386639991487489" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://USML/USML.structure/SMGlobalDeclaration">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="192">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretXRelative" value="-463" />
-                <property name="caretX" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_wnvs45_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:f09f6dac-431a-45b0-94b4-12799c6a0b78(USML.generator.template.main@generator)/7466645974705194717" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:f09f6dac-431a-45b0-94b4-12799c6a0b78(USML.generator.template.main@generator)/3372386639990982164" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://USML/USML.structure/GetEventBinding">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="56" />
-                <property name="caretX" value="247" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
-                  <node node_reference="r:6f1b4e76-ff8d-444c-8b2e-46f68cedc0e7(USML.behavior)/1983669701640830698" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:6f1b4e76-ff8d-444c-8b2e-46f68cedc0e7(USML.behavior)/1983669701640816295" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://USML.sandbox/USML.sandbox/test">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="180">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="72" />
-                <property name="caretX" value="427" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:1c303b66-ffd2-4cc0-8da6-6f2758257635(USML.sandbox)/3465079989157974963" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://USML/USML.structure/OutEventDeclaration">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:a1f63921-b191-4daf-87d6-fdf55c5c96f9(USML.intentions)/1983669701635296706" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://USML/USML.structure/CFunctionBinding">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="15" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:af2571ec-9abb-4256-9741-d67b225d6f04(USML.structure)/8607120610933610675" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:af2571ec-9abb-4256-9741-d67b225d6f04(USML.structure)/8607120610933610675" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://USML/USML.structure/PutEventBinding">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="56" />
-                <property name="caretX" value="247" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
-                  <node node_reference="r:6f1b4e76-ff8d-444c-8b2e-46f68cedc0e7(USML.behavior)/1983669701640836170" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:55b2ac4d-98b5-484a-90eb-adce4082abfe(NewSolution.testModel)/1983669701641001128" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:6f1b4e76-ff8d-444c-8b2e-46f68cedc0e7(USML.behavior)/1983669701640830925" />
         </state>
       </provider>
     </entry>
