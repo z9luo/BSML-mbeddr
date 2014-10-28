@@ -97,6 +97,8 @@ statemachine BDS {
 * Entry block.
 * Guard condition for transitions.
 
+(NOTICE: More features are under work. And new release may NOT be backward compatible!)
+
 ## Quick Start
 
 #### Prerequisite
