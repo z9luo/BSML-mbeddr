@@ -1,9 +1,9 @@
-USML-mbeddr
+BSML-mbeddr
 ===========
 
-## What is USML
+## What is BSML-mbeddr
 
-USML is a state-machine modelling language built based on Mbeddr, which is especially useful for modelling control system. USML extends C and thus allows code-model co-development, which eventually turns into executable C code. Advanced features are allowed in the language, such as hierarchical state machine, concurrent execution of state machines, etc. Based on MPS, the modeler can easily adjust the language semantics to fit their requirement, use corresponding tools for analysis, or even enhance the language in a facilitated way.
+BSML-mbeddr is an Mbeddr-based implementation of Big-Step Modelling Language (BSML, https://cs.uwaterloo.ca/~sesmaeil/publications/2010/REJ10.pdf), a family of state-machine modelling languages,  which is especially useful for modelling control system. BSML-mbeddr extends C and thus allows code-model co-development, which eventually turns into executable C code. Advanced features are allowed in the language, such as hierarchical state machine, concurrent execution of state machines, etc. Based on MPS, the modeler can easily adjust the language semantics to fit their requirement, use corresponding tools for analysis, or even enhance the language in a facilitated way.
 
 ## First Glimpse
 The following simple model has two states "on" and "off", event "turn_on" triggered transition from "off" to "on" and execute action to print "hello world"
@@ -102,14 +102,14 @@ statemachine BDS {
 ## Quick Start
 
 #### Prerequisite
-* USML is built based on **Mbeddr 0.8.1** (https://github.com/mbeddr/mbeddr.core/releases), which further requires **MPS 3.1.2** (http://confluence.jetbrains.com/display/MPS/JetBrains+MPS+3.1+Download+Page). Please first download MPS with correct version from mbeddr release page, and then download and install mbeddr as MPS language plugin. We assume our user is familiar with MPS basics.
+* BSML-mbeddr is built based on **Mbeddr 0.8.1** (https://github.com/mbeddr/mbeddr.core/releases), which further requires **MPS 3.1.2** (http://confluence.jetbrains.com/display/MPS/JetBrains+MPS+3.1+Download+Page). Please first download MPS with correct version from mbeddr release page, and then download and install mbeddr as MPS language plugin. We assume our user is familiar with MPS basics.
 * The generated C code requires **glib-2.0** library to execute.
 * Please make sure **pkg-config** is installed so that we can detect the path of your glib package correctly.
 
 #### Setup
 1. Make sure MPS, Mbeddr, Glib and pkg-config are installed on your computer.
-2. Download USML from our github repository. Open it in MPS as a MPS project.
-3. Now you can create your own model with USML:)
+2. Download BSML-mbeddr from our github repository. Open it in MPS as a MPS project.
+3. Now you can create your own model with BSML-mbeddr:)
 
 #### How to Create a Model
 
