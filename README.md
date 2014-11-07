@@ -8,7 +8,7 @@ BSML-mbeddr is an Mbeddr-based implementation of Big-Step Modelling Language (BS
 ## First Glimpse
 The following simple model has two states "on" and "off", event "turn_on" triggered transition from "off" to "on" and execute action to print "hello world"
 ```
-statemachine BDS {
+statemachine SimpleSM {
 	region main initial=off {
 		in event turn_on();
 		state off { };
@@ -23,8 +23,8 @@ Trigger code should be like this:
 ```
 int main() {
 	BDS.sm_start();
-	put_in_event((Event*) create_event(BDS.turn_on));
-	BDS.sm_terminate();
+	put_in_event((Event*) create_event(SimpleSM.turn_on));
+	SimpleSM.sm_terminate();
 	return 0;
 }
 ```
@@ -41,8 +41,8 @@ int main() {
 void handle_accel() {
 	...
 } 
-//define the state machine model
-statemachine BDS {
+//define the state machine model for a vechicle's control system
+statemachine ExampleVechicle {
 	// You must maintain your own message queue and bind the enqueue/dequeue interface to the model
 	getInEvent => get_in_event;
 	putInEvent => put_in_event; 
