@@ -22,7 +22,7 @@ statemachine SimpleSM {
 Trigger code should be like this:
 ```
 int main() {
-	BDS.sm_start();
+	SimpleSM.sm_start();
 	put_in_event((Event*) create_event(SimpleSM.turn_on));
 	SimpleSM.sm_terminate();
 	return 0;
