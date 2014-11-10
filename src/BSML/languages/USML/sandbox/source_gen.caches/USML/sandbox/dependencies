@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="USML.sandbox.Makefile" file="Makefile" />
+  <dependency className="USML.sandbox.SM_Header" file="SM_Header.c" />
+  <dependency className="USML.sandbox.SM_Header" file="SM_Header.h" />
+  <dependency className="USML.sandbox.TypeSizeConfiguration (U.sandbox)" file="TypeSizeConfiguration (U.sandbox)" />
+  <dependency className="USML.sandbox.test" file="test.c" />
+  <dependency className="USML.sandbox.test" file="test.h" />
+</dependenciesRoot>
+
