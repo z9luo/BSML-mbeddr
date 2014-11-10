@@ -119,7 +119,7 @@ Before you start, you need to apply a sequence of configuration. Following shows
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/1.png">
 2. Right click on your solution and create a new **Model**.
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/2.png">
-3. Import language module **com.mbeddr.core.modules**, **com.mbeddr.core.buildconfig**, and **USML**.
+3. Import language module **com.mbeddr.core.modules**, **com.mbeddr.core.buildconfig**, and **BSML**.
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/3.png">
 4. Right click on your model, and create an implementation module (named "ImpModule") as well as a build configuration.
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/4.png">
