@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="-91b4uyy9u48fkqn3rgtj0wobffad35o">
+  <common hash="-ccbu79sx5mh0iq6ech1ym94mfmuilu8" />
+  <source id="7466645974705027735" name="Header_for_ReduceSM" hash="-48i0ojmnddd0ewc9au6vzeci18o0yoz" />
+  <source id="520667319678793397" name="SM_Header" hash="-b08i63u12s6nywef19h1sr9dag2wqwq" />
+  <source id="2041445662509506477" name="Template_Header" hash="-9mphga9idnui1psn1t4rup0owvjd3gh" />
+  <source id="7466645974687716374" name="glib_Array_stub" hash="-c41jxvwdwhbtgrruyrv1ow4cct2ph7v" />
+  <source id="6727232360812351577" name="glib_AsyncQueue_stub" hash="-8zqu44ohkg2sfw8j5zbmkmrhm5nfi5k" />
+  <source id="6727232360812350683" name="glib_MemoryAlloc_stub" hash="3fw8imv3pzecfhkyuvnib55tpemtgf8" />
+  <source id="6727232360812348042" name="glib_Queue_stub" hash="-96cfipdgypf3mx6dw7mj2fs88h1z2n3" />
+  <source id="6727232360812351972" name="glib_Thread_stub" hash="-annd064i3e1eyyit1i1yq0b52jrgh6p" />
+  <source id="8607120610925230262" name="glib_stub" hash="1w6fqcf09mq83uvf633gslgwu4pxwp3" />
+  <source id="520667319675299402" name="stdlib_stub" hash="-254tduwbpf25opins9d6l1x1cs40swr" />
+</dependencies>
+

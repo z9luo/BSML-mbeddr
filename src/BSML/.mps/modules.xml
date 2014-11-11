@@ -2,10 +2,8 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/languages/USML/USML.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/USML/sandbox/USML.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/NewSolution/NewSolution.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/aNewSolution/aNewSolution.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/BSML/BSML.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/BSML/sandbox/BSML.sandbox.msd" folder="" />
     </projectModules>
   </component>
 </project>
