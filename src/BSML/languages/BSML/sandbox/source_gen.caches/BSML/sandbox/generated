@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependencies version="2" modelHash="-2ox8t7cc92azrmxm0mtsbnrkcn1a9mw">
+  <dep model="37be26e1-53dd-4ddf-8b82-797b3db0384e/r:b465c70e-123b-4c18-84bd-eb14e8baef38(com.mbeddr.mpsutil.modelcache.CacheState_fakeModule/com.mbeddr.mpsutil.modelcache.CacheState_fakeModel)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="5sdbpqxziyuazpb9j1p4zdk6bnvbn49" />
   <dep model="r:1c8941b6-7430-40ed-8040-ab47e93d583b(BSML.SM_Header)" hash="-91b4uyy9u48fkqn3rgtj0wobffad35o" />
   <dep model="r:2ff3ad32-451f-46a7-91af-9ce87f286536(com.mbeddr.core.modules.generator.main.addReturnToClosure@generator)" hash="-3avjaoibqnibrutclolnqk2ujgsvc8x" />
@@ -12,6 +13,7 @@
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
   <dep model="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" hash="3tekhil1vgqucmcvsc7j6y1xfp76q82" />
   <common hash="cb7wedv340n5jsixa8qk62xocyjh4t" dependsOnNodes="true">
+    <dep model="37be26e1-53dd-4ddf-8b82-797b3db0384e/r:b465c70e-123b-4c18-84bd-eb14e8baef38(com.mbeddr.mpsutil.modelcache.CacheState_fakeModule/com.mbeddr.mpsutil.modelcache.CacheState_fakeModel)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:1c8941b6-7430-40ed-8040-ab47e93d583b(BSML.SM_Header)" />
     <dep model="r:2ff3ad32-451f-46a7-91af-9ce87f286536(com.mbeddr.core.modules.generator.main.addReturnToClosure@generator)" />

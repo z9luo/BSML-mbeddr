@@ -183,6 +183,10 @@
             </node>
           </node>
         </node>
+        <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.SMTrigger" typeId="cmy.439124252221539684" id="439124252222335423" nodeInfo="ng">
+          <link role="sm_ref" roleId="cmy.439124252221590048" targetNodeId="7359472029652033490" resolveInfo="sm" />
+          <link role="event_ref" roleId="cmy.439124252221590049" targetNodeId="7359472029652037471" resolveInfo="turn_on" />
+        </node>
         <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.SMSafeTerm" typeId="cmy.8607120610936004074" id="7359472029652083184" nodeInfo="ng">
           <link role="sm_ref" roleId="cmy.8607120610938460698" targetNodeId="7359472029652033490" resolveInfo="sm" />
         </node>

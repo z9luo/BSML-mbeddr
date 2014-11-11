@@ -55,6 +55,7 @@
     <classNode dependClassName="BSML.behavior.SMGlobalDeclaration_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.SMSafeTerm_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.SMStart_BehaviorDescriptor" />
+    <classNode dependClassName="BSML.behavior.SMTrigger_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.SMType_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.StateLocalDeclaration_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.StateMachineBindingsConfigItem_BehaviorDescriptor" />
@@ -439,6 +440,12 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="BSML.behavior.SMStart_BehaviorDescriptor" file="SMStart_BehaviorDescriptor.java">
+    <classNode dependClassName="com.mbeddr.core.statements.behavior.Statement_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="BSML.behavior.SMTrigger_BehaviorDescriptor" file="SMTrigger_BehaviorDescriptor.java">
     <classNode dependClassName="com.mbeddr.core.statements.behavior.Statement_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />

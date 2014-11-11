@@ -2,7 +2,7 @@
 <debugInfo>
   <unitInfo fileName="AbstractBlock_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="BSML.behavior.AbstractBlock_BehaviorDescriptor" />
   <unitInfo fileName="AbstractEventDeclaration_BehaviorDescriptor.java" startLine="13" startPosition="0" endLine="54" endPosition="0" unitName="BSML.behavior.AbstractEventDeclaration_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="76" endPosition="0" unitName="BSML.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="78" endPosition="0" unitName="BSML.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="CFunctionBinding_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="BSML.behavior.CFunctionBinding_BehaviorDescriptor" />
   <unitInfo fileName="CreateEventInstance_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="BSML.behavior.CreateEventInstance_BehaviorDescriptor" />
   <unitInfo fileName="DoBlock_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="BSML.behavior.DoBlock_BehaviorDescriptor" />
@@ -32,6 +32,7 @@
   <unitInfo fileName="SMGlobalDeclaration_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="40" endPosition="0" unitName="BSML.behavior.SMGlobalDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="SMSafeTerm_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="BSML.behavior.SMSafeTerm_BehaviorDescriptor" />
   <unitInfo fileName="SMStart_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="BSML.behavior.SMStart_BehaviorDescriptor" />
+  <unitInfo fileName="SMTrigger_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="BSML.behavior.SMTrigger_BehaviorDescriptor" />
   <unitInfo fileName="SMType_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="BSML.behavior.SMType_BehaviorDescriptor" />
   <unitInfo fileName="StateLocalDeclaration_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="BSML.behavior.StateLocalDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="StateMachineBindingsConfigItem_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="BSML.behavior.StateMachineBindingsConfigItem_BehaviorDescriptor" />

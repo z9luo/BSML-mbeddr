@@ -6969,6 +6969,9 @@
       <node role="imports" roleId="x27k.1317894735999304826" type="vs0r.DefaultGenericChunkDependency" typeId="vs0r.747084250476811597" id="7466645974736898681" nodeInfo="ng">
         <link role="chunk" roleId="vs0r.747084250476878887" targetNodeId="o8iv.520667319675299402" resolveInfo="stdlib_stub" />
       </node>
+      <node role="imports" roleId="x27k.1317894735999304826" type="vs0r.DefaultGenericChunkDependency" typeId="vs0r.747084250476811597" id="439124252222978172" nodeInfo="ng">
+        <link role="chunk" roleId="vs0r.747084250476878887" targetNodeId="o8iv.6727232360812351577" resolveInfo="glib_AsyncQueue_stub" />
+      </node>
     </node>
   </root>
   <root type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="3372386639990377825" nodeInfo="ng">

@@ -17,7 +17,7 @@
   <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" hash="-8z73tx2nml9xagbxlfmq60ehji8q3f5" />
   <dep model="r:00000000-0000-4000-0000-011c8959033a(jetbrains.mps.baseLanguage.closures.generator.baseLanguage.template.main@generator)" hash="2rw431aummgwrvc6vvrvyxnd6ddlzo0" />
   <dep model="r:055bac8c-a50b-42ec-a317-e20a256152b4(com.mbeddr.core.debug.structure)" hash="-canhkfrjq6yu82k0e33g3uv0d9dxtsf" />
-  <dep model="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" hash="-74jjqsads4dbczlpvomc6m3ky5zgqij" />
+  <dep model="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" hash="-6gdddvkozwuagp0kijlpbboxe8b22pq" />
   <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" hash="-1vtu6uptzx5l7n2n68xt5em9d6nhvec" />
   <dep model="r:3b7ed80f-6cfd-45bc-b051-2f66c620dd27(jetbrains.mps.lang.traceable.structure)" hash="9wy5xay4fxryhg7hl9tcowq0jfepue8" />
   <dep model="r:4e770e63-2ef5-4a0d-b2e8-c5c1a1565703(com.mbeddr.core.udt.behavior)" hash="89551voyw4iqfcvow7v4gw2t6p8uhaz" />
@@ -119,6 +119,7 @@
     <file name="SMGlobalDeclaration_BehaviorDescriptor.java" />
     <file name="SMSafeTerm_BehaviorDescriptor.java" />
     <file name="SMStart_BehaviorDescriptor.java" />
+    <file name="SMTrigger_BehaviorDescriptor.java" />
     <file name="SMType_BehaviorDescriptor.java" />
     <file name="StateLocalDeclaration_BehaviorDescriptor.java" />
     <file name="StateMachineBindingsConfigItem_BehaviorDescriptor.java" />
