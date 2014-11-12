@@ -24,6 +24,10 @@ GAsyncQueue* test_event_queue_test__sm;
 
 static void test_handle_out1(bool b);
 
+static bool test_inbind(void);
+
+static void test_ftest(void);
+
 static void test_execute_big_step_test__sm(SM_Header_Event* present_events[], SM_Header_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
 
 static void test_on_entry_test__sm__main(SM_Header_Event* present_events[], SM_Header_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
@@ -60,25 +64,20 @@ static struct _GThread* test_blockexpr_main_4(void);
 
 int32_t main(int32_t argc, char* argv[]) 
 {
-  GThread* sm_thread_e = test_blockexpr_main_4();
-  {
-    void** args = 0;
-    SM_Header_Event* inevent = ((SM_Header_Event*)(malloc(sizeof(SM_Header_Event))));
-    inevent->type = test_test__sm_EventEnum__test__sm__main__turn_on;
-    inevent->args = args;
-    test_event_queue_test__sm_put(inevent);
-    
-  }
+  GThread* sm_thread_g = test_blockexpr_main_4();
+  test_inbind();
   {
     SM_Header_Event* term_event = ((SM_Header_Event*)(malloc(sizeof(SM_Header_Event))));
-    term_event->type = test_test__sm_EventEnum___sm_terminate_e;
+    term_event->type = test_test__sm_EventEnum___sm_terminate_g;
     test_event_queue_test__sm_put(term_event);
-    gpointer retval = g_thread_join(sm_thread_e);
+    gpointer retval = g_thread_join(sm_thread_g);
     g_async_queue_unref(test_event_queue_test__sm);
     if ( retval != 0 ) 
     {
     }
   }
+  int8_t x;
+  x = x + 1;
   return 0;
 }
 
@@ -87,6 +86,24 @@ static void test_handle_out1(bool b)
   printf("$$print_string: string (");
   printf("info=%s",(((char*)("out event out1 is triggered."))));
   printf(") @test:handle_out1?r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)#1983669701634519920\n");
+  
+}
+
+static bool test_inbind(void) 
+{
+  {
+    void** args = 0;
+    SM_Header_Event* inevent = ((SM_Header_Event*)(malloc(sizeof(SM_Header_Event))));
+    inevent->type = test_test__sm_EventEnum__test__sm__main__turn_on;
+    inevent->args = args;
+    test_event_queue_test__sm_put(inevent);
+    
+  }
+  return true;
+}
+
+static void test_ftest(void) 
+{
   
 }
 
@@ -285,7 +302,7 @@ gpointer test_sm_start_test__sm(gpointer dummy_ptr)
      * terminate state machine
      */
 
-    if ( in_event == 0 || in_event->type == test_test__sm_EventEnum___sm_terminate_e ) 
+    if ( in_event == 0 || in_event->type == test_test__sm_EventEnum___sm_terminate_g ) 
     {
       char* retval = "terminate event received. state machine terminated successfully.";
       return retval;

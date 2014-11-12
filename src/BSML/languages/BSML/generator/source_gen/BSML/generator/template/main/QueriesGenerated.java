@@ -21,6 +21,10 @@ import java.util.List;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.internal.collections.runtime.ITranslator2;
 import jetbrains.mps.generator.template.WeavingMappingRuleContext;
+import jetbrains.mps.generator.template.MappingScriptContext;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.internal.collections.runtime.IVisitor;
 
 @Generated
 public class QueriesGenerated {
@@ -761,5 +765,22 @@ public class QueriesGenerated {
 
   public static SNode weaving_MappingRule_ContextNodeQuery_3946458319584748846(final WeavingMappingRuleContext _context) {
     return _context.getCopiedOutputNodeForInputNode(SNodeOperations.getAncestor(_context.getNode(), "com.mbeddr.core.modules.structure.ImplementationModule", false, false));
+  }
+
+  public static void mappingScript_CodeBlock_1996550827834669900(final MappingScriptContext _context) {
+    for (SNode event : ListSequence.fromList(SModelOperations.getNodes(_context.getModel(), "BSML.structure.InEventDeclaration"))) {
+      if ((SLinkOperations.getTarget(event, "binding", true) != null)) {
+        SNode func = SLinkOperations.getTarget(SLinkOperations.getTarget(event, "binding", true), "binding", false);
+        final SNode st = SConceptOperations.createNewNode("BSML.structure.SMTrigger", null);
+        ListSequence.fromList(SLinkOperations.getTargets(func, "arguments", true)).visitAll(new IVisitor<SNode>() {
+          public void visit(SNode it) {
+            ListSequence.fromList(SLinkOperations.getTargets(st, "actuals", true)).addElement(SNodeOperations.cast(SNodeOperations.copyNode(it), "com.mbeddr.core.expressions.structure.Expression"));
+          }
+        });
+        SLinkOperations.setTarget(st, "event_ref", event, false);
+        SLinkOperations.setTarget(st, "sm_ref", SNodeOperations.getAncestor(event, "BSML.structure.SMGlobalDeclaration", false, false), false);
+        ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(func, "body", true), "statements", true)).insertElement(0, st);
+      }
+    }
   }
 }

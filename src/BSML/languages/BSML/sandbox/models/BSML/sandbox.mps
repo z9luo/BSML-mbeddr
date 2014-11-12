@@ -84,9 +84,10 @@
         <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.SMStart" typeId="cmy.8607120610936003932" id="7359472029652047797" nodeInfo="ng">
           <link role="sm_ref" roleId="cmy.8607120610938040232" targetNodeId="7359472029652033490" resolveInfo="sm" />
         </node>
-        <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.SMTrigger" typeId="cmy.439124252221539684" id="1996550827823444360" nodeInfo="ng">
-          <link role="sm_ref" roleId="cmy.439124252221590048" targetNodeId="7359472029652033490" resolveInfo="sm" />
-          <link role="event_ref" roleId="cmy.439124252221590049" targetNodeId="7359472029652037471" resolveInfo="turn_on" />
+        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="1996550827834633717" nodeInfo="ng">
+          <node role="expr" roleId="c4fa.7254843406768833939" type="x27k.FunctionCall" typeId="x27k.5950410542643524492" id="1996550827834633715" nodeInfo="ng">
+            <link role="function" roleId="x27k.5950410542643524493" targetNodeId="1996550827834630446" resolveInfo="inbind" />
+          </node>
         </node>
         <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.SMSafeTerm" typeId="cmy.8607120610936004074" id="7359472029652083184" nodeInfo="ng">
           <link role="sm_ref" roleId="cmy.8607120610938460698" targetNodeId="7359472029652033490" resolveInfo="sm" />
@@ -187,6 +188,30 @@
         <property name="const" nameId="mj1l.2941277002445651368" value="false" />
       </node>
     </node>
+    <node role="contents" roleId="x27k.6437088627575722833" type="x27k.Function" typeId="x27k.6437088627575724001" id="1996550827834630446" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="inbind" />
+      <property name="exported" nameId="x27k.1317894735999272944" value="false" />
+      <node role="body" roleId="x27k.4185783222026475860" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="1996550827834630448" nodeInfo="ng">
+        <node role="statements" roleId="c4fa.4185783222026475862" type="x27k.ReturnStatement" typeId="x27k.8967919205527146149" id="1996550827834631865" nodeInfo="ng">
+          <node role="expression" roleId="x27k.8967919205527146150" type="mj1l.TrueLiteral" typeId="mj1l.8860443239512128094" id="1996550827834631905" nodeInfo="ng" />
+        </node>
+      </node>
+      <node role="type" roleId="mj1l.318113533128716676" type="mj1l.BooleanType" typeId="mj1l.8860443239512128058" id="1996550827834631878" nodeInfo="ng">
+        <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+        <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+      </node>
+    </node>
+    <node role="contents" roleId="x27k.6437088627575722833" type="x27k.Function" typeId="x27k.6437088627575724001" id="1996550827837150132" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="ftest" />
+      <property name="exported" nameId="x27k.1317894735999272944" value="false" />
+      <node role="body" roleId="x27k.4185783222026475860" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="1996550827837150134" nodeInfo="ng">
+        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="1996550827837150135" nodeInfo="ng" />
+      </node>
+      <node role="type" roleId="mj1l.318113533128716676" type="mj1l.VoidType" typeId="mj1l.7892328519581699353" id="1996550827837148182" nodeInfo="ng">
+        <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+        <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+      </node>
+    </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="cmy.SMGlobalDeclaration" typeId="cmy.5512313148880353493" id="7359472029652033490" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="sm" />
       <node role="type" roleId="mj1l.318113533128716676" type="cmy.SMType" typeId="cmy.4004560854228917184" id="7359472029652033491" nodeInfo="ng">
@@ -204,6 +229,9 @@
           <node role="content" roleId="cmy.4517681580277203900" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="7359472029652033497" nodeInfo="ng">
             <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.InEventDeclaration" typeId="cmy.4517681580277207660" id="7359472029652037471" nodeInfo="ng">
               <property name="name" nameId="tpck.1169194664001" value="turn_on" />
+              <node role="binding" roleId="cmy.1996550827833072968" type="cmy.CFunctionBinding" typeId="cmy.8607120610933610675" id="1996550827834631941" nodeInfo="ng">
+                <link role="binding" roleId="cmy.8607120610933610676" targetNodeId="1996550827834630446" resolveInfo="inbind" />
+              </node>
             </node>
             <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.StateLocalDeclaration" typeId="cmy.5512313148880381807" id="7359472029652037508" nodeInfo="ng">
               <property name="name" nameId="tpck.1169194664001" value="off" />

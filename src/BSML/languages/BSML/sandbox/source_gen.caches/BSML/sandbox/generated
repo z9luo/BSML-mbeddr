@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="e4unv9khle8qucgmqtuiswetdp9tqwo">
+<dependencies version="2" modelHash="-87x0010zpgouzofudw26kzgde6uqbtz">
   <dep model="eeaa3db3-7ecd-4908-b15c-e05bdb4e14db/r:f8a62d92-4ac7-48ec-860e-ee3c6e8aecb6(com.mbeddr.mpsutil.modelcache.CacheState_fakeModule/com.mbeddr.mpsutil.modelcache.CacheState_fakeModel)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="5sdbpqxziyuazpb9j1p4zdk6bnvbn49" />
   <dep model="r:1c8941b6-7430-40ed-8040-ab47e93d583b(BSML.SM_Header)" hash="-5irkekyv2xakhtbgi5gg57l2zrcke4k" />
+  <dep model="r:2ff3ad32-451f-46a7-91af-9ce87f286536(com.mbeddr.core.modules.generator.main.addReturnToClosure@generator)" hash="-3avjaoibqnibrutclolnqk2ujgsvc8x" />
   <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" hash="-cn8rhfjcox25qmdrj9crfalfclcib4g" />
   <dep model="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" hash="-5n0km4iuyivmic3hs6nlxliufs2izdt" />
   <dep model="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" hash="2deb6huwu9500ekqho7f6axbbdsvmkn" />
   <dep model="r:7db67fb8-d2c9-4e02-89e5-cbea9152661c(com.mbeddr.core.util.generator.template.main@generator)" hash="-2gm67tmrlzszxu9b2hfihnk6dntax8a" />
-  <dep model="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)" hash="-188zlg9dkxkvibae4dgv5k6pjvpr2gd" />
+  <dep model="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)" hash="25slbz6x9bcz389onrm3uciu20a6su5" />
   <dep model="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" hash="-8occ4vh5c7mjxqosuxbkrq12g89pior" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
   <dep model="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" hash="3tekhil1vgqucmcvsc7j6y1xfp76q82" />
@@ -15,6 +16,7 @@
     <dep model="eeaa3db3-7ecd-4908-b15c-e05bdb4e14db/r:f8a62d92-4ac7-48ec-860e-ee3c6e8aecb6(com.mbeddr.mpsutil.modelcache.CacheState_fakeModule/com.mbeddr.mpsutil.modelcache.CacheState_fakeModel)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:1c8941b6-7430-40ed-8040-ab47e93d583b(BSML.SM_Header)" />
+    <dep model="r:2ff3ad32-451f-46a7-91af-9ce87f286536(com.mbeddr.core.modules.generator.main.addReturnToClosure@generator)" />
     <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" />
     <dep model="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" />
     <dep model="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
@@ -34,7 +36,7 @@
     <file name="test.c" />
     <file name="test.h" />
   </common>
-  <source id="7359472029651883818" name="test" hash="-4iuvuiglo887xjqaf2mbvycg3lc7jmi" />
+  <source id="7359472029651883818" name="test" hash="9rd450u17ys0b1eah7vcw39bckwdtls" />
   <source id="7359472029651887565" name="BuildConfiguration (B.sandbox)" hash="e9k9l73hbafz0fznefru843fcvk0b4i" />
 </dependencies>
 

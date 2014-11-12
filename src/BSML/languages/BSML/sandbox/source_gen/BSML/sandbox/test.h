@@ -22,7 +22,7 @@ extern "C" {
 
 typedef enum ___test_test__sm_EventEnum{
   test_test__sm_EventEnum__test__sm__main__turn_on,
-  test_test__sm_EventEnum___sm_terminate_e = -1
+  test_test__sm_EventEnum___sm_terminate_g = -1
 } test_test__sm_EventEnum;
 
 typedef enum ___test_test__sm_StateEnum{
