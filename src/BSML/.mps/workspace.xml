@@ -62,7 +62,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/4185783222026475860" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575724001" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -82,7 +82,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/4185783222026475860" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575724001" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -113,7 +113,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/4185783222026475860" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575724001" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -143,7 +143,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/4185783222026475860" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575724001" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -159,12 +159,13 @@
             <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                    <property name="caretXRelative" value="-47" />
-                    <property name="caretX" value="0" />
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="72" />
+                    <property name="caretX" value="119" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Collection_6h6dhy_a" cellNumber="0" isInList="false">
-                      <node node_reference="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/4185783222026475860" />
+                    <cellInfo cellId="Constant_ueqr71_l1c0" cellNumber="0" isInList="false">
+                      <node node_reference="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575724001" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -172,7 +173,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/4185783222026475860" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575724001" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -193,7 +194,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/4185783222026475860" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575724001" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -224,7 +225,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/4185783222026475860" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575724001" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -245,7 +246,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/4185783222026475860" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575724001" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -275,7 +276,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/4185783222026475860" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575724001" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -2180,7 +2181,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/4185783222026475860" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575724001" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2199,7 +2200,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/4185783222026475860" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575724001" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2227,7 +2228,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/4185783222026475860" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575724001" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2255,7 +2256,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/4185783222026475860" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575724001" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2283,7 +2284,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/4185783222026475860" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575724001" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2311,7 +2312,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/4185783222026475860" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575724001" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2330,7 +2331,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/4185783222026475860" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575724001" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2359,7 +2360,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/4185783222026475860" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575724001" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2410,12 +2411,13 @@
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretXRelative" value="-47" />
-                <property name="caretX" value="0" />
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="72" />
+                <property name="caretX" value="119" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_6h6dhy_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/4185783222026475860" />
+                <cellInfo cellId="Constant_ueqr71_l1c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575724001" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2423,7 +2425,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/4185783222026475860" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575724001" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
