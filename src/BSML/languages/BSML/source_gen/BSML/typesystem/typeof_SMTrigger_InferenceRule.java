@@ -27,7 +27,7 @@ public class typeof_SMTrigger_InferenceRule extends AbstractInferenceRule_Runtim
   }
 
   public String getApplicableConceptFQName() {
-    return "BSML.structure.CreateEventInstance";
+    return "BSML.structure.SMTrigger";
   }
 
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {

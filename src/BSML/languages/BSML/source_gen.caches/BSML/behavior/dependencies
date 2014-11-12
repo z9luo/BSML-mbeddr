@@ -38,18 +38,15 @@
   </dependency>
   <dependency className="BSML.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
     <classNode dependClassName="BSML.behavior.CFunctionBinding_BehaviorDescriptor" />
-    <classNode dependClassName="BSML.behavior.CreateEventInstance_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.DoBlock_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.EntryBlock_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.EventArgReference_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.EventCall_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.EventType_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.ExitBlock_BehaviorDescriptor" />
-    <classNode dependClassName="BSML.behavior.GetEventBinding_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.InEventDeclaration_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.LocalEventDeclaration_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.OutEventDeclaration_BehaviorDescriptor" />
-    <classNode dependClassName="BSML.behavior.PutEventBinding_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.RegionLocalDeclaration_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.RegionType_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.SMGlobalDeclaration_BehaviorDescriptor" />
@@ -75,32 +72,6 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="BSML.behavior.CreateEventInstance_Behavior" file="CreateEventInstance_Behavior.java">
-    <classNode dependClassName="java.lang.Class" />
-    <classNode dependClassName="java.lang.Iterable" />
-    <classNode dependClassName="java.lang.Object" />
-    <classNode dependClassName="java.util.ArrayList" />
-    <classNode dependClassName="java.util.List" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
-    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-  </dependency>
-  <dependency className="BSML.behavior.CreateEventInstance_BehaviorDescriptor" file="CreateEventInstance_BehaviorDescriptor.java">
-    <classNode dependClassName="BSML.behavior.CreateEventInstance_Behavior" />
-    <classNode dependClassName="com.mbeddr.core.expressions.behavior.Expression_BehaviorDescriptor" />
-    <classNode dependClassName="com.mbeddr.core.modules.behavior.ICallLike_Behavior" />
-    <classNode dependClassName="com.mbeddr.core.modules.behavior.ICallLike_BehaviorDescriptor" />
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.List" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.language.SConcept" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="BSML.behavior.DoBlock_BehaviorDescriptor" file="DoBlock_BehaviorDescriptor.java">
@@ -160,12 +131,6 @@
   </dependency>
   <dependency className="BSML.behavior.ExitBlock_BehaviorDescriptor" file="ExitBlock_BehaviorDescriptor.java">
     <classNode dependClassName="BSML.behavior.AbstractBlock_BehaviorDescriptor" />
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="BSML.behavior.GetEventBinding_BehaviorDescriptor" file="GetEventBinding_BehaviorDescriptor.java">
-    <classNode dependClassName="com.mbeddr.core.statements.behavior.Statement_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
@@ -357,12 +322,6 @@
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
-  <dependency className="BSML.behavior.PutEventBinding_BehaviorDescriptor" file="PutEventBinding_BehaviorDescriptor.java">
-    <classNode dependClassName="com.mbeddr.core.statements.behavior.Statement_BehaviorDescriptor" />
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
   <dependency className="BSML.behavior.RegionLocalDeclaration_Behavior" file="RegionLocalDeclaration_Behavior.java">
     <classNode dependClassName="BSML.behavior.IEventScopeProvider_Behavior" />
     <classNode dependClassName="BSML.behavior.IStateScopeProvider_Behavior" />
@@ -445,10 +404,30 @@
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="BSML.behavior.SMTrigger_Behavior" file="SMTrigger_Behavior.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Iterable" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
   <dependency className="BSML.behavior.SMTrigger_BehaviorDescriptor" file="SMTrigger_BehaviorDescriptor.java">
+    <classNode dependClassName="BSML.behavior.SMTrigger_Behavior" />
+    <classNode dependClassName="com.mbeddr.core.modules.behavior.ICallLike_Behavior" />
+    <classNode dependClassName="com.mbeddr.core.modules.behavior.ICallLike_BehaviorDescriptor" />
     <classNode dependClassName="com.mbeddr.core.statements.behavior.Statement_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SConcept" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="BSML.behavior.SMType_Behavior" file="SMType_Behavior.java">

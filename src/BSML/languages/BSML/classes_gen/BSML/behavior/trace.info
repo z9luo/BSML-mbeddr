@@ -2,16 +2,14 @@
 <debugInfo>
   <unitInfo fileName="AbstractBlock_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="BSML.behavior.AbstractBlock_BehaviorDescriptor" />
   <unitInfo fileName="AbstractEventDeclaration_BehaviorDescriptor.java" startLine="13" startPosition="0" endLine="54" endPosition="0" unitName="BSML.behavior.AbstractEventDeclaration_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="78" endPosition="0" unitName="BSML.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="72" endPosition="0" unitName="BSML.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="CFunctionBinding_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="BSML.behavior.CFunctionBinding_BehaviorDescriptor" />
-  <unitInfo fileName="CreateEventInstance_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="BSML.behavior.CreateEventInstance_BehaviorDescriptor" />
   <unitInfo fileName="DoBlock_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="BSML.behavior.DoBlock_BehaviorDescriptor" />
   <unitInfo fileName="EntryBlock_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="BSML.behavior.EntryBlock_BehaviorDescriptor" />
   <unitInfo fileName="EventArgReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="BSML.behavior.EventArgReference_BehaviorDescriptor" />
   <unitInfo fileName="EventCall_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="BSML.behavior.EventCall_BehaviorDescriptor" />
   <unitInfo fileName="EventType_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="17" endPosition="0" unitName="BSML.behavior.EventType_BehaviorDescriptor" />
   <unitInfo fileName="ExitBlock_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="BSML.behavior.ExitBlock_BehaviorDescriptor" />
-  <unitInfo fileName="GetEventBinding_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="BSML.behavior.GetEventBinding_BehaviorDescriptor" />
   <unitInfo fileName="IAbstrackBlockContainer_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="BSML.behavior.IAbstrackBlockContainer_BehaviorDescriptor" />
   <unitInfo fileName="IEventScopeProvider_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="BSML.behavior.IEventScopeProvider_BehaviorDescriptor" />
   <unitInfo fileName="IEvent_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="11" endPosition="0" unitName="BSML.behavior.IEvent_BehaviorDescriptor" />
@@ -26,13 +24,12 @@
   <unitInfo fileName="InEventDeclaration_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="BSML.behavior.InEventDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="LocalEventDeclaration_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="BSML.behavior.LocalEventDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="OutEventDeclaration_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="BSML.behavior.OutEventDeclaration_BehaviorDescriptor" />
-  <unitInfo fileName="PutEventBinding_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="BSML.behavior.PutEventBinding_BehaviorDescriptor" />
   <unitInfo fileName="RegionLocalDeclaration_BehaviorDescriptor.java" startLine="13" startPosition="0" endLine="70" endPosition="0" unitName="BSML.behavior.RegionLocalDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="RegionType_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="BSML.behavior.RegionType_BehaviorDescriptor" />
   <unitInfo fileName="SMGlobalDeclaration_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="40" endPosition="0" unitName="BSML.behavior.SMGlobalDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="SMSafeTerm_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="BSML.behavior.SMSafeTerm_BehaviorDescriptor" />
   <unitInfo fileName="SMStart_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="BSML.behavior.SMStart_BehaviorDescriptor" />
-  <unitInfo fileName="SMTrigger_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="BSML.behavior.SMTrigger_BehaviorDescriptor" />
+  <unitInfo fileName="SMTrigger_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="BSML.behavior.SMTrigger_BehaviorDescriptor" />
   <unitInfo fileName="SMType_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="BSML.behavior.SMType_BehaviorDescriptor" />
   <unitInfo fileName="StateLocalDeclaration_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="BSML.behavior.StateLocalDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="StateMachineBindingsConfigItem_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="BSML.behavior.StateMachineBindingsConfigItem_BehaviorDescriptor" />
@@ -50,38 +47,6 @@
     </scopeInfo>
     <unitInfo nodeId="1054945346924198051" fileName="InEventDeclaration_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="BSML.behavior.InEventDeclaration_Behavior" />
   </root>
-  <root nodeRef="r:ab9006cb-fa5a-47a8-81b8-ed3862813166(BSML.behavior)/1054945346926843634">
-    <nodeInfo nodeId="1054945346926859218" fileName="CreateEventInstance_Behavior.java" startLine="18" startPosition="84" endLine="19" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1054945346926859226" fileName="CreateEventInstance_Behavior.java" startLine="22" startPosition="96" endLine="23" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1054945346926859232" fileName="CreateEventInstance_Behavior.java" startLine="26" startPosition="84" endLine="27" endPosition="282" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1054945346926859248" fileName="CreateEventInstance_Behavior.java" startLine="30" startPosition="86" endLine="31" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1054945346926843634" fileName="CreateEventInstance_Behavior.java" startLine="15" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="1054945346926843634" fileName="CreateEventInstance_Behavior.java" startLine="18" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getActuals_8011039602902827390#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
-    <nodeInfo nodeId="1054945346926843634" fileName="CreateEventInstance_Behavior.java" startLine="22" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getActualsLink_2963921682938640512#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <nodeInfo nodeId="1054945346926843634" fileName="CreateEventInstance_Behavior.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getFormals_8011039602902827397#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
-    <nodeInfo nodeId="1054945346926843634" fileName="CreateEventInstance_Behavior.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getNodeForTypeCalc_8729127847821610916#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
-    <scopeInfo nodeId="1054945346926843636" fileName="CreateEventInstance_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
-    <scopeInfo nodeId="1054945346926859217" fileName="CreateEventInstance_Behavior.java" startLine="18" startPosition="84" endLine="19" endPosition="65" />
-    <scopeInfo nodeId="1054945346926859225" fileName="CreateEventInstance_Behavior.java" startLine="22" startPosition="96" endLine="23" endPosition="108" />
-    <scopeInfo nodeId="1054945346926859231" fileName="CreateEventInstance_Behavior.java" startLine="26" startPosition="84" endLine="27" endPosition="282" />
-    <scopeInfo nodeId="1054945346926859247" fileName="CreateEventInstance_Behavior.java" startLine="30" startPosition="86" endLine="31" endPosition="63" />
-    <scopeInfo nodeId="1054945346926843634" fileName="CreateEventInstance_Behavior.java" startLine="15" startPosition="0" endLine="17" endPosition="0">
-      <varInfo nodeId="1054945346926843634" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="1054945346926843634" fileName="CreateEventInstance_Behavior.java" startLine="18" startPosition="0" endLine="21" endPosition="0">
-      <varInfo nodeId="1054945346926843634" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="1054945346926843634" fileName="CreateEventInstance_Behavior.java" startLine="22" startPosition="0" endLine="25" endPosition="0">
-      <varInfo nodeId="1054945346926843634" varName="thisConcept" />
-    </scopeInfo>
-    <scopeInfo nodeId="1054945346926843634" fileName="CreateEventInstance_Behavior.java" startLine="26" startPosition="0" endLine="29" endPosition="0">
-      <varInfo nodeId="1054945346926843634" varName="thisNode" />
-    </scopeInfo>
-    <scopeInfo nodeId="1054945346926843634" fileName="CreateEventInstance_Behavior.java" startLine="30" startPosition="0" endLine="33" endPosition="0">
-      <varInfo nodeId="1054945346926843634" varName="thisNode" />
-    </scopeInfo>
-    <unitInfo nodeId="1054945346926843634" fileName="CreateEventInstance_Behavior.java" startLine="14" startPosition="0" endLine="34" endPosition="0" unitName="BSML.behavior.CreateEventInstance_Behavior" />
-  </root>
   <root nodeRef="r:ab9006cb-fa5a-47a8-81b8-ed3862813166(BSML.behavior)/1054945346934450560">
     <nodeInfo nodeId="1054945346934450564" fileName="TriggerEventReference_Behavior.java" startLine="10" startPosition="43" endLine="11" endPosition="136" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="1054945346934450560" fileName="TriggerEventReference_Behavior.java" startLine="10" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
@@ -98,6 +63,38 @@
       <varInfo nodeId="1983669701635281353" varName="thisNode" />
     </scopeInfo>
     <unitInfo nodeId="1983669701635281353" fileName="OutEventDeclaration_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="BSML.behavior.OutEventDeclaration_Behavior" />
+  </root>
+  <root nodeRef="r:ab9006cb-fa5a-47a8-81b8-ed3862813166(BSML.behavior)/1996550827832125683">
+    <nodeInfo nodeId="1996550827832192584" fileName="SMTrigger_Behavior.java" startLine="18" startPosition="84" endLine="19" endPosition="286" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1996550827832172557" fileName="SMTrigger_Behavior.java" startLine="22" startPosition="84" endLine="23" endPosition="65" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1996550827832185359" fileName="SMTrigger_Behavior.java" startLine="26" startPosition="96" endLine="27" endPosition="108" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1996550827832202773" fileName="SMTrigger_Behavior.java" startLine="30" startPosition="86" endLine="31" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1996550827832125683" fileName="SMTrigger_Behavior.java" startLine="15" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="1996550827832125683" fileName="SMTrigger_Behavior.java" startLine="18" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getFormals_8011039602902827397#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
+    <nodeInfo nodeId="1996550827832125683" fileName="SMTrigger_Behavior.java" startLine="22" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getActuals_8011039602902827390#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/util/List;" />
+    <nodeInfo nodeId="1996550827832125683" fileName="SMTrigger_Behavior.java" startLine="26" startPosition="0" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getActualsLink_2963921682938640512#(Lorg/jetbrains/mps/openapi/language/SAbstractConcept;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="1996550827832125683" fileName="SMTrigger_Behavior.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getNodeForTypeCalc_8729127847821610916#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="1996550827832125836" fileName="SMTrigger_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
+    <scopeInfo nodeId="1996550827832126291" fileName="SMTrigger_Behavior.java" startLine="18" startPosition="84" endLine="19" endPosition="286" />
+    <scopeInfo nodeId="1996550827832172532" fileName="SMTrigger_Behavior.java" startLine="22" startPosition="84" endLine="23" endPosition="65" />
+    <scopeInfo nodeId="1996550827832172538" fileName="SMTrigger_Behavior.java" startLine="26" startPosition="96" endLine="27" endPosition="108" />
+    <scopeInfo nodeId="1996550827832126297" fileName="SMTrigger_Behavior.java" startLine="30" startPosition="86" endLine="31" endPosition="67" />
+    <scopeInfo nodeId="1996550827832125683" fileName="SMTrigger_Behavior.java" startLine="15" startPosition="0" endLine="17" endPosition="0">
+      <varInfo nodeId="1996550827832125683" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1996550827832125683" fileName="SMTrigger_Behavior.java" startLine="18" startPosition="0" endLine="21" endPosition="0">
+      <varInfo nodeId="1996550827832125683" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1996550827832125683" fileName="SMTrigger_Behavior.java" startLine="22" startPosition="0" endLine="25" endPosition="0">
+      <varInfo nodeId="1996550827832125683" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="1996550827832125683" fileName="SMTrigger_Behavior.java" startLine="26" startPosition="0" endLine="29" endPosition="0">
+      <varInfo nodeId="1996550827832125683" varName="thisConcept" />
+    </scopeInfo>
+    <scopeInfo nodeId="1996550827832125683" fileName="SMTrigger_Behavior.java" startLine="30" startPosition="0" endLine="33" endPosition="0">
+      <varInfo nodeId="1996550827832125683" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="1996550827832125683" fileName="SMTrigger_Behavior.java" startLine="14" startPosition="0" endLine="34" endPosition="0" unitName="BSML.behavior.SMTrigger_Behavior" />
   </root>
   <root nodeRef="r:ab9006cb-fa5a-47a8-81b8-ed3862813166(BSML.behavior)/2486662774780313938">
     <nodeInfo nodeId="2486662774780313938" fileName="ITransition_Behavior.java" startLine="15" startPosition="70" endLine="16" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -459,27 +456,25 @@
   <root nodeRef="r:ab9006cb-fa5a-47a8-81b8-ed3862813166(BSML.behavior)/4517681580279378247">
     <nodeInfo nodeId="5600653557318987619" fileName="SMGlobalDeclaration_Behavior.java" startLine="12" startPosition="43" endLine="13" endPosition="119" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="4517681580279524302" fileName="SMGlobalDeclaration_Behavior.java" startLine="13" startPosition="119" endLine="14" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610936800527" fileName="SMGlobalDeclaration_Behavior.java" startLine="14" startPosition="107" endLine="15" endPosition="213" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="8607120610933645115" fileName="SMGlobalDeclaration_Behavior.java" startLine="15" startPosition="213" endLine="16" endPosition="213" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4517681580279541077" fileName="SMGlobalDeclaration_Behavior.java" startLine="16" startPosition="213" endLine="17" endPosition="220" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3372386639992242491" fileName="SMGlobalDeclaration_Behavior.java" startLine="20" startPosition="97" endLine="21" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1054945346934279140" fileName="SMGlobalDeclaration_Behavior.java" startLine="24" startPosition="102" endLine="25" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4517681580279378247" fileName="SMGlobalDeclaration_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getContainedRegions_3372386639992781270#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
-    <nodeInfo nodeId="4517681580279378247" fileName="SMGlobalDeclaration_Behavior.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getUniquelyNamedElements_5095889050031059923#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
-    <nodeInfo nodeId="4517681580279378247" fileName="SMGlobalDeclaration_Behavior.java" startLine="12" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <scopeInfo nodeId="3372386639992788615" fileName="SMGlobalDeclaration_Behavior.java" startLine="20" startPosition="97" endLine="21" endPosition="165" />
-    <scopeInfo nodeId="1054945346934278655" fileName="SMGlobalDeclaration_Behavior.java" startLine="24" startPosition="102" endLine="25" endPosition="96" />
-    <scopeInfo nodeId="4517681580279378247" fileName="SMGlobalDeclaration_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0">
+    <nodeInfo nodeId="4517681580279541077" fileName="SMGlobalDeclaration_Behavior.java" startLine="14" startPosition="107" endLine="15" endPosition="220" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3372386639992242491" fileName="SMGlobalDeclaration_Behavior.java" startLine="18" startPosition="97" endLine="19" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1054945346934279140" fileName="SMGlobalDeclaration_Behavior.java" startLine="22" startPosition="102" endLine="23" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4517681580279378247" fileName="SMGlobalDeclaration_Behavior.java" startLine="18" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getContainedRegions_3372386639992781270#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="4517681580279378247" fileName="SMGlobalDeclaration_Behavior.java" startLine="22" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getUniquelyNamedElements_5095889050031059923#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="4517681580279378247" fileName="SMGlobalDeclaration_Behavior.java" startLine="12" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="3372386639992788615" fileName="SMGlobalDeclaration_Behavior.java" startLine="18" startPosition="97" endLine="19" endPosition="165" />
+    <scopeInfo nodeId="1054945346934278655" fileName="SMGlobalDeclaration_Behavior.java" startLine="22" startPosition="102" endLine="23" endPosition="96" />
+    <scopeInfo nodeId="4517681580279378249" fileName="SMGlobalDeclaration_Behavior.java" startLine="12" startPosition="43" endLine="15" endPosition="220" />
+    <scopeInfo nodeId="4517681580279378247" fileName="SMGlobalDeclaration_Behavior.java" startLine="18" startPosition="0" endLine="21" endPosition="0">
       <varInfo nodeId="4517681580279378247" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4517681580279378247" fileName="SMGlobalDeclaration_Behavior.java" startLine="24" startPosition="0" endLine="27" endPosition="0">
+    <scopeInfo nodeId="4517681580279378247" fileName="SMGlobalDeclaration_Behavior.java" startLine="22" startPosition="0" endLine="25" endPosition="0">
       <varInfo nodeId="4517681580279378247" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4517681580279378249" fileName="SMGlobalDeclaration_Behavior.java" startLine="12" startPosition="43" endLine="17" endPosition="220" />
-    <scopeInfo nodeId="4517681580279378247" fileName="SMGlobalDeclaration_Behavior.java" startLine="12" startPosition="0" endLine="19" endPosition="0">
+    <scopeInfo nodeId="4517681580279378247" fileName="SMGlobalDeclaration_Behavior.java" startLine="12" startPosition="0" endLine="17" endPosition="0">
       <varInfo nodeId="4517681580279378247" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="4517681580279378247" fileName="SMGlobalDeclaration_Behavior.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="BSML.behavior.SMGlobalDeclaration_Behavior" />
+    <unitInfo nodeId="4517681580279378247" fileName="SMGlobalDeclaration_Behavior.java" startLine="11" startPosition="0" endLine="26" endPosition="0" unitName="BSML.behavior.SMGlobalDeclaration_Behavior" />
   </root>
   <root nodeRef="r:ab9006cb-fa5a-47a8-81b8-ed3862813166(BSML.behavior)/5512313148881727198">
     <nodeInfo nodeId="4517681580279672150" fileName="RegionLocalDeclaration_Behavior.java" startLine="17" startPosition="43" endLine="18" endPosition="123" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />

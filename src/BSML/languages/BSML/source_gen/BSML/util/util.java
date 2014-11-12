@@ -43,4 +43,16 @@ public class util {
   public static String genSMInfoName(String id) {
     return "sm_info_" + id;
   }
+
+  public static String genEventQueueName(String id) {
+    return "event_queue_" + id;
+  }
+
+  public static String genPutInEventName(String id) {
+    return genEventQueueName(id) + "_put";
+  }
+
+  public static String genGetInEventName(String id) {
+    return genEventQueueName(id) + "_get";
+  }
 }

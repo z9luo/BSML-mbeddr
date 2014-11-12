@@ -14,33 +14,31 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
     switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0b, fqName)) {
       case 1:
         return new CFunctionBinding_Constraints();
-      case 2:
-        return new CreateEventInstance_Constraints();
       case 0:
         return new AbstractBlock_Constraints();
-      case 3:
+      case 2:
         return new EventArgReference_Constraints();
-      case 4:
+      case 3:
         return new EventCall_Constraints();
-      case 9:
-        return new OutEventDeclaration_Constraints();
-      case 10:
-        return new RegionLocalDeclaration_Constraints();
-      case 11:
-        return new SMGlobalDeclaration_Constraints();
-      case 12:
-        return new StateLocalDeclaration_Constraints();
-      case 13:
-        return new Transition_Constraints();
-      case 14:
-        return new TriggerEventReference_Constraints();
-      case 5:
-        return new IEvent_Constraints();
-      case 6:
-        return new IRegion_Constraints();
-      case 7:
-        return new IState_Constraints();
       case 8:
+        return new OutEventDeclaration_Constraints();
+      case 9:
+        return new RegionLocalDeclaration_Constraints();
+      case 10:
+        return new SMGlobalDeclaration_Constraints();
+      case 11:
+        return new StateLocalDeclaration_Constraints();
+      case 12:
+        return new Transition_Constraints();
+      case 13:
+        return new TriggerEventReference_Constraints();
+      case 4:
+        return new IEvent_Constraints();
+      case 5:
+        return new IRegion_Constraints();
+      case 6:
+        return new IState_Constraints();
+      case 7:
         return new ITransition_Constraints();
       default:
         // todo: illegal in some cases? 
@@ -48,5 +46,5 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
     }
   }
 
-  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"BSML.structure.AbstractBlock", "BSML.structure.CFunctionBinding", "BSML.structure.CreateEventInstance", "BSML.structure.EventArgReference", "BSML.structure.EventCall", "BSML.structure.IEvent", "BSML.structure.IRegion", "BSML.structure.IState", "BSML.structure.ITransition", "BSML.structure.OutEventDeclaration", "BSML.structure.RegionLocalDeclaration", "BSML.structure.SMGlobalDeclaration", "BSML.structure.StateLocalDeclaration", "BSML.structure.Transition", "BSML.structure.TriggerEventReference"};
+  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"BSML.structure.AbstractBlock", "BSML.structure.CFunctionBinding", "BSML.structure.EventArgReference", "BSML.structure.EventCall", "BSML.structure.IEvent", "BSML.structure.IRegion", "BSML.structure.IState", "BSML.structure.ITransition", "BSML.structure.OutEventDeclaration", "BSML.structure.RegionLocalDeclaration", "BSML.structure.SMGlobalDeclaration", "BSML.structure.StateLocalDeclaration", "BSML.structure.Transition", "BSML.structure.TriggerEventReference"};
 }

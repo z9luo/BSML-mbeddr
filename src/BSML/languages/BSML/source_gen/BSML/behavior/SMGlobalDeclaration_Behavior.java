@@ -12,8 +12,6 @@ public class SMGlobalDeclaration_Behavior {
   public static void init(SNode thisNode) {
     SLinkOperations.setTarget(thisNode, "type", SConceptOperations.createNewNode("BSML.structure.SMType", null), true);
     SLinkOperations.setNewChild(thisNode, "content", "com.mbeddr.core.statements.structure.StatementList");
-    ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(thisNode, "content", true), "statements", true)).addElement(SConceptOperations.createNewNode("BSML.structure.GetEventBinding", null));
-    ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(thisNode, "content", true), "statements", true)).addElement(SConceptOperations.createNewNode("BSML.structure.PutEventBinding", null));
     ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(thisNode, "content", true), "statements", true)).addElement(SConceptOperations.createNewNode("BSML.structure.RegionLocalDeclaration", null));
   }
 

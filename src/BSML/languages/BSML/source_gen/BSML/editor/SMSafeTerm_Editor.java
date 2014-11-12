@@ -34,7 +34,7 @@ public class SMSafeTerm_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_doqz6k_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "sm_safe_terminate(");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "sm_terminate(");
     editorCell.setCellId("Constant_doqz6k_a0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.PUNCTUATION_RIGHT, true);

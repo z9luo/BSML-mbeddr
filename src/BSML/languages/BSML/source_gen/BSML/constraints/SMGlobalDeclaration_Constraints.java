@@ -58,7 +58,7 @@ public class SMGlobalDeclaration_Constraints extends BaseConstraintsDescriptor {
     if (SNodeOperations.isInstanceOf(childNode, "com.mbeddr.core.statements.structure.StatementList")) {
       return ListSequence.fromList(SLinkOperations.getTargets(SNodeOperations.cast(childNode, "com.mbeddr.core.statements.structure.StatementList"), "statements", true)).all(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
-          return SNodeOperations.isInstanceOf(it, "BSML.structure.IRegion") || SNodeOperations.isInstanceOf(it, "BSML.structure.GetEventBinding") || SNodeOperations.isInstanceOf(it, "BSML.structure.PutEventBinding");
+          return SNodeOperations.isInstanceOf(it, "BSML.structure.IRegion");
         }
       });
     } else {

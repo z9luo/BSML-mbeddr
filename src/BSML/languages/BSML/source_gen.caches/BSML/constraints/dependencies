@@ -31,7 +31,6 @@
   <dependency className="BSML.constraints.ConstraintsAspectDescriptor" file="ConstraintsAspectDescriptor.java">
     <classNode dependClassName="BSML.constraints.AbstractBlock_Constraints" />
     <classNode dependClassName="BSML.constraints.CFunctionBinding_Constraints" />
-    <classNode dependClassName="BSML.constraints.CreateEventInstance_Constraints" />
     <classNode dependClassName="BSML.constraints.EventArgReference_Constraints" />
     <classNode dependClassName="BSML.constraints.EventCall_Constraints" />
     <classNode dependClassName="BSML.constraints.IEvent_Constraints" />
@@ -49,25 +48,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConstraintsDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor" />
-  </dependency>
-  <dependency className="BSML.constraints.CreateEventInstance_Constraints" file="CreateEventInstance_Constraints.java">
-    <classNode dependClassName="java.lang.Object" />
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.HashMap" />
-    <classNode dependClassName="java.util.Map" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
-    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
-    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.ReferenceConstraintsContext" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.ReferenceConstraintsDescriptor" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.ReferenceScopeProvider" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.base.BaseReferenceConstraintsDescriptor" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.base.BaseReferenceScopeProvider" />
-    <classNode dependClassName="org.jetbrains.annotations.Nullable" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNodeReference" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.base.BaseConstraintsDescriptor" />
   </dependency>
   <dependency className="BSML.constraints.EventArgReference_Constraints" file="EventArgReference_Constraints.java">
     <classNode dependClassName="java.lang.Class" />

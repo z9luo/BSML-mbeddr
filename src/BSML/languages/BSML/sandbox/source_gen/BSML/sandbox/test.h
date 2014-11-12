@@ -22,7 +22,7 @@ extern "C" {
 
 typedef enum ___test_test__sm_EventEnum{
   test_test__sm_EventEnum__test__sm__main__turn_on,
-  test_test__sm_EventEnum___sm_terminate_h = -1
+  test_test__sm_EventEnum___sm_terminate_e = -1
 } test_test__sm_EventEnum;
 
 typedef enum ___test_test__sm_StateEnum{
@@ -51,6 +51,8 @@ struct test__Transition {
 
 typedef test__Transition_t test_Transition;
 #define TEST_COMMON_DEF (true)
+extern GAsyncQueue* test_event_queue_test__sm;
+
 int32_t test_main(int32_t argc, char* argv[]);
 
 test_Transition* test_create_trans(test_test__sm_StateEnum* __cur_state, test_test__sm_StateEnum old_cur_state_value, test_test__sm_StateEnum new_cur_state_value, char* trans_id, char* source_state, char* target_state, test_ActionRef action_ref, test_OnEntryRef on_entry_ref);

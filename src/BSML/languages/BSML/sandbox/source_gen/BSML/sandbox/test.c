@@ -6,8 +6,6 @@
 #include <glib.h>
 #include <stdio.h>
 
-static GAsyncQueue* test_event_queue;
-
 typedef struct test_TS test_TS_t;
 struct test_TS {
   char* s1;
@@ -22,9 +20,7 @@ struct test__SMArray {
 };
 
 typedef test__SMArray_t test_SMArray;
-static SM_Header_Event* test_get_in_event(void);
-
-static void test_put_in_event(SM_Header_Event* data);
+GAsyncQueue* test_event_queue_test__sm;
 
 static void test_handle_out1(bool b);
 
@@ -46,6 +42,10 @@ static void test_action__test__sm__main__t1(SM_Header_Event** present_events, SM
 
 static void test_handle_transition(SM_Header_Event* present_events[], SM_Header_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow, test_Transition* trans);
 
+static SM_Header_Event* test_event_queue_test__sm_get(void);
+
+static void test_event_queue_test__sm_put(SM_Header_Event* data);
+
 static test_SMArray* test_smarray_new(uint32_t len);
 
 static void test_smarray_free(test_SMArray* ptr);
@@ -56,28 +56,25 @@ static void* test_smarray_get(test_SMArray* array, uint32_t index);
 
 static void test_smarray_clear(test_SMArray* array);
 
-static struct SM_Header__Event* test_blockexpr_main_17(void);
-
-static SM_Header_Event* test_get_in_event(void) 
-{
-  return ((SM_Header_Event*)(g_async_queue_pop(test_event_queue)));
-}
-
-static void test_put_in_event(SM_Header_Event* data) 
-{
-  g_async_queue_push(test_event_queue, data);
-}
+static struct _GThread* test_blockexpr_main_4(void);
 
 int32_t main(int32_t argc, char* argv[]) 
 {
-  test_event_queue = g_async_queue_new();
-  GThread* sm_thread_h = g_thread_new("", &test_sm_start_test__sm, 0);
-  test_put_in_event(((SM_Header_Event*)(test_blockexpr_main_17())));
+  GThread* sm_thread_e = test_blockexpr_main_4();
+  {
+    void** args = 0;
+    SM_Header_Event* inevent = ((SM_Header_Event*)(malloc(sizeof(SM_Header_Event))));
+    inevent->type = test_test__sm_EventEnum__test__sm__main__turn_on;
+    inevent->args = args;
+    test_event_queue_test__sm_put(inevent);
+    
+  }
   {
     SM_Header_Event* term_event = ((SM_Header_Event*)(malloc(sizeof(SM_Header_Event))));
-    term_event->type = test_test__sm_EventEnum___sm_terminate_h;
-    test_put_in_event(term_event);
-    gpointer retval = g_thread_join(sm_thread_h);
+    term_event->type = test_test__sm_EventEnum___sm_terminate_e;
+    test_event_queue_test__sm_put(term_event);
+    gpointer retval = g_thread_join(sm_thread_e);
+    g_async_queue_unref(test_event_queue_test__sm);
     if ( retval != 0 ) 
     {
     }
@@ -283,8 +280,12 @@ gpointer test_sm_start_test__sm(gpointer dummy_ptr)
     test_free_pointer_array(((void**)(present_event_test__sm)), 1);
     test_reset_pointer_array(((void**)(present_event_test__sm)), 1);
     memcpy(present_event_test__sm_shadow, present_event_test__sm, 1 * sizeof(SM_Header_Event*));
-    SM_Header_Event* in_event = test_get_in_event();
-    if ( in_event == 0 || in_event->type == test_test__sm_EventEnum___sm_terminate_h ) 
+    SM_Header_Event* in_event = test_event_queue_test__sm_get();
+    /* 
+     * terminate state machine
+     */
+
+    if ( in_event == 0 || in_event->type == test_test__sm_EventEnum___sm_terminate_e ) 
     {
       char* retval = "terminate event received. state machine terminated successfully.";
       return retval;
@@ -293,6 +294,16 @@ gpointer test_sm_start_test__sm(gpointer dummy_ptr)
     present_event_test__sm_shadow[in_event->type] = in_event;
     test_execute_big_step_test__sm(present_event_test__sm, present_event_test__sm_shadow, &sm_info_test__sm, &sm_info_test__sm_shadow);
   }
+}
+
+static SM_Header_Event* test_event_queue_test__sm_get(void) 
+{
+  return ((SM_Header_Event*)(g_async_queue_pop(test_event_queue_test__sm)));
+}
+
+static void test_event_queue_test__sm_put(SM_Header_Event* data) 
+{
+  g_async_queue_push(test_event_queue_test__sm, data);
 }
 
 void test_reset_pointer_array(void** data, uint32_t length) 
@@ -358,12 +369,9 @@ static void test_smarray_clear(test_SMArray* array)
   array->size = 0;
 }
 
-static struct SM_Header__Event* test_blockexpr_main_17(void) 
+static struct _GThread* test_blockexpr_main_4(void) 
 {
-  void** args = 0;
-  SM_Header_Event* inevent = ((SM_Header_Event*)(malloc(sizeof(SM_Header_Event))));
-  inevent->type = test_test__sm_EventEnum__test__sm__main__turn_on;
-  inevent->args = args;
-  return inevent;
+  test_event_queue_test__sm = g_async_queue_new();
+  return g_thread_new("", &test_sm_start_test__sm, 0);
 }
 

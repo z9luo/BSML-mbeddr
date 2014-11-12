@@ -12,66 +12,60 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
 
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0b, fqName)) {
-      case 21:
+      case 18:
         return new StateMachineBindingsConfigItem_BehaviorDescriptor();
-      case 22:
+      case 19:
         return new StateMachineConfigItem_BehaviorDescriptor();
-      case 23:
+      case 20:
         return new StateMachineSemanticsConfigItem_BehaviorDescriptor();
       case 0:
         return new CFunctionBinding_BehaviorDescriptor();
-      case 1:
-        return new CreateEventInstance_BehaviorDescriptor();
-      case 8:
-        return new GetEventBinding_BehaviorDescriptor();
-      case 12:
-        return new PutEventBinding_BehaviorDescriptor();
-      case 16:
-        return new SMSafeTerm_BehaviorDescriptor();
-      case 17:
-        return new SMStart_BehaviorDescriptor();
-      case 2:
-        return new DoBlock_BehaviorDescriptor();
-      case 3:
-        return new EntryBlock_BehaviorDescriptor();
-      case 4:
-        return new EventArgReference_BehaviorDescriptor();
-      case 5:
-        return new EventCall_BehaviorDescriptor();
-      case 7:
-        return new ExitBlock_BehaviorDescriptor();
-      case 9:
-        return new InEventDeclaration_BehaviorDescriptor();
-      case 10:
-        return new LocalEventDeclaration_BehaviorDescriptor();
-      case 11:
-        return new OutEventDeclaration_BehaviorDescriptor();
       case 13:
-        return new RegionLocalDeclaration_BehaviorDescriptor();
-      case 6:
-        return new EventType_BehaviorDescriptor();
+        return new SMSafeTerm_BehaviorDescriptor();
       case 14:
+        return new SMStart_BehaviorDescriptor();
+      case 1:
+        return new DoBlock_BehaviorDescriptor();
+      case 2:
+        return new EntryBlock_BehaviorDescriptor();
+      case 3:
+        return new EventArgReference_BehaviorDescriptor();
+      case 4:
+        return new EventCall_BehaviorDescriptor();
+      case 6:
+        return new ExitBlock_BehaviorDescriptor();
+      case 7:
+        return new InEventDeclaration_BehaviorDescriptor();
+      case 8:
+        return new LocalEventDeclaration_BehaviorDescriptor();
+      case 9:
+        return new OutEventDeclaration_BehaviorDescriptor();
+      case 10:
+        return new RegionLocalDeclaration_BehaviorDescriptor();
+      case 5:
+        return new EventType_BehaviorDescriptor();
+      case 11:
         return new RegionType_BehaviorDescriptor();
-      case 19:
+      case 16:
         return new SMType_BehaviorDescriptor();
-      case 24:
+      case 21:
         return new StateType_BehaviorDescriptor();
-      case 26:
+      case 23:
         return new TransitionType_BehaviorDescriptor();
-      case 15:
+      case 12:
         return new SMGlobalDeclaration_BehaviorDescriptor();
-      case 20:
+      case 17:
         return new StateLocalDeclaration_BehaviorDescriptor();
-      case 25:
+      case 22:
         return new Transition_BehaviorDescriptor();
-      case 27:
+      case 24:
         return new TriggerEventReference_BehaviorDescriptor();
-      case 18:
+      case 15:
         return new SMTrigger_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"BSML.structure.CFunctionBinding", "BSML.structure.CreateEventInstance", "BSML.structure.DoBlock", "BSML.structure.EntryBlock", "BSML.structure.EventArgReference", "BSML.structure.EventCall", "BSML.structure.EventType", "BSML.structure.ExitBlock", "BSML.structure.GetEventBinding", "BSML.structure.InEventDeclaration", "BSML.structure.LocalEventDeclaration", "BSML.structure.OutEventDeclaration", "BSML.structure.PutEventBinding", "BSML.structure.RegionLocalDeclaration", "BSML.structure.RegionType", "BSML.structure.SMGlobalDeclaration", "BSML.structure.SMSafeTerm", "BSML.structure.SMStart", "BSML.structure.SMTrigger", "BSML.structure.SMType", "BSML.structure.StateLocalDeclaration", "BSML.structure.StateMachineBindingsConfigItem", "BSML.structure.StateMachineConfigItem", "BSML.structure.StateMachineSemanticsConfigItem", "BSML.structure.StateType", "BSML.structure.Transition", "BSML.structure.TransitionType", "BSML.structure.TriggerEventReference"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"BSML.structure.CFunctionBinding", "BSML.structure.DoBlock", "BSML.structure.EntryBlock", "BSML.structure.EventArgReference", "BSML.structure.EventCall", "BSML.structure.EventType", "BSML.structure.ExitBlock", "BSML.structure.InEventDeclaration", "BSML.structure.LocalEventDeclaration", "BSML.structure.OutEventDeclaration", "BSML.structure.RegionLocalDeclaration", "BSML.structure.RegionType", "BSML.structure.SMGlobalDeclaration", "BSML.structure.SMSafeTerm", "BSML.structure.SMStart", "BSML.structure.SMTrigger", "BSML.structure.SMType", "BSML.structure.StateLocalDeclaration", "BSML.structure.StateMachineBindingsConfigItem", "BSML.structure.StateMachineConfigItem", "BSML.structure.StateMachineSemanticsConfigItem", "BSML.structure.StateType", "BSML.structure.Transition", "BSML.structure.TransitionType", "BSML.structure.TriggerEventReference"};
 }

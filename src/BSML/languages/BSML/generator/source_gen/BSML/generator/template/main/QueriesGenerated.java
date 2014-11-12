@@ -50,18 +50,6 @@ public class QueriesGenerated {
     return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "eventRef", false), "BSML.structure.LocalEventDeclaration");
   }
 
-  public static Object propertyMacro_GetPropertyValue_8607120610932337992(final PropertyMacroContext _context) {
-    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "actuals", true)).count() + "";
-  }
-
-  public static Object propertyMacro_GetPropertyValue_8607120610930665035(final PropertyMacroContext _context) {
-    return "arg" + SNodeOperations.getIndexInParent(_context.getNode());
-  }
-
-  public static Object propertyMacro_GetPropertyValue_8607120610931514207(final PropertyMacroContext _context) {
-    return SNodeOperations.getIndexInParent(_context.getNode()) + "";
-  }
-
   public static Object propertyMacro_GetPropertyValue_7466645974735717929(final PropertyMacroContext _context) {
     return BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_qualifiedName_5470497459578244269", new Object[]{});
   }
@@ -206,6 +194,18 @@ public class QueriesGenerated {
     return util.genSMStartFunctionName(BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}));
   }
 
+  public static Object propertyMacro_GetPropertyValue_1996550827825957910(final PropertyMacroContext _context) {
+    return util.genEventQueueName(BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1996550827826039902(final PropertyMacroContext _context) {
+    return util.genGetInEventName(BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1996550827826042317(final PropertyMacroContext _context) {
+    return util.genPutInEventName(BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}));
+  }
+
   public static Object propertyMacro_GetPropertyValue_1054945346933275900(final PropertyMacroContext _context) {
     return SNodeOperations.getIndexInParent(SLinkOperations.getTarget(_context.getNode(), "arg", false)) + "";
   }
@@ -222,20 +222,20 @@ public class QueriesGenerated {
     return SNodeOperations.getIndexInParent(_context.getNode()) + "";
   }
 
-  public static Object propertyMacro_GetPropertyValue_6727232360811511176(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_1996550827831697592(final PropertyMacroContext _context) {
     return _context.createUniqueName("sm_thread", null);
   }
 
-  public static Object referenceMacro_GetReferent_8607120610930873034(final ReferenceMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_1996550827825564829(final PropertyMacroContext _context) {
+    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "actuals", true)).count() + "";
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1996550827825564932(final PropertyMacroContext _context) {
     return "arg" + SNodeOperations.getIndexInParent(_context.getNode());
   }
 
-  public static Object referenceMacro_GetReferent_8607120610928009792(final ReferenceMacroContext _context) {
-    return "arg" + SNodeOperations.getIndexInParent(_context.getNode());
-  }
-
-  public static Object referenceMacro_GetReferent_8607120610928633898(final ReferenceMacroContext _context) {
-    return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(_context.getNode(), "event", false), "virtual_id_3372386639989961954", new Object[]{});
+  public static Object propertyMacro_GetPropertyValue_1996550827825564978(final PropertyMacroContext _context) {
+    return SNodeOperations.getIndexInParent(_context.getNode()) + "";
   }
 
   public static Object referenceMacro_GetReferent_1983669701635038059(final ReferenceMacroContext _context) {
@@ -438,10 +438,6 @@ public class QueriesGenerated {
     return util.genPresentEventArrayName(BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}));
   }
 
-  public static Object referenceMacro_GetReferent_8607120610935674553(final ReferenceMacroContext _context) {
-    return SLinkOperations.getTarget(SLinkOperations.getTarget(Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "content", true), "statements", true), "BSML.structure.GetEventBinding")).first(), "cbinding", true), "binding", false);
-  }
-
   public static Object referenceMacro_GetReferent_8607120610939267658(final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "terminate_event");
   }
@@ -491,7 +487,11 @@ public class QueriesGenerated {
     return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(_context.getNode(), "eventRef", false), "virtual_id_3372386639989961954", new Object[]{});
   }
 
-  public static Object referenceMacro_GetReferent_6727232360811514525(final ReferenceMacroContext _context) {
+  public static Object referenceMacro_GetReferent_1996550827831355201(final ReferenceMacroContext _context) {
+    return util.genEventQueueName(BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}));
+  }
+
+  public static Object referenceMacro_GetReferent_1996550827831697576(final ReferenceMacroContext _context) {
     return util.genSMStartFunctionName(BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}));
   }
 
@@ -499,20 +499,32 @@ public class QueriesGenerated {
     return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "sm_ref", false), "terminate_event");
   }
 
-  public static Object referenceMacro_GetReferent_6727232360810837345(final ReferenceMacroContext _context) {
-    return SLinkOperations.getTarget(SLinkOperations.getTarget(Sequence.fromIterable(SNodeOperations.ofConcept(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "sm_ref", false), "content", true), "statements", true), "BSML.structure.PutEventBinding")).first(), "cbinding", true), "binding", false);
+  public static Object referenceMacro_GetReferent_1996550827826110060(final ReferenceMacroContext _context) {
+    return util.genPutInEventName(BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(_context.getNode(), "sm_ref", false), "virtual_id_3372386639989961954", new Object[]{}));
   }
 
   public static Object referenceMacro_GetReferent_6727232360810998509(final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "sm_ref", false), "cur_thread_for_sm");
   }
 
-  public static boolean ifMacro_Condition_8607120610932545246(final IfMacroContext _context) {
-    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "actuals", true)).isNotEmpty();
+  public static Object referenceMacro_GetReferent_1996550827831497890(final ReferenceMacroContext _context) {
+    return util.genEventQueueName(BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(_context.getNode(), "sm_ref", false), "virtual_id_3372386639989961954", new Object[]{}));
   }
 
-  public static boolean ifMacro_Condition_8607120610928009741(final IfMacroContext _context) {
-    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "actuals", true)).isNotEmpty();
+  public static Object referenceMacro_GetReferent_1996550827825564947(final ReferenceMacroContext _context) {
+    return "arg" + SNodeOperations.getIndexInParent(_context.getNode());
+  }
+
+  public static Object referenceMacro_GetReferent_1996550827825564966(final ReferenceMacroContext _context) {
+    return "arg" + SNodeOperations.getIndexInParent(_context.getNode());
+  }
+
+  public static Object referenceMacro_GetReferent_1996550827825565007(final ReferenceMacroContext _context) {
+    return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(_context.getNode(), "event_ref", false), "virtual_id_3372386639989961954", new Object[]{});
+  }
+
+  public static Object referenceMacro_GetReferent_1996550827826061347(final ReferenceMacroContext _context) {
+    return util.genPutInEventName(BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(_context.getNode(), "sm_ref", false), "virtual_id_3372386639989961954", new Object[]{}));
   }
 
   public static boolean ifMacro_Condition_3946458319588738100(final IfMacroContext _context) {
@@ -535,16 +547,12 @@ public class QueriesGenerated {
     return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "actuals", true)).isNotEmpty();
   }
 
-  public static SNode sourceNodeQuery_8607120610930637856(final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.getAncestor(_context.getNode(), "BSML.structure.CreateEventInstance", false, false), "virtual_getFormals_8011039602902827397", new Object[]{})).getElement(SNodeOperations.getIndexInParent(_context.getNode())), "type", true);
+  public static boolean ifMacro_Condition_1996550827825564840(final IfMacroContext _context) {
+    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "actuals", true)).isNotEmpty();
   }
 
-  public static SNode sourceNodeQuery_8607120610930738178(final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.getAncestor(_context.getNode(), "BSML.structure.CreateEventInstance", false, false), "virtual_getFormals_8011039602902827397", new Object[]{})).getElement(SNodeOperations.getIndexInParent(_context.getNode())), "type", true);
-  }
-
-  public static SNode sourceNodeQuery_8607120610931192699(final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.getAncestor(_context.getNode(), "BSML.structure.CreateEventInstance", false, false), "virtual_getFormals_8011039602902827397", new Object[]{})).getElement(SNodeOperations.getIndexInParent(_context.getNode())), "type", true);
+  public static boolean ifMacro_Condition_1996550827825564853(final IfMacroContext _context) {
+    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "actuals", true)).isNotEmpty();
   }
 
   public static SNode sourceNodeQuery_3946458319598746777(final SourceSubstituteMacroNodeContext _context) {
@@ -591,20 +599,20 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.getAncestor(_context.getNode(), "BSML.structure.EventCall", false, false), "virtual_getFormals_8011039602902827397", new Object[]{})).getElement(SNodeOperations.getIndexInParent(_context.getNode())), "type", true);
   }
 
-  public static SNode sourceNodeQuery_6727232360811614611(final SourceSubstituteMacroNodeContext _context) {
+  public static SNode sourceNodeQuery_1996550827831697585(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "sm_ref", false);
   }
 
-  public static Iterable<SNode> sourceNodesQuery_8607120610930595036(final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getTargets(_context.getNode(), "actuals", true);
+  public static SNode sourceNodeQuery_1996550827825564865(final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.getAncestor(_context.getNode(), "BSML.structure.SMTrigger", false, false), "virtual_getFormals_8011039602902827397", new Object[]{})).getElement(SNodeOperations.getIndexInParent(_context.getNode())), "type", true);
   }
 
-  public static Iterable<SNode> sourceNodesQuery_8607120610930798927(final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getTargets(_context.getNode(), "actuals", true);
+  public static SNode sourceNodeQuery_1996550827825564886(final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.getAncestor(_context.getNode(), "BSML.structure.SMTrigger", false, false), "virtual_getFormals_8011039602902827397", new Object[]{})).getElement(SNodeOperations.getIndexInParent(_context.getNode())), "type", true);
   }
 
-  public static Iterable<SNode> sourceNodesQuery_8607120610928009815(final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getTargets(_context.getNode(), "actuals", true);
+  public static SNode sourceNodeQuery_1996550827825564907(final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(ListSequence.fromList(BehaviorReflection.invokeVirtual((Class<List<SNode>>) ((Class) Object.class), SNodeOperations.getAncestor(_context.getNode(), "BSML.structure.SMTrigger", false, false), "virtual_getFormals_8011039602902827397", new Object[]{})).getElement(SNodeOperations.getIndexInParent(_context.getNode())), "type", true);
   }
 
   public static Iterable<SNode> sourceNodesQuery_1983669701636143864(final SourceSubstituteMacroNodesContext _context) {
@@ -736,6 +744,18 @@ public class QueriesGenerated {
   }
 
   public static Iterable<SNode> sourceNodesQuery_7466645974728471327(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "actuals", true);
+  }
+
+  public static Iterable<SNode> sourceNodesQuery_1996550827825564925(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "actuals", true);
+  }
+
+  public static Iterable<SNode> sourceNodesQuery_1996550827825564956(final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "actuals", true);
+  }
+
+  public static Iterable<SNode> sourceNodesQuery_1996550827825564987(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "actuals", true);
   }
 

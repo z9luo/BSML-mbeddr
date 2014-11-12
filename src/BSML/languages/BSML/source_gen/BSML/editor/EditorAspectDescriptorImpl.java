@@ -18,48 +18,42 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
       case 0:
         return Collections.<ConceptEditor>singletonList(new CFunctionBinding_Editor());
       case 1:
-        return Collections.<ConceptEditor>singletonList(new CreateEventInstance_Editor());
-      case 2:
         return Collections.<ConceptEditor>singletonList(new DoBlock_Editor());
-      case 3:
+      case 2:
         return Collections.<ConceptEditor>singletonList(new EntryBlock_Editor());
-      case 4:
+      case 3:
         return Collections.<ConceptEditor>singletonList(new EventArgReference_Editor());
-      case 5:
+      case 4:
         return Collections.<ConceptEditor>singletonList(new EventCall_Editor());
-      case 6:
+      case 5:
         return Collections.<ConceptEditor>singletonList(new ExitBlock_Editor());
-      case 7:
-        return Collections.<ConceptEditor>singletonList(new GetEventBinding_Editor());
-      case 8:
+      case 6:
         return Collections.<ConceptEditor>singletonList(new InEventDeclaration_Editor());
-      case 9:
+      case 7:
         return Collections.<ConceptEditor>singletonList(new LocalEventDeclaration_Editor());
-      case 10:
+      case 8:
         return Collections.<ConceptEditor>singletonList(new OutEventDeclaration_Editor());
-      case 11:
-        return Collections.<ConceptEditor>singletonList(new PutEventBinding_Editor());
-      case 12:
+      case 9:
         return Collections.<ConceptEditor>singletonList(new RegionLocalDeclaration_Editor());
-      case 13:
+      case 10:
         return Collections.<ConceptEditor>singletonList(new SMGlobalDeclaration_Editor());
-      case 14:
+      case 11:
         return Collections.<ConceptEditor>singletonList(new SMSafeTerm_Editor());
-      case 15:
+      case 12:
         return Collections.<ConceptEditor>singletonList(new SMStart_Editor());
-      case 16:
+      case 13:
         return Collections.<ConceptEditor>singletonList(new SMTrigger_Editor());
-      case 17:
+      case 14:
         return Collections.<ConceptEditor>singletonList(new StateLocalDeclaration_Editor());
-      case 18:
+      case 15:
         return Collections.<ConceptEditor>singletonList(new StateMachineBindingsConfigItem_Editor());
-      case 19:
+      case 16:
         return Collections.<ConceptEditor>singletonList(new StateMachineConfigItem_Editor());
-      case 20:
+      case 17:
         return Collections.<ConceptEditor>singletonList(new StateMachineSemanticsConfigItem_Editor());
-      case 21:
+      case 18:
         return Collections.<ConceptEditor>singletonList(new Transition_Editor());
-      case 22:
+      case 19:
         return Collections.<ConceptEditor>singletonList(new TriggerEventReference_Editor());
       default:
     }
@@ -72,5 +66,5 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
 
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"BSML.structure.CFunctionBinding", "BSML.structure.CreateEventInstance", "BSML.structure.DoBlock", "BSML.structure.EntryBlock", "BSML.structure.EventArgReference", "BSML.structure.EventCall", "BSML.structure.ExitBlock", "BSML.structure.GetEventBinding", "BSML.structure.InEventDeclaration", "BSML.structure.LocalEventDeclaration", "BSML.structure.OutEventDeclaration", "BSML.structure.PutEventBinding", "BSML.structure.RegionLocalDeclaration", "BSML.structure.SMGlobalDeclaration", "BSML.structure.SMSafeTerm", "BSML.structure.SMStart", "BSML.structure.SMTrigger", "BSML.structure.StateLocalDeclaration", "BSML.structure.StateMachineBindingsConfigItem", "BSML.structure.StateMachineConfigItem", "BSML.structure.StateMachineSemanticsConfigItem", "BSML.structure.Transition", "BSML.structure.TriggerEventReference"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"BSML.structure.CFunctionBinding", "BSML.structure.DoBlock", "BSML.structure.EntryBlock", "BSML.structure.EventArgReference", "BSML.structure.EventCall", "BSML.structure.ExitBlock", "BSML.structure.InEventDeclaration", "BSML.structure.LocalEventDeclaration", "BSML.structure.OutEventDeclaration", "BSML.structure.RegionLocalDeclaration", "BSML.structure.SMGlobalDeclaration", "BSML.structure.SMSafeTerm", "BSML.structure.SMStart", "BSML.structure.SMTrigger", "BSML.structure.StateLocalDeclaration", "BSML.structure.StateMachineBindingsConfigItem", "BSML.structure.StateMachineConfigItem", "BSML.structure.StateMachineSemanticsConfigItem", "BSML.structure.Transition", "BSML.structure.TriggerEventReference"};
 }

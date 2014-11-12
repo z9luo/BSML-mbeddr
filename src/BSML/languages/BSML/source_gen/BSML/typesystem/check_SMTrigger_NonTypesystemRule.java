@@ -21,16 +21,16 @@ public class check_SMTrigger_NonTypesystemRule extends AbstractNonTypesystemRule
   }
 
   public void applyRule(final SNode smTrigger, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if (ListSequence.fromList(SLinkOperations.getTargets(smTrigger, "actuals", true)).count() != Sequence.fromIterable(BehaviorReflection.invokeVirtual((Class<Iterable<SNode>>) ((Class) Object.class), SLinkOperations.getTarget(smTrigger, "event", false), "virtual_args_2486662774781081797", new Object[]{})).count()) {
+    if (ListSequence.fromList(SLinkOperations.getTargets(smTrigger, "actuals", true)).count() != Sequence.fromIterable(BehaviorReflection.invokeVirtual((Class<Iterable<SNode>>) ((Class) Object.class), SLinkOperations.getTarget(smTrigger, "event_ref", false), "virtual_args_2486662774781081797", new Object[]{})).count()) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
-        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(smTrigger, "wrong number of arguments; expecting" + BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(smTrigger, "event", false), "virtual_qualifiedName_5470497459578244269", new Object[]{}), "r:4175e96b-4bf8-489b-b72c-d9eeeddab49d(BSML.typesystem)", "1054945346927514614", null, errorTarget);
+        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(smTrigger, "wrong number of arguments; expecting" + BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(smTrigger, "event_ref", false), "virtual_qualifiedName_5470497459578244269", new Object[]{}), "r:4175e96b-4bf8-489b-b72c-d9eeeddab49d(BSML.typesystem)", "1054945346927514614", null, errorTarget);
       }
     }
   }
 
   public String getApplicableConceptFQName() {
-    return "BSML.structure.CreateEventInstance";
+    return "BSML.structure.SMTrigger";
   }
 
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
