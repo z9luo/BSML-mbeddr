@@ -279,15 +279,6 @@
     <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="7359472029651948307" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="empty_1415595205365_2" />
     </node>
-    <node role="imports" roleId="x27k.1317894735999304826" type="vs0r.DefaultGenericChunkDependency" typeId="vs0r.747084250476811597" id="7359472029651936655" nodeInfo="ng">
-      <link role="chunk" roleId="vs0r.747084250476878887" targetNodeId="o8iv.520667319678793397" resolveInfo="SM_Header" />
-    </node>
-    <node role="imports" roleId="x27k.1317894735999304826" type="vs0r.DefaultGenericChunkDependency" typeId="vs0r.747084250476811597" id="7359472029651936660" nodeInfo="ng">
-      <link role="chunk" roleId="vs0r.747084250476878887" targetNodeId="o8iv.520667319675299402" resolveInfo="stdlib_stub" />
-    </node>
-    <node role="imports" roleId="x27k.1317894735999304826" type="vs0r.DefaultGenericChunkDependency" typeId="vs0r.747084250476811597" id="7359472029651936668" nodeInfo="ng">
-      <link role="chunk" roleId="vs0r.747084250476878887" targetNodeId="o8iv.6727232360812351577" resolveInfo="glib_AsyncQueue_stub" />
-    </node>
   </root>
   <root type="51wr.BuildConfiguration" typeId="51wr.7717755763392524104" id="7359472029651887565" nodeInfo="ng">
     <node role="target" roleId="51wr.5323740605968447026" type="51wr.DesktopPlatform" typeId="51wr.5323740605968447022" id="7359472029652899049" nodeInfo="ng">
@@ -302,21 +293,6 @@
       <property name="name" nameId="tpck.1169194664001" value="test" />
       <node role="referencedModules" roleId="51wr.5046689135693761559" type="51wr.ModuleRef" typeId="51wr.7717755763392524107" id="7359472029652899057" nodeInfo="ng">
         <link role="module" roleId="51wr.7717755763392524108" targetNodeId="7359472029651883818" resolveInfo="test" />
-      </node>
-      <node role="referencedModules" roleId="51wr.5046689135693761559" type="51wr.ModuleRef" typeId="51wr.7717755763392524107" id="7359472029652899062" nodeInfo="ng">
-        <link role="module" roleId="51wr.7717755763392524108" targetNodeId="o8iv.520667319675299402" resolveInfo="stdlib_stub" />
-      </node>
-      <node role="referencedModules" roleId="51wr.5046689135693761559" type="51wr.ModuleRef" typeId="51wr.7717755763392524107" id="7359472029652899070" nodeInfo="ng">
-        <link role="module" roleId="51wr.7717755763392524108" targetNodeId="o8iv.6727232360812351577" resolveInfo="glib_AsyncQueue_stub" />
-      </node>
-      <node role="referencedModules" roleId="51wr.5046689135693761559" type="51wr.ModuleRef" typeId="51wr.7717755763392524107" id="7359472029652899080" nodeInfo="ng">
-        <link role="module" roleId="51wr.7717755763392524108" targetNodeId="o8iv.520667319678793397" resolveInfo="SM_Header" />
-      </node>
-      <node role="referencedModules" roleId="51wr.5046689135693761559" type="51wr.ModuleRef" typeId="51wr.7717755763392524107" id="7359472029652899092" nodeInfo="ng">
-        <link role="module" roleId="51wr.7717755763392524108" targetNodeId="o8iv.8607120610925230262" resolveInfo="glib_stub" />
-      </node>
-      <node role="referencedModules" roleId="51wr.5046689135693761559" type="51wr.ModuleRef" typeId="51wr.7717755763392524107" id="7359472029652899106" nodeInfo="ng">
-        <link role="module" roleId="51wr.7717755763392524108" targetNodeId="o8iv.6727232360812350683" resolveInfo="glib_MemoryAlloc_stub" />
       </node>
     </node>
   </root>

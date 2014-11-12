@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-87x0010zpgouzofudw26kzgde6uqbtz">
+<dependencies version="2" modelHash="6mkjio19r4m7e5yif34o4gmr1igdcyh">
   <dep model="eeaa3db3-7ecd-4908-b15c-e05bdb4e14db/r:f8a62d92-4ac7-48ec-860e-ee3c6e8aecb6(com.mbeddr.mpsutil.modelcache.CacheState_fakeModule/com.mbeddr.mpsutil.modelcache.CacheState_fakeModel)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="5sdbpqxziyuazpb9j1p4zdk6bnvbn49" />
   <dep model="r:1c8941b6-7430-40ed-8040-ab47e93d583b(BSML.SM_Header)" hash="-5irkekyv2xakhtbgi5gg57l2zrcke4k" />
@@ -26,17 +26,11 @@
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
     <dep model="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
     <file name="Makefile" />
-    <file name="SM_Header.c" />
-    <file name="SM_Header.h" />
     <file name="TypeSizeConfiguration (B.sandbox)" />
-    <file name="glib_AsyncQueue_stub" />
-    <file name="glib_MemoryAlloc_stub" />
-    <file name="glib_stub" />
-    <file name="stdlib_stub" />
     <file name="test.c" />
     <file name="test.h" />
   </common>
-  <source id="7359472029651883818" name="test" hash="9rd450u17ys0b1eah7vcw39bckwdtls" />
-  <source id="7359472029651887565" name="BuildConfiguration (B.sandbox)" hash="e9k9l73hbafz0fznefru843fcvk0b4i" />
+  <source id="7359472029651883818" name="test" hash="-2v6h88vh9cok2znqoxi58idlrlxq0fz" />
+  <source id="7359472029651887565" name="BuildConfiguration (B.sandbox)" hash="-9d24duwulcpefbm9mer9oq3zw407xkl" />
 </dependencies>
 

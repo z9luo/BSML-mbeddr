@@ -1,9 +1,6 @@
 #include "test.h"
 
 
-#include "SM_Header.h"
-#include <stdlib.h>
-#include <glib.h>
 #include <stdio.h>
 
 typedef struct test_TS test_TS_t;

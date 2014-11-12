@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="BSML.sandbox.Makefile" file="Makefile" />
-  <dependency className="BSML.sandbox.SM_Header" file="SM_Header.c" />
-  <dependency className="BSML.sandbox.SM_Header" file="SM_Header.h" />
   <dependency className="BSML.sandbox.TypeSizeConfiguration (B.sandbox)" file="TypeSizeConfiguration (B.sandbox)" />
   <dependency className="BSML.sandbox.test" file="test.c" />
   <dependency className="BSML.sandbox.test" file="test.h" />

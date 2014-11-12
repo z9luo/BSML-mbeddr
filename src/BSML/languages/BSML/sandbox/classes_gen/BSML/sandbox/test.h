@@ -8,12 +8,6 @@
 
 #include <stdbool.h>
 
-#include "SM_Header.h"
-
-#include <stdlib.h>
-
-#include <glib.h>
-
 
 
 #ifdef __cplusplus
