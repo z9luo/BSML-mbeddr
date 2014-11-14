@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="BSML.generator.template.main.QueriesGenerated" file="QueriesGenerated.java">
-    <classNode dependClassName="BSML.util.util" />
+    <classNode dependClassName="BSML.tutil.util" />
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Iterable" />
     <classNode dependClassName="java.lang.Object" />

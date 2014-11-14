@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="6mkjio19r4m7e5yif34o4gmr1igdcyh">
-  <dep model="eeaa3db3-7ecd-4908-b15c-e05bdb4e14db/r:f8a62d92-4ac7-48ec-860e-ee3c6e8aecb6(com.mbeddr.mpsutil.modelcache.CacheState_fakeModule/com.mbeddr.mpsutil.modelcache.CacheState_fakeModel)" />
+<dependencies version="2" modelHash="ae1gx86e73xq8p3vplk6s2y80cnk14v">
+  <dep model="87ff5605-afac-4749-9bb2-2a14aa636cd9/r:f48263d6-a3e9-4974-a4ec-7473f17ed953(com.mbeddr.mpsutil.modelcache.CacheState_fakeModule/com.mbeddr.mpsutil.modelcache.CacheState_fakeModel)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="5sdbpqxziyuazpb9j1p4zdk6bnvbn49" />
-  <dep model="r:1c8941b6-7430-40ed-8040-ab47e93d583b(BSML.SM_Header)" hash="-5irkekyv2xakhtbgi5gg57l2zrcke4k" />
-  <dep model="r:2ff3ad32-451f-46a7-91af-9ce87f286536(com.mbeddr.core.modules.generator.main.addReturnToClosure@generator)" hash="-3avjaoibqnibrutclolnqk2ujgsvc8x" />
   <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" hash="-cn8rhfjcox25qmdrj9crfalfclcib4g" />
   <dep model="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" hash="-5n0km4iuyivmic3hs6nlxliufs2izdt" />
   <dep model="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" hash="2deb6huwu9500ekqho7f6axbbdsvmkn" />
   <dep model="r:7db67fb8-d2c9-4e02-89e5-cbea9152661c(com.mbeddr.core.util.generator.template.main@generator)" hash="-2gm67tmrlzszxu9b2hfihnk6dntax8a" />
-  <dep model="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)" hash="25slbz6x9bcz389onrm3uciu20a6su5" />
+  <dep model="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)" hash="-cp7wrxe4lgc2ir6aqpfsn5bkvyvnozc" />
   <dep model="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" hash="-8occ4vh5c7mjxqosuxbkrq12g89pior" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
+  <dep model="r:ba28b769-4f5a-4218-8e42-45720f8c7bd3(BSML.Utils)" hash="31rwhga8mkkn37lgn9evbwv3vdu6two" />
   <dep model="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" hash="3tekhil1vgqucmcvsc7j6y1xfp76q82" />
-  <common hash="cb7wedv340n5jsixa8qk62xocyjh4t" dependsOnNodes="true">
-    <dep model="eeaa3db3-7ecd-4908-b15c-e05bdb4e14db/r:f8a62d92-4ac7-48ec-860e-ee3c6e8aecb6(com.mbeddr.mpsutil.modelcache.CacheState_fakeModule/com.mbeddr.mpsutil.modelcache.CacheState_fakeModel)" />
+  <common hash="-2gi3wvsuuhefswb68w8rgjpb80ax8iu" dependsOnNodes="true">
+    <dep model="87ff5605-afac-4749-9bb2-2a14aa636cd9/r:f48263d6-a3e9-4974-a4ec-7473f17ed953(com.mbeddr.mpsutil.modelcache.CacheState_fakeModule/com.mbeddr.mpsutil.modelcache.CacheState_fakeModel)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <dep model="r:1c8941b6-7430-40ed-8040-ab47e93d583b(BSML.SM_Header)" />
-    <dep model="r:2ff3ad32-451f-46a7-91af-9ce87f286536(com.mbeddr.core.modules.generator.main.addReturnToClosure@generator)" />
     <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" />
     <dep model="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" />
     <dep model="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
@@ -24,13 +21,17 @@
     <dep model="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)" />
     <dep model="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:ba28b769-4f5a-4218-8e42-45720f8c7bd3(BSML.Utils)" />
     <dep model="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
     <file name="Makefile" />
     <file name="TypeSizeConfiguration (B.sandbox)" />
+    <file name="glib_MemoryAlloc_stub" />
+    <file name="glib_stub" />
+    <file name="stdlib_stub" />
     <file name="test.c" />
     <file name="test.h" />
   </common>
-  <source id="7359472029651883818" name="test" hash="-2v6h88vh9cok2znqoxi58idlrlxq0fz" />
-  <source id="7359472029651887565" name="BuildConfiguration (B.sandbox)" hash="-9d24duwulcpefbm9mer9oq3zw407xkl" />
+  <source id="7359472029651883818" name="test" hash="-dj4tgyqstgsygtpfhyvs5z1e0lsj78c" />
+  <source id="7359472029651887565" name="BuildConfiguration (B.sandbox)" hash="-4aozns8wz8h81yb58rj82sou0ejae1d" />
 </dependencies>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="25slbz6x9bcz389onrm3uciu20a6su5">
+<dependencies version="2" modelHash="-cp7wrxe4lgc2ir6aqpfsn5bkvyvnozc">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang.reflect(JDK/java.lang.reflect@java_stub)" />
@@ -34,10 +34,12 @@
   <dep model="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" hash="4tblidgmwerurfnnzdj80jt3c8s50id" />
   <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="-8chtguhcvj45cjy0bx3xiqekte2lox7" />
   <dep model="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" hash="-eqw8sjuc5fn9kv5fldfnd0r8htvu5d7" />
-  <common hash="w9bq6pzmorfvof58200tgkavf7qon0" dependsOnNodes="true">
+  <common hash="-l0w42om57wm1m5bgif5tm7c0572ocx" dependsOnNodes="true">
     <dep root="1983669701634966627" />
     <dep root="1996550827825417742" />
     <dep root="1996550827834669899" />
+    <dep root="1996550827846100090" />
+    <dep root="1996550827859461482" />
     <dep root="2041445662508425280" />
     <dep root="3372386639990982164" />
     <dep root="3372386639991487489" />
@@ -80,17 +82,19 @@
     <dep model="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" />
     <file name="QueriesGenerated.java" />
   </common>
-  <source id="1983669701634966627" name="reduce_OutEventCall" hash="1cv994em12v5t6ckmmw8x4ci50vzl7d">
+  <source id="1983669701634966627" name="reduce_OutEventCall" hash="-4pjkg36og4ymgfqhs7a3tnscctsl6ib">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="3372386639991487489" name="reduce_Region" hash="-d0d2crjvndywnvh4deen0c8054d95q8" />
-  <source id="3372386639990982164" name="reduce_StateMachine" hash="-13c48yl7ez3c5de5fn60dc9k19hkoix" />
-  <source id="3372386639990377825" name="weave_Common" hash="-6zyt13wml0ma7hgphil3c7eyke8nxvv" />
-  <source id="4004560854228269336" name="StateMachine2C" hash="-1kybhcgwqskp2skzwcomzze49lq1jic" />
-  <source id="7466645974728470006" name="reduce_InternalEventCall" hash="21eyjwvxeekgprmo19k57bxx75l278i" />
-  <source id="8607120610937286315" name="reduce_SMStart" hash="cao3g6whq2fgl6m6ca8q9puswnej6yi" />
-  <source id="2041445662508425280" name="reduce_SMSafeTerm" hash="-2hvzeet9gnmhhddkcnb7gih5y8oxiuo" />
-  <source id="1996550827825417742" name="reduce_SMTrigger" hash="1aaihvfnsucyn115rgsl5r939n7l5vl" />
+  <source id="3372386639991487489" name="reduce_Region" hash="2l7bnz09q62qy005jnwt7guhk2kheuh" />
+  <source id="3372386639990982164" name="reduce_StateMachine" hash="-l8aww4itvu72uyqg5tpuzme0n09uf3" />
+  <source id="3372386639990377825" name="Template_Header" hash="1bfxobd4rexr8a8vxq0muud2hhoqq3k" />
+  <source id="4004560854228269336" name="StateMachine2C" hash="-5g7aavggli5viic2eu35nqiuouox8qb" />
+  <source id="7466645974728470006" name="reduce_InternalEventCall" hash="1lhbaaiu2s6y7p5w369k0mgmv087uit" />
+  <source id="8607120610937286315" name="reduce_SMStart" hash="-37vht5ib2uhhwqkp4qwaw3c4lp1szbn" />
+  <source id="2041445662508425280" name="reduce_SMSafeTerm" hash="-1vs0dv2oaghnntuw0mdiu1gi48e6k6e" />
+  <source id="1996550827825417742" name="reduce_SMTrigger" hash="-95t3ommd2510jih2doyks7ta3910nfg" />
   <source id="1996550827834669899" name="InEvent_binding_script" hash="-5eps5ov85qm1ja736vvub867wsicx75" />
+  <source id="1996550827846100090" name="init_and_entry_SM" hash="28atn5wxoiu97y77o23giliqx6mn36d" />
+  <source id="1996550827859461482" name="SM_Header" hash="42bs822d4bdy50bqce2mmbkmozc4b2p" />
 </dependencies>
 

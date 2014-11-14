@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dependenciesRoot>
-  <dependency className="BSML.util.util" file="util.java">
-    <classNode dependClassName="java.lang.String" />
-  </dependency>
-</dependenciesRoot>
-

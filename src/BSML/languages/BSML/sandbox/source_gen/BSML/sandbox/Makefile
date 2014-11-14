@@ -18,6 +18,6 @@ $(ODIR)/%.o: %.cpp
 debug: CFLAGS +=-g
 debug: clean test
 test: $(OBJ_test)
-	$(CC) $(CFLAGS) -o $@ $^   
+	$(CC) $(CFLAGS) -o $@ $^  `pkg-config --libs glib-2.0`  
 clean: 
 	rm -rf $(ODIR) 
