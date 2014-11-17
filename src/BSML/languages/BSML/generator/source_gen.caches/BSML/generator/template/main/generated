@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-cp7wrxe4lgc2ir6aqpfsn5bkvyvnozc">
+<dependencies version="2" modelHash="-e6cxz3kic87qe5eobeo3e7qshh5rpfn">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang.reflect(JDK/java.lang.reflect@java_stub)" />
@@ -86,7 +86,7 @@
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
   <source id="3372386639991487489" name="reduce_Region" hash="2l7bnz09q62qy005jnwt7guhk2kheuh" />
-  <source id="3372386639990982164" name="reduce_StateMachine" hash="-l8aww4itvu72uyqg5tpuzme0n09uf3" />
+  <source id="3372386639990982164" name="reduce_StateMachine" hash="-12j9r8ry4kckjvcqv8cemsqhbr3k803" />
   <source id="3372386639990377825" name="Template_Header" hash="1bfxobd4rexr8a8vxq0muud2hhoqq3k" />
   <source id="4004560854228269336" name="StateMachine2C" hash="-5g7aavggli5viic2eu35nqiuouox8qb" />
   <source id="7466645974728470006" name="reduce_InternalEventCall" hash="1lhbaaiu2s6y7p5w369k0mgmv087uit" />

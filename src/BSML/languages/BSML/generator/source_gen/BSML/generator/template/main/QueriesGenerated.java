@@ -91,7 +91,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_3946458319585473083(final PropertyMacroContext _context) {
-    return ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "BSML.structure.IEvent", false, new String[]{})).count() + 1 + "";
+    return ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "BSML.structure.IEvent", false, new String[]{})).count() + "";
   }
 
   public static Object propertyMacro_GetPropertyValue_3946458319585473096(final PropertyMacroContext _context) {
@@ -99,7 +99,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_3946458319584312299(final PropertyMacroContext _context) {
-    return ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "BSML.structure.IEvent", false, new String[]{})).count() + 1 + "";
+    return ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "BSML.structure.IEvent", false, new String[]{})).count() + "";
   }
 
   public static Object propertyMacro_GetPropertyValue_3946458319584596494(final PropertyMacroContext _context) {
@@ -383,7 +383,7 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_6615293872259824172(final ReferenceMacroContext _context) {
-    return "smarray_free";
+    return "smarray_clear";
   }
 
   public static Object referenceMacro_GetReferent_6615293872256744364(final ReferenceMacroContext _context) {

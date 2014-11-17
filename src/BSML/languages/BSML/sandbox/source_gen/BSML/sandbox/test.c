@@ -3,8 +3,6 @@
 
 #include <glib.h>
 #include <stdlib.h>
-#include <glib.h>
-#include <string.h>
 #include <stdio.h>
 
 typedef struct test_TS test_TS_t;
@@ -121,6 +119,16 @@ int32_t main(int32_t argc, char* argv[])
     test_event_queue_test__sm_put(inevent);
     
   }
+  {
+    test_Event* term_event = ((test_Event*)(malloc(sizeof(test_Event))));
+    term_event->type = test_test__sm_EventEnum___sm_terminate_e;
+    test_event_queue_test__sm_put(term_event);
+    gpointer retval = g_thread_join(sm_thread_e);
+    g_async_queue_unref(test_event_queue_test__sm);
+    if ( retval != 0 ) 
+    {
+    }
+  }
   return 0;
 }
 
@@ -176,7 +184,7 @@ static void test_execute_big_step_test__sm(test_Event* present_events[], test_Ev
 
 static void test_execute_small_step_test__sm(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow, test_SMArray* enabled_transitions) 
 {
-  test_smarray_free(enabled_transitions);
+  test_smarray_clear(enabled_transitions);
   {
     /* 
      * handle transitions in subregions
@@ -276,8 +284,8 @@ static void test_execute_small_step_test__sm(test_Event* present_events[], test_
 
 static gpointer test_sm_start_test__sm(gpointer dummy_ptr) 
 {
-  static test_Event* present_event_test__sm[2];
-  static test_Event* present_event_test__sm_shadow[2];
+  static test_Event* present_event_test__sm[1];
+  static test_Event* present_event_test__sm_shadow[1];
   test_reset_pointer_array(((void**)(present_event_test__sm)), 1);
   memcpy(present_event_test__sm_shadow, present_event_test__sm, 1 * sizeof(test_Event*));
   static test_test__sm_SMStruct_t sm_info_test__sm;
