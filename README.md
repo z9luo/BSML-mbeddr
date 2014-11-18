@@ -8,7 +8,7 @@ BSML-mbeddr is an Mbeddr-based implementation of Big-Step Modelling Language (BS
 ## First Glimpse
 The following simple model has two states "on" and "off", event "turn_on" triggered transition from "off" to "on" and execute action to print "hello world"
 ```
-statemachine SimpleSM {
+statemachine sm {
 	region main initial=off {
 		in event turn_on();
 		state off { };
@@ -22,9 +22,9 @@ statemachine SimpleSM {
 Trigger code should be like this:
 ```
 int main() {
-	SimpleSM.sm_start();
-	put_in_event((Event*) create_event(SimpleSM.turn_on));
-	SimpleSM.sm_terminate();
+	sm_start(sm);
+	sm_trigger(sm.turn_on);
+	sm_terminate(sm);
 	return 0;
 }
 ```
@@ -42,10 +42,7 @@ void handle_accel() {
 	...
 } 
 //define the state machine model for a vechicle's control system
-statemachine ExampleVechicle {
-	// You must maintain your own message queue and bind the enqueue/dequeue interface to the model
-	getInEvent => get_in_event;
-	putInEvent => put_in_event; 
+statemachine sm {
 	region main initial=off {
 		in event turn_on();
 		in event turn_off();
@@ -57,7 +54,7 @@ statemachine ExampleVechicle {
 		static int countOff=0; // static variable, which won't be re-initialized after re-enterance.
 		Status status=ON;
 
-		transition t1: on turn_on[guard] off -> on {
+		transition t1: on turn_on[guard] off -> on { //optional action for transition
 			status=ON;
 		}
 		transition t2: on turn_off[true] on -> off { 
@@ -96,8 +93,9 @@ statemachine ExampleVechicle {
 * Name scoping for state/region/transition.
 * Entry block.
 * Guard condition for transitions.
+* in-event/out-event binding with C function
 
-(NOTICE: More features are under work. And new release may NOT be backward compatible!)
+(NOTICE: Configurable semantics is under work. New release may NOT be backward compatible!)
 
 ## Quick Start
 
@@ -126,11 +124,11 @@ Before you start, you need to apply a sequence of configuration. Following shows
 5. For the following step, MPS will occasionally show errors which can be fixed by **intention**, such as "create a type size configuration" and "import missing language module". Use Alt+Enter to apply intentions.
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/5.png">
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/5-1.png">
-6. Import model **SM_Header** and specify it as imports for ImpModule. Note that due to MPS's issue, you must REBUILD the project after import it into ImpModule. Otherwise it won't take effect.
+6. Import model **BSML_stub** and import external model **BSML_stub** in ImpModule.
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/6.png">
-7. Finally you can write the real stuff in ImpModule! Create your state-machine model, write a main function to trigger the state machine, as well as create a message queue for input events. In this example, a Glib asynchronous queue is created. Interface functions get_in_event()/put_in_event() are binded to the model.
+7. Finally you can write the real stuff in ImpModule! Create your state-machine model, and write a main function to trigger the state machine.
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/7.png">
-8. Write your configuration file, which should be like the following (NOTE that since MPS is a projectional editor, you cannot simply copy-and-paste the code but type them into MPS by hand)
+8. Create your configuration file, which should be like the following 
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/8.png">
 9. Build your solution, open a terminal, and direct to {Project_Root}/solutions/{Solution_Name}/source_gen/{Solution_Name}/{Model_Name} for the generated C code. There are a bunch of .c and .h files, together with a Makefile. Make the source and run the binary, and you can see the result. Enjoy:)
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/9.png">

@@ -62,7 +62,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -82,10 +82,10 @@
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
                     <property name="caretXRelative" value="8" />
-                    <property name="caretX" value="129" />
+                    <property name="caretX" value="23" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_zedcwq_b0" cellNumber="0" isInList="false">
-                      <node node_reference="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" />
+                    <cellInfo cellId="Constant_u338ov_d0" cellNumber="0" isInList="false">
+                      <node node_reference="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -93,7 +93,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -123,7 +123,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -153,7 +153,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -183,7 +183,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -213,7 +213,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -244,7 +244,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -275,7 +275,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -306,7 +306,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -336,7 +336,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -1214,7 +1214,7 @@
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24322917" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32686415" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32686415" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890704" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Feature Model Verification" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3222,7 +3222,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -3250,7 +3250,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -3278,7 +3278,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -3336,7 +3336,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -3365,7 +3365,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -3394,7 +3394,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -3411,10 +3411,10 @@
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
                 <property name="caretXRelative" value="8" />
-                <property name="caretX" value="129" />
+                <property name="caretX" value="23" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_zedcwq_b0" cellNumber="0" isInList="false">
-                  <node node_reference="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" />
+                <cellInfo cellId="Constant_u338ov_d0" cellNumber="0" isInList="false">
+                  <node node_reference="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -3422,7 +3422,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -3450,7 +3450,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -3478,7 +3478,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -3507,7 +3507,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/2878353885461733908" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
