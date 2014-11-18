@@ -13,6 +13,9 @@
     <node role="descriptors" roleId="x27k.6116558314501417978" type="x27k.HeaderDescriptor" typeId="x27k.6116558314501417952" id="6615293872267676750" nodeInfo="ng">
       <property name="path" nameId="x27k.6116558314501417936" value="&lt;stdlib.h&gt;" />
     </node>
+    <node role="descriptors" roleId="x27k.6116558314501417978" type="x27k.HeaderDescriptor" typeId="x27k.6116558314501417952" id="2042574486722764367" nodeInfo="ng">
+      <property name="path" nameId="x27k.6116558314501417936" value="&lt;string.h&gt;" />
+    </node>
     <node role="descriptors" roleId="x27k.6116558314501417978" type="x27k.ObjResourceDescriptor" typeId="x27k.6116558314501417950" id="6615293872267675740" nodeInfo="ng">
       <property name="path" nameId="x27k.6116558314501417936" value="`pkg-config --libs glib-2.0`" />
     </node>

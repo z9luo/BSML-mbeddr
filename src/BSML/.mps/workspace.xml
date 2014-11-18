@@ -62,7 +62,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -73,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://node://BSML.sandbox/BSML.sandbox/test">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -93,7 +93,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -103,19 +103,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="glib_AsyncQueue_stub" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://BSML/BSML.Generator_Header/glib_AsyncQueue_stub">
+      <file leaf-file-name="CFunctionBinding" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://BSML/BSML.structure/CFunctionBinding">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="24" />
-                    <property name="caretX" value="527" />
+                    <property name="caretXRelative" value="64" />
+                    <property name="caretX" value="799" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="ERDC_property_path" cellNumber="0" isInList="false">
-                      <node node_reference="r:62e8aeba-0540-4aa0-8a7d-8f3e1d0d4dad(BSML.Generator_Header)/2878353885459132456" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:c262c7b2-132a-46e8-a5a7-0ff5b8b87a0c(BSML.constraints)/2042574486722761217" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -123,12 +123,13 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </inspectorMemento>
+              <node node_ref="r:c262c7b2-132a-46e8-a5a7-0ff5b8b87a0c(BSML.constraints)/8607120610933611226" />
             </state>
           </provider>
         </entry>
@@ -153,7 +154,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -163,19 +164,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="glib_stub" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://BSML/BSML.Generator_Header/glib_stub">
+      <file leaf-file-name="glib_MemoryAlloc_stub" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://BSML/BSML.Generator_Header/glib_MemoryAlloc_stub">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="64" />
-                    <property name="caretX" value="583" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="35" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="ERDC_property_path" cellNumber="0" isInList="false">
-                      <node node_reference="r:62e8aeba-0540-4aa0-8a7d-8f3e1d0d4dad(BSML.Generator_Header)/2878353885459132582" />
+                    <cellInfo cellId="IANC_property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:62e8aeba-0540-4aa0-8a7d-8f3e1d0d4dad(BSML.Generator_Header)/2878353885459132458" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -183,7 +184,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -193,19 +194,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObjResourceDescriptor" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://com.mbeddr.core.modules/com.mbeddr.core.modules.structure/ObjResourceDescriptor">
+      <file leaf-file-name="BSML_stub" pinned="false" current="true" current-in-tab="true">
+        <entry file="mps://node://BSML/BSML.BSML_stub/BSML_stub">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="56" />
-                    <property name="caretX" value="131" />
+                    <property name="caretXRelative" value="80" />
+                    <property name="caretX" value="583" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="TransactionalProperty_ueqr71_d0a" cellNumber="0" isInList="false">
-                      <node node_reference="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6116558314501417950" />
+                    <cellInfo cellId="ERDC_property_path" cellNumber="0" isInList="false">
+                      <node node_reference="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -213,30 +214,29 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6116558314501417950" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Executable" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://com.mbeddr.core.buildconfig/com.mbeddr.core.buildconfig.structure/Executable">
+      <file leaf-file-name="stdlib_stub" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://BSML/BSML.Generator_Header/stdlib_stub">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
                     <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="147" />
+                    <property name="caretX" value="35" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:44ccebce-f3a6-4238-afbf-c4a18f6348c1(com.mbeddr.core.buildconfig.behavior)/2671893947946260496" />
+                    <cellInfo cellId="IANC_property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:62e8aeba-0540-4aa0-8a7d-8f3e1d0d4dad(BSML.Generator_Header)/2878353885459132605" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -244,13 +244,12 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:44ccebce-f3a6-4238-afbf-c4a18f6348c1(com.mbeddr.core.buildconfig.behavior)/2671893947946260496" />
             </state>
           </provider>
         </entry>
@@ -275,7 +274,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -306,7 +305,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -336,7 +335,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -1070,6 +1069,28 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="entities">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="BSML">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="BSML.structure">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="engine">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -2085,54 +2106,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://node://com.mbeddr.core.statements/com.mbeddr.core.statements.structure/LocalVarRef">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="28">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/1996550827834190828" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:ca045cc4-bf15-4298-974d-854171fafdc0(com.mbeddr.core.statements.constraints)/2093108837558189299" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.mbeddr.core.modules/com.mbeddr.core.modules.structure/FunctionSignature">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="88" />
-                <property name="caretX" value="235" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="TransactionalProperty_ueqr71_d0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575723997" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/1996550827834190828" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)/6437088627575723997" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://com.mbeddr.core.modules/com.mbeddr.core.modules.structure/FunctionPrototype">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
@@ -2226,43 +2199,6 @@
             <enabledHints />
           </inspectorMemento>
           <node node_ref="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)/3196918548952765095" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://BSML/BSML.structure/CFunctionBinding">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretXRelative" value="-47" />
-                <property name="caretX" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_6h6dhy_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)/8607120610933610676" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)/8607120610933610676" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretXRelative" value="-15" />
-                <property name="caretX" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_6h6dhy_a_0" cellNumber="0" isInList="false">
-                  <node node_reference="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)/8607120610933610676" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)/8607120610933610675" />
         </state>
       </provider>
     </entry>
@@ -3250,7 +3186,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:62e8aeba-0540-4aa0-8a7d-8f3e1d0d4dad(BSML.Generator_Header)/2878353885459132458" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -3278,7 +3214,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:62e8aeba-0540-4aa0-8a7d-8f3e1d0d4dad(BSML.Generator_Header)/2878353885459132582" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -3336,7 +3272,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:62e8aeba-0540-4aa0-8a7d-8f3e1d0d4dad(BSML.Generator_Header)/2878353885459132582" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -3365,7 +3301,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -3394,7 +3330,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -3422,7 +3358,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -3450,7 +3386,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -3478,7 +3414,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -3507,7 +3443,120 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/1054945346929061768" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BSML/BSML.structure/CFunctionBinding">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="64" />
+                <property name="caretX" value="799" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:c262c7b2-132a-46e8-a5a7-0ff5b8b87a0c(BSML.constraints)/2042574486722761217" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:c262c7b2-132a-46e8-a5a7-0ff5b8b87a0c(BSML.constraints)/8607120610933611226" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BSML/BSML.Generator_Header/stdlib_stub">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="35" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="IANC_property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:62e8aeba-0540-4aa0-8a7d-8f3e1d0d4dad(BSML.Generator_Header)/2878353885459132605" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BSML/BSML.Generator_Header/glib_MemoryAlloc_stub">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="35" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="IANC_property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:62e8aeba-0540-4aa0-8a7d-8f3e1d0d4dad(BSML.Generator_Header)/2878353885459132458" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://BSML/BSML.BSML_stub/BSML_stub">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="80" />
+                <property name="caretX" value="583" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="ERDC_property_path" cellNumber="0" isInList="false">
+                  <node node_reference="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/2042574486722764367" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
