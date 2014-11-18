@@ -11,6 +11,14 @@ struct test_TS {
   char* s2;
 };
 
+typedef struct test_Speed test_Speed_t;
+struct test_Speed {
+  int32_t x;
+  int32_t y;
+  char* info_x;
+  char* info_y;
+};
+
 typedef struct test__SMArray test__SMArray_t;
 struct test__SMArray {
   void** data;
@@ -28,17 +36,27 @@ struct test__Event {
 typedef test__Event_t test_Event;
 typedef enum ___test_test__sm_EventEnum{
   test_test__sm_EventEnum__test__sm__main__turn_on,
-  test_test__sm_EventEnum___sm_terminate_e = -1
+  test_test__sm_EventEnum__test__sm__main__launch,
+  test_test__sm_EventEnum__test__sm__main__out1,
+  test_test__sm_EventEnum__test__sm__main__on__r1__local,
+  test_test__sm_EventEnum___sm_terminate_g = -1
 } test_test__sm_EventEnum;
 
 typedef enum ___test_test__sm_StateEnum{
   test_test__sm_StateEnum__test__sm__main__off,
-  test_test__sm_StateEnum__test__sm__main__on
+  test_test__sm_StateEnum__test__sm__main__on,
+  test_test__sm_StateEnum__test__sm__main__on__r1__a1,
+  test_test__sm_StateEnum__test__sm__main__on__r1__a2,
+  test_test__sm_StateEnum__test__sm__main__on__r1__a3,
+  test_test__sm_StateEnum__test__sm__main__on__r2__b1,
+  test_test__sm_StateEnum__test__sm__main__on__r2__b2
 } test_test__sm_StateEnum;
 
 typedef struct test_test__sm_SMStruct test_test__sm_SMStruct_t;
 struct test_test__sm_SMStruct {
   test_test__sm_StateEnum test__sm__main____cur_state;
+  test_test__sm_StateEnum test__sm__main__on__r1____cur_state;
+  test_test__sm_StateEnum test__sm__main__on__r2____cur_state;
 };
 
 static GAsyncQueue* test_event_queue_test__sm;
@@ -58,17 +76,37 @@ struct test__Transition {
 };
 
 typedef test__Transition_t test_Transition;
-static void test_handle_out1(bool b);
+static void test_trigger(void);
+
+static void test_handle_out1(void);
 
 static void test_on_entry_test__sm__main(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
+
+static void test_on_entry_test__sm__main__on__r1(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
+
+static void test_on_entry_test__sm__main__on__r2(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
 
 static void test_on_entry_test__sm__main__off(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
 
 static void test_on_entry_test__sm__main__on(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
 
+static void test_on_entry_test__sm__main__on__r1__a1(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
+
+static void test_on_entry_test__sm__main__on__r1__a2(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
+
+static void test_on_entry_test__sm__main__on__r1__a3(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
+
+static void test_on_entry_test__sm__main__on__r2__b1(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
+
+static void test_on_entry_test__sm__main__on__r2__b2(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
+
 static void test_on_entry_test__sm(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
 
 static void test_init_test__sm__main(test_test__sm_SMStruct_t* sm_info);
+
+static void test_init_test__sm__main__on__r1(test_test__sm_SMStruct_t* sm_info);
+
+static void test_init_test__sm__main__on__r2(test_test__sm_SMStruct_t* sm_info);
 
 static void test_init_test__sm(test_Event** present_events, test_Event** present_events_shadow, test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
 
@@ -77,6 +115,12 @@ static void test_execute_big_step_test__sm(test_Event* present_events[], test_Ev
 static void test_execute_small_step_test__sm(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow, test_SMArray* enabled_transitions);
 
 static gpointer test_sm_start_test__sm(gpointer dummy_ptr);
+
+static void test_action__test__sm__main__on__r1__t1(test_Event** present_events, test_Event** present_events_shadow, test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
+
+static void test_action__test__sm__main__on__r1__t2(test_Event** present_events, test_Event** present_events_shadow, test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
+
+static void test_action__test__sm__main__on__r2__t1(test_Event** present_events, test_Event** present_events_shadow, test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
 
 static void test_action__test__sm__main__t1(test_Event** present_events, test_Event** present_events_shadow, test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
 
@@ -108,22 +152,39 @@ static test_Transition* test_create_trans(test_test__sm_StateEnum* __cur_state, 
 
 static struct _GThread* test_blockexpr_main_4(void);
 
+static test__Event_t* test_blockexpr_action__test__sm__main__on__r1__t1_107(void);
+
 int32_t main(int32_t argc, char* argv[]) 
 {
-  GThread* sm_thread_e = test_blockexpr_main_4();
+  GThread* sm_thread_g = test_blockexpr_main_4();
+  test_trigger();
+  test_Speed_t s = {
+    8,
+    16,
+    "speed x is ",
+    "speed y is "
+  };
   {
     void** args = 0;
+    args = ((void**)(malloc(1 * sizeof(void*))));
+    /* 
+     * initialized actual arguments
+     */
+
+    test_Speed_t* arg0 = ((test_Speed_t*)(malloc(sizeof(test_Speed_t))));
+    *arg0 = s;
+    args[0] = arg0;
     test_Event* inevent = ((test_Event*)(malloc(sizeof(test_Event))));
-    inevent->type = test_test__sm_EventEnum__test__sm__main__turn_on;
+    inevent->type = test_test__sm_EventEnum__test__sm__main__launch;
     inevent->args = args;
     test_event_queue_test__sm_put(inevent);
     
   }
   {
     test_Event* term_event = ((test_Event*)(malloc(sizeof(test_Event))));
-    term_event->type = test_test__sm_EventEnum___sm_terminate_e;
+    term_event->type = test_test__sm_EventEnum___sm_terminate_g;
     test_event_queue_test__sm_put(term_event);
-    gpointer retval = g_thread_join(sm_thread_e);
+    gpointer retval = g_thread_join(sm_thread_g);
     g_async_queue_unref(test_event_queue_test__sm);
     if ( retval != 0 ) 
     {
@@ -132,7 +193,20 @@ int32_t main(int32_t argc, char* argv[])
   return 0;
 }
 
-static void test_handle_out1(bool b) 
+static void test_trigger(void) 
+{
+  {
+    void** args = 0;
+    test_Event* inevent = ((test_Event*)(malloc(sizeof(test_Event))));
+    inevent->type = test_test__sm_EventEnum__test__sm__main__turn_on;
+    inevent->args = args;
+    test_event_queue_test__sm_put(inevent);
+    
+  }
+  
+}
+
+static void test_handle_out1(void) 
 {
   printf("$$print_string: string (");
   printf("info=%s",(((char*)("out event out1 is triggered."))));
@@ -146,11 +220,45 @@ static void test_on_entry_test__sm__main(test_Event* present_events[], test_Even
   test_on_entry_test__sm__main__off(present_events, present_events_shadow, sm_info, sm_info_shadow);
 }
 
+static void test_on_entry_test__sm__main__on__r1(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow) 
+{
+  sm_info_shadow->test__sm__main__on__r1____cur_state = test_test__sm_StateEnum__test__sm__main__on__r1__a1;
+  test_on_entry_test__sm__main__on__r1__a1(present_events, present_events_shadow, sm_info, sm_info_shadow);
+}
+
+static void test_on_entry_test__sm__main__on__r2(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow) 
+{
+  sm_info_shadow->test__sm__main__on__r2____cur_state = test_test__sm_StateEnum__test__sm__main__on__r2__b1;
+  test_on_entry_test__sm__main__on__r2__b1(present_events, present_events_shadow, sm_info, sm_info_shadow);
+}
+
 static void test_on_entry_test__sm__main__off(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow) 
 {
 }
 
 static void test_on_entry_test__sm__main__on(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow) 
+{
+  test_on_entry_test__sm__main__on__r1(present_events, present_events_shadow, sm_info, sm_info_shadow);
+  test_on_entry_test__sm__main__on__r2(present_events, present_events_shadow, sm_info, sm_info_shadow);
+}
+
+static void test_on_entry_test__sm__main__on__r1__a1(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow) 
+{
+}
+
+static void test_on_entry_test__sm__main__on__r1__a2(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow) 
+{
+}
+
+static void test_on_entry_test__sm__main__on__r1__a3(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow) 
+{
+}
+
+static void test_on_entry_test__sm__main__on__r2__b1(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow) 
+{
+}
+
+static void test_on_entry_test__sm__main__on__r2__b2(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow) 
 {
 }
 
@@ -160,6 +268,24 @@ static void test_on_entry_test__sm(test_Event* present_events[], test_Event* pre
 }
 
 static void test_init_test__sm__main(test_test__sm_SMStruct_t* sm_info) 
+{
+  /* 
+   * only initialze static variables
+   */
+
+  test_init_test__sm__main__on__r1(sm_info);
+  test_init_test__sm__main__on__r2(sm_info);
+}
+
+static void test_init_test__sm__main__on__r1(test_test__sm_SMStruct_t* sm_info) 
+{
+  /* 
+   * only initialze static variables
+   */
+
+}
+
+static void test_init_test__sm__main__on__r2(test_test__sm_SMStruct_t* sm_info) 
 {
   /* 
    * only initialze static variables
@@ -196,6 +322,198 @@ static void test_execute_small_step_test__sm(test_Event* present_events[], test_
         break;
       }
       case test_test__sm_StateEnum__test__sm__main__on: {
+        {
+          /* 
+           * handle transitions in subregions
+           */
+
+          switch (sm_info->test__sm__main__on__r1____cur_state)
+          {
+            case test_test__sm_StateEnum__test__sm__main__on__r1__a1: {
+              break;
+            }
+            case test_test__sm_StateEnum__test__sm__main__on__r1__a2: {
+              break;
+            }
+            case test_test__sm_StateEnum__test__sm__main__on__r1__a3: {
+              break;
+            }
+          }
+
+          /* 
+           * handle transitions in current region
+           */
+
+          switch (sm_info->test__sm__main__on__r1____cur_state)
+          {
+            case test_test__sm_StateEnum__test__sm__main__on__r1__a1: {
+              for ( int8_t index = 0; index < 4; index++ )
+              {
+                if ( present_events[index] == 0 ) 
+                {
+                  continue;
+                }
+                switch (((test_test__sm_EventEnum)((uint64_t)(present_events[index]->type))))
+                {
+                  case test_test__sm_EventEnum__test__sm__main__launch: {
+                    if ( true ) 
+                    {
+                      /* 
+                       * handle state transition
+                       */
+
+                      test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main__on__r1____cur_state), test_test__sm_StateEnum__test__sm__main__on__r1__a1, test_test__sm_StateEnum__test__sm__main__on__r1__a2, "test.sm.main.on.r1.t1", "test.sm.main.on.r1.a1", "test.sm.main.on.r1.a2", &test_action__test__sm__main__on__r1__t1, &test_on_entry_test__sm__main__on__r1__a2);
+                      test_smarray_append(enabled_transitions, trans);
+                    }
+                    break;
+                  }
+                  default:
+                    /* 
+                     * check transitions without trigger
+                     */
+
+                    break;
+                  
+                }
+
+              }
+              break;
+            }
+            case test_test__sm_StateEnum__test__sm__main__on__r1__a2: {
+              for ( int8_t index = 0; index < 4; index++ )
+              {
+                if ( present_events[index] == 0 ) 
+                {
+                  continue;
+                }
+                switch (((test_test__sm_EventEnum)((uint64_t)(present_events[index]->type))))
+                {
+                  case test_test__sm_EventEnum__test__sm__main__on__r1__local: {
+                    if ( true ) 
+                    {
+                      /* 
+                       * handle state transition
+                       */
+
+                      test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main__on__r1____cur_state), test_test__sm_StateEnum__test__sm__main__on__r1__a2, test_test__sm_StateEnum__test__sm__main__on__r1__a3, "test.sm.main.on.r1.t2", "test.sm.main.on.r1.a2", "test.sm.main.on.r1.a3", &test_action__test__sm__main__on__r1__t2, &test_on_entry_test__sm__main__on__r1__a3);
+                      test_smarray_append(enabled_transitions, trans);
+                    }
+                    break;
+                  }
+                  default:
+                    /* 
+                     * check transitions without trigger
+                     */
+
+                    break;
+                  
+                }
+
+              }
+              break;
+            }
+            case test_test__sm_StateEnum__test__sm__main__on__r1__a3: {
+              for ( int8_t index = 0; index < 4; index++ )
+              {
+                if ( present_events[index] == 0 ) 
+                {
+                  continue;
+                }
+                switch (((test_test__sm_EventEnum)((uint64_t)(present_events[index]->type))))
+                {
+                  default:
+                    /* 
+                     * check transitions without trigger
+                     */
+
+                    break;
+                  
+                }
+
+              }
+              break;
+            }
+          }
+
+        }
+        {
+          /* 
+           * handle transitions in subregions
+           */
+
+          switch (sm_info->test__sm__main__on__r2____cur_state)
+          {
+            case test_test__sm_StateEnum__test__sm__main__on__r2__b1: {
+              break;
+            }
+            case test_test__sm_StateEnum__test__sm__main__on__r2__b2: {
+              break;
+            }
+          }
+
+          /* 
+           * handle transitions in current region
+           */
+
+          switch (sm_info->test__sm__main__on__r2____cur_state)
+          {
+            case test_test__sm_StateEnum__test__sm__main__on__r2__b1: {
+              for ( int8_t index = 0; index < 4; index++ )
+              {
+                if ( present_events[index] == 0 ) 
+                {
+                  continue;
+                }
+                switch (((test_test__sm_EventEnum)((uint64_t)(present_events[index]->type))))
+                {
+                  case test_test__sm_EventEnum__test__sm__main__launch: {
+                    if ( true ) 
+                    {
+                      /* 
+                       * handle state transition
+                       */
+
+                      test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main__on__r2____cur_state), test_test__sm_StateEnum__test__sm__main__on__r2__b1, test_test__sm_StateEnum__test__sm__main__on__r2__b2, "test.sm.main.on.r2.t1", "test.sm.main.on.r2.b1", "test.sm.main.on.r2.b2", &test_action__test__sm__main__on__r2__t1, &test_on_entry_test__sm__main__on__r2__b2);
+                      test_smarray_append(enabled_transitions, trans);
+                    }
+                    break;
+                  }
+                  default:
+                    /* 
+                     * check transitions without trigger
+                     */
+
+                    break;
+                  
+                }
+
+              }
+              break;
+            }
+            case test_test__sm_StateEnum__test__sm__main__on__r2__b2: {
+              for ( int8_t index = 0; index < 4; index++ )
+              {
+                if ( present_events[index] == 0 ) 
+                {
+                  continue;
+                }
+                switch (((test_test__sm_EventEnum)((uint64_t)(present_events[index]->type))))
+                {
+                  default:
+                    /* 
+                     * check transitions without trigger
+                     */
+
+                    break;
+                  
+                }
+
+              }
+              break;
+            }
+          }
+
+        }
         break;
       }
     }
@@ -207,7 +525,7 @@ static void test_execute_small_step_test__sm(test_Event* present_events[], test_
     switch (sm_info->test__sm__main____cur_state)
     {
       case test_test__sm_StateEnum__test__sm__main__off: {
-        for ( int8_t index = 0; index < 1; index++ )
+        for ( int8_t index = 0; index < 4; index++ )
         {
           if ( present_events[index] == 0 ) 
           {
@@ -240,7 +558,7 @@ static void test_execute_small_step_test__sm(test_Event* present_events[], test_
         break;
       }
       case test_test__sm_StateEnum__test__sm__main__on: {
-        for ( int8_t index = 0; index < 1; index++ )
+        for ( int8_t index = 0; index < 4; index++ )
         {
           if ( present_events[index] == 0 ) 
           {
@@ -277,32 +595,32 @@ static void test_execute_small_step_test__sm(test_Event* present_events[], test_
    * copy shdow values to present_events and sm_info
    */
 
-  memcpy(present_events, ((void* const )(present_events_shadow)), 1 * sizeof(test_Event*));
+  memcpy(present_events, ((void* const )(present_events_shadow)), 4 * sizeof(test_Event*));
   memcpy(sm_info, ((void* const )(sm_info_shadow)), sizeof(test_test__sm_SMStruct_t));
   
 }
 
 static gpointer test_sm_start_test__sm(gpointer dummy_ptr) 
 {
-  static test_Event* present_event_test__sm[1];
-  static test_Event* present_event_test__sm_shadow[1];
-  test_reset_pointer_array(((void**)(present_event_test__sm)), 1);
-  memcpy(present_event_test__sm_shadow, present_event_test__sm, 1 * sizeof(test_Event*));
+  static test_Event* present_event_test__sm[4];
+  static test_Event* present_event_test__sm_shadow[4];
+  test_reset_pointer_array(((void**)(present_event_test__sm)), 4);
+  memcpy(present_event_test__sm_shadow, present_event_test__sm, 4 * sizeof(test_Event*));
   static test_test__sm_SMStruct_t sm_info_test__sm;
   static test_test__sm_SMStruct_t sm_info_test__sm_shadow;
   test_init_test__sm(present_event_test__sm, present_event_test__sm, &sm_info_test__sm, &sm_info_test__sm);
   memcpy(&sm_info_test__sm_shadow, ((void* const )(&sm_info_test__sm)), sizeof(test_test__sm_SMStruct_t));
   while (true)
   {
-    test_free_pointer_array(((void**)(present_event_test__sm)), 1);
-    test_reset_pointer_array(((void**)(present_event_test__sm)), 1);
-    memcpy(present_event_test__sm_shadow, present_event_test__sm, 1 * sizeof(test_Event*));
+    test_free_pointer_array(((void**)(present_event_test__sm)), 4);
+    test_reset_pointer_array(((void**)(present_event_test__sm)), 4);
+    memcpy(present_event_test__sm_shadow, present_event_test__sm, 4 * sizeof(test_Event*));
     test_Event* in_event = test_event_queue_test__sm_get();
     /* 
      * terminate state machine
      */
 
-    if ( in_event == 0 || in_event->type == test_test__sm_EventEnum___sm_terminate_e ) 
+    if ( in_event == 0 || in_event->type == test_test__sm_EventEnum___sm_terminate_g ) 
     {
       char* retval = "terminate event received. state machine terminated successfully.";
       return retval;
@@ -310,6 +628,49 @@ static gpointer test_sm_start_test__sm(gpointer dummy_ptr)
     present_event_test__sm[in_event->type] = in_event;
     present_event_test__sm_shadow[in_event->type] = in_event;
     test_execute_big_step_test__sm(present_event_test__sm, present_event_test__sm_shadow, &sm_info_test__sm, &sm_info_test__sm_shadow);
+  }
+}
+
+static void test_action__test__sm__main__on__r1__t1(test_Event** present_events, test_Event** present_events_shadow, test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow) 
+{
+  {
+    printf("$$print_string: string (");
+    printf("info=%s",(((char*)((*((test_Speed_t*)((*(present_events[test_test__sm_EventEnum__test__sm__main__launch]->args + 0))))).info_x))));
+    printf(") @test:sm?r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)#2042574486718030043\n");
+    
+    printf("$$print_int: int (");
+    printf("value=%i",(((int32_t)((*((test_Speed_t*)((*(present_events[test_test__sm_EventEnum__test__sm__main__launch]->args + 0))))).x))));
+    printf(") @test:sm?r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)#2042574486717997504\n");
+    
+    {
+      test_Event* internal_event = test_blockexpr_action__test__sm__main__on__r1__t1_107();
+      present_events_shadow[internal_event->type] = internal_event;
+    };
+  }
+}
+
+static void test_action__test__sm__main__on__r1__t2(test_Event** present_events, test_Event** present_events_shadow, test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow) 
+{
+  {
+    printf("$$print_string: string (");
+    printf("info=%s",(((char*)("local event is triggered"))));
+    printf(") @test:sm?r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)#2042574486718050961\n");
+    
+  }
+}
+
+static void test_action__test__sm__main__on__r2__t1(test_Event** present_events, test_Event** present_events_shadow, test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow) 
+{
+  {
+    printf("$$print_string: string (");
+    printf("info=%s",(((char*)((*((test_Speed_t*)((*(present_events[test_test__sm_EventEnum__test__sm__main__launch]->args + 0))))).info_y))));
+    printf(") @test:sm?r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)#2042574486718045459\n");
+    
+    printf("$$print_int: int (");
+    printf("value=%i",(((int32_t)((*((test_Speed_t*)((*(present_events[test_test__sm_EventEnum__test__sm__main__launch]->args + 0))))).y))));
+    printf(") @test:sm?r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)#2042574486718045464\n");
+    
+    test_handle_out1();;
   }
 }
 
@@ -439,5 +800,14 @@ static struct _GThread* test_blockexpr_main_4(void)
 {
   test_event_queue_test__sm = g_async_queue_new();
   return g_thread_new("", &test_sm_start_test__sm, 0);
+}
+
+static test__Event_t* test_blockexpr_action__test__sm__main__on__r1__t1_107(void) 
+{
+  void** args = 0;
+  test_Event* event = ((test_Event*)(malloc(sizeof(test_Event))));
+  event->type = test_test__sm_EventEnum__test__sm__main__on__r1__local;
+  event->args = args;
+  return event;
 }
 

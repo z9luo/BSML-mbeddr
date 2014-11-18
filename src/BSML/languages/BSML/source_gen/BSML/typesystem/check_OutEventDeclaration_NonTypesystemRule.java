@@ -7,10 +7,10 @@ import jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
 import jetbrains.mps.errors.IErrorReporter;
@@ -21,7 +21,7 @@ public class check_OutEventDeclaration_NonTypesystemRule extends AbstractNonType
   }
 
   public void applyRule(final SNode outEventDeclaration, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if (Sequence.fromIterable(BehaviorReflection.invokeVirtual((Class<Iterable<SNode>>) ((Class) Object.class), outEventDeclaration, "virtual_args_2486662774781081797", new Object[]{})).count() != ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(outEventDeclaration, "binding", true), "binding", false), "arguments", true)).count()) {
+    if ((SLinkOperations.getTarget(outEventDeclaration, "binding", true) != null) && Sequence.fromIterable(BehaviorReflection.invokeVirtual((Class<Iterable<SNode>>) ((Class) Object.class), outEventDeclaration, "virtual_args_2486662774781081797", new Object[]{})).count() != ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(outEventDeclaration, "binding", true), "binding", false), "arguments", true)).count()) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(outEventDeclaration, "wrong number of arguments: " + BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(SLinkOperations.getTarget(outEventDeclaration, "binding", true), "binding", false), "virtual_qualifiedName_5470497459578244269", new Object[]{}), "r:4175e96b-4bf8-489b-b72c-d9eeeddab49d(BSML.typesystem)", "1983669701634733646", null, errorTarget);

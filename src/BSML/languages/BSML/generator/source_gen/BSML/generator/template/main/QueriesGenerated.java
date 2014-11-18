@@ -11,7 +11,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.generator.template.PropertyMacroContext;
-import BSML.tutil.util;
+import BSML.Generator_Util.util;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.generator.template.IfMacroContext;
@@ -284,6 +284,10 @@ public class QueriesGenerated {
 
   public static Object referenceMacro_GetReferent_3946458319598746786(final ReferenceMacroContext _context) {
     return BehaviorReflection.invokeVirtual(String.class, Sequence.fromIterable(BehaviorReflection.invokeVirtual((Class<Iterable<SNode>>) ((Class) Object.class), _context.getNode(), "virtual_triggers_2486662774780450416", new Object[]{})).first(), "virtual_id_3372386639989961954", new Object[]{});
+  }
+
+  public static Object referenceMacro_GetReferent_2878353885462446739(final ReferenceMacroContext _context) {
+    return "Transition";
   }
 
   public static Object referenceMacro_GetReferent_7466645974735856009(final ReferenceMacroContext _context) {

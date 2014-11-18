@@ -136,7 +136,7 @@
     <nodeInfo nodeId="1983669701634577578" fileName="check_OutEventDeclaration_NonTypesystemRule.java" startLine="20" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="check_OutEventDeclaration_NonTypesystemRule#()V" />
     <nodeInfo nodeId="1983669701634577578" fileName="check_OutEventDeclaration_NonTypesystemRule.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
     <nodeInfo nodeId="1983669701634577578" fileName="check_OutEventDeclaration_NonTypesystemRule.java" startLine="43" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
-    <nodeInfo nodeId="1983669701634733646" fileName="check_OutEventDeclaration_NonTypesystemRule.java" startLine="24" startPosition="386" endLine="28" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1983669701634733646" fileName="check_OutEventDeclaration_NonTypesystemRule.java" startLine="24" startPosition="463" endLine="28" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1983669701634577578" fileName="check_OutEventDeclaration_NonTypesystemRule.java" startLine="36" startPosition="68" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1983669701634578713" fileName="check_OutEventDeclaration_NonTypesystemRule.java" startLine="23" startPosition="132" endLine="29" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1983669701634577578" fileName="check_OutEventDeclaration_NonTypesystemRule.java" startLine="36" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
@@ -154,7 +154,7 @@
     </scopeInfo>
     <scopeInfo nodeId="1983669701634577578" fileName="check_OutEventDeclaration_NonTypesystemRule.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
     <scopeInfo nodeId="1983669701634577578" fileName="check_OutEventDeclaration_NonTypesystemRule.java" startLine="43" startPosition="0" endLine="46" endPosition="0" />
-    <scopeInfo nodeId="1983669701634578716" fileName="check_OutEventDeclaration_NonTypesystemRule.java" startLine="24" startPosition="386" endLine="28" endPosition="7" />
+    <scopeInfo nodeId="1983669701634578716" fileName="check_OutEventDeclaration_NonTypesystemRule.java" startLine="24" startPosition="463" endLine="28" endPosition="7" />
     <scopeInfo nodeId="1983669701634577578" fileName="check_OutEventDeclaration_NonTypesystemRule.java" startLine="36" startPosition="68" endLine="40" endPosition="5" />
     <scopeInfo nodeId="1983669701634577579" fileName="check_OutEventDeclaration_NonTypesystemRule.java" startLine="23" startPosition="132" endLine="29" endPosition="5" />
     <scopeInfo nodeId="1983669701634577578" fileName="check_OutEventDeclaration_NonTypesystemRule.java" startLine="36" startPosition="0" endLine="42" endPosition="0">
@@ -177,7 +177,7 @@
     <nodeInfo nodeId="1996550827833120104" fileName="check_InEventDeclaration_NonTypesystemRule.java" startLine="20" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="check_InEventDeclaration_NonTypesystemRule#()V" />
     <nodeInfo nodeId="1996550827833120104" fileName="check_InEventDeclaration_NonTypesystemRule.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
     <nodeInfo nodeId="1996550827833120104" fileName="check_InEventDeclaration_NonTypesystemRule.java" startLine="43" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
-    <nodeInfo nodeId="1996550827833120957" fileName="check_InEventDeclaration_NonTypesystemRule.java" startLine="24" startPosition="384" endLine="28" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="1996550827833120957" fileName="check_InEventDeclaration_NonTypesystemRule.java" startLine="24" startPosition="460" endLine="28" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1996550827833120104" fileName="check_InEventDeclaration_NonTypesystemRule.java" startLine="36" startPosition="68" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="1996550827833120955" fileName="check_InEventDeclaration_NonTypesystemRule.java" startLine="23" startPosition="131" endLine="29" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
     <nodeInfo nodeId="1996550827833120104" fileName="check_InEventDeclaration_NonTypesystemRule.java" startLine="36" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
@@ -195,7 +195,7 @@
     </scopeInfo>
     <scopeInfo nodeId="1996550827833120104" fileName="check_InEventDeclaration_NonTypesystemRule.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
     <scopeInfo nodeId="1996550827833120104" fileName="check_InEventDeclaration_NonTypesystemRule.java" startLine="43" startPosition="0" endLine="46" endPosition="0" />
-    <scopeInfo nodeId="1996550827833120956" fileName="check_InEventDeclaration_NonTypesystemRule.java" startLine="24" startPosition="384" endLine="28" endPosition="7" />
+    <scopeInfo nodeId="1996550827833120956" fileName="check_InEventDeclaration_NonTypesystemRule.java" startLine="24" startPosition="460" endLine="28" endPosition="7" />
     <scopeInfo nodeId="1996550827833120104" fileName="check_InEventDeclaration_NonTypesystemRule.java" startLine="36" startPosition="68" endLine="40" endPosition="5" />
     <scopeInfo nodeId="1996550827833120105" fileName="check_InEventDeclaration_NonTypesystemRule.java" startLine="23" startPosition="131" endLine="29" endPosition="5" />
     <scopeInfo nodeId="1996550827833120104" fileName="check_InEventDeclaration_NonTypesystemRule.java" startLine="36" startPosition="0" endLine="42" endPosition="0">
