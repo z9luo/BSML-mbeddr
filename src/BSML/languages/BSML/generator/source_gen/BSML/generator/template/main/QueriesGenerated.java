@@ -15,6 +15,8 @@ import BSML.Generator_Util.util;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.generator.template.IfMacroContext;
+import com.mbeddr.core.buildconfig.behavior.BCHelper;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import java.util.List;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
@@ -23,7 +25,6 @@ import jetbrains.mps.internal.collections.runtime.ITranslator2;
 import jetbrains.mps.generator.template.WeavingMappingRuleContext;
 import jetbrains.mps.generator.template.MappingScriptContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
 
 @Generated
@@ -78,16 +79,16 @@ public class QueriesGenerated {
     return ListSequence.fromList(SNodeOperations.getDescendants(SNodeOperations.getAncestor(_context.getNode(), "BSML.structure.IStateMachine", false, false), "BSML.structure.IEvent", false, new String[]{})).count() + "";
   }
 
-  public static Object propertyMacro_GetPropertyValue_4306907833975213498(final PropertyMacroContext _context) {
-    return util.genBigStepFunctionName(BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}));
+  public static Object propertyMacro_GetPropertyValue_8025659639991238401(final PropertyMacroContext _context) {
+    return ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "BSML.structure.RegionLocalDeclaration", false, new String[]{})).count() + "";
   }
 
   public static Object propertyMacro_GetPropertyValue_7466645974718512710(final PropertyMacroContext _context) {
     return ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "BSML.structure.IEvent", false, new String[]{})).count() + "";
   }
 
-  public static Object propertyMacro_GetPropertyValue_1996550827849711590(final PropertyMacroContext _context) {
-    return util.genSmallStepFunctionName(BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}));
+  public static Object propertyMacro_GetPropertyValue_4306907833975213498(final PropertyMacroContext _context) {
+    return util.genBigStepFunctionName(BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}));
   }
 
   public static Object propertyMacro_GetPropertyValue_3946458319585473083(final PropertyMacroContext _context) {
@@ -214,6 +215,14 @@ public class QueriesGenerated {
     return util.genStateEnumName(BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}));
   }
 
+  public static Object propertyMacro_GetPropertyValue_8025659639991052725(final PropertyMacroContext _context) {
+    return BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{});
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8025659639991052733(final PropertyMacroContext _context) {
+    return util.genRegionEnumName(BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}));
+  }
+
   public static Object propertyMacro_GetPropertyValue_1996550827859461604(final PropertyMacroContext _context) {
     return BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}) + "____cur_state";
   }
@@ -248,6 +257,10 @@ public class QueriesGenerated {
 
   public static Object referenceMacro_GetReferent_3174948071968895839(final ReferenceMacroContext _context) {
     return BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}) + "____cur_state";
+  }
+
+  public static Object referenceMacro_GetReferent_8025659639993935888(final ReferenceMacroContext _context) {
+    return BehaviorReflection.invokeVirtual(String.class, SNodeOperations.getAncestor(_context.getNode(), "BSML.structure.IRegion", false, false), "virtual_id_3372386639989961954", new Object[]{});
   }
 
   public static Object referenceMacro_GetReferent_6615293872257041064(final ReferenceMacroContext _context) {
@@ -330,6 +343,10 @@ public class QueriesGenerated {
     return BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}) + "____cur_state";
   }
 
+  public static Object referenceMacro_GetReferent_8025659639993803107(final ReferenceMacroContext _context) {
+    return BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{});
+  }
+
   public static Object referenceMacro_GetReferent_6615293872248377931(final ReferenceMacroContext _context) {
     return "Event";
   }
@@ -358,34 +375,6 @@ public class QueriesGenerated {
     return "smarray_new";
   }
 
-  public static Object referenceMacro_GetReferent_6615293872259750595(final ReferenceMacroContext _context) {
-    return "smarray_free";
-  }
-
-  public static Object referenceMacro_GetReferent_3372386639991365756(final ReferenceMacroContext _context) {
-    return util.genMessageListName(BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}));
-  }
-
-  public static Object referenceMacro_GetReferent_6615293872248496420(final ReferenceMacroContext _context) {
-    return "Event";
-  }
-
-  public static Object referenceMacro_GetReferent_6615293872248577645(final ReferenceMacroContext _context) {
-    return "Event";
-  }
-
-  public static Object referenceMacro_GetReferent_6615293872244723446(final ReferenceMacroContext _context) {
-    return util.genSMStructName(BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}));
-  }
-
-  public static Object referenceMacro_GetReferent_6615293872244838552(final ReferenceMacroContext _context) {
-    return util.genSMStructName(BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}));
-  }
-
-  public static Object referenceMacro_GetReferent_6615293872251894395(final ReferenceMacroContext _context) {
-    return "SMArray";
-  }
-
   public static Object referenceMacro_GetReferent_6615293872259824172(final ReferenceMacroContext _context) {
     return "smarray_clear";
   }
@@ -412,6 +401,14 @@ public class QueriesGenerated {
 
   public static Object referenceMacro_GetReferent_7466645974718512811(final ReferenceMacroContext _context) {
     return util.genSMStructName(BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}));
+  }
+
+  public static Object referenceMacro_GetReferent_6615293872259750595(final ReferenceMacroContext _context) {
+    return "smarray_free";
+  }
+
+  public static Object referenceMacro_GetReferent_3372386639991365756(final ReferenceMacroContext _context) {
+    return util.genMessageListName(BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}));
   }
 
   public static Object referenceMacro_GetReferent_6615293872248749917(final ReferenceMacroContext _context) {
@@ -827,6 +824,14 @@ public class QueriesGenerated {
     return "Event";
   }
 
+  public static boolean ifMacro_Condition_8025659639993942403(final IfMacroContext _context) {
+    SNode rc = BCHelper.findBCConfigItem(_context.getInputModel(), _context, "BSML/main.reduceRegion", SConceptOperations.findConceptDeclaration("BSML.structure.StateMachineSemanticsConfigItem"), "");
+    if (rc != null && SPropertyOperations.hasValue(SNodeOperations.cast(rc, "BSML.structure.StateMachineSemanticsConfigItem"), "bigStepMaximality", "0", "2")) {
+      return true;
+    }
+    return false;
+  }
+
   public static boolean ifMacro_Condition_7466645974728471180(final IfMacroContext _context) {
     return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "actuals", true)).isNotEmpty();
   }
@@ -1045,6 +1050,10 @@ public class QueriesGenerated {
 
   public static Iterable<SNode> sourceNodesQuery_1996550827859461554(final SourceSubstituteMacroNodesContext _context) {
     return SNodeOperations.getDescendants(_context.getNode(), "BSML.structure.StateLocalDeclaration", false, new String[]{});
+  }
+
+  public static Iterable<SNode> sourceNodesQuery_8025659639991052716(final SourceSubstituteMacroNodesContext _context) {
+    return SNodeOperations.getDescendants(_context.getNode(), "BSML.structure.RegionLocalDeclaration", false, new String[]{});
   }
 
   public static Iterable<SNode> sourceNodesQuery_1996550827859461595(final SourceSubstituteMacroNodesContext _context) {

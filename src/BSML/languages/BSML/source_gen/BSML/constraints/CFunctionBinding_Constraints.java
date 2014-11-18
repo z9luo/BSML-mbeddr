@@ -36,7 +36,7 @@ public class CFunctionBinding_Constraints extends BaseConstraintsDescriptor {
         return new BaseReferenceScopeProvider() {
           @Override
           public Object createSearchScopeOrListOfNodes(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return SNodeOperations.ofConcept(SNodeOperations.getChildren(SNodeOperations.getAncestor(_context.getEnclosingNode(), "com.mbeddr.core.modules.structure.ImplementationModule", false, false)), "com.mbeddr.core.modules.structure.FunctionSignature");
+            return SNodeOperations.ofConcept(SNodeOperations.getChildren(SNodeOperations.getAncestor(_context.getEnclosingNode(), "com.mbeddr.core.modules.structure.ImplementationModule", false, false)), "com.mbeddr.core.modules.structure.Function");
           }
 
           @Override

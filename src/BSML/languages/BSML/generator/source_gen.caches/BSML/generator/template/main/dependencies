@@ -2,6 +2,7 @@
 <dependenciesRoot>
   <dependency className="BSML.generator.template.main.QueriesGenerated" file="QueriesGenerated.java">
     <classNode dependClassName="BSML.Generator_Util.util" />
+    <classNode dependClassName="com.mbeddr.core.buildconfig.behavior.BCHelper" />
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Iterable" />
     <classNode dependClassName="java.lang.Object" />

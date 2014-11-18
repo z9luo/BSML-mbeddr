@@ -30,7 +30,7 @@ public enum BigStepMaximalityEnum {
   }
 
   public static BigStepMaximalityEnum getDefault() {
-    return BigStepMaximalityEnum.SINGLE;
+    return BigStepMaximalityEnum.MANY;
   }
 
   public static BigStepMaximalityEnum parseValue(String value) {

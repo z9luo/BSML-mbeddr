@@ -136,7 +136,7 @@
     <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="26" startPosition="73" endLine="27" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="27" startPosition="76" endLine="28" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="28" startPosition="71" endLine="29" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="32" startPosition="52" endLine="33" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="32" startPosition="52" endLine="33" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="37" startPosition="24" endLine="38" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="40" startPosition="72" endLine="41" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="43" startPosition="75" endLine="44" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -182,7 +182,7 @@
     <nodeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum_PropertySupport.java" startLine="24" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
     <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="16" startPosition="27" endLine="17" endPosition="23" />
     <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="20" startPosition="36" endLine="21" endPosition="29" />
-    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="32" startPosition="52" endLine="33" endPosition="40" />
+    <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="32" startPosition="52" endLine="33" endPosition="38" />
     <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="37" startPosition="24" endLine="38" endPosition="48" />
     <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="40" startPosition="72" endLine="41" endPosition="42" />
     <scopeInfo nodeId="6318815719351411612" fileName="BigStepMaximalityEnum.java" startLine="43" startPosition="75" endLine="44" endPosition="45" />

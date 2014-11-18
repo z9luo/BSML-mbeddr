@@ -499,6 +499,9 @@
     <node role="configurationItems" roleId="vs0r.4459718605982007338" type="k146.ReportingConfiguration" typeId="k146.4459718605982051949" id="7359472029652899051" nodeInfo="ng">
       <node role="strategy" roleId="k146.4459718605982051999" type="k146.PrintfReportingStrategy" typeId="k146.4459718605982051980" id="7359472029652899052" nodeInfo="ng" />
     </node>
+    <node role="configurationItems" roleId="vs0r.4459718605982007338" type="cmy.StateMachineSemanticsConfigItem" typeId="cmy.6318815719351411497" id="8025659639990756745" nodeInfo="ng">
+      <property name="bigStepMaximality" nameId="cmy.6318815719351411553" value="0" />
+    </node>
     <node role="binaries" roleId="51wr.5046689135694070731" type="51wr.Executable" typeId="51wr.5046689135693761554" id="7359472029652899055" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="test" />
       <node role="referencedModules" roleId="51wr.5046689135693761559" type="51wr.ModuleRef" typeId="51wr.7717755763392524107" id="7359472029652899057" nodeInfo="ng">
