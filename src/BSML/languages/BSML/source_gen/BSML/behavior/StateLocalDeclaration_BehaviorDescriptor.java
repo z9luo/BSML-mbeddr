@@ -29,6 +29,10 @@ public class StateLocalDeclaration_BehaviorDescriptor extends LocalVariableDecla
     return ISMFullNameProvider_Behavior.virtual_id_3372386639989961954(thisNode);
   }
 
+  public boolean virtual_isStable_8025659640029005022(SNode thisNode) {
+    return StateLocalDeclaration_Behavior.virtual_isStable_8025659640029005022(thisNode);
+  }
+
   public boolean virtual_isStatementListCompact_1237546693016(SNode thisNode) {
     return IContainsStatementList_Behavior.virtual_isStatementListCompact_1237546693016(thisNode);
   }

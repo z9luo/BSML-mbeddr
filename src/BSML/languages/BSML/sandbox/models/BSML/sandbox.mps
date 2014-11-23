@@ -303,6 +303,7 @@
                     </node>
                     <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.StateLocalDeclaration" typeId="cmy.5512313148880381807" id="2878353885461763143" nodeInfo="ng">
                       <property name="name" nameId="tpck.1169194664001" value="a1" />
+                      <property name="stable" nameId="cmy.8025659640026263515" value="true" />
                       <node role="type" roleId="mj1l.318113533128716676" type="cmy.StateType" typeId="cmy.4004560854229234515" id="2878353885461763144" nodeInfo="ng">
                         <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
                         <property name="const" nameId="mj1l.2941277002445651368" value="false" />
@@ -311,6 +312,7 @@
                     </node>
                     <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.StateLocalDeclaration" typeId="cmy.5512313148880381807" id="2878353885461763591" nodeInfo="ng">
                       <property name="name" nameId="tpck.1169194664001" value="a2" />
+                      <property name="stable" nameId="cmy.8025659640026263515" value="true" />
                       <node role="type" roleId="mj1l.318113533128716676" type="cmy.StateType" typeId="cmy.4004560854229234515" id="2878353885461763592" nodeInfo="ng">
                         <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
                         <property name="const" nameId="mj1l.2941277002445651368" value="false" />

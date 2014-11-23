@@ -6,6 +6,7 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class StateLocalDeclaration_Behavior {
   public static void init(SNode thisNode) {
@@ -23,5 +24,9 @@ public class StateLocalDeclaration_Behavior {
 
   public static Iterable<SNode> virtual_getContainedBlocks_3213732475053493833(SNode thisNode) {
     return SNodeOperations.ofConcept(SLinkOperations.getTargets(SLinkOperations.getTarget(thisNode, "content", true), "statements", true), "BSML.structure.AbstractBlock");
+  }
+
+  public static boolean virtual_isStable_8025659640029005022(SNode thisNode) {
+    return SPropertyOperations.getBoolean(thisNode, "stable");
   }
 }

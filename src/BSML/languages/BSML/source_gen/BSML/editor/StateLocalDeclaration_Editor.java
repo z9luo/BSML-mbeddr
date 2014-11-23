@@ -7,6 +7,12 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import com.mbeddr.core.buildconfig.behavior.BCHelper;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import com.mbeddr.core.base.behavior.IConfigurationContainer_Behavior;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
@@ -15,7 +21,6 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 
 public class StateLocalDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -26,14 +31,35 @@ public class StateLocalDeclaration_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_etxv9i_a");
     editorCell.setBig(true);
-    editorCell.addEditorCell(this.createRefNode_etxv9i_a0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_etxv9i_b0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_etxv9i_c0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_etxv9i_d0(editorContext, node));
+    if (renderingCondition_etxv9i_a0a(node, editorContext)) {
+      editorCell.addEditorCell(this.createConstant_etxv9i_a0(editorContext, node));
+    }
+    editorCell.addEditorCell(this.createRefNode_etxv9i_b0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_etxv9i_c0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_etxv9i_d0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_etxv9i_e0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createRefNode_etxv9i_a0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_etxv9i_a0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(stable)");
+    editorCell.setCellId("Constant_etxv9i_a0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private static boolean renderingCondition_etxv9i_a0a(SNode node, EditorContext editorContext) {
+    SNode config = BCHelper.findBC(SNodeOperations.getModel(node));
+    if ((config != null)) {
+      SNode sem_config = IConfigurationContainer_Behavior.call_findItemOfType_4459718605982145127(config, SConceptOperations.findConceptDeclaration("BSML.structure.StateMachineSemanticsConfigItem"));
+      if ((sem_config != null) && SPropertyOperations.hasValue(SNodeOperations.cast(sem_config, "BSML.structure.StateMachineSemanticsConfigItem"), "bigStepMaximality", "1", "2")) {
+        return SPropertyOperations.getBoolean(node, "stable");
+      }
+    }
+    return false;
+  }
+
+  private EditorCell createRefNode_etxv9i_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("type");
     provider.setNoTargetText("<no type>");
@@ -53,7 +79,7 @@ public class StateLocalDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_etxv9i_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_etxv9i_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -71,7 +97,7 @@ public class StateLocalDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_etxv9i_c0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_etxv9i_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("content");
     provider.setNoTargetText("<no content>");
@@ -94,9 +120,9 @@ public class StateLocalDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_etxv9i_d0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_etxv9i_e0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ";");
-    editorCell.setCellId("Constant_etxv9i_d0");
+    editorCell.setCellId("Constant_etxv9i_e0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.PUNCTUATION_LEFT, true);
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);

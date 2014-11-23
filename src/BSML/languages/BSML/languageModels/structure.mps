@@ -577,6 +577,10 @@
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="it is only used under either StateGlobalDecl or StateLocalDecl" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="c4fa.4185783222026475238" resolveInfo="LocalVariableDeclaration" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8025659640026263515" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="stable" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4517681580278325492" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="content" />

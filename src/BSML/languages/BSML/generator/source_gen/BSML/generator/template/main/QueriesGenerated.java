@@ -279,6 +279,10 @@ public class QueriesGenerated {
     return BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}) + "____cur_state";
   }
 
+  public static Object referenceMacro_GetReferent_8025659640028978775(final ReferenceMacroContext _context) {
+    return BehaviorReflection.invokeVirtual(String.class, SNodeOperations.getAncestor(BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), _context.getNode(), "virtual_source_2486662774780451176", new Object[]{}), "BSML.structure.IRegion", false, false), "virtual_id_3372386639989961954", new Object[]{});
+  }
+
   public static Object referenceMacro_GetReferent_6615293872257041064(final ReferenceMacroContext _context) {
     return "Transition";
   }
@@ -309,6 +313,10 @@ public class QueriesGenerated {
 
   public static Object referenceMacro_GetReferent_6615293872260332332(final ReferenceMacroContext _context) {
     return "create_trans";
+  }
+
+  public static Object referenceMacro_GetReferent_8025659640028855338(final ReferenceMacroContext _context) {
+    return BehaviorReflection.invokeVirtual(String.class, SNodeOperations.getAncestor(BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), _context.getNode(), "virtual_source_2486662774780451176", new Object[]{}), "BSML.structure.IRegion", false, false), "virtual_id_3372386639989961954", new Object[]{});
   }
 
   public static Object referenceMacro_GetReferent_3946458319598746786(final ReferenceMacroContext _context) {
@@ -377,14 +385,6 @@ public class QueriesGenerated {
 
   public static Object referenceMacro_GetReferent_3372386639991366805(final ReferenceMacroContext _context) {
     return util.genMessageListName(BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}));
-  }
-
-  public static Object referenceMacro_GetReferent_8025659640000919096(final ReferenceMacroContext _context) {
-    return "Transition";
-  }
-
-  public static Object referenceMacro_GetReferent_8025659640000919104(final ReferenceMacroContext _context) {
-    return "Transition";
   }
 
   public static Object referenceMacro_GetReferent_8025659640008191121(final ReferenceMacroContext _context) {
@@ -844,10 +844,13 @@ public class QueriesGenerated {
     return ret.value;
   }
 
-  public static boolean ifMacro_Condition_8025659639997454744(final IfMacroContext _context) {
+  public static boolean ifMacro_Condition_8025659640028809245(final IfMacroContext _context) {
     SNode rc = BCHelper.findBCConfigItem(_context.getInputModel(), _context, "BSML/main.reduceRegion", SConceptOperations.findConceptDeclaration("BSML.structure.StateMachineSemanticsConfigItem"), "");
     if (rc != null && SPropertyOperations.hasValue(SNodeOperations.cast(rc, "BSML.structure.StateMachineSemanticsConfigItem"), "bigStepMaximality", "0", "2")) {
       return true;
+    }
+    if (rc != null && SPropertyOperations.hasValue(SNodeOperations.cast(rc, "BSML.structure.StateMachineSemanticsConfigItem"), "bigStepMaximality", "1", "2")) {
+      return BehaviorReflection.invokeVirtual(Boolean.TYPE, BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), _context.getNode(), "virtual_target_2486662774780451200", new Object[]{}), "virtual_isStable_8025659640029005022", new Object[]{});
     }
     return false;
   }

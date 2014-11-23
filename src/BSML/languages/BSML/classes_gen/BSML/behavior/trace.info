@@ -18,7 +18,7 @@
   <unitInfo fileName="ISMFullNameProvider_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="11" endPosition="0" unitName="BSML.behavior.ISMFullNameProvider_BehaviorDescriptor" />
   <unitInfo fileName="IStateMachine_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="9" endPosition="0" unitName="BSML.behavior.IStateMachine_BehaviorDescriptor" />
   <unitInfo fileName="IStateScopeProvider_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="BSML.behavior.IStateScopeProvider_BehaviorDescriptor" />
-  <unitInfo fileName="IState_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="9" endPosition="0" unitName="BSML.behavior.IState_BehaviorDescriptor" />
+  <unitInfo fileName="IState_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="11" endPosition="0" unitName="BSML.behavior.IState_BehaviorDescriptor" />
   <unitInfo fileName="ITransitionProvider_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="BSML.behavior.ITransitionProvider_BehaviorDescriptor" />
   <unitInfo fileName="ITransition_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="16" endPosition="0" unitName="BSML.behavior.ITransition_BehaviorDescriptor" />
   <unitInfo fileName="InEventDeclaration_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="BSML.behavior.InEventDeclaration_BehaviorDescriptor" />
@@ -31,7 +31,7 @@
   <unitInfo fileName="SMStart_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="BSML.behavior.SMStart_BehaviorDescriptor" />
   <unitInfo fileName="SMTrigger_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="BSML.behavior.SMTrigger_BehaviorDescriptor" />
   <unitInfo fileName="SMType_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="BSML.behavior.SMType_BehaviorDescriptor" />
-  <unitInfo fileName="StateLocalDeclaration_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="BSML.behavior.StateLocalDeclaration_BehaviorDescriptor" />
+  <unitInfo fileName="StateLocalDeclaration_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="49" endPosition="0" unitName="BSML.behavior.StateLocalDeclaration_BehaviorDescriptor" />
   <unitInfo fileName="StateMachineBindingsConfigItem_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="BSML.behavior.StateMachineBindingsConfigItem_BehaviorDescriptor" />
   <unitInfo fileName="StateMachineConfigItem_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="BSML.behavior.StateMachineConfigItem_BehaviorDescriptor" />
   <unitInfo fileName="StateMachineSemanticsConfigItem_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="BSML.behavior.StateMachineSemanticsConfigItem_BehaviorDescriptor" />
@@ -316,32 +316,38 @@
     <unitInfo nodeId="4306907833977380121" fileName="IRegion_Behavior.java" startLine="10" startPosition="0" endLine="34" endPosition="0" unitName="BSML.behavior.IRegion_Behavior" />
   </root>
   <root nodeRef="r:ab9006cb-fa5a-47a8-81b8-ed3862813166(BSML.behavior)/4517681580276647935">
-    <nodeInfo nodeId="6318815719351815848" fileName="StateLocalDeclaration_Behavior.java" startLine="11" startPosition="43" endLine="12" endPosition="122" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4517681580280045770" fileName="StateLocalDeclaration_Behavior.java" startLine="12" startPosition="122" endLine="13" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3372386639992215076" fileName="StateLocalDeclaration_Behavior.java" startLine="16" startPosition="97" endLine="17" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="1054945346934280662" fileName="StateLocalDeclaration_Behavior.java" startLine="20" startPosition="102" endLine="21" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6071706840101799130" fileName="StateLocalDeclaration_Behavior.java" startLine="24" startPosition="96" endLine="25" endPosition="171" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="4517681580276647935" fileName="StateLocalDeclaration_Behavior.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getContainedRegions_3372386639992781270#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
-    <nodeInfo nodeId="4517681580276647935" fileName="StateLocalDeclaration_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getUniquelyNamedElements_5095889050031059923#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
-    <nodeInfo nodeId="4517681580276647935" fileName="StateLocalDeclaration_Behavior.java" startLine="24" startPosition="0" endLine="27" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getContainedBlocks_3213732475053493833#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
-    <nodeInfo nodeId="4517681580276647935" fileName="StateLocalDeclaration_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <scopeInfo nodeId="3372386639992784429" fileName="StateLocalDeclaration_Behavior.java" startLine="16" startPosition="97" endLine="17" endPosition="165" />
-    <scopeInfo nodeId="1054945346934280223" fileName="StateLocalDeclaration_Behavior.java" startLine="20" startPosition="102" endLine="21" endPosition="96" />
-    <scopeInfo nodeId="3213732475053501047" fileName="StateLocalDeclaration_Behavior.java" startLine="24" startPosition="96" endLine="25" endPosition="171" />
-    <scopeInfo nodeId="4517681580276648088" fileName="StateLocalDeclaration_Behavior.java" startLine="11" startPosition="43" endLine="13" endPosition="107" />
-    <scopeInfo nodeId="4517681580276647935" fileName="StateLocalDeclaration_Behavior.java" startLine="16" startPosition="0" endLine="19" endPosition="0">
+    <nodeInfo nodeId="6318815719351815848" fileName="StateLocalDeclaration_Behavior.java" startLine="12" startPosition="43" endLine="13" endPosition="122" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="4517681580280045770" fileName="StateLocalDeclaration_Behavior.java" startLine="13" startPosition="122" endLine="14" endPosition="107" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="3372386639992215076" fileName="StateLocalDeclaration_Behavior.java" startLine="17" startPosition="97" endLine="18" endPosition="165" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="1054945346934280662" fileName="StateLocalDeclaration_Behavior.java" startLine="21" startPosition="102" endLine="22" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6071706840101799130" fileName="StateLocalDeclaration_Behavior.java" startLine="25" startPosition="96" endLine="26" endPosition="171" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8025659640029018340" fileName="StateLocalDeclaration_Behavior.java" startLine="29" startPosition="78" endLine="30" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="4517681580276647935" fileName="StateLocalDeclaration_Behavior.java" startLine="17" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getContainedRegions_3372386639992781270#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="4517681580276647935" fileName="StateLocalDeclaration_Behavior.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getUniquelyNamedElements_5095889050031059923#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="4517681580276647935" fileName="StateLocalDeclaration_Behavior.java" startLine="25" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getContainedBlocks_3213732475053493833#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Iterable;" />
+    <nodeInfo nodeId="4517681580276647935" fileName="StateLocalDeclaration_Behavior.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_isStable_8025659640029005022#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="4517681580276647935" fileName="StateLocalDeclaration_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <scopeInfo nodeId="3372386639992784429" fileName="StateLocalDeclaration_Behavior.java" startLine="17" startPosition="97" endLine="18" endPosition="165" />
+    <scopeInfo nodeId="1054945346934280223" fileName="StateLocalDeclaration_Behavior.java" startLine="21" startPosition="102" endLine="22" endPosition="96" />
+    <scopeInfo nodeId="3213732475053501047" fileName="StateLocalDeclaration_Behavior.java" startLine="25" startPosition="96" endLine="26" endPosition="171" />
+    <scopeInfo nodeId="8025659640029017818" fileName="StateLocalDeclaration_Behavior.java" startLine="29" startPosition="78" endLine="30" endPosition="62" />
+    <scopeInfo nodeId="4517681580276648088" fileName="StateLocalDeclaration_Behavior.java" startLine="12" startPosition="43" endLine="14" endPosition="107" />
+    <scopeInfo nodeId="4517681580276647935" fileName="StateLocalDeclaration_Behavior.java" startLine="17" startPosition="0" endLine="20" endPosition="0">
       <varInfo nodeId="4517681580276647935" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4517681580276647935" fileName="StateLocalDeclaration_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0">
+    <scopeInfo nodeId="4517681580276647935" fileName="StateLocalDeclaration_Behavior.java" startLine="21" startPosition="0" endLine="24" endPosition="0">
       <varInfo nodeId="4517681580276647935" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4517681580276647935" fileName="StateLocalDeclaration_Behavior.java" startLine="24" startPosition="0" endLine="27" endPosition="0">
+    <scopeInfo nodeId="4517681580276647935" fileName="StateLocalDeclaration_Behavior.java" startLine="25" startPosition="0" endLine="28" endPosition="0">
       <varInfo nodeId="4517681580276647935" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="4517681580276647935" fileName="StateLocalDeclaration_Behavior.java" startLine="11" startPosition="0" endLine="15" endPosition="0">
+    <scopeInfo nodeId="4517681580276647935" fileName="StateLocalDeclaration_Behavior.java" startLine="29" startPosition="0" endLine="32" endPosition="0">
       <varInfo nodeId="4517681580276647935" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="4517681580276647935" fileName="StateLocalDeclaration_Behavior.java" startLine="10" startPosition="0" endLine="28" endPosition="0" unitName="BSML.behavior.StateLocalDeclaration_Behavior" />
+    <scopeInfo nodeId="4517681580276647935" fileName="StateLocalDeclaration_Behavior.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="4517681580276647935" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="4517681580276647935" fileName="StateLocalDeclaration_Behavior.java" startLine="11" startPosition="0" endLine="33" endPosition="0" unitName="BSML.behavior.StateLocalDeclaration_Behavior" />
   </root>
   <root nodeRef="r:ab9006cb-fa5a-47a8-81b8-ed3862813166(BSML.behavior)/4517681580276922445">
     <nodeInfo nodeId="4517681580276922451" fileName="RegionType_Behavior.java" startLine="11" startPosition="78" endLine="12" endPosition="13" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -681,6 +687,27 @@
       <varInfo nodeId="6318815719352791692" varName="thisNode" />
     </scopeInfo>
     <unitInfo nodeId="6318815719352791692" fileName="AbstractBlock_Behavior.java" startLine="8" startPosition="0" endLine="14" endPosition="0" unitName="BSML.behavior.AbstractBlock_Behavior" />
+  </root>
+  <root nodeRef="r:ab9006cb-fa5a-47a8-81b8-ed3862813166(BSML.behavior)/8025659640029004868">
+    <nodeInfo nodeId="8025659640029004868" fileName="IState_Behavior.java" startLine="15" startPosition="75" endLine="16" endPosition="124" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8025659640029004868" fileName="IState_Behavior.java" startLine="20" startPosition="108" endLine="21" endPosition="227" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8025659640029004868" fileName="IState_Behavior.java" startLine="11" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="8025659640029004868" fileName="IState_Behavior.java" startLine="14" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_isStable_8025659640029005022#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="8025659640029004868" fileName="IState_Behavior.java" startLine="19" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_isStable_8025659640029005022#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+    <scopeInfo nodeId="8025659640029005021" fileName="IState_Behavior.java" startLine="11" startPosition="43" endLine="11" endPosition="43" />
+    <scopeInfo nodeId="8025659640029004868" fileName="IState_Behavior.java" startLine="15" startPosition="75" endLine="16" endPosition="124" />
+    <scopeInfo nodeId="8025659640029004868" fileName="IState_Behavior.java" startLine="20" startPosition="108" endLine="21" endPosition="227" />
+    <scopeInfo nodeId="8025659640029004868" fileName="IState_Behavior.java" startLine="11" startPosition="0" endLine="13" endPosition="0">
+      <varInfo nodeId="8025659640029004868" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="8025659640029004868" fileName="IState_Behavior.java" startLine="14" startPosition="0" endLine="18" endPosition="0">
+      <varInfo nodeId="8025659640029004868" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="8025659640029004868" fileName="IState_Behavior.java" startLine="19" startPosition="0" endLine="23" endPosition="0">
+      <varInfo nodeId="8025659640029004868" varName="callerConceptFqName" />
+      <varInfo nodeId="8025659640029004868" varName="thisNode" />
+    </scopeInfo>
+    <unitInfo nodeId="8025659640029004868" fileName="IState_Behavior.java" startLine="10" startPosition="0" endLine="24" endPosition="0" unitName="BSML.behavior.IState_Behavior" />
   </root>
 </debugInfo>
 

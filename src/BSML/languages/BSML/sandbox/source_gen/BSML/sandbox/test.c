@@ -350,8 +350,11 @@ static void test_execute_big_step_test__sm(test_Event* present_events[], test_Ev
                        * handle state transition
                        */
 
-                      test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main__on__r1____cur_state), test_test__sm_StateEnum__test__sm__main__on__r1__a1, test_test__sm_StateEnum__test__sm__main__on__r1__a2, "test.sm.main.on.r1.t1", "test.sm.main.on.r1.a1", "test.sm.main.on.r1.a2", &test_action__test__sm__main__on__r1__t1, &test_on_entry_test__sm__main__on__r1__a2, test_test__sm_RegionEnum__test__sm__main__on__r1);
-                      g_ptr_array_add(enabled_transitions, trans);
+                      if ( !(skip_region[test_test__sm_RegionEnum__test__sm__main__on__r1]) ) 
+                      {
+                        test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main__on__r1____cur_state), test_test__sm_StateEnum__test__sm__main__on__r1__a1, test_test__sm_StateEnum__test__sm__main__on__r1__a2, "test.sm.main.on.r1.t1", "test.sm.main.on.r1.a1", "test.sm.main.on.r1.a2", &test_action__test__sm__main__on__r1__t1, &test_on_entry_test__sm__main__on__r1__a2, test_test__sm_RegionEnum__test__sm__main__on__r1);
+                        g_ptr_array_add(enabled_transitions, trans);
+                      }
                       break;
                     }
                     default:
@@ -380,8 +383,11 @@ static void test_execute_big_step_test__sm(test_Event* present_events[], test_Ev
                        * handle state transition
                        */
 
-                      test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main__on__r1____cur_state), test_test__sm_StateEnum__test__sm__main__on__r1__a2, test_test__sm_StateEnum__test__sm__main__on__r1__a3, "test.sm.main.on.r1.t2", "test.sm.main.on.r1.a2", "test.sm.main.on.r1.a3", &test_action__test__sm__main__on__r1__t2, &test_on_entry_test__sm__main__on__r1__a3, test_test__sm_RegionEnum__test__sm__main__on__r1);
-                      g_ptr_array_add(enabled_transitions, trans);
+                      if ( !(skip_region[test_test__sm_RegionEnum__test__sm__main__on__r1]) ) 
+                      {
+                        test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main__on__r1____cur_state), test_test__sm_StateEnum__test__sm__main__on__r1__a2, test_test__sm_StateEnum__test__sm__main__on__r1__a3, "test.sm.main.on.r1.t2", "test.sm.main.on.r1.a2", "test.sm.main.on.r1.a3", &test_action__test__sm__main__on__r1__t2, &test_on_entry_test__sm__main__on__r1__a3, test_test__sm_RegionEnum__test__sm__main__on__r1);
+                        g_ptr_array_add(enabled_transitions, trans);
+                      }
                       break;
                     }
                     default:
@@ -442,8 +448,11 @@ static void test_execute_big_step_test__sm(test_Event* present_events[], test_Ev
                        * handle state transition
                        */
 
-                      test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main__on__r2____cur_state), test_test__sm_StateEnum__test__sm__main__on__r2__b1, test_test__sm_StateEnum__test__sm__main__on__r2__b2, "test.sm.main.on.r2.t1", "test.sm.main.on.r2.b1", "test.sm.main.on.r2.b2", &test_action__test__sm__main__on__r2__t1, &test_on_entry_test__sm__main__on__r2__b2, test_test__sm_RegionEnum__test__sm__main__on__r2);
-                      g_ptr_array_add(enabled_transitions, trans);
+                      if ( !(skip_region[test_test__sm_RegionEnum__test__sm__main__on__r2]) ) 
+                      {
+                        test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main__on__r2____cur_state), test_test__sm_StateEnum__test__sm__main__on__r2__b1, test_test__sm_StateEnum__test__sm__main__on__r2__b2, "test.sm.main.on.r2.t1", "test.sm.main.on.r2.b1", "test.sm.main.on.r2.b2", &test_action__test__sm__main__on__r2__t1, &test_on_entry_test__sm__main__on__r2__b2, test_test__sm_RegionEnum__test__sm__main__on__r2);
+                        g_ptr_array_add(enabled_transitions, trans);
+                      }
                       break;
                     }
                     default:
@@ -507,8 +516,11 @@ static void test_execute_big_step_test__sm(test_Event* present_events[], test_Ev
                  * handle state transition
                  */
 
-                test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main____cur_state), test_test__sm_StateEnum__test__sm__main__off, test_test__sm_StateEnum__test__sm__main__on, "test.sm.main.t1", "test.sm.main.off", "test.sm.main.on", &test_action__test__sm__main__t1, &test_on_entry_test__sm__main__on, test_test__sm_RegionEnum__test__sm__main);
-                g_ptr_array_add(enabled_transitions, trans);
+                if ( !(skip_region[test_test__sm_RegionEnum__test__sm__main]) ) 
+                {
+                  test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main____cur_state), test_test__sm_StateEnum__test__sm__main__off, test_test__sm_StateEnum__test__sm__main__on, "test.sm.main.t1", "test.sm.main.off", "test.sm.main.on", &test_action__test__sm__main__t1, &test_on_entry_test__sm__main__on, test_test__sm_RegionEnum__test__sm__main);
+                  g_ptr_array_add(enabled_transitions, trans);
+                }
                 break;
               }
               default:
@@ -537,8 +549,11 @@ static void test_execute_big_step_test__sm(test_Event* present_events[], test_Ev
                  * handle state transition
                  */
 
-                test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main____cur_state), test_test__sm_StateEnum__test__sm__main__on, test_test__sm_StateEnum__test__sm__main__off, "test.sm.main.t2", "test.sm.main.on", "test.sm.main.off", &test_action__test__sm__main__t2, &test_on_entry_test__sm__main__off, test_test__sm_RegionEnum__test__sm__main);
-                g_ptr_array_add(enabled_transitions, trans);
+                if ( !(skip_region[test_test__sm_RegionEnum__test__sm__main]) ) 
+                {
+                  test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main____cur_state), test_test__sm_StateEnum__test__sm__main__on, test_test__sm_StateEnum__test__sm__main__off, "test.sm.main.t2", "test.sm.main.on", "test.sm.main.off", &test_action__test__sm__main__t2, &test_on_entry_test__sm__main__off, test_test__sm_RegionEnum__test__sm__main);
+                  g_ptr_array_add(enabled_transitions, trans);
+                }
                 break;
               }
               default:
@@ -558,17 +573,6 @@ static void test_execute_big_step_test__sm(test_Event* present_events[], test_Ev
       
     }
     guint i = 0;
-    while (i < enabled_transitions->len)
-    {
-      test_Transition* cur_trans = ((test_Transition*)(g_ptr_array_index(enabled_transitions, i)));
-      if ( skip_region[cur_trans->arena] ) 
-      {
-        g_ptr_array_remove_index_fast(enabled_transitions, i);
-      }      else 
-      {
-        i++;
-      }
-    }
     for ( i = 0; i < enabled_transitions->len; i++ )
     {
       test_Transition* cur_trans = ((test_Transition*)(g_ptr_array_index(enabled_transitions, i)));
