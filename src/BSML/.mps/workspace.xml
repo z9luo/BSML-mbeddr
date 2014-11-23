@@ -42,19 +42,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SMGlobalDeclaration" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SMGlobalDeclaration" pinned="false" current="false" current-in-tab="false">
         <entry file="mps://node://BSML/BSML.structure/SMGlobalDeclaration">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="420">
+              <memento viewPositionX="0" viewPositionY="840">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="64" />
-                    <property name="caretX" value="378" />
+                    <property name="caretXRelative" value="24" />
+                    <property name="caretX" value="182" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_escapedValue_word4" cellNumber="0" isInList="false">
-                      <node node_reference="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/8025659640020606242" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -62,7 +62,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -92,7 +92,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -106,15 +106,15 @@
         <entry file="mps://node://BSML#7359472029648699951/BSML.generator.template.main@generator/Weave_Common">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
+              <memento viewPositionX="0" viewPositionY="130">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="15" />
+                    <property name="caretXRelative" value="56" />
+                    <property name="caretX" value="138" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_yww9py_a" cellNumber="0" isInList="false">
-                      <node node_reference="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/6615293872254924546" />
+                    <cellInfo cellId="Constant_fc1f1l_a0" cellNumber="0" isInList="false">
+                      <node node_reference="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/1996550827859461499" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -122,7 +122,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -132,7 +132,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuildConfiguration (B.sandbox)" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BuildConfiguration (B.sandbox)" pinned="false" current="true" current-in-tab="true">
         <entry file="mps://node://BSML.sandbox/BSML.sandbox/BuildConfiguration (B.sandbox)">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -141,10 +141,10 @@
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
                     <property name="caretXRelative" value="8" />
-                    <property name="caretX" value="23" />
+                    <property name="caretX" value="394" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_cdnji9_j0" cellNumber="0" isInList="false">
-                      <node node_reference="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/7359472029652899055" />
+                    <cellInfo cellId="property_bigStepMaximality" cellNumber="0" isInList="false">
+                      <node node_reference="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -152,7 +152,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -182,7 +182,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -213,7 +213,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -244,7 +244,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -275,7 +275,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -306,7 +306,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -323,138 +323,20 @@
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento viewPositionX="0" viewPositionY="806">
                 <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="48" />
-                    <property name="caretX" value="171" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="FS_property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/8025659640012827689" />
-                    </cellInfo>
-                  </stackElement>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="selectionEnd" value="13" />
-                    <property name="hasNonTrivialSelection" value="true" />
-                    <property name="caretXRelative" value="48" />
-                    <property name="selectionStart" value="0" />
-                    <property name="caretX" value="171" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="FS_property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/8025659640012827689" />
-                    </cellInfo>
-                  </stackElement>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
                     <property name="caretXRelative" value="-15" />
                     <property name="caretX" value="0" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="Collection_y1p9lm_a" cellNumber="0" isInList="false">
-                      <node node_reference="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/8025659640012827689" />
+                      <node node_reference="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/8025659640012827700" />
                     </cellInfo>
-                  </stackElement>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                    <property name="lastNodeId" value="8025659640012827696" />
-                    <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                    <property name="parentNodeId" value="8025659640012827626" />
-                    <property name="firstNodeId" value="8025659640012827689" />
-                    <property name="role" value="contents" />
-                  </stackElement>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                    <property name="lastNodeId" value="8025659640012827697" />
-                    <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                    <property name="parentNodeId" value="8025659640012827626" />
-                    <property name="firstNodeId" value="8025659640012827689" />
-                    <property name="role" value="contents" />
-                  </stackElement>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                    <property name="lastNodeId" value="8025659640012827700" />
-                    <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                    <property name="parentNodeId" value="8025659640012827626" />
-                    <property name="firstNodeId" value="8025659640012827689" />
-                    <property name="role" value="contents" />
-                  </stackElement>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                    <property name="lastNodeId" value="8025659640012827710" />
-                    <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                    <property name="parentNodeId" value="8025659640012827626" />
-                    <property name="firstNodeId" value="8025659640012827689" />
-                    <property name="role" value="contents" />
-                  </stackElement>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                    <property name="lastNodeId" value="8025659640012827720" />
-                    <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                    <property name="parentNodeId" value="8025659640012827626" />
-                    <property name="firstNodeId" value="8025659640012827689" />
-                    <property name="role" value="contents" />
-                  </stackElement>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                    <property name="lastNodeId" value="8025659640012827721" />
-                    <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                    <property name="parentNodeId" value="8025659640012827626" />
-                    <property name="firstNodeId" value="8025659640012827689" />
-                    <property name="role" value="contents" />
-                  </stackElement>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                    <property name="lastNodeId" value="8025659640012827734" />
-                    <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                    <property name="parentNodeId" value="8025659640012827626" />
-                    <property name="firstNodeId" value="8025659640012827689" />
-                    <property name="role" value="contents" />
-                  </stackElement>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                    <property name="lastNodeId" value="8025659640012827735" />
-                    <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                    <property name="parentNodeId" value="8025659640012827626" />
-                    <property name="firstNodeId" value="8025659640012827689" />
-                    <property name="role" value="contents" />
-                  </stackElement>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                    <property name="lastNodeId" value="8025659640012827748" />
-                    <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                    <property name="parentNodeId" value="8025659640012827626" />
-                    <property name="firstNodeId" value="8025659640012827689" />
-                    <property name="role" value="contents" />
-                  </stackElement>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                    <property name="lastNodeId" value="8025659640012827768" />
-                    <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                    <property name="parentNodeId" value="8025659640012827626" />
-                    <property name="firstNodeId" value="8025659640012827689" />
-                    <property name="role" value="contents" />
-                  </stackElement>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                    <property name="lastNodeId" value="8025659640012827770" />
-                    <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                    <property name="parentNodeId" value="8025659640012827626" />
-                    <property name="firstNodeId" value="8025659640012827689" />
-                    <property name="role" value="contents" />
-                  </stackElement>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                    <property name="lastNodeId" value="8025659640012827795" />
-                    <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                    <property name="parentNodeId" value="8025659640012827626" />
-                    <property name="firstNodeId" value="8025659640012827689" />
-                    <property name="role" value="contents" />
-                  </stackElement>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                    <property name="lastNodeId" value="8025659640012827804" />
-                    <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                    <property name="parentNodeId" value="8025659640012827626" />
-                    <property name="firstNodeId" value="8025659640012827689" />
-                    <property name="role" value="contents" />
-                  </stackElement>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                    <property name="lastNodeId" value="8025659640012827813" />
-                    <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                    <property name="parentNodeId" value="8025659640012827626" />
-                    <property name="firstNodeId" value="8025659640012827689" />
-                    <property name="role" value="contents" />
                   </stackElement>
                 </selectionStack>
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -1063,11 +945,11 @@
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24322917" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32686415" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32686415" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890704" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Feature Model Verification" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32686415" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31052095" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Context Sidebar" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Workflow" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1079,7 +961,7 @@
       <window_info id="mbeddr TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Verification (CBMC)" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31052095" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31052095" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Module Consistency Verification" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2326,138 +2208,20 @@
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento viewPositionX="0" viewPositionY="806">
             <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="48" />
-                <property name="caretX" value="171" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="FS_property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/8025659640012827689" />
-                </cellInfo>
-              </stackElement>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="selectionEnd" value="13" />
-                <property name="hasNonTrivialSelection" value="true" />
-                <property name="caretXRelative" value="48" />
-                <property name="selectionStart" value="0" />
-                <property name="caretX" value="171" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="FS_property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/8025659640012827689" />
-                </cellInfo>
-              </stackElement>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
                 <property name="caretXRelative" value="-15" />
                 <property name="caretX" value="0" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="Collection_y1p9lm_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/8025659640012827689" />
+                  <node node_reference="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)/8025659640012827700" />
                 </cellInfo>
-              </stackElement>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                <property name="lastNodeId" value="8025659640012827696" />
-                <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                <property name="parentNodeId" value="8025659640012827626" />
-                <property name="firstNodeId" value="8025659640012827689" />
-                <property name="role" value="contents" />
-              </stackElement>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                <property name="lastNodeId" value="8025659640012827697" />
-                <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                <property name="parentNodeId" value="8025659640012827626" />
-                <property name="firstNodeId" value="8025659640012827689" />
-                <property name="role" value="contents" />
-              </stackElement>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                <property name="lastNodeId" value="8025659640012827700" />
-                <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                <property name="parentNodeId" value="8025659640012827626" />
-                <property name="firstNodeId" value="8025659640012827689" />
-                <property name="role" value="contents" />
-              </stackElement>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                <property name="lastNodeId" value="8025659640012827710" />
-                <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                <property name="parentNodeId" value="8025659640012827626" />
-                <property name="firstNodeId" value="8025659640012827689" />
-                <property name="role" value="contents" />
-              </stackElement>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                <property name="lastNodeId" value="8025659640012827720" />
-                <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                <property name="parentNodeId" value="8025659640012827626" />
-                <property name="firstNodeId" value="8025659640012827689" />
-                <property name="role" value="contents" />
-              </stackElement>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                <property name="lastNodeId" value="8025659640012827721" />
-                <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                <property name="parentNodeId" value="8025659640012827626" />
-                <property name="firstNodeId" value="8025659640012827689" />
-                <property name="role" value="contents" />
-              </stackElement>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                <property name="lastNodeId" value="8025659640012827734" />
-                <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                <property name="parentNodeId" value="8025659640012827626" />
-                <property name="firstNodeId" value="8025659640012827689" />
-                <property name="role" value="contents" />
-              </stackElement>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                <property name="lastNodeId" value="8025659640012827735" />
-                <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                <property name="parentNodeId" value="8025659640012827626" />
-                <property name="firstNodeId" value="8025659640012827689" />
-                <property name="role" value="contents" />
-              </stackElement>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                <property name="lastNodeId" value="8025659640012827748" />
-                <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                <property name="parentNodeId" value="8025659640012827626" />
-                <property name="firstNodeId" value="8025659640012827689" />
-                <property name="role" value="contents" />
-              </stackElement>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                <property name="lastNodeId" value="8025659640012827768" />
-                <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                <property name="parentNodeId" value="8025659640012827626" />
-                <property name="firstNodeId" value="8025659640012827689" />
-                <property name="role" value="contents" />
-              </stackElement>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                <property name="lastNodeId" value="8025659640012827770" />
-                <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                <property name="parentNodeId" value="8025659640012827626" />
-                <property name="firstNodeId" value="8025659640012827689" />
-                <property name="role" value="contents" />
-              </stackElement>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                <property name="lastNodeId" value="8025659640012827795" />
-                <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                <property name="parentNodeId" value="8025659640012827626" />
-                <property name="firstNodeId" value="8025659640012827689" />
-                <property name="role" value="contents" />
-              </stackElement>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                <property name="lastNodeId" value="8025659640012827804" />
-                <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                <property name="parentNodeId" value="8025659640012827626" />
-                <property name="firstNodeId" value="8025659640012827689" />
-                <property name="role" value="contents" />
-              </stackElement>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.NodeRangeSelection">
-                <property name="lastNodeId" value="8025659640012827813" />
-                <property name="modelId" value="r:290eacc7-524f-4e20-9d93-eb8e98a61760(BSML.BSML_stub)" />
-                <property name="parentNodeId" value="8025659640012827626" />
-                <property name="firstNodeId" value="8025659640012827689" />
-                <property name="role" value="contents" />
               </stackElement>
             </selectionStack>
             <errorLabels />
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2485,7 +2249,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2514,7 +2278,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2543,7 +2307,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2572,7 +2336,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2601,7 +2365,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2614,15 +2378,15 @@
     <entry file="mps://node://BSML#7359472029648699951/BSML.generator.template.main@generator/Weave_Common">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
+          <memento viewPositionX="0" viewPositionY="130">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="15" />
+                <property name="caretXRelative" value="56" />
+                <property name="caretX" value="138" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_yww9py_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/6615293872254924546" />
+                <cellInfo cellId="Constant_fc1f1l_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/1996550827859461499" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2630,7 +2394,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2657,7 +2421,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2674,10 +2438,10 @@
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
                 <property name="caretXRelative" value="8" />
-                <property name="caretX" value="23" />
+                <property name="caretX" value="394" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_cdnji9_j0" cellNumber="0" isInList="false">
-                  <node node_reference="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/7359472029652899055" />
+                <cellInfo cellId="property_bigStepMaximality" cellNumber="0" isInList="false">
+                  <node node_reference="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2685,7 +2449,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2697,15 +2461,15 @@
     <entry file="mps://node://BSML/BSML.structure/SMGlobalDeclaration">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="420">
+          <memento viewPositionX="0" viewPositionY="840">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="64" />
-                <property name="caretX" value="378" />
+                <property name="caretXRelative" value="24" />
+                <property name="caretX" value="182" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_escapedValue_word4" cellNumber="0" isInList="false">
-                  <node node_reference="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/8025659640020606242" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2713,7 +2477,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/7466645974718450148" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />

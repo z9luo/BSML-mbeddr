@@ -12,13 +12,13 @@ import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import BSML.Generator_Util.util;
+import com.mbeddr.core.buildconfig.behavior.BCHelper;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
-import com.mbeddr.core.buildconfig.behavior.BCHelper;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import java.util.List;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
@@ -94,6 +94,21 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_4306907833975213498(final PropertyMacroContext _context) {
     return util.genBigStepFunctionName(BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8025659640020680368(final PropertyMacroContext _context) {
+    SNode rc = BCHelper.findBCConfigItem(_context.getInputModel(), _context, "BSML/main.reduceStateMachine", SConceptOperations.findConceptDeclaration("BSML.structure.StateMachineSemanticsConfigItem"), "");
+    if (rc != null) {
+      if (SPropertyOperations.hasValue(SNodeOperations.cast(rc, "BSML.structure.StateMachineSemanticsConfigItem"), "bigStepMaximality", "0", "2")) {
+        return "SINGLE ";
+      } else if (SPropertyOperations.hasValue(SNodeOperations.cast(rc, "BSML.structure.StateMachineSemanticsConfigItem"), "bigStepMaximality", "2", "2")) {
+        return "MANY";
+      } else {
+        return "SYNTACTIC";
+      }
+    } else {
+      return "big-step maximality not set";
+    }
   }
 
   public static Object propertyMacro_GetPropertyValue_3946458319585473083(final PropertyMacroContext _context) {

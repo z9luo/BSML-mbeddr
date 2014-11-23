@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="8x6b93mea005z4rwig148gcvvs9cird">
+<dependencies version="2" modelHash="-4u4c1klvkw31ssezjcggggz6m97itpj">
   <dep model="04dcb076-f4ec-4806-9a4f-d7ff98b05caf/r:4c0641f0-4859-4a8d-ac56-e504305439fa(com.mbeddr.mpsutil.modelcache.CacheState_fakeModule/com.mbeddr.mpsutil.modelcache.CacheState_fakeModel)" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="5sdbpqxziyuazpb9j1p4zdk6bnvbn49" />
   <dep model="r:2ff3ad32-451f-46a7-91af-9ce87f286536(com.mbeddr.core.modules.generator.main.addReturnToClosure@generator)" hash="-3avjaoibqnibrutclolnqk2ujgsvc8x" />
   <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" hash="-cn8rhfjcox25qmdrj9crfalfclcib4g" />
   <dep model="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" hash="-5n0km4iuyivmic3hs6nlxliufs2izdt" />
-  <dep model="r:62e8aeba-0540-4aa0-8a7d-8f3e1d0d4dad(BSML.Generator_Header)" hash="-4f8yq18g8m8dxpeu2e5up2d4o9n1sd4" />
+  <dep model="r:62e8aeba-0540-4aa0-8a7d-8f3e1d0d4dad(BSML.Generator_Header)" hash="cmv5071is7hfq8fgjdiitycreulnl35" />
   <dep model="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" hash="2deb6huwu9500ekqho7f6axbbdsvmkn" />
   <dep model="r:7db67fb8-d2c9-4e02-89e5-cbea9152661c(com.mbeddr.core.util.generator.template.main@generator)" hash="-2gm67tmrlzszxu9b2hfihnk6dntax8a" />
-  <dep model="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)" hash="-f5x9ceumi9sgp9l2pp7ggciwj1fas3" />
+  <dep model="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)" hash="-6zv34sms4a2lio217ysaiiqkf6tvuka" />
   <dep model="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" hash="-8occ4vh5c7mjxqosuxbkrq12g89pior" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
   <dep model="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" hash="3tekhil1vgqucmcvsc7j6y1xfp76q82" />
@@ -32,6 +32,6 @@
     <file name="test.h" />
   </common>
   <source id="7359472029651883818" name="test" hash="-ahm9jyaw81xwurohu5yc4trxjk73guf" />
-  <source id="7359472029651887565" name="BuildConfiguration (B.sandbox)" hash="7aw9g7ce8r6oztpy0we7jg2jjt5uj0o" />
+  <source id="7359472029651887565" name="BuildConfiguration (B.sandbox)" hash="-1527hi9zj4bcsxqaj3oklny9lf37cm7" />
 </dependencies>
 
