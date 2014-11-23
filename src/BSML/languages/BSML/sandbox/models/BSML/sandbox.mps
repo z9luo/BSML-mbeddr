@@ -119,6 +119,10 @@
             <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="2042574486718003038" resolveInfo="s" />
           </node>
         </node>
+        <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.SMTrigger" typeId="cmy.439124252221539684" id="8025659640011518038" nodeInfo="ng">
+          <link role="sm_ref" roleId="cmy.439124252221590048" targetNodeId="7359472029652033490" resolveInfo="sm" />
+          <link role="event_ref" roleId="cmy.439124252221590049" targetNodeId="8025659640010940174" resolveInfo="turn_off" />
+        </node>
         <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.SMSafeTerm" typeId="cmy.8607120610936004074" id="6615293872264930892" nodeInfo="ng">
           <link role="sm_ref" roleId="cmy.8607120610938460698" targetNodeId="7359472029652033490" resolveInfo="sm" />
         </node>
@@ -250,6 +254,9 @@
               <node role="binding" roleId="cmy.1996550827833072968" type="cmy.CFunctionBinding" typeId="cmy.8607120610933610675" id="2878353885461731935" nodeInfo="ng">
                 <link role="binding" roleId="cmy.8607120610933610676" targetNodeId="2878353885461730693" resolveInfo="trigger" />
               </node>
+            </node>
+            <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.InEventDeclaration" typeId="cmy.4517681580277207660" id="8025659640010940174" nodeInfo="ng">
+              <property name="name" nameId="tpck.1169194664001" value="turn_off" />
             </node>
             <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.InEventDeclaration" typeId="cmy.4517681580277207660" id="2878353885461771699" nodeInfo="ng">
               <property name="name" nameId="tpck.1169194664001" value="launch" />
@@ -470,7 +477,27 @@
                     <link role="table" roleId="k146.2688792604367964824" targetNodeId="1054945346928992478" resolveInfo="msg" />
                     <link role="msg" roleId="k146.2688792604367964825" targetNodeId="1054945346928992640" resolveInfo="print_string" />
                     <node role="propVals" roleId="k146.767515563077221084" type="yq40.StringLiteral" typeId="yq40.6113173064526131575" id="7359472029652039156" nodeInfo="ng">
-                      <property name="value" nameId="yq40.6113173064526131578" value="hello world" />
+                      <property name="value" nameId="yq40.6113173064526131578" value="sm turned on" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.Transition" typeId="cmy.4517681580278098072" id="8025659640010943268" nodeInfo="ng">
+              <property name="name" nameId="tpck.1169194664001" value="t2" />
+              <link role="source" roleId="cmy.4517681580279925349" targetNodeId="7359472029652038142" resolveInfo="on" />
+              <link role="target" roleId="cmy.4517681580278098078" targetNodeId="7359472029652037508" resolveInfo="off" />
+              <node role="guard" roleId="cmy.4517681580278098075" type="mj1l.TrueLiteral" typeId="mj1l.8860443239512128094" id="8025659640010943269" nodeInfo="ng" />
+              <node role="triggers" roleId="cmy.3372386639988661877" type="cmy.TriggerEventReference" typeId="cmy.3372386639988661786" id="8025659640010944190" nodeInfo="ng">
+                <link role="var" roleId="cmy.3372386639988661787" targetNodeId="8025659640010940174" resolveInfo="turn_off" />
+              </node>
+              <node role="action" roleId="cmy.4517681580278098082" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="8025659640010943271" nodeInfo="ng">
+                <node role="statements" roleId="c4fa.4185783222026475862" type="k146.ReportStatement" typeId="k146.2688792604367964821" id="8025659640010943272" nodeInfo="ng">
+                  <node role="msgref" roleId="k146.2688792604367973273" type="k146.MessageRef" typeId="k146.2688792604367964823" id="8025659640010943273" nodeInfo="ng">
+                    <link role="table" roleId="k146.2688792604367964824" targetNodeId="1054945346928992478" resolveInfo="msg" />
+                    <link role="msg" roleId="k146.2688792604367964825" targetNodeId="1054945346928992640" resolveInfo="print_string" />
+                    <node role="propVals" roleId="k146.767515563077221084" type="yq40.StringLiteral" typeId="yq40.6113173064526131575" id="8025659640010943274" nodeInfo="ng">
+                      <property name="value" nameId="yq40.6113173064526131578" value="sm turned off" />
                     </node>
                   </node>
                 </node>
@@ -500,7 +527,7 @@
       <node role="strategy" roleId="k146.4459718605982051999" type="k146.PrintfReportingStrategy" typeId="k146.4459718605982051980" id="7359472029652899052" nodeInfo="ng" />
     </node>
     <node role="configurationItems" roleId="vs0r.4459718605982007338" type="cmy.StateMachineSemanticsConfigItem" typeId="cmy.6318815719351411497" id="8025659639990756745" nodeInfo="ng">
-      <property name="bigStepMaximality" nameId="cmy.6318815719351411553" value="0" />
+      <property name="bigStepMaximality" nameId="cmy.6318815719351411553" value="2" />
     </node>
     <node role="binaries" roleId="51wr.5046689135694070731" type="51wr.Executable" typeId="51wr.5046689135693761554" id="7359472029652899055" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="test" />

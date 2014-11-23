@@ -27,7 +27,6 @@ struct test__SMArray {
   uint32_t size;
 };
 
-typedef test__SMArray_t test_SMArray;
 typedef struct test__Event test__Event_t;
 struct test__Event {
   uint32_t type;
@@ -37,6 +36,7 @@ struct test__Event {
 typedef test__Event_t test_Event;
 typedef enum ___test_test__sm_EventEnum{
   test_test__sm_EventEnum__test__sm__main__turn_on,
+  test_test__sm_EventEnum__test__sm__main__turn_off,
   test_test__sm_EventEnum__test__sm__main__launch,
   test_test__sm_EventEnum__test__sm__main__out1,
   test_test__sm_EventEnum__test__sm__main__on__r1__local,
@@ -80,6 +80,7 @@ struct test__Transition {
   char* target_state;
   test_ActionRef action_ref;
   test_OnEntryRef on_entry_ref;
+  test_test__sm_RegionEnum arena;
 };
 
 typedef test__Transition_t test_Transition;
@@ -129,21 +130,13 @@ static void test_action__test__sm__main__on__r2__t1(test_Event** present_events,
 
 static void test_action__test__sm__main__t1(test_Event** present_events, test_Event** present_events_shadow, test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
 
+static void test_action__test__sm__main__t2(test_Event** present_events, test_Event** present_events_shadow, test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow);
+
 static void test_handle_transition(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow, test_Transition* trans);
 
 static void test_reset_pointer_array(void** data, uint32_t length);
 
 static void test_free_pointer_array(void** data, uint32_t length);
-
-static test_SMArray* test_smarray_new(uint32_t len);
-
-static void test_smarray_free(test_SMArray* ptr);
-
-static void test_smarray_append(test_SMArray* array, void* value);
-
-static void* test_smarray_get(test_SMArray* array, uint32_t index);
-
-static void test_smarray_clear(test_SMArray* array);
 
 static test_Event* test_create_event(uint32_t type, void** args);
 
@@ -153,7 +146,7 @@ static test_Event* test_event_queue_test__sm_get(void);
 
 static void test_event_queue_test__sm_put(test_Event* data);
 
-static test_Transition* test_create_trans(test_test__sm_StateEnum* __cur_state, test_test__sm_StateEnum old_cur_state_value, test_test__sm_StateEnum new_cur_state_value, char* trans_id, char* source_state, char* target_state, test_ActionRef action_ref, test_OnEntryRef on_entry_ref);
+static test_Transition* test_create_trans(test_test__sm_StateEnum* __cur_state, test_test__sm_StateEnum old_cur_state_value, test_test__sm_StateEnum new_cur_state_value, char* trans_id, char* source_state, char* target_state, test_ActionRef action_ref, test_OnEntryRef on_entry_ref, test_test__sm_RegionEnum arena);
 
 static struct _GThread* test_blockexpr_main_4(void);
 
@@ -181,6 +174,14 @@ int32_t main(int32_t argc, char* argv[])
     args[0] = arg0;
     test_Event* inevent = ((test_Event*)(malloc(sizeof(test_Event))));
     inevent->type = test_test__sm_EventEnum__test__sm__main__launch;
+    inevent->args = args;
+    test_event_queue_test__sm_put(inevent);
+    
+  }
+  {
+    void** args = 0;
+    test_Event* inevent = ((test_Event*)(malloc(sizeof(test_Event))));
+    inevent->type = test_test__sm_EventEnum__test__sm__main__turn_off;
     inevent->args = args;
     test_event_queue_test__sm_put(inevent);
     
@@ -306,10 +307,17 @@ static void test_init_test__sm(test_Event** present_events, test_Event** present
 
 static void test_execute_big_step_test__sm(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow) 
 {
-  test_SMArray* enabled_transitions = test_smarray_new(20);
+  struct _GPtrArray* enabled_transitions = g_ptr_array_new();
   bool skip_region[3];
+  for ( int8_t __i = 0; __i < 3; __i++ )
+  {
+    skip_region[__i] = false;
+  }
   do{
-    test_smarray_clear(enabled_transitions);
+    if ( enabled_transitions->len > 0 ) 
+    {
+      g_ptr_array_remove_range(enabled_transitions, 0, enabled_transitions->len);
+    }
     {
       /* 
        * handle transitions in subregions
@@ -323,204 +331,157 @@ static void test_execute_big_step_test__sm(test_Event* present_events[], test_Ev
         case test_test__sm_StateEnum__test__sm__main__on: {
           {
             /* 
-             * handle transitions in subregions
+             * handle transitions in current region
              */
 
             switch (sm_info->test__sm__main__on__r1____cur_state)
             {
               case test_test__sm_StateEnum__test__sm__main__on__r1__a1: {
+                for ( int8_t index = 0; index < 5; index++ )
+                {
+                  if ( present_events[index] == 0 ) 
+                  {
+                    continue;
+                  }
+                  switch (((test_test__sm_EventEnum)((uint64_t)(present_events[index]->type))))
+                  {
+                    case test_test__sm_EventEnum__test__sm__main__launch: {
+                      /* 
+                       * handle state transition
+                       */
+
+                      test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main__on__r1____cur_state), test_test__sm_StateEnum__test__sm__main__on__r1__a1, test_test__sm_StateEnum__test__sm__main__on__r1__a2, "test.sm.main.on.r1.t1", "test.sm.main.on.r1.a1", "test.sm.main.on.r1.a2", &test_action__test__sm__main__on__r1__t1, &test_on_entry_test__sm__main__on__r1__a2, test_test__sm_StateEnum__test__sm__main__on__r1__a1);
+                      g_ptr_array_add(enabled_transitions, trans);
+                      break;
+                    }
+                    default:
+                      /* 
+                       * check transitions without trigger
+                       */
+
+                      break;
+                    
+                  }
+
+                }
                 break;
               }
               case test_test__sm_StateEnum__test__sm__main__on__r1__a2: {
+                for ( int8_t index = 0; index < 5; index++ )
+                {
+                  if ( present_events[index] == 0 ) 
+                  {
+                    continue;
+                  }
+                  switch (((test_test__sm_EventEnum)((uint64_t)(present_events[index]->type))))
+                  {
+                    case test_test__sm_EventEnum__test__sm__main__on__r1__local: {
+                      /* 
+                       * handle state transition
+                       */
+
+                      test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main__on__r1____cur_state), test_test__sm_StateEnum__test__sm__main__on__r1__a2, test_test__sm_StateEnum__test__sm__main__on__r1__a3, "test.sm.main.on.r1.t2", "test.sm.main.on.r1.a2", "test.sm.main.on.r1.a3", &test_action__test__sm__main__on__r1__t2, &test_on_entry_test__sm__main__on__r1__a3, test_test__sm_StateEnum__test__sm__main__on__r1__a2);
+                      g_ptr_array_add(enabled_transitions, trans);
+                      break;
+                    }
+                    default:
+                      /* 
+                       * check transitions without trigger
+                       */
+
+                      break;
+                    
+                  }
+
+                }
                 break;
               }
               case test_test__sm_StateEnum__test__sm__main__on__r1__a3: {
+                for ( int8_t index = 0; index < 5; index++ )
+                {
+                  if ( present_events[index] == 0 ) 
+                  {
+                    continue;
+                  }
+                  switch (((test_test__sm_EventEnum)((uint64_t)(present_events[index]->type))))
+                  {
+                    default:
+                      /* 
+                       * check transitions without trigger
+                       */
+
+                      break;
+                    
+                  }
+
+                }
                 break;
               }
             }
 
-            /* 
-             * handle transitions in current region
-             */
-
-            if ( !(skip_region[test_test__sm_RegionEnum__test__sm__main__on__r1]) ) 
-            {
-              switch (sm_info->test__sm__main__on__r1____cur_state)
-              {
-                case test_test__sm_StateEnum__test__sm__main__on__r1__a1: {
-                  for ( int8_t index = 0; index < 4; index++ )
-                  {
-                    if ( present_events[index] == 0 ) 
-                    {
-                      continue;
-                    }
-                    switch (((test_test__sm_EventEnum)((uint64_t)(present_events[index]->type))))
-                    {
-                      case test_test__sm_EventEnum__test__sm__main__launch: {
-                        if ( true ) 
-                        {
-                          /* 
-                           * handle state transition
-                           */
-
-                          skip_region[test_test__sm_RegionEnum__test__sm__main__on__r1] = true;
-                          test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main__on__r1____cur_state), test_test__sm_StateEnum__test__sm__main__on__r1__a1, test_test__sm_StateEnum__test__sm__main__on__r1__a2, "test.sm.main.on.r1.t1", "test.sm.main.on.r1.a1", "test.sm.main.on.r1.a2", &test_action__test__sm__main__on__r1__t1, &test_on_entry_test__sm__main__on__r1__a2);
-                          test_smarray_append(enabled_transitions, trans);
-                        }
-                        break;
-                      }
-                      default:
-                        /* 
-                         * check transitions without trigger
-                         */
-
-                        break;
-                      
-                    }
-
-                  }
-                  break;
-                }
-                case test_test__sm_StateEnum__test__sm__main__on__r1__a2: {
-                  for ( int8_t index = 0; index < 4; index++ )
-                  {
-                    if ( present_events[index] == 0 ) 
-                    {
-                      continue;
-                    }
-                    switch (((test_test__sm_EventEnum)((uint64_t)(present_events[index]->type))))
-                    {
-                      case test_test__sm_EventEnum__test__sm__main__on__r1__local: {
-                        if ( true ) 
-                        {
-                          /* 
-                           * handle state transition
-                           */
-
-                          skip_region[test_test__sm_RegionEnum__test__sm__main__on__r1] = true;
-                          test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main__on__r1____cur_state), test_test__sm_StateEnum__test__sm__main__on__r1__a2, test_test__sm_StateEnum__test__sm__main__on__r1__a3, "test.sm.main.on.r1.t2", "test.sm.main.on.r1.a2", "test.sm.main.on.r1.a3", &test_action__test__sm__main__on__r1__t2, &test_on_entry_test__sm__main__on__r1__a3);
-                          test_smarray_append(enabled_transitions, trans);
-                        }
-                        break;
-                      }
-                      default:
-                        /* 
-                         * check transitions without trigger
-                         */
-
-                        break;
-                      
-                    }
-
-                  }
-                  break;
-                }
-                case test_test__sm_StateEnum__test__sm__main__on__r1__a3: {
-                  for ( int8_t index = 0; index < 4; index++ )
-                  {
-                    if ( present_events[index] == 0 ) 
-                    {
-                      continue;
-                    }
-                    switch (((test_test__sm_EventEnum)((uint64_t)(present_events[index]->type))))
-                    {
-                      default:
-                        /* 
-                         * check transitions without trigger
-                         */
-
-                        break;
-                      
-                    }
-
-                  }
-                  break;
-                }
-              }
-
-            }
+            
           }
           {
             /* 
-             * handle transitions in subregions
+             * handle transitions in current region
              */
 
             switch (sm_info->test__sm__main__on__r2____cur_state)
             {
               case test_test__sm_StateEnum__test__sm__main__on__r2__b1: {
+                for ( int8_t index = 0; index < 5; index++ )
+                {
+                  if ( present_events[index] == 0 ) 
+                  {
+                    continue;
+                  }
+                  switch (((test_test__sm_EventEnum)((uint64_t)(present_events[index]->type))))
+                  {
+                    case test_test__sm_EventEnum__test__sm__main__launch: {
+                      /* 
+                       * handle state transition
+                       */
+
+                      test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main__on__r2____cur_state), test_test__sm_StateEnum__test__sm__main__on__r2__b1, test_test__sm_StateEnum__test__sm__main__on__r2__b2, "test.sm.main.on.r2.t1", "test.sm.main.on.r2.b1", "test.sm.main.on.r2.b2", &test_action__test__sm__main__on__r2__t1, &test_on_entry_test__sm__main__on__r2__b2, test_test__sm_StateEnum__test__sm__main__on__r2__b1);
+                      g_ptr_array_add(enabled_transitions, trans);
+                      break;
+                    }
+                    default:
+                      /* 
+                       * check transitions without trigger
+                       */
+
+                      break;
+                    
+                  }
+
+                }
                 break;
               }
               case test_test__sm_StateEnum__test__sm__main__on__r2__b2: {
+                for ( int8_t index = 0; index < 5; index++ )
+                {
+                  if ( present_events[index] == 0 ) 
+                  {
+                    continue;
+                  }
+                  switch (((test_test__sm_EventEnum)((uint64_t)(present_events[index]->type))))
+                  {
+                    default:
+                      /* 
+                       * check transitions without trigger
+                       */
+
+                      break;
+                    
+                  }
+
+                }
                 break;
               }
             }
 
-            /* 
-             * handle transitions in current region
-             */
-
-            if ( !(skip_region[test_test__sm_RegionEnum__test__sm__main__on__r2]) ) 
-            {
-              switch (sm_info->test__sm__main__on__r2____cur_state)
-              {
-                case test_test__sm_StateEnum__test__sm__main__on__r2__b1: {
-                  for ( int8_t index = 0; index < 4; index++ )
-                  {
-                    if ( present_events[index] == 0 ) 
-                    {
-                      continue;
-                    }
-                    switch (((test_test__sm_EventEnum)((uint64_t)(present_events[index]->type))))
-                    {
-                      case test_test__sm_EventEnum__test__sm__main__launch: {
-                        if ( true ) 
-                        {
-                          /* 
-                           * handle state transition
-                           */
-
-                          skip_region[test_test__sm_RegionEnum__test__sm__main__on__r2] = true;
-                          test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main__on__r2____cur_state), test_test__sm_StateEnum__test__sm__main__on__r2__b1, test_test__sm_StateEnum__test__sm__main__on__r2__b2, "test.sm.main.on.r2.t1", "test.sm.main.on.r2.b1", "test.sm.main.on.r2.b2", &test_action__test__sm__main__on__r2__t1, &test_on_entry_test__sm__main__on__r2__b2);
-                          test_smarray_append(enabled_transitions, trans);
-                        }
-                        break;
-                      }
-                      default:
-                        /* 
-                         * check transitions without trigger
-                         */
-
-                        break;
-                      
-                    }
-
-                  }
-                  break;
-                }
-                case test_test__sm_StateEnum__test__sm__main__on__r2__b2: {
-                  for ( int8_t index = 0; index < 4; index++ )
-                  {
-                    if ( present_events[index] == 0 ) 
-                    {
-                      continue;
-                    }
-                    switch (((test_test__sm_EventEnum)((uint64_t)(present_events[index]->type))))
-                    {
-                      default:
-                        /* 
-                         * check transitions without trigger
-                         */
-
-                        break;
-                      
-                    }
-
-                  }
-                  break;
-                }
-              }
-
-            }
+            
           }
           break;
         }
@@ -530,104 +491,119 @@ static void test_execute_big_step_test__sm(test_Event* present_events[], test_Ev
        * handle transitions in current region
        */
 
-      if ( !(skip_region[test_test__sm_RegionEnum__test__sm__main]) ) 
+      switch (sm_info->test__sm__main____cur_state)
       {
-        switch (sm_info->test__sm__main____cur_state)
-        {
-          case test_test__sm_StateEnum__test__sm__main__off: {
-            for ( int8_t index = 0; index < 4; index++ )
+        case test_test__sm_StateEnum__test__sm__main__off: {
+          for ( int8_t index = 0; index < 5; index++ )
+          {
+            if ( present_events[index] == 0 ) 
             {
-              if ( present_events[index] == 0 ) 
-              {
-                continue;
-              }
-              switch (((test_test__sm_EventEnum)((uint64_t)(present_events[index]->type))))
-              {
-                case test_test__sm_EventEnum__test__sm__main__turn_on: {
-                  if ( true ) 
-                  {
-                    /* 
-                     * handle state transition
-                     */
-
-                    skip_region[test_test__sm_RegionEnum__test__sm__main] = true;
-                    test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main____cur_state), test_test__sm_StateEnum__test__sm__main__off, test_test__sm_StateEnum__test__sm__main__on, "test.sm.main.t1", "test.sm.main.off", "test.sm.main.on", &test_action__test__sm__main__t1, &test_on_entry_test__sm__main__on);
-                    test_smarray_append(enabled_transitions, trans);
-                  }
-                  break;
-                }
-                default:
-                  /* 
-                   * check transitions without trigger
-                   */
-
-                  break;
-                
-              }
-
+              continue;
             }
-            break;
-          }
-          case test_test__sm_StateEnum__test__sm__main__on: {
-            for ( int8_t index = 0; index < 4; index++ )
+            switch (((test_test__sm_EventEnum)((uint64_t)(present_events[index]->type))))
             {
-              if ( present_events[index] == 0 ) 
-              {
-                continue;
-              }
-              switch (((test_test__sm_EventEnum)((uint64_t)(present_events[index]->type))))
-              {
-                default:
-                  /* 
-                   * check transitions without trigger
-                   */
+              case test_test__sm_EventEnum__test__sm__main__turn_on: {
+                /* 
+                 * handle state transition
+                 */
 
-                  break;
-                
+                test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main____cur_state), test_test__sm_StateEnum__test__sm__main__off, test_test__sm_StateEnum__test__sm__main__on, "test.sm.main.t1", "test.sm.main.off", "test.sm.main.on", &test_action__test__sm__main__t1, &test_on_entry_test__sm__main__on, test_test__sm_StateEnum__test__sm__main__off);
+                g_ptr_array_add(enabled_transitions, trans);
+                break;
               }
+              default:
+                /* 
+                 * check transitions without trigger
+                 */
 
+                break;
+              
             }
-            break;
+
           }
+          break;
         }
+        case test_test__sm_StateEnum__test__sm__main__on: {
+          for ( int8_t index = 0; index < 5; index++ )
+          {
+            if ( present_events[index] == 0 ) 
+            {
+              continue;
+            }
+            switch (((test_test__sm_EventEnum)((uint64_t)(present_events[index]->type))))
+            {
+              case test_test__sm_EventEnum__test__sm__main__turn_off: {
+                /* 
+                 * handle state transition
+                 */
 
+                test_Transition* trans = test_create_trans(&(sm_info_shadow->test__sm__main____cur_state), test_test__sm_StateEnum__test__sm__main__on, test_test__sm_StateEnum__test__sm__main__off, "test.sm.main.t2", "test.sm.main.on", "test.sm.main.off", &test_action__test__sm__main__t2, &test_on_entry_test__sm__main__off, test_test__sm_StateEnum__test__sm__main__on);
+                g_ptr_array_add(enabled_transitions, trans);
+                break;
+              }
+              default:
+                /* 
+                 * check transitions without trigger
+                 */
+
+                break;
+              
+            }
+
+          }
+          break;
+        }
+      }
+
+      
+    }
+    guint i = 0;
+    while (i < enabled_transitions->len)
+    {
+      test_Transition* cur_trans = ((test_Transition*)(g_ptr_array_index(enabled_transitions, i)));
+      if ( skip_region[cur_trans->arena] ) 
+      {
+        g_ptr_array_remove_index_fast(enabled_transitions, i);
+      }      else 
+      {
+        i++;
       }
     }
-    for ( uint32_t i = 0; i < enabled_transitions->size; i++ )
+    for ( i = 0; i < enabled_transitions->len; i++ )
     {
-      test_Transition* cur_trans = ((test_Transition*)(test_smarray_get(enabled_transitions, i)));
+      test_Transition* cur_trans = ((test_Transition*)(g_ptr_array_index(enabled_transitions, i)));
       test_handle_transition(present_events, present_events_shadow, sm_info, sm_info_shadow, cur_trans);
     }
     /* 
      * free allocated Transition objects in this small step
      */
 
-    test_reset_pointer_array(((void**)(enabled_transitions->data)), enabled_transitions->len);
     /* 
      * copy shdow values to present_events and sm_info
      */
 
-    memcpy(present_events, ((void* const )(present_events_shadow)), 4 * sizeof(test_Event*));
+    memcpy(present_events, ((void* const )(present_events_shadow)), 5 * sizeof(test_Event*));
     memcpy(sm_info, ((void* const )(sm_info_shadow)), sizeof(test_test__sm_SMStruct_t));
-  } while (enabled_transitions->size != 0);
-  test_smarray_free(enabled_transitions);
+  } while (enabled_transitions->len != 0);
+  g_ptr_array_free(enabled_transitions, false);
+  
 }
 
 static gpointer test_sm_start_test__sm(gpointer dummy_ptr) 
 {
-  static test_Event* present_event_test__sm[4];
-  static test_Event* present_event_test__sm_shadow[4];
-  test_reset_pointer_array(((void**)(present_event_test__sm)), 4);
-  memcpy(present_event_test__sm_shadow, present_event_test__sm, 4 * sizeof(test_Event*));
+  static test_Event* present_event_test__sm[5];
+  static test_Event* present_event_test__sm_shadow[5];
+  test_reset_pointer_array(((void**)(present_event_test__sm)), 5);
+  memcpy(present_event_test__sm_shadow, present_event_test__sm, 5 * sizeof(test_Event*));
   static test_test__sm_SMStruct_t sm_info_test__sm;
   static test_test__sm_SMStruct_t sm_info_test__sm_shadow;
   test_init_test__sm(present_event_test__sm, present_event_test__sm, &sm_info_test__sm, &sm_info_test__sm);
   memcpy(&sm_info_test__sm_shadow, ((void* const )(&sm_info_test__sm)), sizeof(test_test__sm_SMStruct_t));
   while (true)
   {
-    test_free_pointer_array(((void**)(present_event_test__sm)), 4);
-    test_reset_pointer_array(((void**)(present_event_test__sm)), 4);
-    memcpy(present_event_test__sm_shadow, present_event_test__sm, 4 * sizeof(test_Event*));
+    test_free_pointer_array(((void**)(present_event_test__sm)), 5);
+    test_reset_pointer_array(((void**)(present_event_test__sm)), 5);
+    memcpy(present_event_test__sm_shadow, present_event_test__sm, 5 * sizeof(test_Event*));
     test_Event* in_event = test_event_queue_test__sm_get();
     /* 
      * terminate state machine
@@ -691,8 +667,18 @@ static void test_action__test__sm__main__t1(test_Event** present_events, test_Ev
 {
   {
     printf("$$print_string: string (");
-    printf("info=%s",(((char*)("hello world"))));
+    printf("info=%s",(((char*)("sm turned on"))));
     printf(") @test:sm?r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)#7359472029652038765\n");
+    
+  }
+}
+
+static void test_action__test__sm__main__t2(test_Event** present_events, test_Event** present_events_shadow, test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow) 
+{
+  {
+    printf("$$print_string: string (");
+    printf("info=%s",(((char*)("sm turned off"))));
+    printf(") @test:sm?r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)#8025659640010943272\n");
     
   }
 }
@@ -739,42 +725,6 @@ static void test_free_pointer_array(void** data, uint32_t length)
   }
 }
 
-static test_SMArray* test_smarray_new(uint32_t len) 
-{
-  test_SMArray* array = ((test_SMArray*)(malloc(sizeof(test_SMArray))));
-  array->data = ((void**)(calloc(len, sizeof(void*))));
-  array->len = len;
-  array->size = 0;
-  return array;
-}
-
-static void test_smarray_free(test_SMArray* ptr) 
-{
-  free(ptr->data);
-  free(ptr);
-}
-
-static void test_smarray_append(test_SMArray* array, void* value) 
-{
-  if ( array->size >= array->len ) 
-  {
-    array->data = ((void**)(realloc(array->data, 2 * array->len * sizeof(void*))));
-    test_reset_pointer_array(array->data + array->len, array->len);
-    array->len *= 2;
-  }
-  array->data[array->size++] = value;
-}
-
-static void* test_smarray_get(test_SMArray* array, uint32_t index) 
-{
-  return array->data[index];
-}
-
-static void test_smarray_clear(test_SMArray* array) 
-{
-  array->size = 0;
-}
-
 static test_Event* test_create_event(uint32_t type, void** args) 
 {
   return 0;
@@ -795,7 +745,7 @@ static void test_event_queue_test__sm_put(test_Event* data)
   g_async_queue_push(test_event_queue_test__sm, data);
 }
 
-static test_Transition* test_create_trans(test_test__sm_StateEnum* __cur_state, test_test__sm_StateEnum old_cur_state_value, test_test__sm_StateEnum new_cur_state_value, char* trans_id, char* source_state, char* target_state, test_ActionRef action_ref, test_OnEntryRef on_entry_ref) 
+static test_Transition* test_create_trans(test_test__sm_StateEnum* __cur_state, test_test__sm_StateEnum old_cur_state_value, test_test__sm_StateEnum new_cur_state_value, char* trans_id, char* source_state, char* target_state, test_ActionRef action_ref, test_OnEntryRef on_entry_ref, test_test__sm_RegionEnum arena) 
 {
   test_Transition* trans = ((test_Transition*)(malloc(sizeof(test_Transition))));
   trans->__cur_state = __cur_state;
@@ -806,6 +756,7 @@ static test_Transition* test_create_trans(test_test__sm_StateEnum* __cur_state, 
   trans->target_state = target_state;
   trans->action_ref = action_ref;
   trans->on_entry_ref = on_entry_ref;
+  trans->arena = arena;
   return trans;
 }
 
