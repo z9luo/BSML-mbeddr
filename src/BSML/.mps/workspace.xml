@@ -50,11 +50,19 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
+<<<<<<< HEAD
                     <property name="caretXRelative" value="40" />
                     <property name="caretX" value="190" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="Constant_uw44x4_b0" cellNumber="0" isInList="false">
                       <node node_reference="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/8025659640020606240" />
+=======
+                    <property name="caretXRelative" value="24" />
+                    <property name="caretX" value="182" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/8025659640020606242" />
+>>>>>>> 2f567d3ba0a819de39560011f16618982a679e21
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -110,8 +118,13 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
+<<<<<<< HEAD
                     <property name="caretXRelative" value="48" />
                     <property name="caretX" value="130" />
+=======
+                    <property name="caretXRelative" value="56" />
+                    <property name="caretX" value="138" />
+>>>>>>> 2f567d3ba0a819de39560011f16618982a679e21
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="Constant_fc1f1l_a0" cellNumber="0" isInList="false">
                       <node node_reference="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/1996550827859461499" />
@@ -140,8 +153,13 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
+<<<<<<< HEAD
                     <property name="caretXRelative" value="48" />
                     <property name="caretX" value="434" />
+=======
+                    <property name="caretXRelative" value="8" />
+                    <property name="caretX" value="394" />
+>>>>>>> 2f567d3ba0a819de39560011f16618982a679e21
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_bigStepMaximality" cellNumber="0" isInList="false">
                       <node node_reference="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" />
@@ -945,11 +963,15 @@
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24322917" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32686415" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32686415" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 2f567d3ba0a819de39560011f16618982a679e21
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890704" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Feature Model Verification" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32686415" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31052095" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Context Sidebar" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299285" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Workflow" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -961,7 +983,7 @@
       <window_info id="mbeddr TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Verification (CBMC)" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31052095" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31052095" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Module Consistency Verification" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2382,8 +2404,13 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
+<<<<<<< HEAD
                 <property name="caretXRelative" value="48" />
                 <property name="caretX" value="130" />
+=======
+                <property name="caretXRelative" value="56" />
+                <property name="caretX" value="138" />
+>>>>>>> 2f567d3ba0a819de39560011f16618982a679e21
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="Constant_fc1f1l_a0" cellNumber="0" isInList="false">
                   <node node_reference="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/1996550827859461499" />
@@ -2437,8 +2464,13 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
+<<<<<<< HEAD
                 <property name="caretXRelative" value="48" />
                 <property name="caretX" value="434" />
+=======
+                <property name="caretXRelative" value="8" />
+                <property name="caretX" value="394" />
+>>>>>>> 2f567d3ba0a819de39560011f16618982a679e21
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_bigStepMaximality" cellNumber="0" isInList="false">
                   <node node_reference="r:67884540-b1cd-46c7-a3f6-c962642a23c5(BSML.sandbox)/8025659639990756745" />
@@ -2465,11 +2497,19 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
+<<<<<<< HEAD
                 <property name="caretXRelative" value="40" />
                 <property name="caretX" value="190" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="Constant_uw44x4_b0" cellNumber="0" isInList="false">
                   <node node_reference="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/8025659640020606240" />
+=======
+                <property name="caretXRelative" value="24" />
+                <property name="caretX" value="182" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)/8025659640020606242" />
+>>>>>>> 2f567d3ba0a819de39560011f16618982a679e21
                 </cellInfo>
               </stackElement>
             </selectionStack>

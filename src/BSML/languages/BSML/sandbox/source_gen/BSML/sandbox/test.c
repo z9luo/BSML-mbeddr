@@ -194,6 +194,10 @@ int32_t main(int32_t argc, char* argv[])
     g_async_queue_unref(test_event_queue_test__sm);
     if ( retval != 0 ) 
     {
+      printf("$$other: other info (");
+      printf("info=%s",(((char*)(((char*)(retval))))));
+      printf(") @test:main?null\n");
+      
     }
   }
   return 0;
@@ -592,6 +596,10 @@ static void test_execute_big_step_test__sm(test_Event* present_events[], test_Ev
 
 static gpointer test_sm_start_test__sm(gpointer dummy_ptr) 
 {
+  printf("$$other: other info (");
+  printf("info=%s",(((char*)("SINGLE "))));
+  printf(") @test:sm_start_test__sm?null\n");
+  
   static test_Event* present_event_test__sm[5];
   static test_Event* present_event_test__sm_shadow[5];
   test_reset_pointer_array(((void**)(present_event_test__sm)), 5);
