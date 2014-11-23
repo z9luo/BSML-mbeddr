@@ -12,13 +12,13 @@ import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import BSML.Generator_Util.util;
+import com.mbeddr.core.buildconfig.behavior.BCHelper;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
-import com.mbeddr.core.buildconfig.behavior.BCHelper;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import java.util.List;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
@@ -94,6 +94,21 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_4306907833975213498(final PropertyMacroContext _context) {
     return util.genBigStepFunctionName(BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{}));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_8025659640020680368(final PropertyMacroContext _context) {
+    SNode rc = BCHelper.findBCConfigItem(_context.getInputModel(), _context, "BSML/main.reduceStateMachine", SConceptOperations.findConceptDeclaration("BSML.structure.StateMachineSemanticsConfigItem"), "");
+    if (rc != null) {
+      if (SPropertyOperations.hasValue(SNodeOperations.cast(rc, "BSML.structure.StateMachineSemanticsConfigItem"), "bigStepMaximality", "0", "2")) {
+        return "SINGLE ";
+      } else if (SPropertyOperations.hasValue(SNodeOperations.cast(rc, "BSML.structure.StateMachineSemanticsConfigItem"), "bigStepMaximality", "2", "2")) {
+        return "MANY";
+      } else {
+        return "SYNTACTIC";
+      }
+    } else {
+      return "big-step maximality not set";
+    }
   }
 
   public static Object propertyMacro_GetPropertyValue_3946458319585473083(final PropertyMacroContext _context) {
@@ -289,7 +304,7 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_8025659639998392304(final ReferenceMacroContext _context) {
-    return BehaviorReflection.invokeVirtual(String.class, BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), _context.getNode(), "virtual_source_2486662774780451176", new Object[]{}), "virtual_id_3372386639989961954", new Object[]{});
+    return BehaviorReflection.invokeVirtual(String.class, SNodeOperations.getAncestor(BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), _context.getNode(), "virtual_source_2486662774780451176", new Object[]{}), "BSML.structure.IRegion", false, false), "virtual_id_3372386639989961954", new Object[]{});
   }
 
   public static Object referenceMacro_GetReferent_6615293872260332332(final ReferenceMacroContext _context) {
@@ -322,6 +337,10 @@ public class QueriesGenerated {
 
   public static Object referenceMacro_GetReferent_7466645974735856082(final ReferenceMacroContext _context) {
     return "on_entry_" + BehaviorReflection.invokeVirtual(String.class, BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), _context.getNode(), "virtual_target_2486662774780451200", new Object[]{}), "virtual_id_3372386639989961954", new Object[]{});
+  }
+
+  public static Object referenceMacro_GetReferent_8025659640023700505(final ReferenceMacroContext _context) {
+    return BehaviorReflection.invokeVirtual(String.class, SNodeOperations.getAncestor(BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), _context.getNode(), "virtual_source_2486662774780451176", new Object[]{}), "BSML.structure.IRegion", false, false), "virtual_id_3372386639989961954", new Object[]{});
   }
 
   public static Object referenceMacro_GetReferent_6615293872259621666(final ReferenceMacroContext _context) {
