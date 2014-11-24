@@ -2,7 +2,7 @@
 <debugInfo>
   <unitInfo fileName="AbstractBlock_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="BSML.behavior.AbstractBlock_BehaviorDescriptor" />
   <unitInfo fileName="AbstractEventDeclaration_BehaviorDescriptor.java" startLine="13" startPosition="0" endLine="54" endPosition="0" unitName="BSML.behavior.AbstractEventDeclaration_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="72" endPosition="0" unitName="BSML.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="70" endPosition="0" unitName="BSML.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="CFunctionBinding_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="BSML.behavior.CFunctionBinding_BehaviorDescriptor" />
   <unitInfo fileName="DoBlock_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="BSML.behavior.DoBlock_BehaviorDescriptor" />
   <unitInfo fileName="EntryBlock_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="BSML.behavior.EntryBlock_BehaviorDescriptor" />
@@ -32,7 +32,6 @@
   <unitInfo fileName="SMTrigger_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="45" endPosition="0" unitName="BSML.behavior.SMTrigger_BehaviorDescriptor" />
   <unitInfo fileName="SMType_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="BSML.behavior.SMType_BehaviorDescriptor" />
   <unitInfo fileName="StateLocalDeclaration_BehaviorDescriptor.java" startLine="12" startPosition="0" endLine="49" endPosition="0" unitName="BSML.behavior.StateLocalDeclaration_BehaviorDescriptor" />
-  <unitInfo fileName="StateMachineBindingsConfigItem_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="BSML.behavior.StateMachineBindingsConfigItem_BehaviorDescriptor" />
   <unitInfo fileName="StateMachineConfigItem_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="BSML.behavior.StateMachineConfigItem_BehaviorDescriptor" />
   <unitInfo fileName="StateMachineSemanticsConfigItem_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="BSML.behavior.StateMachineSemanticsConfigItem_BehaviorDescriptor" />
   <unitInfo fileName="StateType_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="BSML.behavior.StateType_BehaviorDescriptor" />
@@ -713,6 +712,23 @@
       <varInfo nodeId="8025659640029004868" varName="thisNode" />
     </scopeInfo>
     <unitInfo nodeId="8025659640029004868" fileName="IState_Behavior.java" startLine="10" startPosition="0" endLine="24" endPosition="0" unitName="BSML.behavior.IState_Behavior" />
+  </root>
+  <root nodeRef="r:ab9006cb-fa5a-47a8-81b8-ed3862813166(BSML.behavior)/8025659640032231805">
+    <nodeInfo nodeId="8025659640032540444" fileName="BSMLHelper.java" startLine="11" startPosition="45" endLine="12" endPosition="220" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8025659640032550638" fileName="BSMLHelper.java" startLine="12" startPosition="220" endLine="13" endPosition="227" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8025659640032588047" fileName="BSMLHelper.java" startLine="14" startPosition="149" endLine="15" endPosition="89" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="8025659640032592282" fileName="BSMLHelper.java" startLine="16" startPosition="5" endLine="17" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8025659640032541093" fileName="BSMLHelper.java" startLine="13" startPosition="227" endLine="16" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="8025659640032531165" fileName="BSMLHelper.java" startLine="11" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="getArena#(Lorg/jetbrains/mps/openapi/model/SNode;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <scopeInfo nodeId="8025659640032541095" fileName="BSMLHelper.java" startLine="14" startPosition="149" endLine="15" endPosition="89" />
+    <scopeInfo nodeId="8025659640032531168" fileName="BSMLHelper.java" startLine="11" startPosition="45" endLine="17" endPosition="17">
+      <varInfo nodeId="8025659640032540447" varName="arena" />
+      <varInfo nodeId="8025659640032550641" varName="targetRegion" />
+    </scopeInfo>
+    <scopeInfo nodeId="8025659640032531165" fileName="BSMLHelper.java" startLine="11" startPosition="0" endLine="19" endPosition="0">
+      <varInfo nodeId="8025659640032535315" varName="trans" />
+    </scopeInfo>
+    <unitInfo nodeId="8025659640032231805" fileName="BSMLHelper.java" startLine="10" startPosition="0" endLine="20" endPosition="0" unitName="BSML.behavior.BSMLHelper" />
   </root>
 </debugInfo>
 

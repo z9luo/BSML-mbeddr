@@ -2,12 +2,14 @@
 <dependenciesRoot>
   <dependency className="BSML.generator.template.main.QueriesGenerated" file="QueriesGenerated.java">
     <classNode dependClassName="BSML.Generator_Util.util" />
+    <classNode dependClassName="BSML.behavior.BSMLHelper" />
     <classNode dependClassName="com.mbeddr.core.buildconfig.behavior.BCHelper" />
     <classNode dependClassName="java.lang.Boolean" />
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Iterable" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Collections" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.closures.runtime.Wrappers" />
     <classNode dependClassName="jetbrains.mps.generator.runtime.Generated" />

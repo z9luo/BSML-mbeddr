@@ -307,6 +307,9 @@ static void test_init_test__sm(test_Event** present_events, test_Event** present
 
 static void test_execute_big_step_test__sm(test_Event* present_events[], test_Event* present_events_shadow[], test_test__sm_SMStruct_t* sm_info, test_test__sm_SMStruct_t* sm_info_shadow) 
 {
+  printf("$$start_big_step:   (");
+  printf(") @test:execute_big_step_test__sm?null\n");
+  
   struct _GPtrArray* enabled_transitions = g_ptr_array_new();
   bool skip_region[3];
   for ( int8_t __i = 0; __i < 3; __i++ )
@@ -590,6 +593,9 @@ static void test_execute_big_step_test__sm(test_Event* present_events[], test_Ev
     memcpy(sm_info, ((void* const )(sm_info_shadow)), sizeof(test_test__sm_SMStruct_t));
   } while (enabled_transitions->len != 0);
   g_ptr_array_free(enabled_transitions, false);
+  
+  printf("$$end_big_step:   (");
+  printf(") @test:execute_big_step_test__sm:3?null\n");
   
 }
 

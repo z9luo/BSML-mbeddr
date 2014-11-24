@@ -22,6 +22,8 @@ import jetbrains.mps.internal.collections.runtime.IVisitor;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import java.util.List;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
+import BSML.behavior.BSMLHelper;
+import java.util.Collections;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.ITranslator2;
 import jetbrains.mps.generator.template.WeavingMappingRuleContext;
@@ -280,7 +282,7 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_8025659640028978775(final ReferenceMacroContext _context) {
-    return BehaviorReflection.invokeVirtual(String.class, SNodeOperations.getAncestor(BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), _context.getNode(), "virtual_source_2486662774780451176", new Object[]{}), "BSML.structure.IRegion", false, false), "virtual_id_3372386639989961954", new Object[]{});
+    return BehaviorReflection.invokeVirtual(String.class, _context.getNode(), "virtual_id_3372386639989961954", new Object[]{});
   }
 
   public static Object referenceMacro_GetReferent_6615293872257041064(final ReferenceMacroContext _context) {
@@ -844,17 +846,6 @@ public class QueriesGenerated {
     return ret.value;
   }
 
-  public static boolean ifMacro_Condition_8025659640028809245(final IfMacroContext _context) {
-    SNode rc = BCHelper.findBCConfigItem(_context.getInputModel(), _context, "BSML/main.reduceRegion", SConceptOperations.findConceptDeclaration("BSML.structure.StateMachineSemanticsConfigItem"), "");
-    if (rc != null && SPropertyOperations.hasValue(SNodeOperations.cast(rc, "BSML.structure.StateMachineSemanticsConfigItem"), "bigStepMaximality", "0", "2")) {
-      return true;
-    }
-    if (rc != null && SPropertyOperations.hasValue(SNodeOperations.cast(rc, "BSML.structure.StateMachineSemanticsConfigItem"), "bigStepMaximality", "1", "2")) {
-      return BehaviorReflection.invokeVirtual(Boolean.TYPE, BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), _context.getNode(), "virtual_target_2486662774780451200", new Object[]{}), "virtual_isStable_8025659640029005022", new Object[]{});
-    }
-    return false;
-  }
-
   public static boolean ifMacro_Condition_7466645974728471180(final IfMacroContext _context) {
     return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "actuals", true)).isNotEmpty();
   }
@@ -949,6 +940,17 @@ public class QueriesGenerated {
 
   public static Iterable<SNode> sourceNodesQuery_3372386639992182519(final SourceSubstituteMacroNodesContext _context) {
     return BehaviorReflection.invokeVirtual((Class<Iterable<SNode>>) ((Class) Object.class), _context.getNode(), "virtual_getContainedStates_5600653557317358696", new Object[]{});
+  }
+
+  public static Iterable<SNode> sourceNodesQuery_8025659640033252382(final SourceSubstituteMacroNodesContext _context) {
+    SNode rc = BCHelper.findBCConfigItem(_context.getInputModel(), _context, "BSML/main.reduceRegion", SConceptOperations.findConceptDeclaration("BSML.structure.StateMachineSemanticsConfigItem"), "");
+    if (rc != null && SPropertyOperations.hasValue(SNodeOperations.cast(rc, "BSML.structure.StateMachineSemanticsConfigItem"), "bigStepMaximality", "0", "2")) {
+      return SNodeOperations.getDescendants(BSMLHelper.getArena(_context.getNode()), "BSML.structure.IRegion", false, new String[]{});
+    }
+    if (rc != null && SPropertyOperations.hasValue(SNodeOperations.cast(rc, "BSML.structure.StateMachineSemanticsConfigItem"), "bigStepMaximality", "1", "2") && BehaviorReflection.invokeVirtual(Boolean.TYPE, BehaviorReflection.invokeVirtual((Class<SNode>) ((Class) Object.class), _context.getNode(), "virtual_target_2486662774780451200", new Object[]{}), "virtual_isStable_8025659640029005022", new Object[]{})) {
+      return SNodeOperations.getDescendants(BSMLHelper.getArena(_context.getNode()), "BSML.structure.IRegion", false, new String[]{});
+    }
+    return Sequence.fromIterable(Collections.<SNode>emptyList());
   }
 
   public static Iterable<SNode> sourceNodesQuery_3946458319598746797(final SourceSubstituteMacroNodesContext _context) {

@@ -36,6 +36,15 @@
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="BSML.behavior.BSMLHelper" file="BSMLHelper.java">
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
   <dependency className="BSML.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
     <classNode dependClassName="BSML.behavior.CFunctionBinding_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.DoBlock_BehaviorDescriptor" />
@@ -55,7 +64,6 @@
     <classNode dependClassName="BSML.behavior.SMTrigger_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.SMType_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.StateLocalDeclaration_BehaviorDescriptor" />
-    <classNode dependClassName="BSML.behavior.StateMachineBindingsConfigItem_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.StateMachineConfigItem_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.StateMachineSemanticsConfigItem_BehaviorDescriptor" />
     <classNode dependClassName="BSML.behavior.StateType_BehaviorDescriptor" />
@@ -476,16 +484,6 @@
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.IContainsStatementList_Behavior" />
     <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.IContainsStatementList_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.IDontSubstituteByDefault_BehaviorDescriptor" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="BSML.behavior.StateMachineBindingsConfigItem_BehaviorDescriptor" file="StateMachineBindingsConfigItem_BehaviorDescriptor.java">
-    <classNode dependClassName="com.mbeddr.core.base.behavior.IConfigurationItem_BehaviorDescriptor" />
-    <classNode dependClassName="com.mbeddr.core.base.behavior.ILOCCountProvider_Behavior" />
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />

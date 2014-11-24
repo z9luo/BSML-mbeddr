@@ -46,14 +46,12 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
       case 14:
         return Collections.<ConceptEditor>singletonList(new StateLocalDeclaration_Editor());
       case 15:
-        return Collections.<ConceptEditor>singletonList(new StateMachineBindingsConfigItem_Editor());
-      case 16:
         return Collections.<ConceptEditor>singletonList(new StateMachineConfigItem_Editor());
-      case 17:
+      case 16:
         return Collections.<ConceptEditor>singletonList(new StateMachineSemanticsConfigItem_Editor());
-      case 18:
+      case 17:
         return Collections.<ConceptEditor>singletonList(new Transition_Editor());
-      case 19:
+      case 18:
         return Collections.<ConceptEditor>singletonList(new TriggerEventReference_Editor());
       default:
     }
@@ -66,5 +64,5 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
 
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"BSML.structure.CFunctionBinding", "BSML.structure.DoBlock", "BSML.structure.EntryBlock", "BSML.structure.EventArgReference", "BSML.structure.EventCall", "BSML.structure.ExitBlock", "BSML.structure.InEventDeclaration", "BSML.structure.LocalEventDeclaration", "BSML.structure.OutEventDeclaration", "BSML.structure.RegionLocalDeclaration", "BSML.structure.SMGlobalDeclaration", "BSML.structure.SMSafeTerm", "BSML.structure.SMStart", "BSML.structure.SMTrigger", "BSML.structure.StateLocalDeclaration", "BSML.structure.StateMachineBindingsConfigItem", "BSML.structure.StateMachineConfigItem", "BSML.structure.StateMachineSemanticsConfigItem", "BSML.structure.Transition", "BSML.structure.TriggerEventReference"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"BSML.structure.CFunctionBinding", "BSML.structure.DoBlock", "BSML.structure.EntryBlock", "BSML.structure.EventArgReference", "BSML.structure.EventCall", "BSML.structure.ExitBlock", "BSML.structure.InEventDeclaration", "BSML.structure.LocalEventDeclaration", "BSML.structure.OutEventDeclaration", "BSML.structure.RegionLocalDeclaration", "BSML.structure.SMGlobalDeclaration", "BSML.structure.SMSafeTerm", "BSML.structure.SMStart", "BSML.structure.SMTrigger", "BSML.structure.StateLocalDeclaration", "BSML.structure.StateMachineConfigItem", "BSML.structure.StateMachineSemanticsConfigItem", "BSML.structure.Transition", "BSML.structure.TriggerEventReference"};
 }

@@ -132,43 +132,6 @@
       <property name="externalValue" nameId="tpce.1083923523172" value="ARENA ORTHOGONAL" />
     </node>
   </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="520667319675316502" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="StateMachineBindingsConfigItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="state machine bindings" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="520667319675316503" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="getEventInput_Funcname" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
-    </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="520667319675316504" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="concurrency" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="6318815719351411883" resolveInfo="ConcurrencyEnum" />
-    </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="520667319675316505" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="eventLifeline" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="6318815719351412039" resolveInfo="EventLifelineEnum" />
-    </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="520667319675316506" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="preemption" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="6318815719351412031" resolveInfo="PreemptionEnum" />
-    </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="520667319675316507" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="priority" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="6318815719351412047" resolveInfo="PriorityEnum" />
-    </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="520667319675316508" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="smallStepConsistency" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="6318815719351412035" resolveInfo="SmallStepConsistencyEnum" />
-    </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="520667319675316509" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="variableLifeline" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="6318815719351412043" resolveInfo="VariableLifeline" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="520667319675316510" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vs0r.4459718605982007336" resolveInfo="IConfigurationItem" />
-    </node>
-  </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6318815719350911364" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="StateMachineConfigItem" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="state machines" />
