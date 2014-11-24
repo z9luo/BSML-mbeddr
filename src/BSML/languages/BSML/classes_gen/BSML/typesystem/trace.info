@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="TypesystemDescriptor.java" startLine="9" startPosition="0" endLine="37" endPosition="0" unitName="BSML.typesystem.TypesystemDescriptor" />
+  <unitInfo fileName="TypesystemDescriptor.java" startLine="9" startPosition="0" endLine="41" endPosition="0" unitName="BSML.typesystem.TypesystemDescriptor" />
   <root nodeRef="r:4175e96b-4bf8-489b-b72c-d9eeeddab49d(BSML.typesystem)/1054945346924084199">
     <nodeInfo nodeId="8607120610926924480" fileName="typeof_SMTrigger_InferenceRule.java" startLine="19" startPosition="122" endLine="20" endPosition="110" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="8607120610926937833" fileName="typeof_SMTrigger_InferenceRule.java" startLine="20" startPosition="110" endLine="21" endPosition="126" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -249,6 +249,47 @@
       <varInfo nodeId="5600653557319396036" varName="typeCheckingContext" />
     </scopeInfo>
     <unitInfo nodeId="5600653557319396036" fileName="check_EventCall_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="48" endPosition="0" unitName="BSML.typesystem.check_EventCall_NonTypesystemRule" />
+  </root>
+  <root nodeRef="r:4175e96b-4bf8-489b-b72c-d9eeeddab49d(BSML.typesystem)/8025659640031568476">
+    <nodeInfo nodeId="8025659640031579991" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="25" startPosition="7" endLine="26" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8025659640031579991" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="26" startPosition="60" endLine="27" endPosition="371" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8025659640031568476" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="32" startPosition="46" endLine="33" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8025659640031568476" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="37" startPosition="5" endLine="38" endPosition="130" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="8025659640031568476" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="38" startPosition="130" endLine="39" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8025659640031568476" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="43" startPosition="30" endLine="44" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="8025659640031568476" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="20" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="check_SMGlobalDeclaration_NonTypesystemRule#()V" />
+    <nodeInfo nodeId="8025659640031568476" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getApplicableConceptFQName#()Ljava/lang/String;" />
+    <nodeInfo nodeId="8025659640031568476" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="43" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="overrides#()Z" />
+    <nodeInfo nodeId="8025659640031579991" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="24" startPosition="210" endLine="28" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8025659640031568476" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="36" startPosition="68" endLine="40" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="8025659640031579989" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="23" startPosition="132" endLine="29" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="8025659640031568476" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="36" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+    <nodeInfo nodeId="8025659640031568476" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="23" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+    <scopeInfo nodeId="8025659640031568476" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="20" startPosition="56" endLine="20" endPosition="56" />
+    <scopeInfo nodeId="8025659640031568476" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="32" startPosition="46" endLine="33" endPosition="48" />
+    <scopeInfo nodeId="8025659640031568476" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="43" startPosition="30" endLine="44" endPosition="17" />
+    <scopeInfo nodeId="8025659640031568476" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="20" startPosition="0" endLine="22" endPosition="0" />
+    <scopeInfo nodeId="8025659640031579991" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="25" startPosition="7" endLine="27" endPosition="371">
+      <varInfo nodeId="8025659640031579991" varName="_reporter_2309309498" />
+      <varInfo nodeId="8025659640031579991" varName="errorTarget" />
+    </scopeInfo>
+    <scopeInfo nodeId="8025659640031568476" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="37" startPosition="5" endLine="39" endPosition="45">
+      <varInfo nodeId="8025659640031568476" varName="b" />
+    </scopeInfo>
+    <scopeInfo nodeId="8025659640031568476" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="32" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="8025659640031568476" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="43" startPosition="0" endLine="46" endPosition="0" />
+    <scopeInfo nodeId="8025659640031579990" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="24" startPosition="210" endLine="28" endPosition="7" />
+    <scopeInfo nodeId="8025659640031568476" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="36" startPosition="68" endLine="40" endPosition="5" />
+    <scopeInfo nodeId="8025659640031568477" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="23" startPosition="132" endLine="29" endPosition="5" />
+    <scopeInfo nodeId="8025659640031568476" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="36" startPosition="0" endLine="42" endPosition="0">
+      <varInfo nodeId="8025659640031568476" varName="argument" />
+    </scopeInfo>
+    <scopeInfo nodeId="8025659640031568476" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="23" startPosition="0" endLine="31" endPosition="0">
+      <varInfo nodeId="8025659640031568476" varName="smGlobalDeclaration" />
+      <varInfo nodeId="8025659640031568476" varName="status" />
+      <varInfo nodeId="8025659640031568476" varName="typeCheckingContext" />
+    </scopeInfo>
+    <unitInfo nodeId="8025659640031568476" fileName="check_SMGlobalDeclaration_NonTypesystemRule.java" startLine="19" startPosition="0" endLine="47" endPosition="0" unitName="BSML.typesystem.check_SMGlobalDeclaration_NonTypesystemRule" />
   </root>
 </debugInfo>
 

@@ -5,6 +5,7 @@ package BSML.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
@@ -12,7 +13,10 @@ public class SMGlobalDeclaration_Behavior {
   public static void init(SNode thisNode) {
     SLinkOperations.setTarget(thisNode, "type", SConceptOperations.createNewNode("BSML.structure.SMType", null), true);
     SLinkOperations.setNewChild(thisNode, "content", "com.mbeddr.core.statements.structure.StatementList");
-    ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(thisNode, "content", true), "statements", true)).addElement(SConceptOperations.createNewNode("BSML.structure.RegionLocalDeclaration", null));
+    SNode mainRegion = SConceptOperations.createNewNode("BSML.structure.RegionLocalDeclaration", null);
+    SPropertyOperations.set(mainRegion, "name", "main");
+    SLinkOperations.setNewChild(mainRegion, "content", "com.mbeddr.core.statements.structure.StatementList");
+    ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(thisNode, "content", true), "statements", true)).addElement(mainRegion);
   }
 
   public static Iterable<SNode> virtual_getContainedRegions_3372386639992781270(SNode thisNode) {

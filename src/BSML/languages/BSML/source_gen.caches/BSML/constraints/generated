@@ -21,7 +21,7 @@
   <dep model="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" hash="-1njeesrup8wep5g5m11uh8dwv9bnk1i" />
   <dep model="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" hash="2deb6huwu9500ekqho7f6axbbdsvmkn" />
   <dep model="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" hash="-8occ4vh5c7mjxqosuxbkrq12g89pior" />
-  <dep model="r:ab9006cb-fa5a-47a8-81b8-ed3862813166(BSML.behavior)" hash="-bdaog0cmiri9zx0ljswfhpufofy4fn2" />
+  <dep model="r:ab9006cb-fa5a-47a8-81b8-ed3862813166(BSML.behavior)" hash="-1wlmzlqrsu7xbannj4tbk3dmv6djroo" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
   <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="e5zswcvgdspmt039m3gg97emcadi0ez" />
   <dep model="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" hash="3tekhil1vgqucmcvsc7j6y1xfp76q82" />
