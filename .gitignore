@@ -16,6 +16,7 @@ src/BSML/languages/BSML/sandbox/source_gen.caches/
 src/BSML/languages/BSML/classes_gen/
 src/BSML/languages/BSML/source_gen/
 src/BSML/languages/BSML/source_gen.caches/
+src/BSML/.mps/workspace.xml
 ###################
 # Web publish log #
 ###################

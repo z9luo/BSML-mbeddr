@@ -181,7 +181,7 @@
     </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6318815719351659518" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="GC" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="6318815719351412039" resolveInfo="EventLifelineEnum" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="7950215811427461812" resolveInfo="MemoryProtocolEnum" />
     </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7950215811414405627" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="RHS" />
@@ -643,10 +643,6 @@
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="7950215811427461814" nodeInfo="ig">
       <property name="internalValue" nameId="tpce.1083923523171" value="1" />
       <property name="externalValue" nameId="tpce.1083923523172" value="BIG STEP" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="7950215811427461815" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="IN NEXT SMALL" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="2" />
     </node>
   </root>
 </model>
