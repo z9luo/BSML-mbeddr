@@ -1199,7 +1199,7 @@
         <property name="text" nameId="k146.2688792604367903089" value=" " />
       </node>
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="8025659640012827642" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="true" />
+        <property name="active" nameId="k146.2688792604367947988" value="false" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="name" nameId="tpck.1169194664001" value="other" />
         <property name="text" nameId="k146.2688792604367903089" value="other info" />
@@ -1443,6 +1443,15 @@
             </node>
           </node>
         </node>
+        <node role="argTypes" roleId="x27k.8551646674110395549" type="yq40.PointerType" typeId="yq40.279446265608459824" id="1996550827859461761" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <node role="baseType" roleId="c4fa.7763322639126652758" type="clbe.StructType" typeId="clbe.6394819151180597816" id="1996550827859461762" nodeInfo="ng">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+            <link role="struct" roleId="clbe.6394819151180597817" targetNodeId="8025659640012827658" resolveInfo="SMStruct" />
+          </node>
+        </node>
         <node role="argTypes" roleId="x27k.8551646674110395549" type="yq40.PointerType" typeId="yq40.279446265608459824" id="8025659640012827730" nodeInfo="ng">
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
@@ -1496,6 +1505,15 @@
             <node role="baseType" roleId="c4fa.7763322639126652758" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="8025659640012827743" nodeInfo="ng">
               <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="8025659640012827671" resolveInfo="Event" />
             </node>
+          </node>
+        </node>
+        <node role="argTypes" roleId="x27k.8551646674110395549" type="yq40.PointerType" typeId="yq40.279446265608459824" id="7950215811413439074" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <node role="baseType" roleId="c4fa.7763322639126652758" type="clbe.StructType" typeId="clbe.6394819151180597816" id="7950215811413439075" nodeInfo="ng">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+            <link role="struct" roleId="clbe.6394819151180597817" targetNodeId="8025659640012827658" resolveInfo="SMStruct" />
           </node>
         </node>
         <node role="argTypes" roleId="x27k.8551646674110395549" type="yq40.PointerType" typeId="yq40.279446265608459824" id="8025659640012827744" nodeInfo="ng">

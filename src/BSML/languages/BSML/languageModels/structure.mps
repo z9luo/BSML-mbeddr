@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)">
+<model modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="1">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -9,7 +9,7 @@
   <import index="x27k" modelUID="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" version="9" />
   <import index="c4fa" modelUID="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" version="9" />
   <import index="clbe" modelUID="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" version="13" />
-  <import index="cmy" modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="-1" implicit="yes" />
+  <import index="cmy" modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="1" implicit="yes" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="6318815719351411612" nodeInfo="ng">
@@ -180,28 +180,15 @@
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="6318815719351412035" resolveInfo="SmallStepConsistencyEnum" />
     </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6318815719351659518" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="variableLifeline" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="6318815719351412043" resolveInfo="VariableLifeline" />
+      <property name="name" nameId="tpck.1169194664001" value="GC" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="6318815719351412039" resolveInfo="EventLifelineEnum" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7950215811414405627" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="RHS" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="7950215811427461812" resolveInfo="MemoryProtocolEnum" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6318815719351411550" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vs0r.4459718605982007336" resolveInfo="IConfigurationItem" />
-    </node>
-  </root>
-  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="6318815719351412043" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="VariableLifeline" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
-    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6318815719351412044" nodeInfo="ig">
-      <property name="internalValue" nameId="tpce.1083923523171" value="0" />
-      <property name="externalValue" nameId="tpce.1083923523172" value="STRONG SYNC" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6318815719351412045" nodeInfo="ig">
-      <property name="internalValue" nameId="tpce.1083923523171" value="1" />
-      <property name="externalValue" nameId="tpce.1083923523172" value="WEAK SYNC" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6318815719351412046" nodeInfo="ig">
-      <property name="internalValue" nameId="tpce.1083923523171" value="2" />
-      <property name="externalValue" nameId="tpce.1083923523172" value="ASYNC" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8607120610933610675" nodeInfo="ig">
@@ -642,6 +629,24 @@
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1996550827832125658" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="x27k.8011039602902827386" resolveInfo="ICallLike" />
+    </node>
+  </root>
+  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="7950215811427461812" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="MemoryProtocolEnum" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
+    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="7950215811427461813" />
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="7950215811427461813" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="0" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="SMALL STEP" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="7950215811427461814" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="1" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="BIG STEP" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="7950215811427461815" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="IN NEXT SMALL" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="2" />
     </node>
   </root>
 </model>
