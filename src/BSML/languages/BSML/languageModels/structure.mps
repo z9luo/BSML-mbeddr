@@ -19,14 +19,14 @@
     <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="6318815719351411619" />
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6318815719351411613" nodeInfo="ig">
       <property name="internalValue" nameId="tpce.1083923523171" value="0" />
-      <property name="externalValue" nameId="tpce.1083923523172" value="SINGLE" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="TAKE ONE" />
     </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6318815719351411614" nodeInfo="ig">
       <property name="externalValue" nameId="tpce.1083923523172" value="SYNTACTIC" />
       <property name="internalValue" nameId="tpce.1083923523171" value="1" />
     </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6318815719351411619" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="MANY" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="TAKE MANY" />
       <property name="internalValue" nameId="tpce.1083923523171" value="2" />
     </node>
   </root>
