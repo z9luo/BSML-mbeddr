@@ -3,6 +3,7 @@
 ###################
 #*.com
 *.class
+.history
 ###############
 # Directories #
 ###############
@@ -17,6 +18,7 @@ src/BSML/languages/BSML/classes_gen/
 src/BSML/languages/BSML/source_gen/
 src/BSML/languages/BSML/source_gen.caches/
 src/BSML/.mps/workspace.xml
+src/BSML/_spreferences/
 ###################
 # Web publish log #
 ###################
