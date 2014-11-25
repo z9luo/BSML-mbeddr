@@ -3,7 +3,7 @@
 ###################
 #*.com
 *.class
-.history
+*.history
 ###############
 # Directories #
 ###############
