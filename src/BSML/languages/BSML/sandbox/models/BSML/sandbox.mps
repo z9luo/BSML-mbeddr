@@ -538,7 +538,7 @@
       <node role="strategy" roleId="k146.4459718605982051999" type="k146.PrintfReportingStrategy" typeId="k146.4459718605982051980" id="7950215811416089536" nodeInfo="ng" />
     </node>
     <node role="configurationItems" roleId="vs0r.4459718605982007338" type="cmy.StateMachineSemanticsConfigItem" typeId="cmy.6318815719351411497" id="448264009251772261" nodeInfo="ng">
-      <property name="bigStepMaximality" nameId="cmy.6318815719351411553" value="0" />
+      <property name="bigStepMaximality" nameId="cmy.6318815719351411553" value="1" />
     </node>
   </root>
 </model>
