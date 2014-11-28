@@ -1646,6 +1646,14 @@
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
         </node>
       </node>
+      <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="3032902167918625117" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="priority" />
+        <node role="type" roleId="mj1l.318113533128716676" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="3032902167918628009" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="2878353885459132586" resolveInfo="guint" />
+        </node>
+      </node>
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="clbe.TypeDef" typeId="clbe.6116558314501347857" id="8025659640012827768" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Transition" />
@@ -1835,6 +1843,9 @@
     </node>
     <node role="imports" roleId="x27k.1317894735999304826" type="vs0r.DefaultGenericChunkDependency" typeId="vs0r.747084250476811597" id="8025659640012226962" nodeInfo="ng">
       <link role="chunk" roleId="vs0r.747084250476878887" targetNodeId="2878353885459132605" resolveInfo="stdlib_stub" />
+    </node>
+    <node role="imports" roleId="x27k.1317894735999304826" type="vs0r.DefaultGenericChunkDependency" typeId="vs0r.747084250476811597" id="3032902167918626369" nodeInfo="ng">
+      <link role="chunk" roleId="vs0r.747084250476878887" targetNodeId="2878353885459132580" resolveInfo="glib_stub" />
     </node>
     <node role="descriptors" roleId="x27k.6116558314501417978" type="x27k.HeaderDescriptor" typeId="x27k.6116558314501417952" id="8025659640012247342" nodeInfo="ng">
       <property name="path" nameId="x27k.6116558314501417936" value="&lt;glib.h&gt;" />

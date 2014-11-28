@@ -32,7 +32,7 @@
   <import index="mj1l" modelUID="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" version="33" />
   <import index="clbe" modelUID="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" version="13" />
   <import index="c4fa" modelUID="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" version="9" />
-  <import index="cmy" modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="1" />
+  <import index="cmy" modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="2" />
   <import index="dv7h" modelUID="r:ab9006cb-fa5a-47a8-81b8-ed3862813166(BSML.behavior)" version="-1" />
   <import index="m45l" modelUID="r:62e8aeba-0540-4aa0-8a7d-8f3e1d0d4dad(BSML.Generator_Header)" version="-1" />
   <import index="dlsp" modelUID="r:62eee63e-6778-4ab5-8be4-803978d2bd2b(BSML.Generator_Util)" version="-1" />
@@ -10823,6 +10823,14 @@
           <node role="type" roleId="mj1l.318113533128716676" type="mj1l.BooleanType" typeId="mj1l.8860443239512128058" id="1989014375143483368" nodeInfo="ng">
             <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
             <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          </node>
+        </node>
+        <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="3032902167917098164" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="priority" />
+          <node role="type" roleId="mj1l.318113533128716676" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="3032902167917098162" nodeInfo="ng">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+            <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="m45l.2878353885459132586" resolveInfo="guint" />
           </node>
         </node>
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="1996550827859461799" nodeInfo="ng" />
