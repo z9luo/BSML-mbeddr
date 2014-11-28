@@ -114,22 +114,22 @@ statemachine sm {
 Before you start, you need to apply a sequence of configuration. Following shows the step to configure and create a hello-world model.
 
 1. Right click on your project and create a new **Solution**.
-<img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/1.png">
+<img src="https://www.student.cs.uwaterloo.ca/~z9luo/BSML-mbeddr-screenshot/1.png">
 2. Right click on your solution and create a new **Model**.
-<img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/2.png">
+<img src="https://www.student.cs.uwaterloo.ca/~z9luo/BSML-mbeddr-screenshot/2.png">
 3. Import language module **com.mbeddr.core.modules**, **com.mbeddr.core.buildconfig**, and **BSML**.
-<img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/3.png">
+<img src="https://www.student.cs.uwaterloo.ca/~z9luo/BSML-mbeddr-screenshot/3.png">
 4. Right click on your model, and create an implementation module (named "ImpModule") as well as a build configuration.
-<img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/4.png">
+<img src="https://www.student.cs.uwaterloo.ca/~z9luo/BSML-mbeddr-screenshot/4.png">
 5. For the following step, MPS will occasionally show errors which can be fixed by **intention**, such as "create a type size configuration" and "import missing language module". Use Alt+Enter to apply intentions.
-<img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/5.png">
-<img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/5-1.png">
+<img src="https://www.student.cs.uwaterloo.ca/~z9luo/BSML-mbeddr-screenshot/5.png">
+<img src="https://www.student.cs.uwaterloo.ca/~z9luo/BSML-mbeddr-screenshot/5-1.png">
 6. Import model **BSML_stub** and import external model **BSML_stub** in ImpModule.
-<img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/6.png">
+<img src="https://www.student.cs.uwaterloo.ca/~z9luo/BSML-mbeddr-screenshot/6.png">
 7. Finally you can write the real stuff in ImpModule! Create your state-machine model, and write a main function to trigger the state machine.
-<img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/7.png">
+<img src="https://www.student.cs.uwaterloo.ca/~z9luo/BSML-mbeddr-screenshot/7.png">
 8. Create your configuration file, which should be like the following 
-<img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/8.png">
+<img src="https://www.student.cs.uwaterloo.ca/~z9luo/BSML-mbeddr-screenshot/8.png">
 9. Build your solution, open a terminal, and direct to {Project_Root}/solutions/{Solution_Name}/source_gen/{Solution_Name}/{Model_Name} for the generated C code. There are a bunch of .c and .h files, together with a Makefile. Make the source and run the binary, and you can see the result. Enjoy:)
-<img src="https://www.student.cs.uwaterloo.ca/~z9luo/USML-mbeddr-screenshot/9.png">
+<img src="https://www.student.cs.uwaterloo.ca/~z9luo/BSML-mbeddr-screenshot/9.png">
 
