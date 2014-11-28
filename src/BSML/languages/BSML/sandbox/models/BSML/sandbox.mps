@@ -393,6 +393,9 @@
                           </node>
                         </node>
                       </node>
+                      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="cmy.PriorityAnnotation" typeId="cmy.3032902167918628572" id="2935030341427841972" nodeInfo="ng">
+                        <property name="prio" nameId="cmy.3032902167918628575" value="1" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -548,7 +551,7 @@
       <property name="concurrency" nameId="cmy.6318815719351659473" value="0" />
       <property name="inEventLifeline" nameId="cmy.6318815719351659478" value="0" />
       <property name="localEventLifeLine" nameId="cmy.3032902167916051514" value="0" />
-      <property name="priority" nameId="cmy.6318815719351659494" value="1" />
+      <property name="priority" nameId="cmy.6318815719351659494" value="0" />
     </node>
   </root>
 </model>
