@@ -222,7 +222,7 @@
             <property name="flag" nameId="tpc2.1186414551515" value="false" />
           </node>
           <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3032902167917040844" nodeInfo="nn">
-            <property name="text" nameId="tpc2.1073389577007" value="local-event life line" />
+            <property name="text" nameId="tpc2.1073389577007" value="local-event lifeline" />
           </node>
           <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="3032902167917041717" nodeInfo="ng">
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="cmy.3032902167916051514" resolveInfo="localEventLifeLine" />
