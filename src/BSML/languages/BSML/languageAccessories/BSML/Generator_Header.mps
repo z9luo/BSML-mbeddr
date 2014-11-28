@@ -1679,6 +1679,20 @@
           <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="8025659640012827721" resolveInfo="OnEntryRef" />
         </node>
       </node>
+      <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="605884903066812292" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="source_region" />
+        <node role="type" roleId="mj1l.318113533128716676" type="yq40.StringType" typeId="yq40.6113173064528067332" id="605884903066812290" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+        </node>
+      </node>
+      <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="605884903066843418" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="target_region" />
+        <node role="type" roleId="mj1l.318113533128716676" type="yq40.StringType" typeId="yq40.6113173064528067332" id="605884903066843416" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+        </node>
+      </node>
       <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="1989014375143067612" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="arena" />
         <node role="type" roleId="mj1l.318113533128716676" type="yq40.StringType" typeId="yq40.6113173064528067332" id="1989014375143067610" nodeInfo="ng">

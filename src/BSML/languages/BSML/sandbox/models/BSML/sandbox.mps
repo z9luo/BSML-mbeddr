@@ -547,8 +547,8 @@
       <node role="strategy" roleId="k146.4459718605982051999" type="k146.PrintfReportingStrategy" typeId="k146.4459718605982051980" id="7950215811416089536" nodeInfo="ng" />
     </node>
     <node role="configurationItems" roleId="vs0r.4459718605982007338" type="cmy.StateMachineSemanticsConfigItem" typeId="cmy.6318815719351411497" id="234492043129699071" nodeInfo="ng">
-      <property name="bigStepMaximality" nameId="cmy.6318815719351411553" value="0" />
-      <property name="concurrency" nameId="cmy.6318815719351659473" value="0" />
+      <property name="bigStepMaximality" nameId="cmy.6318815719351411553" value="2" />
+      <property name="concurrency" nameId="cmy.6318815719351659473" value="1" />
       <property name="inEventLifeline" nameId="cmy.6318815719351659478" value="0" />
       <property name="localEventLifeLine" nameId="cmy.3032902167916051514" value="0" />
       <property name="priority" nameId="cmy.6318815719351659494" value="0" />
