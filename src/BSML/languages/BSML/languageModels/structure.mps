@@ -67,6 +67,7 @@
     <property name="name" nameId="tpck.1169194664001" value="ConcurrencyEnum" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="semantics" />
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="6318815719351411885" />
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6318815719351411884" nodeInfo="ig">
       <property name="internalValue" nameId="tpce.1083923523171" value="0" />
       <property name="externalValue" nameId="tpce.1083923523172" value="SINGLE" />
