@@ -370,6 +370,9 @@
                           </node>
                         </node>
                       </node>
+                      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="cmy.PriorityAnnotation" typeId="cmy.3032902167918628572" id="1070273295344907280" nodeInfo="ng">
+                        <property name="prio" nameId="cmy.3032902167918628575" value="10" />
+                      </node>
                     </node>
                     <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.Transition" typeId="cmy.4517681580278098072" id="2878353885463016538" nodeInfo="ng">
                       <property name="name" nameId="tpck.1169194664001" value="t2" />
@@ -540,10 +543,12 @@
     <node role="configurationItems" roleId="vs0r.4459718605982007338" type="k146.ReportingConfiguration" typeId="k146.4459718605982051949" id="7950215811416089535" nodeInfo="ng">
       <node role="strategy" roleId="k146.4459718605982051999" type="k146.PrintfReportingStrategy" typeId="k146.4459718605982051980" id="7950215811416089536" nodeInfo="ng" />
     </node>
-    <node role="configurationItems" roleId="vs0r.4459718605982007338" type="cmy.StateMachineSemanticsConfigItem" typeId="cmy.6318815719351411497" id="3032902167917977289" nodeInfo="ng">
-      <property name="priority" nameId="cmy.6318815719351659494" value="0" />
-      <property name="heirPrioRegion" nameId="cmy.3032902167917117940" value="0" />
-      <property name="heirPrioScheme" nameId="cmy.3032902167917117951" value="0" />
+    <node role="configurationItems" roleId="vs0r.4459718605982007338" type="cmy.StateMachineSemanticsConfigItem" typeId="cmy.6318815719351411497" id="234492043129699071" nodeInfo="ng">
+      <property name="bigStepMaximality" nameId="cmy.6318815719351411553" value="0" />
+      <property name="concurrency" nameId="cmy.6318815719351659473" value="0" />
+      <property name="inEventLifeline" nameId="cmy.6318815719351659478" value="0" />
+      <property name="localEventLifeLine" nameId="cmy.3032902167916051514" value="0" />
+      <property name="priority" nameId="cmy.6318815719351659494" value="1" />
     </node>
   </root>
 </model>
