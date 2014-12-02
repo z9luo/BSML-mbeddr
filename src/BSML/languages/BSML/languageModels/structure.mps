@@ -85,12 +85,12 @@
       <property name="internalValue" nameId="tpce.1083923523171" value="0" />
       <property name="externalValue" nameId="tpce.1083923523172" value="IN REMAINDER" />
     </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6318815719351412041" nodeInfo="ig">
-      <property name="internalValue" nameId="tpce.1083923523171" value="1" />
-      <property name="externalValue" nameId="tpce.1083923523172" value="IN NEXT COMBO" />
-    </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6318815719351412091" nodeInfo="ig">
       <property name="externalValue" nameId="tpce.1083923523172" value="IN NEXT SMALL" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="1" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="2904461042106127881" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="IN SAME" />
       <property name="internalValue" nameId="tpce.1083923523171" value="2" />
     </node>
   </root>
