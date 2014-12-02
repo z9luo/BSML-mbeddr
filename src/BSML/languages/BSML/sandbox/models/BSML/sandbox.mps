@@ -327,6 +327,14 @@
                       </node>
                       <node role="content" roleId="cmy.4517681580278325492" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="2878353885461764335" nodeInfo="ng" />
                     </node>
+                    <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.StateLocalDeclaration" typeId="cmy.5512313148880381807" id="2904461042117833062" nodeInfo="ng">
+                      <property name="name" nameId="tpck.1169194664001" value="a4" />
+                      <node role="type" roleId="mj1l.318113533128716676" type="cmy.StateType" typeId="cmy.4004560854229234515" id="2904461042117833063" nodeInfo="ng">
+                        <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+                        <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+                      </node>
+                      <node role="content" roleId="cmy.4517681580278325492" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="2904461042117833064" nodeInfo="ng" />
+                    </node>
                     <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.Transition" typeId="cmy.4517681580278098072" id="2878353885461771639" nodeInfo="ng">
                       <property name="name" nameId="tpck.1169194664001" value="t1" />
                       <link role="source" roleId="cmy.4517681580279925349" targetNodeId="2878353885461763143" resolveInfo="a1" />
@@ -395,6 +403,46 @@
                       </node>
                       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="cmy.PriorityAnnotation" typeId="cmy.3032902167918628572" id="2935030341427841972" nodeInfo="ng">
                         <property name="prio" nameId="cmy.3032902167918628575" value="1" />
+                      </node>
+                    </node>
+                    <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.Transition" typeId="cmy.4517681580278098072" id="2904461042116843941" nodeInfo="ng">
+                      <property name="name" nameId="tpck.1169194664001" value="t3" />
+                      <link role="source" roleId="cmy.4517681580279925349" targetNodeId="2878353885461764333" resolveInfo="a3" />
+                      <link role="target" roleId="cmy.4517681580278098078" targetNodeId="2904461042117833062" resolveInfo="a4" />
+                      <node role="guard" roleId="cmy.4517681580278098075" type="mj1l.TrueLiteral" typeId="mj1l.8860443239512128094" id="2904461042116843942" nodeInfo="ng" />
+                      <node role="triggers" roleId="cmy.3372386639988661877" type="cmy.TriggerEventReference" typeId="cmy.3372386639988661786" id="2904461042118538762" nodeInfo="ng">
+                        <link role="var" roleId="cmy.3372386639988661787" targetNodeId="2878353885461771699" resolveInfo="launch" />
+                      </node>
+                      <node role="action" roleId="cmy.4517681580278098082" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="2904461042116844372" nodeInfo="ng">
+                        <node role="statements" roleId="c4fa.4185783222026475862" type="k146.ReportStatement" typeId="k146.2688792604367964821" id="2904461042116844383" nodeInfo="ng">
+                          <node role="msgref" roleId="k146.2688792604367973273" type="k146.MessageRef" typeId="k146.2688792604367964823" id="2904461042116844384" nodeInfo="ng">
+                            <link role="msg" roleId="k146.2688792604367964825" targetNodeId="1054945346928992640" resolveInfo="print_string" />
+                            <link role="table" roleId="k146.2688792604367964824" targetNodeId="1054945346928992478" resolveInfo="msg" />
+                            <node role="propVals" roleId="k146.767515563077221084" type="yq40.StringLiteral" typeId="yq40.6113173064526131575" id="2904461042116844385" nodeInfo="ng">
+                              <property name="value" nameId="yq40.6113173064526131578" value="this transition can only happen when maximality=TAKE MANY and in-event lifeline is not IN SMALL STEP" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.Transition" typeId="cmy.4517681580278098072" id="2904461042118833583" nodeInfo="ng">
+                      <property name="name" nameId="tpck.1169194664001" value="t4" />
+                      <link role="source" roleId="cmy.4517681580279925349" targetNodeId="2878353885461764333" resolveInfo="a3" />
+                      <link role="target" roleId="cmy.4517681580278098078" targetNodeId="2904461042117833062" resolveInfo="a4" />
+                      <node role="guard" roleId="cmy.4517681580278098075" type="mj1l.TrueLiteral" typeId="mj1l.8860443239512128094" id="2904461042118833584" nodeInfo="ng" />
+                      <node role="triggers" roleId="cmy.3372386639988661877" type="cmy.TriggerEventReference" typeId="cmy.3372386639988661786" id="2904461042118834468" nodeInfo="ng">
+                        <link role="var" roleId="cmy.3372386639988661787" targetNodeId="2878353885463016508" resolveInfo="local" />
+                      </node>
+                      <node role="action" roleId="cmy.4517681580278098082" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="2904461042118833586" nodeInfo="ng">
+                        <node role="statements" roleId="c4fa.4185783222026475862" type="k146.ReportStatement" typeId="k146.2688792604367964821" id="2904461042118833587" nodeInfo="ng">
+                          <node role="msgref" roleId="k146.2688792604367973273" type="k146.MessageRef" typeId="k146.2688792604367964823" id="2904461042118833588" nodeInfo="ng">
+                            <link role="table" roleId="k146.2688792604367964824" targetNodeId="1054945346928992478" resolveInfo="msg" />
+                            <link role="msg" roleId="k146.2688792604367964825" targetNodeId="1054945346928992640" resolveInfo="print_string" />
+                            <node role="propVals" roleId="k146.767515563077221084" type="yq40.StringLiteral" typeId="yq40.6113173064526131575" id="2904461042118833589" nodeInfo="ng">
+                              <property name="value" nameId="yq40.6113173064526131578" value="this transition should not happen if local-event lifeline=IN SMALL STEP" />
+                            </node>
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -547,10 +595,10 @@
       <node role="strategy" roleId="k146.4459718605982051999" type="k146.PrintfReportingStrategy" typeId="k146.4459718605982051980" id="7950215811416089536" nodeInfo="ng" />
     </node>
     <node role="configurationItems" roleId="vs0r.4459718605982007338" type="cmy.StateMachineSemanticsConfigItem" typeId="cmy.6318815719351411497" id="234492043129699071" nodeInfo="ng">
-      <property name="bigStepMaximality" nameId="cmy.6318815719351411553" value="0" />
-      <property name="concurrency" nameId="cmy.6318815719351659473" value="1" />
+      <property name="bigStepMaximality" nameId="cmy.6318815719351411553" value="2" />
+      <property name="concurrency" nameId="cmy.6318815719351659473" value="0" />
       <property name="inEventLifeline" nameId="cmy.6318815719351659478" value="0" />
-      <property name="localEventLifeLine" nameId="cmy.3032902167916051514" value="0" />
+      <property name="localEventLifeLine" nameId="cmy.3032902167916051514" value="1" />
       <property name="priority" nameId="cmy.6318815719351659494" value="1" />
       <property name="heirPrioRegion" nameId="cmy.3032902167917117940" value="0" />
       <property name="heirPrioScheme" nameId="cmy.3032902167917117951" value="0" />

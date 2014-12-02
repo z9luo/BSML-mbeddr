@@ -1301,6 +1301,13 @@
           </node>
         </node>
       </node>
+      <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="2904461042109273478" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="small_step_presented" />
+        <node role="type" roleId="mj1l.318113533128716676" type="mj1l.BooleanType" typeId="mj1l.8860443239512128058" id="2904461042109273476" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+        </node>
+      </node>
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="clbe.TypeDef" typeId="clbe.6116558314501347857" id="8025659640012827671" nodeInfo="ng">
       <property name="exported" nameId="x27k.1317894735999272944" value="true" />
