@@ -125,24 +125,6 @@
       <property name="externalValue" nameId="tpce.1083923523172" value="ARENA ORTHOGONAL" />
     </node>
   </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6318815719350911364" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="StateMachineConfigItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="state machines" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="use state machines" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="semantics" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6318815719350911368" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="debugMode" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
-    </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6318815719350911371" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="generateTest" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6318815719350911365" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vs0r.4459718605982007336" resolveInfo="IConfigurationItem" />
-    </node>
-  </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6318815719351411497" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="StateMachineSemanticsConfigItem" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="state machine semantics" />

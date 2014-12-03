@@ -3,10 +3,10 @@ BSML-mbeddr
 
 ## What is BSML-mbeddr
 
-BSML-mbeddr is an Mbeddr-based implementation of Big-Step Modelling Language (BSML, https://cs.uwaterloo.ca/~sesmaeil/publications/2010/REJ10.pdf), a family of state-machine modelling languages,  which is especially useful for modelling control system. BSML-mbeddr extends C and thus allows code-model co-development, which eventually turns into executable C code. Advanced features are allowed in the language, such as hierarchical state machine, concurrent execution of state machines, etc. Based on MPS, the modeler can easily adjust the language semantics to fit their requirement, use corresponding tools for analysis, or even enhance the language in a facilitated way.
+BSML-mbeddr is an Mbeddr-based implementation of Big-Step Modelling Language (BSML, https://cs.uwaterloo.ca/~sesmaeil/publications/2010/REJ10.pdf). BSML is a family of state-machine modelling languages which is especially useful for modelling control system. BSML-mbeddr extends C and thus allows code-model co-development, which eventually turns into executable C code. Advanced features are allowed in the language, such as hierarchical state machine, concurrent execution of state machines, and configurable semantics. The modeler can easily build the model, use corresponding tools for analysis, or enhance the language in a facilitated way.
 
 ## First Glimpse
-The following simple model has two states "on" and "off", event "turn_on" triggered transition from "off" to "on" and execute action to print "hello world"
+The following demo model has two states "on" and "off", event "turn_on" triggered transition from "off" to "on" and execute action to print "hello world"
 ```
 statemachine sm {
 	region main initial=off {
@@ -28,7 +28,7 @@ int main() {
 	return 0;
 }
 ```
-Following is a complete, more sophisticated example:
+Following is a more sophisticated example:
 ```
 // write any normal C code as you want here
 enum Status {
@@ -41,13 +41,13 @@ int main() {
 void handle_accel() {
 	...
 } 
-//define the state machine model for a vechicle's control system
+//definition of the state machine model for a vechicle's control system
 statemachine sm {
 	region main initial=off {
 		in event turn_on();
 		in event turn_off();
 		local event compute_speed(double cur_speed); // event with arguments allowed; you can also pass a struct as argument.
-		// out event can be binded to C functions
+		// out event can be binded to C functions. The function is called when the out event is triggered.
 		out event accel() => handle_accel();
 		boolean guard=true;
 		double cur_speed=0.0;
@@ -93,7 +93,7 @@ statemachine sm {
 * Name scoping for state/region/transition.
 * Entry block.
 * Guard condition for transitions.
-* in-event/out-event binding with C function
+* In-event/out-event binding with C function
 
 (NOTICE: Configurable semantics is under work. New release may NOT be backward compatible!)
 
@@ -128,8 +128,53 @@ Before you start, you need to apply a sequence of configuration. Following shows
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/BSML-mbeddr-screenshot/6.png">
 7. Finally you can write the real stuff in ImpModule! Create your state-machine model, and write a main function to trigger the state machine.
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/BSML-mbeddr-screenshot/7.png">
-8. Create your configuration file, which should be like the following 
+8. Create your configuration file, which should be like the following:
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/BSML-mbeddr-screenshot/8.png">
 9. Build your solution, open a terminal, and direct to {Project_Root}/solutions/{Solution_Name}/source_gen/{Solution_Name}/{Model_Name} for the generated C code. There are a bunch of .c and .h files, together with a Makefile. Make the source and run the binary, and you can see the result. Enjoy:)
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/BSML-mbeddr-screenshot/9.png">
 
+####Structure of State Machine in BSML
+The highest level of a state machine is a variable defined with type "state machine". Under it there is a main region. A region contains one or more states, while a state contains zero or more regions. If a state contains no regions, then it is a simple state. Events, variables and transitions are defined under regions. Out-events must be bind to a C function, which is called when the out-event is triggered; in-event may optionally binded to a C function, which triggers the in-event when the function is called. Transitions contains a guard condition, a event trigger, a source state, a target state, and optionally an action. It allows the state machine to transit from one state to another state if the guard condition and the event trigger are enabled.
+
+#### Configurable Semantics
+
+######Basic semantic concepts
+If no semantic configuration item is specified, BSML applies its default configuration. Otherwise the user can create semantic configuration item in the buildconfig file.
+
+Big Step is the unit of period to handle a single in-event. A big step starts by taking an in-event to handle, and conceptually ends with delivery of out-event. Small step is the unit of concurrent execution of transitions. Enabled transitions in different regions may execute concurrently. The changes made in a small step only take effect at the end of the small step. A big step consists of several small steps.
+
+Arena&orthogonal. Arena of a transition is the lowest region that contains both source state and target state of the transition. Regions are said to be orthogonal if one is neither the ancestor or descendant of the other. If two transitions arenas are not orthogonal then they "overlap" with each other. Only orthogonal transitions can be executed concurrently.
+
+######Semantic aspects&options
+
+Big-step Maximality. It defines when a big step ends.
+    TAKE MANY: execute util no more transitions can be taken. This does not guarantee termination.
+    TAKE ONE: each region contributes at most one transition in a big step. More formally, if a transition is executed, any transitions that overlap with it cannot be executed.
+    SYNTACTIC: states can be marked as "stable". If stable state is entered by a transition, then any transitions that overlap with this transition cannot be executed.
+
+Concurrency. It defines whether multiple transtiions can be executed concurrently in a small step.
+    SINGLE: only one transition can be executed in a small step.
+    MANY: multiple transitions can be executed concurrently as long as they are enabled and there is no conflict.
+
+Small Step Consistency. It defines how two transitions would be treated as "overlap" in a small step.
+    ARENA ORTHOGONAL: Transitions's arenas are orthogonal.
+    SOURCE/TARGET ORTHOGONAL: Transitions's source states and target states are pair-wise orthogonal. If this is chosen, definition of overlap is changed only for considering transitions in a small step.
+
+In-event Lifeline. It defines how long an event's presence can last.
+    IN NEXT SMALL: the in-event only present during the next small step.
+    IN REMAINDER: the in-event presents during the big step.
+
+Local-event Lifeline. The same as "In-event Lifeline", except it affects local-event.
+    IN NEXT SMALL: the triggered local-event only present during the next small step.
+    IN REMAINDER: the triggered local-event presents during the rest of the big step.
+
+GC memory protocol. It defines where the value of a variable should read from in a guard condition.
+    SMALL STEP: the value of a variable is read from the snapshot at the beginning of the small step.
+    BIG STEP: the value of a variable is read from the snapshot at the beginning of the big step.
+
+RHS memory protocol. The same as GC Memory Protocol, except it works for Right-hand-side assignment in action of a transition.
+
+Priority. If there are muptiple sets of transitions are valid to executed in a small step, then we pick one with highest priority.
+    EXPLICIT: a integer is assigned to a state as its priority (1 is the highest). If not assigned then the state has the lowest priority.
+    HEIRARCHICAL: the priority of a transition depends on the structural position of its source state and target state in the heirarchy.
+    
