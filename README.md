@@ -137,6 +137,8 @@ Before you start, you need to apply a sequence of configuration. Following shows
 
 The highest level of a state machine model is a variable with type **state machine**. Under it there is a main region. A **region** contains one or more states, while a **state** contains zero or more regions. A state is simple state if it contains no regions. **Event**, **variable** and **transition** are defined under regions. Events can bind C functions such that state machine can interact with the environment. Transition contains a guard condition, an event trigger, a source state reference, a target state reference, and an optional action. Transition allows the state machine to transit from one state to another state and execute action if the guard condition and the event trigger are enabled.
 
+<img src="https://www.student.cs.uwaterloo.ca/~z9luo/BSML-mbeddr-screenshot/structure.jpg">
+
 #### Configurable Semantics (Optional)
 
 If no semantic configuration item is specified, BSML applies its default configuration. Otherwise the user can create semantic configuration item in the buildconfig file in order to change the semantic behavior of the language.
