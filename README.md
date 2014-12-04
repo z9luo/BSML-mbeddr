@@ -157,8 +157,8 @@ Following is a list of options for each semantic aspect and their description:
 aspect|option|description
 ------|------|------------
 Big-step maximality|TAKE MANY|execute util no more transitions can be taken. This does not guarantee termination.
-|TAKE ONE|each region contributes at most one transition in a big step. More formally, if a transition is executed, any transitions that overlap with it cannot be executed.
-|SYNTACTIC|states can be marked as "stable". If stable state is entered by a transition, then any transitions that overlap with this transition cannot be executed.
+ |TAKE ONE|each region contributes at most one transition in a big step. More formally, if a transition is executed, any transitions that overlap with it cannot be executed.
+ |SYNTACTIC|states can be marked as "stable". If stable state is entered by a transition, then any transitions that overlap with this transition cannot be executed.
 
 Concurrency. It defines whether multiple transtiions can be executed concurrently in a small step.
 
