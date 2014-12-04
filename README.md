@@ -154,46 +154,21 @@ which value should be read from. **RHS Memory Protocol** defines for a variable 
 
 Following is a list of options for each semantic aspect and their description:
 
-aspect|option|description
+Aspect|Option|Description
 ------|------|------------
 Big-step maximality|TAKE MANY|execute util no more transitions can be taken. This does not guarantee termination.
  |TAKE ONE|each region contributes at most one transition in a big step. More formally, if a transition is executed, any transitions that overlap with it cannot be executed.
  |SYNTACTIC|states can be marked as "stable". If stable state is entered by a transition, then any transitions that overlap with this transition cannot be executed.
-
-Concurrency. It defines whether multiple transtiions can be executed concurrently in a small step.
-
-    SINGLE: only one transition can be executed in a small step.
-
-    MANY: multiple transitions can be executed concurrently as long as they are enabled and there is no conflict.
-
-Small Step Consistency. It defines how two transitions would be treated as "overlap" in a small step.
-
-    ARENA ORTHOGONAL: Transitions's arenas are orthogonal.
-
-    SOURCE/TARGET ORTHOGONAL: Transitions's source states and target states are pair-wise orthogonal. If this is chosen, definition of overlap is changed only for considering transitions in a small step.
-
-In-event Lifeline. It defines how long an event's presence can last.
-
-    IN NEXT SMALL: the in-event only present during the next small step.
-
-    IN REMAINDER: the in-event presents during the big step.
-
-Local-event Lifeline. The same as "In-event Lifeline", except it affects local-event.
-
-    IN NEXT SMALL: the triggered local-event only present during the next small step.
-
-    IN REMAINDER: the triggered local-event presents during the rest of the big step.
-
-GC memory protocol. It defines where the value of a variable should read from in a guard condition.
-
-    SMALL STEP: the value of a variable is read from the snapshot at the beginning of the small step.
-
-    BIG STEP: the value of a variable is read from the snapshot at the beginning of the big step.
-
-RHS memory protocol. The same as GC Memory Protocol, except it works for Right-hand-side assignment in action of a transition.
-
-Priority. If there are muptiple sets of transitions are valid to executed in a small step, then we pick one with highest priority.
-
-    EXPLICIT: a integer is assigned to a state as its priority (1 is the highest). If not assigned then the state has the lowest priority.
-
-    HEIRARCHICAL: the priority of a transition depends on the structural position of its source state and target state in the heirarchy.
+Concurrency|SINGLE|only one transition can be executed in a small step.
+ |MANY|multiple transitions can be executed concurrently as long as they are enabled and there is no conflict.
+Consistency|ARENA ORTHOGONAL|Transitions's arenas are orthogonal.
+ |SOURCE/TARGET ORTHOGONAL|Transitions's source states and target states are pair-wise orthogonal. If this is chosen, definition of overlap is changed only for considering transitions in a small step.
+In-event Lifeline|IN NEXT SMALL|the in-event only present during the next small step.
+ |IN REMAINDER|the in-event presents during the big step.
+Local-event Lifeline|IN NEXT SMALL|the triggered local-event only present during the next small step.
+ |IN REMAINDER|the triggered local-event presents during the rest of the big step.
+GC memory protocol|SMALL STEP|the value of a variable is read from the snapshot at the beginning of the small step.
+ |BIG STEP|the value of a variable is read from the snapshot at the beginning of the big step.
+RHS memory protocol|(same as GC Memory Protocol except it's for right-hand-side of assignment in transition's action)
+Priority|EXPLICIT|a integer is assigned to each transition as its priority (1 is the highest). If not specified the transition has the lowest priority.
+ |HEIRARCHICAL|the priority of a transition depends on the structural position of its source state and target state in the heirarchy.
