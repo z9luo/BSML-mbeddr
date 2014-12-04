@@ -156,19 +156,19 @@ Following is a list of options for each semantic aspect and their description:
 
 Aspect|Option|Description
 ------|------|------------
-Big-step maximality|TAKE MANY|execute util no more transitions can be taken. This does not guarantee termination.
- |TAKE ONE|each region contributes at most one transition in a big step. More formally, if a transition is executed, any transitions that overlap with it cannot be executed.
- |SYNTACTIC|states can be marked as "stable". If stable state is entered by a transition, then any transitions that overlap with this transition cannot be executed.
-Concurrency|SINGLE|only one transition can be executed in a small step.
- |MANY|multiple transitions can be executed concurrently as long as they are enabled and there is no conflict.
-Consistency|ARENA ORTHOGONAL|Transitions's arenas are orthogonal.
- |SOURCE/TARGET ORTHOGONAL|Transitions's source states and target states are pair-wise orthogonal. If this is chosen, definition of overlap is changed only for considering transitions in a small step.
-In-event Lifeline|IN NEXT SMALL|the in-event only present during the next small step.
- |IN REMAINDER|the in-event presents during the big step.
-Local-event Lifeline|IN NEXT SMALL|the triggered local-event only present during the next small step.
- |IN REMAINDER|the triggered local-event presents during the rest of the big step.
-GC memory protocol|SMALL STEP|the value of a variable is read from the snapshot at the beginning of the small step.
- |BIG STEP|the value of a variable is read from the snapshot at the beginning of the big step.
+Big-step maximality|TAKE MANY|Execute util no more transitions can be taken. This does not guarantee termination.
+ |TAKE ONE|If a transition is executed, any transitions that overlap with it cannot be executed in the big step.
+ |SYNTACTIC|States can be marked as "stable". If stable state is entered by a transition, any transitions that overlap with this transition cannot be executed.
+Concurrency|SINGLE|Only one transition can be executed in a small step.
+ |MANY|Multiple transitions can be executed in a small step concurrently.
+Consistency|ARENA ORTHOGONAL|Two transitions do not overlap if their arenas are orthogonal.
+ |SOURCE/TARGET ORTHOGONAL|Two transitions do not overlap if their source and target states are pair-wise orthogonal. This only affect definition of overlap for considering small step consistency.
+In-event Lifeline|IN NEXT SMALL|In-event only present during the next small step.
+ |IN REMAINDER|the In-event presents during the whole big step.
+Local-event Lifeline|IN NEXT SMALL|Triggered local-event only present during the next small step.
+ |IN REMAINDER|Triggered local-event presents during the rest of the big step.
+GC memory protocol|SMALL STEP|The value of a variable is read from the snapshot at the beginning of the small step in guard condition.
+ |BIG STEP|The value of a variable is read from the snapshot at the beginning of the big step in guard condition.
 RHS memory protocol|(same as GC Memory Protocol except it's for right-hand-side of assignment in transition's action)
-Priority|EXPLICIT|a integer is assigned to each transition as its priority (1 is the highest). If not specified the transition has the lowest priority.
- |HEIRARCHICAL|the priority of a transition depends on the structural position of its source state and target state in the heirarchy.
+Priority|EXPLICIT|An integer is assigned to each transition as its priority (1 is the highest). If not specified the transition has the lowest priority.
+ |HEIRARCHICAL|The priority of a transition depends on the structural position of its source and target states.
