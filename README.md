@@ -139,11 +139,13 @@ The highest level of a state machine model is a variable with type **state machi
 
 #### Configurable Semantics (Optional)
 
+If no semantic configuration item is specified, BSML applies its default configuration. Otherwise the user can create semantic configuration item in the buildconfig file in order to change the semantic behavior of the language.
+
 #####Basic Semantic Concepts
 
-If no semantic configuration item is specified, BSML applies its default configuration. Otherwise the user can create semantic configuration item in the buildconfig file.
+**Big Step** is the unit for model to handle a single in-event. A big step begins by taking an in-event to handle, and ends with delivery of out-event. During a big step no in-events can be taken.
 
-**Big Step** is the unit for model to handle a single in-event. A big step begins by taking an in-event to handle, and ends with delivery of out-event. During a big step no in-events can be taken. **Small step** is the unit of concurrent execution of transitions. Enabled transitions in different regions may execute concurrently in a single small step. Event trigger, variable assignment, state transition made in a small step take effect at the end of small step. A big step consists of several small steps.
+**Small step** is the unit of concurrent execution of transitions. Enabled transitions in different regions may execute concurrently in a single small step. Event trigger, variable assignment, state transition made in a small step take effect at the end of small step. A big step consists of several small steps.
 
 **Arena** of a transition is the lowest region that contains both source and target state. Two Regions are **orthogonal** if one region is neither the ancestor or descendant of the other. If two transitions' arenas are not orthogonal then they **overlap** with each other (this definition is configurable for small step consistency). Only orthogonal transitions can be executed concurrently.
 
