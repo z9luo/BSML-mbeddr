@@ -151,7 +151,7 @@ If no semantic configuration item is specified, BSML applies its default configu
 
 #####Semantic Aspects & Options
 
-There are eight semantic aspects to configure. **Big-step Maximality** defines when a big step shall end. **Concurrency** defines whether multiple transtiions can be concurrently executed in a small step. **Small Step Consistency** defines when two transitions would be treated as "overlap" in a small step. **In-event Lifeline**/**Local-event Lifeline** defines how long an in-/local-event's can be sensed as present. **GC Memory Protocol** defines for a variable in guard condition,
+There are eight semantic aspects to configure. **Big-step Maximality** defines when a big step shall end. **Concurrency** defines whether multiple transtiions can be concurrently executed in a small step. **Consistency** defines when two transitions would be treated as "overlap" in a small step. **In-event Lifeline**/**Local-event Lifeline** defines how long an in-/local-event's can be sensed as present. **GC Memory Protocol** defines for a variable in guard condition,
 which value should be read from. **RHS Memory Protocol** defines for a variable in the right-hand-side of a assignment, which value of a variable should be read from (an RHS is always in an action of transtion). **Priority** defines that if there are muptiple valid sets of transitions in a small step, which one shall be executed.
 
 Following is a list of options for each semantic aspect and their description:
