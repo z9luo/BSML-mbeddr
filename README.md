@@ -171,6 +171,6 @@ Local-event Lifeline|IN NEXT SMALL|Triggered local-event only present during the
  |IN REMAINDER|Triggered local-event presents during the rest of the big step.
 GC memory protocol|SMALL STEP|The value of a variable is read from the snapshot at the beginning of the small step in guard condition.
  |BIG STEP|The value of a variable is read from the snapshot at the beginning of the big step in guard condition.
-RHS memory protocol|(same as GC Memory Protocol)|(same as GC except it's for right-hand-side variable of assignment)
+RHS memory protocol|(Same as GC Memory Protocol)|(same as GC except it's for right-hand-side variable of assignment)
 Priority|EXPLICIT|An integer is assigned to each transition as its priority (1 is the highest). If not specified the transition has the lowest priority.
  |HEIRARCHICAL|The priority of a transition depends on the structural position of its source and target states.
