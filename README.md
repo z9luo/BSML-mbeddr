@@ -134,26 +134,31 @@ Before you start, you need to apply a sequence of configuration. Following shows
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/BSML-mbeddr-screenshot/9.png">
 
 ####Structure of State Machine in BSML
-The highest level of a state machine is a variable defined with type "state machine". Under it there is a main region. A region contains one or more states, while a state contains zero or more regions. If a state contains no regions, then it is a simple state. Events, variables and transitions are defined under regions. Out-events must be bind to a C function, which is called when the out-event is triggered; in-event may optionally binded to a C function, which triggers the in-event when the function is called. Transitions contains a guard condition, a event trigger, a source state, a target state, and optionally an action. It allows the state machine to transit from one state to another state if the guard condition and the event trigger are enabled.
 
-#### Configurable Semantics
+The highest level of a state machine model is a variable with type **state machine**. Under it there is a main region. A **region** contains one or more states, while a **state** contains zero or more regions. A state is simple state if it contains no regions. **Event**, **variable** and **transition** are defined under regions. Events can bind C functions such that state machine can interact with the environment. Transition contains a guard condition, an event trigger, a source state reference, a target state reference, and an optional action. Transition allows the state machine to transit from one state to another state and execute action if the guard condition and the event trigger are enabled.
 
-######Basic semantic concepts
+#### Configurable Semantics (Optional)
+
+#####Basic Semantic Concepts
+
 If no semantic configuration item is specified, BSML applies its default configuration. Otherwise the user can create semantic configuration item in the buildconfig file.
 
-Big Step is the unit of period to handle a single in-event. A big step starts by taking an in-event to handle, and conceptually ends with delivery of out-event. Small step is the unit of concurrent execution of transitions. Enabled transitions in different regions may execute concurrently. The changes made in a small step only take effect at the end of the small step. A big step consists of several small steps.
+**Big Step** is the unit for model to handle a single in-event. A big step begins by taking an in-event to handle, and ends with delivery of out-event. During a big step no in-events can be taken. **Small step** is the unit of concurrent execution of transitions. Enabled transitions in different regions may execute concurrently in a single small step. Event trigger, variable assignment, state transition made in a small step take effect at the end of small step. A big step consists of several small steps.
 
-Arena&orthogonal. Arena of a transition is the lowest region that contains both source state and target state of the transition. Regions are said to be orthogonal if one is neither the ancestor or descendant of the other. If two transitions arenas are not orthogonal then they "overlap" with each other. Only orthogonal transitions can be executed concurrently.
+**Arena** of a transition is the lowest region that contains both source and target state. Two Regions are **orthogonal** if one region is neither the ancestor or descendant of the other. If two transitions' arenas are not orthogonal then they **overlap** with each other (this definition is configurable for small step consistency). Only orthogonal transitions can be executed concurrently.
 
-######Semantic aspects&options
+#####Semantic Aspects & Options
 
-Big-step Maximality. It defines when a big step ends.
+There are eight semantic aspects to configure. **Big-step Maximality** defines when a big step shall end. **Concurrency** defines whether multiple transtiions can be concurrently executed in a small step. **Small Step Consistency** defines when two transitions would be treated as "overlap" in a small step. **In-event Lifeline**/**Local-event Lifeline** defines how long an in-/local-event's can be sensed as present. **GC Memory Protocol** defines for a variable in guard condition,
+which value should be read from. **RHS Memory Protocol** defines for a variable in the right-hand-side of a assignment, which value of a variable should be read from (an RHS is always in an action of transtion). **Priority** defines that if there are muptiple valid sets of transitions in a small step, which one shall be executed.
 
-    TAKE MANY: execute util no more transitions can be taken. This does not guarantee termination.
+Following is a list of options for each semantic aspect and their description:
 
-    TAKE ONE: each region contributes at most one transition in a big step. More formally, if a transition is executed, any transitions that overlap with it cannot be executed.
-
-    SYNTACTIC: states can be marked as "stable". If stable state is entered by a transition, then any transitions that overlap with this transition cannot be executed.
+aspect|option|description
+------|------|------------
+Big-step maximality|TAKE MANY|execute util no more transitions can be taken. This does not guarantee termination.
+|TAKE ONE|each region contributes at most one transition in a big step. More formally, if a transition is executed, any transitions that overlap with it cannot be executed.
+|SYNTACTIC|states can be marked as "stable". If stable state is entered by a transition, then any transitions that overlap with this transition cannot be executed.
 
 Concurrency. It defines whether multiple transtiions can be executed concurrently in a small step.
 
