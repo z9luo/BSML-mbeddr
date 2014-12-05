@@ -187,7 +187,7 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="binding" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="x27k.6437088627575724001" resolveInfo="Function" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="x27k.6437088627575723997" resolveInfo="FunctionSignature" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8607120610936004074" nodeInfo="ig">
