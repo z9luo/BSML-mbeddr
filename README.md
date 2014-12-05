@@ -162,15 +162,15 @@ Aspect|Option|Description
 ------|------|------------
 Big-step maximality|TAKE MANY|Execute util no more transitions can be taken. This does not guarantee termination.
  |TAKE ONE|If a transition is executed, any transitions that overlap with it cannot be executed in the big step.
- |SYNTACTIC|States can be marked as "stable". If stable state is entered by a transition, any transitions that overlap with this transition cannot be executed.
+ |SYNTACTIC|States can be marked as "stable". If stable state is entered by a transition, any transitions that overlap with this transition cannot be executed in the big step.
 Concurrency|SINGLE|Only one transition can be executed in a small step.
- |MANY|Multiple transitions can be executed in a small step concurrently.
+ |MANY|Multiple transitions can be executed in a small step.
 Consistency|ARENA ORTHOGONAL|Two transitions do not overlap if their arenas are orthogonal.
- |SOURCE/TARGET ORTHOGONAL|Two transitions do not overlap if their source and target states are pair-wise orthogonal. This only affect definition of overlap for considering small step consistency.
-In-event Lifeline|IN NEXT SMALL|In-event only present during the next small step.
+ |SOURCE/TARGET ORTHOGONAL|Two transitions do not overlap if their source and target states are pair-wise orthogonal. (This only affect definition of overlap for considering small step consistency.)
+In-event Lifeline|IN NEXT SMALL|In-event present during the next small step.
  |IN REMAINDER|In-event presents during the whole big step.
-Local-event Lifeline|IN NEXT SMALL|Triggered local-event only present during the next small step.
- |IN REMAINDER|Triggered local-event presents during the rest of the big step.
+Local-event Lifeline|IN NEXT SMALL|Triggered local-event present during the next small step.
+ |IN REMAINDER|Triggered local-event presents during the rest of big step.
 GC memory protocol|SMALL STEP|The value of a variable is read from the snapshot at the beginning of the small step in guard condition.
  |BIG STEP|The value of a variable is read from the snapshot at the beginning of the big step in guard condition.
 RHS memory protocol|(Same as GC Memory Protocol)|(Same as GC except it's for right-hand-side variable of assignment)
