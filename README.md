@@ -141,7 +141,7 @@ The highest level of a state machine model is a variable with type **state machi
 
 #### Configurable Semantics (Optional)
 
-If no semantic configuration item is specified, BSML applies its default configuration. Otherwise the user can create semantic configuration item in the buildconfig file in order to change the semantic behavior of the language.
+You must create a semantic configuration item in the buildconfig file. Default configuration is applied initially, and advanced user can change those options to change the semantic behavior of the language.
 
 #####Basic Semantic Concepts
 

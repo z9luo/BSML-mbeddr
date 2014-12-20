@@ -550,6 +550,14 @@
                     </node>
                   </node>
                 </node>
+                <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="2695170321091646154" nodeInfo="ng">
+                  <node role="expr" roleId="c4fa.7254843406768833939" type="cmy.EventCall" typeId="cmy.5600653557319327299" id="2695170321091646152" nodeInfo="ng">
+                    <link role="eventRef" roleId="cmy.5600653557320184014" targetNodeId="2042574486718055243" resolveInfo="out1" />
+                    <node role="actuals" roleId="cmy.5600653557319338923" type="yq40.StringLiteral" typeId="yq40.6113173064526131575" id="2695170321091646189" nodeInfo="ng">
+                      <property name="value" nameId="yq40.6113173064526131578" value="turn on" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
             <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.Transition" typeId="cmy.4517681580278098072" id="8025659640010943268" nodeInfo="ng">
@@ -610,17 +618,7 @@
     <node role="configurationItems" roleId="vs0r.4459718605982007338" type="k146.ReportingConfiguration" typeId="k146.4459718605982051949" id="7950215811416089535" nodeInfo="ng">
       <node role="strategy" roleId="k146.4459718605982051999" type="k146.PrintfReportingStrategy" typeId="k146.4459718605982051980" id="7950215811416089536" nodeInfo="ng" />
     </node>
-    <node role="configurationItems" roleId="vs0r.4459718605982007338" type="cmy.StateMachineSemanticsConfigItem" typeId="cmy.6318815719351411497" id="234492043129699071" nodeInfo="ng">
-      <property name="bigStepMaximality" nameId="cmy.6318815719351411553" value="2" />
-      <property name="concurrency" nameId="cmy.6318815719351659473" value="1" />
-      <property name="inEventLifeline" nameId="cmy.6318815719351659478" value="0" />
-      <property name="localEventLifeLine" nameId="cmy.3032902167916051514" value="0" />
-      <property name="priority" nameId="cmy.6318815719351659494" value="1" />
-      <property name="heirPrioRegion" nameId="cmy.3032902167917117940" value="0" />
-      <property name="heirPrioScheme" nameId="cmy.3032902167917117951" value="0" />
-      <property name="smallStepConsistency" nameId="cmy.6318815719351659505" value="1" />
-      <property name="preemption" nameId="cmy.6318815719351659485" value="1" />
-    </node>
+    <node role="configurationItems" roleId="vs0r.4459718605982007338" type="cmy.StateMachineSemanticsConfigItem" typeId="cmy.6318815719351411497" id="3606876909969603625" nodeInfo="ng" />
   </root>
   <root type="x27k.ExternalModule" typeId="x27k.6116558314501417921" id="8790423032213931550" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="test_stub" />
