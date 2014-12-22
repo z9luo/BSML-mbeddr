@@ -129,7 +129,6 @@ Before you start, you need to apply a sequence of configuration. Following shows
 7. Finally you can write the real stuff in ImpModule! Create your state-machine model, and write a main function to trigger the state machine.
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/BSML-mbeddr-screenshot/7.png">
 8. Create your configuration file, which should be like the following:
-<img src="https://www.student.cs.uwaterloo.ca/~z9luo/BSML-mbeddr-screenshot/8.png">
 9. Build your solution, open a terminal, and direct to {Project_Root}/solutions/{Solution_Name}/source_gen/{Solution_Name}/{Model_Name} for the generated C code. There are a bunch of .c and .h files, together with a Makefile. Make the source and run the binary, and you can see the result. Enjoy:)
 <img src="https://www.student.cs.uwaterloo.ca/~z9luo/BSML-mbeddr-screenshot/9.png">
 
