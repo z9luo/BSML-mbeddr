@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="2">
+<model modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="4">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -9,7 +9,7 @@
   <import index="x27k" modelUID="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" version="9" />
   <import index="c4fa" modelUID="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" version="9" />
   <import index="clbe" modelUID="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" version="13" />
-  <import index="cmy" modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="2" implicit="yes" />
+  <import index="cmy" modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="4" implicit="yes" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="6318815719351411612" nodeInfo="ng">
@@ -140,6 +140,10 @@
       <property name="name" nameId="tpck.1169194664001" value="concurrency" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="6318815719351411883" resolveInfo="ConcurrencyEnum" />
     </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6137873808666367787" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="inEventType" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="6137873808666367767" resolveInfo="InEventEnum" />
+    </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6318815719351659478" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="inEventLifeline" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="6318815719351412039" resolveInfo="EventLifelineEnum" />
@@ -147,6 +151,10 @@
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3032902167916051514" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="localEventLifeLine" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="6318815719351412039" resolveInfo="EventLifelineEnum" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6137873808666367800" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="outEventType" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="6137873808666367784" resolveInfo="OutEventEnum" />
     </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6318815719351659485" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="preemption" />
@@ -231,18 +239,20 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1054945346934023155" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpee.1237545921771" resolveInfo="IContainsStatementList" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3610497360405435465" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6137873808667978235" resolveInfo="ISMElement" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4517681580277145875" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="AbstractEventDeclaration" />
-    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
+    <property name="name" nameId="tpck.1169194664001" value="EventDeclaration" />
+    <property name="abstract" nameId="tpce.4628067390765956802" value="false" />
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="event" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="c4fa.4185783222026464515" resolveInfo="Statement" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4517681580277209732" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="args" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="x27k.8444296659257696249" resolveInfo="IArgumentLike" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6137873808666632682" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="eventTag" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="6137873808666632671" resolveInfo="EventTagEnum" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4517681580277592511" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
@@ -297,36 +307,6 @@
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="exit" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="6318815719352791641" resolveInfo="AbstractBlock" />
   </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4517681580277207660" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="InEventDeclaration" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="inevent" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4517681580277145875" resolveInfo="AbstractEventDeclaration" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1996550827833072968" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="binding" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="8607120610933610675" resolveInfo="CFunctionBinding" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4517681580277207885" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="LocalEventDeclaration" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="local event" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4517681580277145875" resolveInfo="AbstractEventDeclaration" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4517681580277207790" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="OutEventDeclaration" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="outevent" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="4517681580277145875" resolveInfo="AbstractEventDeclaration" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1983669701633454154" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="binding" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="8607120610933610675" resolveInfo="CFunctionBinding" />
-    </node>
-  </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4517681580276827431" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="RegionLocalDeclaration" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
@@ -355,53 +335,37 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1054945346934029328" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vs0r.5095889050031055796" resolveInfo="IContainerOfUniqueNames" />
     </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7359472029650135221" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3213732475053483586" resolveInfo="IAbstrackBlockContainer" />
-    </node>
-  </root>
-  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="3213732475053483586" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
-    <property name="name" nameId="tpck.1169194664001" value="IAbstrackBlockContainer" />
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5600653557318549629" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
     <property name="name" nameId="tpck.1169194664001" value="IEvent" />
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3372386639992765907" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4517681580279378168" resolveInfo="ISMFullNameProvider" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4517681580277209732" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="args" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="x27k.8444296659257696249" resolveInfo="IArgumentLike" />
     </node>
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1054945346933968447" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vs0r.7024921229555594291" resolveInfo="IIdentifierNamedConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6137873808666169084" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="binding" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="8607120610933610675" resolveInfo="CFunctionBinding" />
     </node>
-  </root>
-  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5600653557315779314" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="IEventScopeProvider" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6137873808667984185" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6137873808667978235" resolveInfo="ISMElement" />
+    </node>
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5600653557318549819" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
     <property name="name" nameId="tpck.1169194664001" value="IRegion" />
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3372386639992752101" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4517681580279378168" resolveInfo="ISMFullNameProvider" />
-    </node>
     <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3372386639992752106" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="c4fa.2093108837558189304" resolveInfo="ILocalVarScopeProvider" />
     </node>
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3372386639992759637" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5600653557315779314" resolveInfo="IEventScopeProvider" />
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6137873808668345878" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6137873808667975550" resolveInfo="ISMElementScopeProvider" />
     </node>
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3372386639992759646" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5600653557317357455" resolveInfo="IStateScopeProvider" />
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6137873808667994138" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6137873808667978235" resolveInfo="ISMElement" />
     </node>
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2486662774781137035" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2486662774781137028" resolveInfo="ITransitionProvider" />
-    </node>
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1054945346933968465" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vs0r.7024921229555594291" resolveInfo="IIdentifierNamedConcept" />
-    </node>
-  </root>
-  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="3372386639992780144" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="IRegionScopeProvider" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="4517681580279378168" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ISMFullNameProvider" />
@@ -413,14 +377,11 @@
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5600653557318549534" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
     <property name="name" nameId="tpck.1169194664001" value="IState" />
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3372386639992780135" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4517681580279378168" resolveInfo="ISMFullNameProvider" />
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6137873808668345891" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6137873808667975550" resolveInfo="ISMElementScopeProvider" />
     </node>
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3372386639992781285" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3372386639992780144" resolveInfo="IRegionScopeProvider" />
-    </node>
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1054945346933968476" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vs0r.7024921229555594291" resolveInfo="IIdentifierNamedConcept" />
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6137873808668128442" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6137873808667978235" resolveInfo="ISMElement" />
     </node>
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5600653557318549914" nodeInfo="ig">
@@ -429,16 +390,12 @@
     <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3372386639992786548" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4517681580279378168" resolveInfo="ISMFullNameProvider" />
     </node>
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3372386639992786553" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3372386639992780144" resolveInfo="IRegionScopeProvider" />
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6137873808668345919" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6137873808667975550" resolveInfo="ISMElementScopeProvider" />
     </node>
     <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1054945346933968484" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vs0r.7024921229555594291" resolveInfo="IIdentifierNamedConcept" />
     </node>
-  </root>
-  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5600653557317357455" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="IStateScopeProvider" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5600653557318549724" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
@@ -446,16 +403,9 @@
     <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2486662774780313896" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
     </node>
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2486662774780313901" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4517681580279378168" resolveInfo="ISMFullNameProvider" />
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6137873808667994157" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6137873808667978235" resolveInfo="ISMElement" />
     </node>
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1054945346933968454" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vs0r.7024921229555594291" resolveInfo="IIdentifierNamedConcept" />
-    </node>
-  </root>
-  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="2486662774781137028" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
-    <property name="name" nameId="tpck.1169194664001" value="ITransitionProvider" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5600653557318216216" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="EventType" />
@@ -537,9 +487,6 @@
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1054945346934279303" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vs0r.5095889050031055796" resolveInfo="IContainerOfUniqueNames" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3213732475053499764" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3213732475053483586" resolveInfo="IAbstrackBlockContainer" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4517681580278098072" nodeInfo="ig">
@@ -679,6 +626,66 @@
       <node role="attributed" roleId="tpce.7588428831947959310" type="tpce.AttributeInfo_AttributedConcept" typeId="tpce.6054523464627964745" id="3032902167918628789" nodeInfo="ng">
         <link role="concept" roleId="tpce.6054523464627965081" targetNodeId="4517681580278098072" resolveInfo="Transition" />
       </node>
+    </node>
+  </root>
+  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="6137873808666367767" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="semantics" />
+    <property name="name" nameId="tpck.1169194664001" value="InEventEnum" />
+    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="6137873808666367769" />
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6137873808666367768" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="0" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="SYNTACTIC" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6137873808666367769" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="1" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="RECEIVED AS ENVIRONMENTAL" />
+    </node>
+  </root>
+  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="6137873808666367784" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="semantics" />
+    <property name="name" nameId="tpck.1169194664001" value="OutEventEnum" />
+    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="6137873808666367786" />
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6137873808666367785" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="0" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="SYNTACTIC" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6137873808666367786" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="1" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="GENERATED IN LAST SMALL STEP" />
+    </node>
+  </root>
+  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="6137873808666632671" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
+    <property name="name" nameId="tpck.1169194664001" value="EventTagEnum" />
+    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="6137873808666632676" />
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6137873808666632672" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="0" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="in" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6137873808666632673" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="1" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="out" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6137873808666632676" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="2" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="local" />
+    </node>
+  </root>
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="6137873808667975550" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
+    <property name="name" nameId="tpck.1169194664001" value="ISMElementScopeProvider" />
+  </root>
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="6137873808667978235" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
+    <property name="name" nameId="tpck.1169194664001" value="ISMElement" />
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6137873808668383320" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4517681580279378168" resolveInfo="ISMFullNameProvider" />
+    </node>
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6137873808668383325" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vs0r.7024921229555594291" resolveInfo="IIdentifierNamedConcept" />
     </node>
   </root>
 </model>
