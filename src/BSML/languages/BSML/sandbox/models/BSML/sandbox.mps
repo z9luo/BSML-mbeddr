@@ -96,7 +96,13 @@
               <property name="value" nameId="mj1l.2212975673976043696" value="2" />
             </node>
           </node>
-          <node role="events" roleId="cmy.7641948820054579927" type="cmy.SMGenEvent" typeId="cmy.7641948820054566386" id="7641948820055330634" nodeInfo="ng">
+          <node role="events" roleId="cmy.7641948820054579927" type="cmy.SMGenEvent" typeId="cmy.7641948820054566386" id="6560030277120655413" nodeInfo="ng">
+            <link role="event_ref" roleId="cmy.439124252221590049" targetNodeId="6107856546761965915" resolveInfo="e1" />
+          </node>
+        </node>
+        <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.SMTrigger" typeId="cmy.439124252221539684" id="6560030277120760134" nodeInfo="ng">
+          <link role="sm_ref" roleId="cmy.439124252221590048" targetNodeId="6107856546761840325" resolveInfo="smm" />
+          <node role="events" roleId="cmy.7641948820054579927" type="cmy.SMGenEvent" typeId="cmy.7641948820054566386" id="6560030277120885760" nodeInfo="ng">
             <link role="event_ref" roleId="cmy.439124252221590049" targetNodeId="6107856546761845063" resolveInfo="turn_off" />
           </node>
         </node>
@@ -436,6 +442,7 @@
     </node>
     <node role="configurationItems" roleId="vs0r.4459718605982007338" type="cmy.StateMachineSemanticsConfigItem" typeId="cmy.6318815719351411497" id="3606876909969603625" nodeInfo="ng">
       <property name="inEventType" nameId="cmy.6137873808666367787" value="1" />
+      <property name="bigStepMaximality" nameId="cmy.6318815719351411553" value="0" />
     </node>
   </root>
   <root type="x27k.ExternalModule" typeId="x27k.6116558314501417921" id="8790423032213931550" nodeInfo="ng">

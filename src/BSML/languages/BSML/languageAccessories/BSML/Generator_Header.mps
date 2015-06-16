@@ -1132,7 +1132,7 @@
       <property name="name" nameId="tpck.1169194664001" value="sm_msg" />
       <property name="exported" nameId="x27k.1317894735999272944" value="true" />
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="8025659640012827628" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="false" />
+        <property name="active" nameId="k146.2688792604367947988" value="true" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="name" nameId="tpck.1169194664001" value="SM_initialized" />
         <property name="text" nameId="k146.2688792604367903089" value="initialize state machine" />
@@ -1145,7 +1145,7 @@
         </node>
       </node>
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="8025659640012827631" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="false" />
+        <property name="active" nameId="k146.2688792604367947988" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="transition_occur" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="text" nameId="k146.2688792604367903089" value=" " />
@@ -1172,31 +1172,31 @@
         </node>
       </node>
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="8025659640012827638" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="false" />
+        <property name="active" nameId="k146.2688792604367947988" value="true" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="name" nameId="tpck.1169194664001" value="start_big_step" />
         <property name="text" nameId="k146.2688792604367903089" value=" " />
       </node>
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="8025659640012827639" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="false" />
+        <property name="active" nameId="k146.2688792604367947988" value="true" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="name" nameId="tpck.1169194664001" value="end_big_step" />
         <property name="text" nameId="k146.2688792604367903089" value=" " />
       </node>
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="8025659640012827640" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="false" />
+        <property name="active" nameId="k146.2688792604367947988" value="true" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="name" nameId="tpck.1169194664001" value="start_small_step" />
         <property name="text" nameId="k146.2688792604367903089" value=" " />
       </node>
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="8025659640012827641" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="false" />
+        <property name="active" nameId="k146.2688792604367947988" value="true" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="name" nameId="tpck.1169194664001" value="end_small_step" />
         <property name="text" nameId="k146.2688792604367903089" value=" " />
       </node>
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="8025659640012827642" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="false" />
+        <property name="active" nameId="k146.2688792604367947988" value="true" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="name" nameId="tpck.1169194664001" value="other" />
         <property name="text" nameId="k146.2688792604367903089" value="other info" />

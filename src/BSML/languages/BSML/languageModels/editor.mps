@@ -781,6 +781,7 @@
           <property name="separatorText" nameId="tpc2.1140524450557" value="," />
           <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="cmy.7641948820054579927" />
           <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="7641948820054729667" nodeInfo="nn" />
+          <node role="emptyCellModel" roleId="tpc2.1140524464359" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="6560030277120700208" nodeInfo="nn" />
         </node>
         <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="439124252221596740" nodeInfo="nn" />
         <node role="renderingCondition" roleId="tpc2.1142887637401" type="tpc2.QueryFunction_NodeCondition" typeId="tpc2.1142886221719" id="439124252221596741" nodeInfo="nn">
