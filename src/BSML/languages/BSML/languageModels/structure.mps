@@ -361,13 +361,6 @@
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6137873808667978235" resolveInfo="ISMNamedElement" />
     </node>
   </root>
-  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="4517681580279378168" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="ISMFullNameProvider" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8607120610935907280" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vs0r.7024921229555594291" resolveInfo="IIdentifierNamedConcept" />
-    </node>
-  </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5600653557318549534" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
     <property name="name" nameId="tpck.1169194664001" value="IState" />
@@ -381,22 +374,16 @@
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5600653557318549914" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
     <property name="name" nameId="tpck.1169194664001" value="IStateMachine" />
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3372386639992786548" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4517681580279378168" resolveInfo="ISMFullNameProvider" />
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8536815879620531598" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6137873808667978235" resolveInfo="ISMNamedElement" />
     </node>
     <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6137873808668345919" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6137873808667975550" resolveInfo="ISMElementScopeProvider" />
-    </node>
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1054945346933968484" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vs0r.7024921229555594291" resolveInfo="IIdentifierNamedConcept" />
     </node>
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5600653557318549724" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
     <property name="name" nameId="tpck.1169194664001" value="ITransition" />
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2486662774780313896" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
-    </node>
     <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6137873808667994157" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6137873808667978235" resolveInfo="ISMNamedElement" />
     </node>
@@ -669,8 +656,8 @@
     <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6560030277144754847" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6560030277144754845" resolveInfo="ISMElement" />
     </node>
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6560030277145109418" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4517681580279378168" resolveInfo="ISMFullNameProvider" />
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5603597506139567122" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vs0r.7024921229555594291" resolveInfo="IIdentifierNamedConcept" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7641948820054566386" nodeInfo="ig">

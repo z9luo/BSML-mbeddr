@@ -262,6 +262,7 @@
             </node>
             <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.EventDeclaration" typeId="cmy.4517681580277145875" id="6107856546761843047" nodeInfo="ng">
               <property name="name" nameId="tpck.1169194664001" value="turn_on" />
+              <property name="eventTag" nameId="cmy.6137873808666632682" value="0" />
               <node role="args" roleId="cmy.4517681580277209732" type="x27k.Argument" typeId="x27k.7892328519581704407" id="7641948820055320235" nodeInfo="ng">
                 <property name="name" nameId="tpck.1169194664001" value="x" />
                 <node role="type" roleId="mj1l.318113533128716676" type="mj1l.Int8tType" typeId="mj1l.8463282783691618426" id="7641948820055320233" nodeInfo="ng">
@@ -279,9 +280,11 @@
             </node>
             <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.EventDeclaration" typeId="cmy.4517681580277145875" id="6107856546761845063" nodeInfo="ng">
               <property name="name" nameId="tpck.1169194664001" value="turn_off" />
+              <property name="eventTag" nameId="cmy.6137873808666632682" value="0" />
             </node>
             <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.EventDeclaration" typeId="cmy.4517681580277145875" id="6107856546761965915" nodeInfo="ng">
               <property name="name" nameId="tpck.1169194664001" value="e1" />
+              <property name="eventTag" nameId="cmy.6137873808666632682" value="0" />
               <node role="binding" roleId="cmy.6137873808666169084" type="cmy.CFunctionBinding" typeId="cmy.8607120610933610675" id="6107856546762236713" nodeInfo="ng">
                 <link role="binding" roleId="cmy.8607120610933610676" targetNodeId="1054945346934920603" resolveInfo="handle_out1" />
               </node>
@@ -527,7 +530,7 @@
       <node role="strategy" roleId="k146.4459718605982051999" type="k146.PrintfReportingStrategy" typeId="k146.4459718605982051980" id="7950215811416089536" nodeInfo="ng" />
     </node>
     <node role="configurationItems" roleId="vs0r.4459718605982007338" type="cmy.StateMachineSemanticsConfigItem" typeId="cmy.6318815719351411497" id="3606876909969603625" nodeInfo="ng">
-      <property name="inEventType" nameId="cmy.6137873808666367787" value="1" />
+      <property name="inEventType" nameId="cmy.6137873808666367787" value="0" />
       <property name="bigStepMaximality" nameId="cmy.6318815719351411553" value="0" />
     </node>
   </root>
