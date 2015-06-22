@@ -7,10 +7,11 @@
   <language namespace="59792812-ef39-4b8d-a3ad-eee45ce1f5df(BSML)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="ahli" modelUID="r:44ccebce-f3a6-4238-afbf-c4a18f6348c1(com.mbeddr.core.buildconfig.behavior)" version="-1" />
-  <import index="cmy" modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="5" />
+  <import index="cmy" modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="9" />
   <import index="51wr" modelUID="r:b31f1c3c-99aa-4f1e-a329-cba27efb1a6b(com.mbeddr.core.buildconfig.structure)" version="1" />
   <import index="vs0r" modelUID="r:f7764ca4-8c75-4049-922b-08516400a727(com.mbeddr.core.base.structure)" version="25" />
   <import index="hwgx" modelUID="r:fd2980c8-676c-4b19-b524-18c70e02f8b7(com.mbeddr.core.base.behavior)" version="14" />
+  <import index="dv7h" modelUID="r:ab9006cb-fa5a-47a8-81b8-ed3862813166(BSML.behavior)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
@@ -449,7 +450,7 @@
   <root type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="6137873808666318074" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
     <property name="name" nameId="tpck.1169194664001" value="AddEventBinding_Int" />
-    <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="cmy.4517681580277145875" resolveInfo="EventDeclaration" />
+    <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="cmy.4517681580277145875" resolveInfo="Event" />
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="6137873808666318075" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6137873808666318076" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6137873808666321477" nodeInfo="nn">
@@ -474,7 +475,7 @@
                 </node>
                 <node role="lValue" roleId="tpee.1068498886295" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6137873808666325911" nodeInfo="nn">
                   <node role="operand" roleId="tpee.1197027771414" type="tp3j.ConceptFunctionParameter_node" typeId="tp3j.1192796902958" id="6137873808666325912" nodeInfo="nn" />
-                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="6137873808666331919" nodeInfo="nn">
+                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="8027418617076288226" nodeInfo="nn">
                     <link role="link" roleId="tp25.1138056516764" targetNodeId="cmy.6137873808666169084" />
                   </node>
                 </node>
@@ -485,8 +486,8 @@
             <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="6137873808666325915" nodeInfo="nn" />
             <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6137873808666325916" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="tp3j.ConceptFunctionParameter_node" typeId="tp3j.1192796902958" id="6137873808666325917" nodeInfo="nn" />
-              <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="6137873808666332899" nodeInfo="nn">
-                <link role="link" roleId="tp25.1138056516764" targetNodeId="cmy.6137873808666169084" />
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="7168202009857662075" nodeInfo="nn">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="dv7h.7168202009857427902" resolveInfo="binding" />
               </node>
             </node>
           </node>
@@ -497,7 +498,7 @@
   <root type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="6137873808666817781" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
     <property name="name" nameId="tpck.1169194664001" value="RemoveEventTag_Int" />
-    <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="cmy.4517681580277145875" resolveInfo="EventDeclaration" />
+    <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="cmy.4517681580277145875" resolveInfo="Event" />
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="6137873808666817782" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6137873808666817783" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6137873808666821207" nodeInfo="nn">
@@ -636,7 +637,7 @@
   <root type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="6137873808666854693" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
     <property name="name" nameId="tpck.1169194664001" value="TagAsInEvent_Int" />
-    <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="cmy.4517681580277145875" resolveInfo="EventDeclaration" />
+    <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="cmy.4517681580277145875" resolveInfo="Event" />
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="6137873808666854694" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6137873808666854695" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6137873808666854696" nodeInfo="nn">
@@ -725,7 +726,7 @@
   <root type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="6137873808666856753" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
     <property name="name" nameId="tpck.1169194664001" value="TagAsOutEvent_Int" />
-    <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="cmy.4517681580277145875" resolveInfo="EventDeclaration" />
+    <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="cmy.4517681580277145875" resolveInfo="Event" />
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="6137873808666856754" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6137873808666856755" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6137873808666856756" nodeInfo="nn">
