@@ -69,7 +69,7 @@ statemachine sm {
 			// Each region will run concurrently with each other.
 			region accel_state intial=waitAccel {
 				state waitAccel { };
-				transition t_accel: on accel && turn_off[true] waitAccel -> waitAccel {
+				transition t_accel: on accel && ¬turn_off[true] waitAccel -> waitAccel {
 					// trigger out event or local event
 					computeSpeed(cur_speed);
 					guard=false;
