@@ -8,7 +8,7 @@ BSML-mbeddr is an Mbeddr-based implementation of Big-Step Modelling Language (BS
 ## First Glimpse
 The following demo model has two states "on" and "off", event "turn_on" triggered transition from "off" to "on" and execute action to print "hello world"
 ```
-statemachine sm {
+MyStateMachine sm {
 	region main initial=off {
 		in event turn_on();
 		state off { };
@@ -22,8 +22,8 @@ statemachine sm {
 Trigger code should be like this:
 ```
 int main() {
-	sm_start(sm);
-	sm_trigger(sm.turn_on);
+	MyStateMachine sm=sm_start(MyStateMachine);
+	sm_trigger(sm, turn_on());
 	sm_terminate(sm);
 	return 0;
 }
@@ -46,9 +46,9 @@ statemachine sm {
 	region main initial=off {
 		in event turn_on();
 		in event turn_off();
-		local event compute_speed(double cur_speed); // event with arguments allowed; you can also pass a struct as argument.
-		// out event can be binded to C functions. The function is called when the out event is triggered.
-		out event accel() => handle_accel();
+		event compute_speed(double cur_speed); // event with arguments allowed; you can also pass a struct as argument.
+		// event can be binded to C functions. The function is called when the event is triggered.
+		event accel() => handle_accel();
 		boolean guard=true;
 		double cur_speed=0.0;
 		static int countOff=0; // static variable, which won't be re-initialized after re-enterance.
@@ -69,7 +69,7 @@ statemachine sm {
 			// Each region will run concurrently with each other.
 			region accel_state intial=waitAccel {
 				state waitAccel { };
-				transition t_accel: on accel[true] waitAccel -> waitAccel {
+				transition t_accel: on accel && turn_off[true] waitAccel -> waitAccel {
 					// trigger out event or local event
 					computeSpeed(cur_speed);
 					guard=false;
