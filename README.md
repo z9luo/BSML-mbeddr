@@ -42,7 +42,7 @@ void handle_accel() {
 	...
 } 
 //definition of the state machine model for a vechicle's control system
-statemachine sm {
+MyStateMachine sm {
 	region main initial=off {
 		in event turn_on();
 		in event turn_off();
