@@ -1169,7 +1169,7 @@
       <property name="name" nameId="tpck.1169194664001" value="sm_msg" />
       <property name="exported" nameId="x27k.1317894735999272944" value="true" />
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="8025659640012827628" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="true" />
+        <property name="active" nameId="k146.2688792604367947988" value="false" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="name" nameId="tpck.1169194664001" value="SM_initialized" />
         <property name="text" nameId="k146.2688792604367903089" value="initialize state machine" />
@@ -1209,25 +1209,25 @@
         </node>
       </node>
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="8025659640012827638" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="true" />
+        <property name="active" nameId="k146.2688792604367947988" value="false" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="name" nameId="tpck.1169194664001" value="start_big_step" />
         <property name="text" nameId="k146.2688792604367903089" value=" " />
       </node>
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="8025659640012827639" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="true" />
+        <property name="active" nameId="k146.2688792604367947988" value="false" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="name" nameId="tpck.1169194664001" value="end_big_step" />
         <property name="text" nameId="k146.2688792604367903089" value=" " />
       </node>
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="8025659640012827640" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="true" />
+        <property name="active" nameId="k146.2688792604367947988" value="false" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="name" nameId="tpck.1169194664001" value="start_small_step" />
         <property name="text" nameId="k146.2688792604367903089" value=" " />
       </node>
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="8025659640012827641" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="true" />
+        <property name="active" nameId="k146.2688792604367947988" value="false" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="name" nameId="tpck.1169194664001" value="end_small_step" />
         <property name="text" nameId="k146.2688792604367903089" value=" " />
@@ -1819,6 +1819,48 @@
         <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
         <property name="const" nameId="mj1l.2941277002445651368" value="false" />
         <link role="struct" roleId="clbe.6394819151180597817" targetNodeId="8942146490304237847" resolveInfo="_SMHandle" />
+      </node>
+    </node>
+    <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="8942146490318785270" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="empty_1435193861458_7" />
+    </node>
+    <node role="contents" roleId="x27k.6437088627575722833" type="clbe.TypeDef" typeId="clbe.6116558314501347857" id="8942146490318787759" nodeInfo="ng">
+      <property name="exported" nameId="x27k.1317894735999272944" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="SMStartRef" />
+      <node role="original" roleId="clbe.6116558314501347862" type="x27k.FunctionRefType" typeId="x27k.8551646674110395547" id="8942146490318788940" nodeInfo="ng">
+        <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+        <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+        <node role="argTypes" roleId="x27k.8551646674110395549" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="8942146490318789085" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="2878353885459132583" resolveInfo="gpointer" />
+        </node>
+        <node role="returnType" roleId="x27k.8551646674110395548" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="8942146490318788976" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="2878353885459132583" resolveInfo="gpointer" />
+        </node>
+      </node>
+    </node>
+    <node role="contents" roleId="x27k.6437088627575722833" type="x27k.FunctionPrototype" typeId="x27k.6437088627575724000" id="8942146490318792985" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="create_sm_instance" />
+      <property name="exported" nameId="x27k.1317894735999272944" value="false" />
+      <node role="arguments" roleId="x27k.5708867820623310661" type="x27k.Argument" typeId="x27k.7892328519581704407" id="8942146490318794248" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="sm_start" />
+        <node role="type" roleId="mj1l.318113533128716676" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="8942146490318794246" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="8942146490318787759" resolveInfo="SMStartRef" />
+        </node>
+      </node>
+      <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="8942146490318791075" nodeInfo="ng">
+        <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+        <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+        <node role="baseType" roleId="c4fa.7763322639126652758" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="8942146490318789689" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="8942146490304242555" resolveInfo="SMHandle" />
+        </node>
       </node>
     </node>
     <node role="imports" roleId="x27k.1317894735999304826" type="vs0r.DefaultGenericChunkDependency" typeId="vs0r.747084250476811597" id="8025659640012221796" nodeInfo="ng">
