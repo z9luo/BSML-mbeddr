@@ -1280,16 +1280,6 @@
         <property name="name" nameId="tpck.1169194664001" value="a_region_enum" />
       </node>
     </node>
-    <node role="contents" roleId="x27k.6437088627575722833" type="clbe.EnumDeclaration" typeId="clbe.8811614583515725851" id="1989014375142104696" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="TransEnum" />
-      <property name="exported" nameId="x27k.1317894735999272944" value="true" />
-      <node role="literals" roleId="clbe.8811614583515725857" type="clbe.EnumLiteral" typeId="clbe.8811614583515725853" id="1989014375142104697" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="a_trans_enum" />
-      </node>
-    </node>
-    <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="8025659640012827656" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="empty_1416345474015_1" />
-    </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="8025659640012827657" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="empty_1406509157512_20" />
     </node>

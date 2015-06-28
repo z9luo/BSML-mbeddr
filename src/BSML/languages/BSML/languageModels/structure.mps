@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="15">
+<model modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="17">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -9,7 +9,7 @@
   <import index="x27k" modelUID="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" version="9" />
   <import index="c4fa" modelUID="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" version="9" />
   <import index="clbe" modelUID="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" version="13" />
-  <import index="cmy" modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="15" implicit="yes" />
+  <import index="cmy" modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="17" implicit="yes" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="6318815719351411612" nodeInfo="ng">
@@ -289,7 +289,7 @@
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="6318815719352791641" resolveInfo="AbstractBlock" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4517681580278964135" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="EventArgReference" />
+    <property name="name" nameId="tpck.1169194664001" value="EventArgRef" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="x27k.2093108837558505658" resolveInfo="ArgumentRef" />
   </root>
@@ -481,7 +481,7 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="triggers" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="3372386639988661786" resolveInfo="TriggerEventReference" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3372386639988661786" resolveInfo="TriggerEventRef" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4517681580279925349" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
@@ -501,7 +501,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3372386639988661786" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
-    <property name="name" nameId="tpck.1169194664001" value="TriggerEventReference" />
+    <property name="name" nameId="tpck.1169194664001" value="TriggerEventRef" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7282629872782441959" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="negation" />
