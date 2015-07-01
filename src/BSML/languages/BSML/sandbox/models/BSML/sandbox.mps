@@ -154,6 +154,24 @@
             <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="8942146490313659810" resolveInfo="m1" />
           </node>
         </node>
+        <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.SMTrigger" typeId="cmy.439124252221539684" id="3279953358245382445" nodeInfo="ng">
+          <node role="events" roleId="cmy.7641948820054579927" type="cmy.SMGenEvent" typeId="cmy.7641948820054566386" id="3279953358245384659" nodeInfo="ng">
+            <link role="event_ref" roleId="cmy.439124252221590049" targetNodeId="8197221902188100196" resolveInfo="e1" />
+          </node>
+          <node role="events" roleId="cmy.7641948820054579927" type="cmy.SMGenEvent" typeId="cmy.7641948820054566386" id="3279953358245386655" nodeInfo="ng">
+            <link role="event_ref" roleId="cmy.439124252221590049" targetNodeId="8197221902188100630" resolveInfo="e2" />
+          </node>
+          <node role="events" roleId="cmy.7641948820054579927" type="cmy.SMGenEvent" typeId="cmy.7641948820054566386" id="3279953358246107867" nodeInfo="ng">
+            <link role="event_ref" roleId="cmy.439124252221590049" targetNodeId="8197221902190782369" resolveInfo="e3" />
+            <node role="actuals" roleId="cmy.439124252221590038" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3279953358246109107" nodeInfo="ng">
+              <property name="unsigned" nameId="mj1l.5192961572790190887" value="false" />
+              <property name="value" nameId="mj1l.2212975673976043696" value="1" />
+            </node>
+          </node>
+          <node role="sm_handle" roleId="cmy.7282629872790574271" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="3279953358245383489" nodeInfo="ng">
+            <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="8942146490313659810" resolveInfo="m1" />
+          </node>
+        </node>
         <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.SMTrigger" typeId="cmy.439124252221539684" id="8942146490314020923" nodeInfo="ng">
           <node role="events" roleId="cmy.7641948820054579927" type="cmy.SMGenEvent" typeId="cmy.7641948820054566386" id="8942146490314024180" nodeInfo="ng">
             <link role="event_ref" roleId="cmy.439124252221590049" targetNodeId="8197221902188100630" resolveInfo="e2" />
