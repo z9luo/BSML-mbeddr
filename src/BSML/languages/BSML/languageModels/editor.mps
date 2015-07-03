@@ -627,7 +627,7 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="cmy.4517681580278098072" resolveInfo="Transition" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="4517681580278099088" nodeInfo="nn">
-      <property name="attractsFocus" nameId="tpc2.1130859485024" value="2" />
+      <property name="attractsFocus" nameId="tpc2.1130859485024" value="0" />
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4517681580280671385" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="transition" />
       </node>
@@ -643,10 +643,10 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4517681580278099095" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="on" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="3372386639988854706" nodeInfo="ng">
-        <property name="separatorText" nameId="tpc2.1140524450557" value=" ∧" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="7885136595492306498" nodeInfo="ng">
+        <property name="attractsFocus" nameId="tpc2.1130859485024" value="1" />
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="cmy.3372386639988661877" />
-        <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="3372386639988854707" nodeInfo="nn" />
+        <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="7885136595492306500" nodeInfo="nn" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4517681580278099116" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="[" />

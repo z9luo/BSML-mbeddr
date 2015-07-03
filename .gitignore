@@ -19,10 +19,12 @@ src/BSML/languages/BSML/source_gen/
 src/BSML/languages/BSML/source_gen.caches/
 src/BSML/.mps/workspace.xml
 src/BSML/_spreferences/
-classes_gen/
-source_gen/
-source_gen.caches/
-src/BSML/solutions/
+src/BSML/solutions/BSML_Case_Study/classes_gen/
+src/BSML/solutions/BSML_Case_Study/source_gen/
+src/BSML/solutions/BSML_Case_Study/source_gen.caches/
+*source_gen/*
+*source_gen.caches/*
+*src/BSML/solutions/*
 ###################
 # Web publish log #
 ###################
