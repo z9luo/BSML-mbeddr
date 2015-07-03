@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/BSML/BSML.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/BSML/sandbox/BSML.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/BSML_Case_study/BSML_Case_study.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/BSML_test/BSML_test.msd" folder="" />
     </projectModules>
   </component>
