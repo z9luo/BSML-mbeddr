@@ -22,6 +22,7 @@ src/BSML/_spreferences/
 classes_gen/
 source_gen/
 source_gen.caches/
+src/BSML/solutions/
 ###################
 # Web publish log #
 ###################
