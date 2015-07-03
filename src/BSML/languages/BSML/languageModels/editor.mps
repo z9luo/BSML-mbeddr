@@ -644,7 +644,7 @@
         <property name="text" nameId="tpc2.1073389577007" value="on" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="3372386639988854706" nodeInfo="ng">
-        <property name="separatorText" nameId="tpc2.1140524450557" value=" &amp;&amp;" />
+        <property name="separatorText" nameId="tpc2.1140524450557" value=" ∧" />
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="cmy.3372386639988661877" />
         <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="3372386639988854707" nodeInfo="nn" />
       </node>
@@ -889,6 +889,21 @@
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="cmy.4517681580277145875" resolveInfo="Event" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="6137873808666215728" nodeInfo="nn">
       <property name="attractsFocus" nameId="tpc2.1130859485024" value="2" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4312019340365596130" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="rendezvous" />
+        <node role="renderingCondition" roleId="tpc2.1142887637401" type="tpc2.QueryFunction_NodeCondition" typeId="tpc2.1142886221719" id="4312019340365597425" nodeInfo="nn">
+          <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4312019340365597426" nodeInfo="sn">
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4312019340365624609" nodeInfo="nn">
+              <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4312019340365625284" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpc2.ConceptFunctionParameter_node" typeId="tpc2.1142886811589" id="4312019340365624608" nodeInfo="nn" />
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="4312019340365630430" nodeInfo="nn">
+                  <link role="property" roleId="tp25.1138056395725" targetNodeId="cmy.4312019340365351542" resolveInfo="rendezvous" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8197221902186656608" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="in" />
         <node role="renderingCondition" roleId="tpc2.1142887637401" type="tpc2.QueryFunction_NodeCondition" typeId="tpc2.1142886221719" id="8197221902186657635" nodeInfo="nn">
