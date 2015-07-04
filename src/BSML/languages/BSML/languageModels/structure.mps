@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="18">
+<model modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="19">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -9,12 +9,12 @@
   <import index="x27k" modelUID="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" version="9" />
   <import index="c4fa" modelUID="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" version="9" />
   <import index="clbe" modelUID="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" version="13" />
-  <import index="cmy" modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="18" implicit="yes" />
+  <import index="cmy" modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="19" implicit="yes" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="6318815719351411612" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="BigStepMaximalityEnum" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="semantics" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
     <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="6318815719351411619" />
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6318815719351411613" nodeInfo="ig">
@@ -32,7 +32,7 @@
   </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="5600653557319230941" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="CompositionOpEnum" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="semantics" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="5600653557319230942" nodeInfo="ig">
       <property name="internalValue" nameId="tpce.1083923523171" value="0" />
@@ -65,7 +65,7 @@
   </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="6318815719351411883" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ConcurrencyEnum" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="semantics" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
     <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="6318815719351411884" />
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6318815719351411884" nodeInfo="ig">
@@ -79,7 +79,7 @@
   </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="6318815719351412039" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="EventLifelineEnum" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="semantics" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6318815719351412040" nodeInfo="ig">
       <property name="internalValue" nameId="tpce.1083923523171" value="0" />
@@ -92,7 +92,7 @@
   </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="6318815719351412031" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="PreemptionEnum" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="semantics" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6318815719351412033" nodeInfo="ig">
       <property name="internalValue" nameId="tpce.1083923523171" value="1" />
@@ -101,7 +101,7 @@
   </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="6318815719351412047" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="PriorityEnum" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="semantics" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
     <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="6318815719351412049" />
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6318815719351412048" nodeInfo="ig">
@@ -115,7 +115,7 @@
   </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="6318815719351412035" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="SmallStepConsistencyEnum" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="semantics" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
     <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="6318815719351412037" />
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6318815719351412036" nodeInfo="ig">
@@ -128,9 +128,9 @@
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6318815719351411497" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="StateMachineSemanticsConfigItem" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="state machine semantics" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="semantics" />
+    <property name="name" nameId="tpck.1169194664001" value="StateMachineConfigItem" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="state-machine semantics" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6318815719351411553" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="bigStepMaximality" />
@@ -187,6 +187,10 @@
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7950215811414405627" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="RHS" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="7950215811427461812" resolveInfo="MemoryProtocolEnum" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4942964015635921046" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="lockSystem" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="4942964015635891087" resolveInfo="LockSystemEnum" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6318815719351411550" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vs0r.4459718605982007336" resolveInfo="IConfigurationItem" />
@@ -550,7 +554,7 @@
   </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="7950215811427461812" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="MemoryProtocolEnum" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="semantics" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
     <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="7950215811427461813" />
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="7950215811427461813" nodeInfo="ig">
@@ -563,7 +567,7 @@
     </node>
   </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="3032902167917117926" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="semantics" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <property name="name" nameId="tpck.1169194664001" value="HeirPriorityRegionEnum" />
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
     <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="3032902167917117927" />
@@ -581,7 +585,7 @@
     </node>
   </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="3032902167917117935" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="semantics" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <property name="name" nameId="tpck.1169194664001" value="HeirPrioritySchemeEnum" />
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
     <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="3032902167917117936" />
@@ -595,7 +599,7 @@
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3032902167918628572" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="semantics" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <property name="name" nameId="tpck.1169194664001" value="PriorityAnnotation" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.3364660638048049748" resolveInfo="NodeAttribute" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3032902167918628575" nodeInfo="ig">
@@ -610,7 +614,7 @@
     </node>
   </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="6137873808666367767" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="semantics" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <property name="name" nameId="tpck.1169194664001" value="InEventEnum" />
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
     <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="6137873808666367769" />
@@ -628,7 +632,7 @@
     </node>
   </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="6137873808666367784" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="semantics" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <property name="name" nameId="tpck.1169194664001" value="OutEventEnum" />
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
     <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="6137873808666367785" />
@@ -718,6 +722,31 @@
         <link role="concept" roleId="tpce.6054523464627965081" targetNodeId="x27k.6437088627575723997" resolveInfo="FunctionSignature" />
       </node>
     </node>
+  </root>
+  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="4942964015635891087" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
+    <property name="name" nameId="tpck.1169194664001" value="LockSystemEnum" />
+    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4942964015635891088" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="0" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="ASYNCRONOUS" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4942964015635891089" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="1" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="SYNCRONOUS" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4942964015637514660" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
+    <property name="name" nameId="tpck.1169194664001" value="StartBigStepBlock" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="start" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="6318815719352791641" resolveInfo="AbstractBlock" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4942964015637518060" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
+    <property name="name" nameId="tpck.1169194664001" value="EndBigStepBlock" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="end" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="6318815719352791641" resolveInfo="AbstractBlock" />
   </root>
 </model>
 
