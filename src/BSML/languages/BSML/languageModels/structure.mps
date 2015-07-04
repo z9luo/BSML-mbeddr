@@ -617,7 +617,7 @@
     </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6137873808666367769" nodeInfo="ig">
       <property name="internalValue" nameId="tpce.1083923523171" value="1" />
-      <property name="externalValue" nameId="tpce.1083923523172" value="RECEIVED AS ENVIRONMENTAL" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="RECEIVED IN FIRST SMALL" />
     </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="8197221902187756191" nodeInfo="ig">
       <property name="internalValue" nameId="tpce.1083923523171" value="2" />
@@ -635,7 +635,7 @@
     </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6137873808666367786" nodeInfo="ig">
       <property name="internalValue" nameId="tpce.1083923523171" value="1" />
-      <property name="externalValue" nameId="tpce.1083923523172" value="GENERATED IN LAST SMALL STEP" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="GENERATED IN LAST SMALL" />
     </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="8197221902187756195" nodeInfo="ig">
       <property name="externalValue" nameId="tpce.1083923523172" value="HYBRID" />
