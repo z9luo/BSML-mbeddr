@@ -542,7 +542,7 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="sm_handle" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="c4fa.2486081302459354921" resolveInfo="IVariableReference" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="mj1l.8860443239512128050" resolveInfo="Expression" />
     </node>
   </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="7950215811427461812" nodeInfo="ng">
@@ -610,7 +610,7 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="semantics" />
     <property name="name" nameId="tpck.1169194664001" value="InEventEnum" />
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
-    <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="6137873808666367768" />
+    <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="6137873808666367769" />
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6137873808666367768" nodeInfo="ig">
       <property name="internalValue" nameId="tpce.1083923523171" value="0" />
       <property name="externalValue" nameId="tpce.1083923523172" value="SYNTACTIC" />
