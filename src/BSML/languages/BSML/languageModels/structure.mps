@@ -446,6 +446,9 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1054945346934023168" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpee.1237545921771" resolveInfo="IContainsStatementList" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4942964015634694576" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vs0r.7139820346881179811" resolveInfo="IVisibleElementProvider" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5512313148880381807" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="StateLocalDeclaration" />
@@ -711,8 +714,8 @@
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.3364660638048049748" resolveInfo="NodeAttribute" />
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.AttributeInfo" typeId="tpce.2992811758677295509" id="7885136595499032712" nodeInfo="ng">
       <property name="role" nameId="tpce.7588428831955550663" value="sm_func" />
-      <node role="attributed" roleId="tpce.7588428831947959310" type="tpce.AttributeInfo_AttributedConcept" typeId="tpce.6054523464627964745" id="7885136595499032716" nodeInfo="ng">
-        <link role="concept" roleId="tpce.6054523464627965081" targetNodeId="x27k.6437088627575724001" resolveInfo="Function" />
+      <node role="attributed" roleId="tpce.7588428831947959310" type="tpce.AttributeInfo_AttributedConcept" typeId="tpce.6054523464627964745" id="4942964015634755862" nodeInfo="ng">
+        <link role="concept" roleId="tpce.6054523464627965081" targetNodeId="x27k.6437088627575723997" resolveInfo="FunctionSignature" />
       </node>
     </node>
   </root>
