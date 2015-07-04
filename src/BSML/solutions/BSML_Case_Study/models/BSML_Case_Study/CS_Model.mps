@@ -568,11 +568,18 @@
                 <link role="var" roleId="cmy.3372386639988661787" targetNodeId="7885136595488643887" resolveInfo="any" />
               </node>
             </node>
-          </node>
-        </node>
-        <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.EndBigStepBlock" typeId="cmy.4942964015637518060" id="4942964015639001835" nodeInfo="ng">
-          <node role="content" roleId="cmy.6318815719352791642" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="4942964015639001836" nodeInfo="ng">
-            <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.Statement" typeId="c4fa.4185783222026464515" id="4942964015639001837" nodeInfo="ng" />
+            <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.EndBigStepBlock" typeId="cmy.4942964015637518060" id="4942964015640875536" nodeInfo="ng">
+              <node role="content" roleId="cmy.6318815719352791642" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="4942964015640875537" nodeInfo="ng">
+                <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="4942964015640875630" nodeInfo="ng">
+                  <node role="expr" roleId="c4fa.7254843406768833939" type="x27k.FunctionCall" typeId="x27k.5950410542643524492" id="4942964015640875628" nodeInfo="ng">
+                    <link role="function" roleId="x27k.5950410542643524493" targetNodeId="m45l.4942964015637421271" resolveInfo="g_mutex_unlock" />
+                    <node role="actuals" roleId="x27k.5950410542643524495" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="4942964015640875644" nodeInfo="ng">
+                      <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="4942964015637930273" resolveInfo="mutex" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -602,6 +609,29 @@
           </node>
           <node role="init" roleId="c4fa.4185783222026502647" type="cmy.SMStart" typeId="cmy.8607120610936003932" id="4942964015637480633" nodeInfo="ng">
             <link role="sm_ref" roleId="cmy.7282629872789989665" targetNodeId="7885136595488637377" resolveInfo="ControlModel" />
+          </node>
+        </node>
+        <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.ExpressionStatement" typeId="c4fa.7254843406768833938" id="4942964015641118431" nodeInfo="ng">
+          <node role="expr" roleId="c4fa.7254843406768833939" type="x27k.FunctionCall" typeId="x27k.5950410542643524492" id="4942964015641118432" nodeInfo="ng">
+            <link role="function" roleId="x27k.5950410542643524493" targetNodeId="m45l.4942964015637420626" resolveInfo="g_mutex_lock" />
+            <node role="actuals" roleId="x27k.5950410542643524495" type="yq40.ReferenceExpr" typeId="yq40.1595838349830846141" id="4942964015641118433" nodeInfo="ng">
+              <node role="expression" roleId="mj1l.7254843406768839760" type="x27k.GlobalVarRef" typeId="x27k.6610873504380357354" id="4942964015641118434" nodeInfo="ng">
+                <link role="var" roleId="x27k.6610873504380357355" targetNodeId="4942964015637470212" resolveInfo="mutex" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.SMTrigger" typeId="cmy.439124252221539684" id="4942964015641120433" nodeInfo="ng">
+          <node role="events" roleId="cmy.7641948820054579927" type="cmy.SMGenEvent" typeId="cmy.7641948820054566386" id="4942964015641123659" nodeInfo="ng">
+            <link role="event_ref" roleId="cmy.439124252221590049" targetNodeId="4942964015637929912" resolveInfo="mutexInit" />
+            <node role="actuals" roleId="cmy.439124252221590038" type="yq40.ReferenceExpr" typeId="yq40.1595838349830846141" id="4942964015641124595" nodeInfo="ng">
+              <node role="expression" roleId="mj1l.7254843406768839760" type="x27k.GlobalVarRef" typeId="x27k.6610873504380357354" id="4942964015641124625" nodeInfo="ng">
+                <link role="var" roleId="x27k.6610873504380357355" targetNodeId="4942964015637470212" resolveInfo="mutex" />
+              </node>
+            </node>
+          </node>
+          <node role="sm_handle" roleId="cmy.7282629872790574271" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="4942964015641122473" nodeInfo="ng">
+            <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="4942964015637477034" resolveInfo="sm" />
           </node>
         </node>
         <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.WhileStatement" typeId="c4fa.8441331188640771826" id="4942964015637485938" nodeInfo="ng">
@@ -650,12 +680,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="4942964015635877857" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="empty_1436029461202_2" />
-    </node>
-    <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="7885136595493198269" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="empty_1435967936296_1" />
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="x27k.Function" typeId="x27k.6437088627575724001" id="7885136595493199127" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="debugger_start" />

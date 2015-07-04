@@ -741,12 +741,18 @@
     <property name="name" nameId="tpck.1169194664001" value="StartBigStepBlock" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="start" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="6318815719352791641" resolveInfo="AbstractBlock" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4942964015641148784" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vs0r.7139820346881179811" resolveInfo="IVisibleElementProvider" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4942964015637518060" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
     <property name="name" nameId="tpck.1169194664001" value="EndBigStepBlock" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="end" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="6318815719352791641" resolveInfo="AbstractBlock" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4942964015641140266" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vs0r.7139820346881179811" resolveInfo="IVisibleElementProvider" />
+    </node>
   </root>
 </model>
 
