@@ -4,6 +4,7 @@
 #*.com
 *.class
 *.history
+.DS_Store
 ###############
 # Directories #
 ###############
@@ -22,9 +23,6 @@ src/BSML/_spreferences/
 src/BSML/solutions/BSML_Case_Study/classes_gen/
 src/BSML/solutions/BSML_Case_Study/source_gen/
 src/BSML/solutions/BSML_Case_Study/source_gen.caches/
-*source_gen/*
-*source_gen.caches/*
-*src/BSML/solutions/*
 ###################
 # Web publish log #
 ###################
@@ -54,7 +52,6 @@ src/BSML/solutions/BSML_Case_Study/source_gen.caches/
 #*.sqlite
 # OS generated files #
 ######################
-.DS_Store?
 ehthumbs.db
 Icon?
 Thumbs.db
