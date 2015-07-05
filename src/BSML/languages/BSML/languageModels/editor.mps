@@ -707,7 +707,8 @@
         <property name="text" nameId="tpc2.1073389577007" value="on" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="7885136595492306498" nodeInfo="ng">
-        <property name="attractsFocus" nameId="tpc2.1130859485024" value="1" />
+        <property name="attractsFocus" nameId="tpc2.1130859485024" value="0" />
+        <property name="separatorText" nameId="tpc2.1140524450557" value=" ∧" />
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="cmy.3372386639988661877" />
         <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="7885136595492306500" nodeInfo="nn" />
       </node>
@@ -871,9 +872,10 @@
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3032902167918628600" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="cmy.3032902167918628572" resolveInfo="PriorityAnnotation" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="3032902167918628653" nodeInfo="nn">
+      <property name="attractsFocus" nameId="tpc2.1130859485024" value="2" />
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="3032902167918959534" nodeInfo="nn">
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="3032902167918959536" nodeInfo="nn">
           <property name="flag" nameId="tpc2.1186414551515" value="false" />
@@ -1264,7 +1266,7 @@
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="cmy.4942964015637514660" resolveInfo="StartBigStepBlock" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="4942964015637514775" nodeInfo="nn">
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4942964015637514776" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="start big-step" />
+        <property name="text" nameId="tpc2.1073389577007" value="big-step start" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="4942964015637514777" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="cmy.6318815719352791642" />
@@ -1289,7 +1291,7 @@
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="cmy.4942964015637518060" resolveInfo="EndBigStepBlock" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="4942964015637522028" nodeInfo="nn">
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4942964015637522029" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="end big-step" />
+        <property name="text" nameId="tpc2.1073389577007" value="big-step end" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="4942964015637522030" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="cmy.6318815719352791642" />
