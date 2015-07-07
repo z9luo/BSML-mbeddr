@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="19">
+<model modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="20">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -9,7 +9,7 @@
   <import index="x27k" modelUID="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" version="9" />
   <import index="c4fa" modelUID="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" version="9" />
   <import index="clbe" modelUID="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" version="13" />
-  <import index="cmy" modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="19" implicit="yes" />
+  <import index="cmy" modelUID="r:1a4e1f4d-fa44-4c1e-ab12-214ac9c46fe3(BSML.structure)" version="20" implicit="yes" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="6318815719351411612" nodeInfo="ng">
@@ -573,7 +573,7 @@
     <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="3032902167917117927" />
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="3032902167917117927" nodeInfo="ig">
       <property name="internalValue" nameId="tpce.1083923523171" value="0" />
-      <property name="externalValue" nameId="tpce.1083923523172" value="ARENA" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="SCOPE" />
     </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="3032902167917117928" nodeInfo="ig">
       <property name="externalValue" nameId="tpce.1083923523172" value="SOURCE" />
@@ -752,6 +752,23 @@
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="6318815719352791641" resolveInfo="AbstractBlock" />
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4942964015641140266" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vs0r.7139820346881179811" resolveInfo="IVisibleElementProvider" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3955981243206779995" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
+    <property name="name" nameId="tpck.1169194664001" value="SMElementPair" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3955981243206779996" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="r1" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="6137873808667978235" resolveInfo="ISMNamedElement" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3955981243206779998" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="r2" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="6137873808667978235" resolveInfo="ISMNamedElement" />
     </node>
   </root>
 </model>
