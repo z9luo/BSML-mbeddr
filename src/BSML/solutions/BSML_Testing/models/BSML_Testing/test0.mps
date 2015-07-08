@@ -837,10 +837,8 @@
     <node role="configurationItems" roleId="vs0r.4459718605982007338" type="k146.ReportingConfiguration" typeId="k146.4459718605982051949" id="6618788459930012527" nodeInfo="ng">
       <node role="strategy" roleId="k146.4459718605982051999" type="k146.PrintfReportingStrategy" typeId="k146.4459718605982051980" id="6618788459930012528" nodeInfo="ng" />
     </node>
-    <node role="configurationItems" roleId="vs0r.4459718605982007338" type="cmy.StateMachineConfigItem" typeId="cmy.6318815719351411497" id="6618788459930012535" nodeInfo="ng">
-      <property name="bigStepMaximality" nameId="cmy.6318815719351411553" value="2" />
+    <node role="configurationItems" roleId="vs0r.4459718605982007338" type="cmy.StateMachineConfigItem" typeId="cmy.6318815719351411497" id="5532602519098604737" nodeInfo="ng">
       <property name="concurrency" nameId="cmy.6318815719351659473" value="1" />
-      <property name="smallStepConsistency" nameId="cmy.6318815719351659505" value="1" />
     </node>
     <node role="binaries" roleId="51wr.5046689135694070731" type="51wr.Executable" typeId="51wr.5046689135693761554" id="6618788459930012540" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="test" />
