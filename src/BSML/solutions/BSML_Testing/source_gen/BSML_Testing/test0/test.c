@@ -28,10 +28,10 @@ typedef enum ___test_Dummy_Enum{
 } test_Dummy_Enum;
 
 typedef enum ___test_test__SM_EventEnum{
+  test_test__SM_EventEnum__test__SM__main__cocurrent_trans,
   test_test__SM_EventEnum__test__SM__main__e1,
   test_test__SM_EventEnum__test__SM__main__e2,
   test_test__SM_EventEnum__test__SM__main__e3,
-  test_test__SM_EventEnum__test__SM__main__b__ba__cocurrent_trans,
   test_test__SM_EventEnum___sm_terminate_e
 } test_test__SM_EventEnum;
 
@@ -63,11 +63,11 @@ typedef enum ___test_test__SM_RegionEnum{
 } test_test__SM_RegionEnum;
 
 typedef enum ___test_test__SM_TransEnum{
+  test_test__SM_TransEnum__test__SM__main__t5,
+  test_test__SM_TransEnum__test__SM__main__t7,
   test_test__SM_TransEnum__test__SM__main__t1,
   test_test__SM_TransEnum__test__SM__main__t2,
-  test_test__SM_TransEnum__test__SM__main__t3,
-  test_test__SM_TransEnum__test__SM__main__b__ba__baa__baaa__t5,
-  test_test__SM_TransEnum__test__SM__main__b__ba__baa__baab__t7
+  test_test__SM_TransEnum__test__SM__main__t3
 } test_test__SM_TransEnum;
 
 typedef struct test_test__SM_SMStruct_static test_test__SM_SMStruct_static_t;
@@ -123,15 +123,15 @@ static void test_test_entry_and_hier(void);
 
 static void test_test_sem_consistency(void);
 
+static void test_action__test__SM__main__t5(test_test__SM_SMStruct_t* snapshot_big, test_test__SM_SMStruct_t* snapshot_small, test_test__SM_SMStruct_t* snapshot_cur);
+
+static void test_action__test__SM__main__t7(test_test__SM_SMStruct_t* snapshot_big, test_test__SM_SMStruct_t* snapshot_small, test_test__SM_SMStruct_t* snapshot_cur);
+
 static void test_action__test__SM__main__t1(test_test__SM_SMStruct_t* snapshot_big, test_test__SM_SMStruct_t* snapshot_small, test_test__SM_SMStruct_t* snapshot_cur);
 
 static void test_action__test__SM__main__t2(test_test__SM_SMStruct_t* snapshot_big, test_test__SM_SMStruct_t* snapshot_small, test_test__SM_SMStruct_t* snapshot_cur);
 
 static void test_action__test__SM__main__t3(test_test__SM_SMStruct_t* snapshot_big, test_test__SM_SMStruct_t* snapshot_small, test_test__SM_SMStruct_t* snapshot_cur);
-
-static void test_action__test__SM__main__b__ba__baa__baaa__t5(test_test__SM_SMStruct_t* snapshot_big, test_test__SM_SMStruct_t* snapshot_small, test_test__SM_SMStruct_t* snapshot_cur);
-
-static void test_action__test__SM__main__b__ba__baa__baab__t7(test_test__SM_SMStruct_t* snapshot_big, test_test__SM_SMStruct_t* snapshot_small, test_test__SM_SMStruct_t* snapshot_cur);
 
 static void test_init_cascade_test__SM__main(test_test__SM_SMStruct_t* snapshot_big, test_test__SM_SMStruct_t* snapshot_small, test_test__SM_SMStruct_t* snapshot_cur);
 
@@ -403,7 +403,7 @@ static void test_test_sem_consistency(void)
   {
     void** args_0 = 0;
     test_EnvInput* input = g_ptr_array_new();
-    g_ptr_array_add(input, test_create_event(test_test__SM_EventEnum__test__SM__main__b__ba__cocurrent_trans, args_0));
+    g_ptr_array_add(input, test_create_event(test_test__SM_EventEnum__test__SM__main__cocurrent_trans, args_0));
     g_async_queue_push((sm)->queue, input);
   }
   {
@@ -425,6 +425,14 @@ static void test_test_sem_consistency(void)
   
 }
 
+static void test_action__test__SM__main__t5(test_test__SM_SMStruct_t* snapshot_big, test_test__SM_SMStruct_t* snapshot_small, test_test__SM_SMStruct_t* snapshot_cur) 
+{
+}
+
+static void test_action__test__SM__main__t7(test_test__SM_SMStruct_t* snapshot_big, test_test__SM_SMStruct_t* snapshot_small, test_test__SM_SMStruct_t* snapshot_cur) 
+{
+}
+
 static void test_action__test__SM__main__t1(test_test__SM_SMStruct_t* snapshot_big, test_test__SM_SMStruct_t* snapshot_small, test_test__SM_SMStruct_t* snapshot_cur) 
 {
 }
@@ -434,14 +442,6 @@ static void test_action__test__SM__main__t2(test_test__SM_SMStruct_t* snapshot_b
 }
 
 static void test_action__test__SM__main__t3(test_test__SM_SMStruct_t* snapshot_big, test_test__SM_SMStruct_t* snapshot_small, test_test__SM_SMStruct_t* snapshot_cur) 
-{
-}
-
-static void test_action__test__SM__main__b__ba__baa__baaa__t5(test_test__SM_SMStruct_t* snapshot_big, test_test__SM_SMStruct_t* snapshot_small, test_test__SM_SMStruct_t* snapshot_cur) 
-{
-}
-
-static void test_action__test__SM__main__b__ba__baa__baab__t7(test_test__SM_SMStruct_t* snapshot_big, test_test__SM_SMStruct_t* snapshot_small, test_test__SM_SMStruct_t* snapshot_cur) 
 {
 }
 
@@ -1736,15 +1736,7 @@ static void test_execute_big_step_test__SM(test_test__SM_SMStruct_t* snapshot_bi
                      * regions_need_skip stores the RegionEnum of regions need to be skipped for big-steo maximality if this transition is executed
                      */
 
-                    trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main] = true;
-                    trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__a__aa] = true;
-                    trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__a__ab] = true;
-                    trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__b__ba] = true;
-                    trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__b__ba__baa__baaa] = true;
-                    trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__b__ba__baa__baab] = true;
-                    trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__b__ba__baa__baac] = true;
-                    trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__b__bb] = true;
-                    trans->textual_order = 0;
+                    trans->textual_order = 2;
                     g_ptr_array_add(enabled_transitions, trans);
                     /* 
                      * hier_compare_enum stores the int value for state/target/scope enum (either StateEnum or RegionEnum.
@@ -1801,37 +1793,54 @@ static void test_execute_big_step_test__SM(test_test__SM_SMStruct_t* snapshot_bi
                        * collect enabled transitions
                        */
 
-                      if ( snapshot_small->present_events[test_test__SM_EventEnum__test__SM__main__b__ba__cocurrent_trans] != 0 ) 
+                      if ( snapshot_small->present_events[test_test__SM_EventEnum__test__SM__main__cocurrent_trans] != 0 ) 
                       {
                         if ( true ) 
                         {
-                          test_test__SM_Transition* trans = test_create_trans_test__SM("test.SM.main.b.ba.baa.baaa.t5", "test.SM.main.b.ba.baa.baaa.baaaa", "test.SM.main.b.ba.baa.baaa.baaab", &test_action__test__SM__main__b__ba__baa__baaa__t5);
+                          test_test__SM_Transition* trans = test_create_trans_test__SM("test.SM.main.t5", "test.SM.main.b.ba.baa.baaa.baaaa", "test.SM.main.a.aa.aaa", &test_action__test__SM__main__t5);
+                          {
+                            /* 
+                             * enter states/regions on the way from arena to target state; enter sibling regions cascadely on the way.
+                             */
+
+                            {
+                              g_ptr_array_add(trans->cur_state_sets, test_create_cur_state_set_test__SM(&(snapshot_cur->test__SM__main____cur_state), test_test__SM_StateEnum__test__SM__main__a));
+                              g_ptr_array_add(trans->entry_refs, &test_on_entry_test__SM__main__a);
+                            }
+                          }
+                          {
+                            /* 
+                             * enter states/regions on the way from arena to target state; enter sibling regions cascadely on the way.
+                             */
+
+                            {
+                              g_ptr_array_add(trans->entry_refs, &test_on_entry_cascade_test__SM__main__a__ab);
+                              g_ptr_array_add(trans->entry_refs, &test_on_entry_test__SM__main__a__aa);
+                            }
+                          }
                           /* 
                            * enter the target state at last, cascadely
                            */
 
-                          g_ptr_array_add(trans->cur_state_sets, test_create_cur_state_set_test__SM(&(snapshot_cur->test__SM__main__b__ba__baa__baaa____cur_state), test_test__SM_StateEnum__test__SM__main__b__ba__baa__baaa__baaab));
-                          g_ptr_array_add(trans->entry_refs, &test_on_entry_cascade_test__SM__main__b__ba__baa__baaa__baaab);
+                          g_ptr_array_add(trans->cur_state_sets, test_create_cur_state_set_test__SM(&(snapshot_cur->test__SM__main__a__aa____cur_state), test_test__SM_StateEnum__test__SM__main__a__aa__aaa));
+                          g_ptr_array_add(trans->entry_refs, &test_on_entry_cascade_test__SM__main__a__aa__aaa);
                           
                           trans->source_region_enum = test_test__SM_RegionEnum__test__SM__main__b__ba__baa__baaa;
-                          trans->target_region_enum = test_test__SM_RegionEnum__test__SM__main__b__ba__baa__baaa;
-                          trans->arena_enum = test_test__SM_RegionEnum__test__SM__main__b__ba__baa__baaa;
+                          trans->target_region_enum = test_test__SM_RegionEnum__test__SM__main__a__aa;
+                          trans->arena_enum = test_test__SM_RegionEnum__test__SM__main;
                           trans->enter_stable_state = false;
                           /* 
                            * regions_need_skip stores the RegionEnum of regions need to be skipped for big-steo maximality if this transition is executed
                            */
 
-                          trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__b__ba__baa__baaa] = true;
-                          trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__b__ba] = true;
-                          trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main] = true;
-                          trans->textual_order = 3;
+                          trans->textual_order = 0;
                           g_ptr_array_add(enabled_transitions, trans);
                           /* 
                            * hier_compare_enum stores the int value for state/target/scope enum (either StateEnum or RegionEnum.
                            * For hierarchical priority comparison
                            */
 
-                          trans->hier_compare_enum = 13 + test_test__SM_RegionEnum__test__SM__main__b__ba__baa__baaa;
+                          trans->hier_compare_enum = 13 + test_test__SM_RegionEnum__test__SM__main;
                         }
                       }
                       break;
@@ -1866,37 +1875,54 @@ static void test_execute_big_step_test__SM(test_test__SM_SMStruct_t* snapshot_bi
                        * collect enabled transitions
                        */
 
-                      if ( snapshot_small->present_events[test_test__SM_EventEnum__test__SM__main__b__ba__cocurrent_trans] != 0 ) 
+                      if ( snapshot_small->present_events[test_test__SM_EventEnum__test__SM__main__cocurrent_trans] != 0 ) 
                       {
                         if ( true ) 
                         {
-                          test_test__SM_Transition* trans = test_create_trans_test__SM("test.SM.main.b.ba.baa.baab.t7", "test.SM.main.b.ba.baa.baab.baaba", "test.SM.main.b.ba.baa.baab.baabb", &test_action__test__SM__main__b__ba__baa__baab__t7);
+                          test_test__SM_Transition* trans = test_create_trans_test__SM("test.SM.main.t7", "test.SM.main.b.ba.baa.baab.baaba", "test.SM.main.a.ab.aba", &test_action__test__SM__main__t7);
+                          {
+                            /* 
+                             * enter states/regions on the way from arena to target state; enter sibling regions cascadely on the way.
+                             */
+
+                            {
+                              g_ptr_array_add(trans->cur_state_sets, test_create_cur_state_set_test__SM(&(snapshot_cur->test__SM__main____cur_state), test_test__SM_StateEnum__test__SM__main__a));
+                              g_ptr_array_add(trans->entry_refs, &test_on_entry_test__SM__main__a);
+                            }
+                          }
+                          {
+                            /* 
+                             * enter states/regions on the way from arena to target state; enter sibling regions cascadely on the way.
+                             */
+
+                            {
+                              g_ptr_array_add(trans->entry_refs, &test_on_entry_cascade_test__SM__main__a__aa);
+                              g_ptr_array_add(trans->entry_refs, &test_on_entry_test__SM__main__a__ab);
+                            }
+                          }
                           /* 
                            * enter the target state at last, cascadely
                            */
 
-                          g_ptr_array_add(trans->cur_state_sets, test_create_cur_state_set_test__SM(&(snapshot_cur->test__SM__main__b__ba__baa__baab____cur_state), test_test__SM_StateEnum__test__SM__main__b__ba__baa__baab__baabb));
-                          g_ptr_array_add(trans->entry_refs, &test_on_entry_cascade_test__SM__main__b__ba__baa__baab__baabb);
+                          g_ptr_array_add(trans->cur_state_sets, test_create_cur_state_set_test__SM(&(snapshot_cur->test__SM__main__a__ab____cur_state), test_test__SM_StateEnum__test__SM__main__a__ab__aba));
+                          g_ptr_array_add(trans->entry_refs, &test_on_entry_cascade_test__SM__main__a__ab__aba);
                           
                           trans->source_region_enum = test_test__SM_RegionEnum__test__SM__main__b__ba__baa__baab;
-                          trans->target_region_enum = test_test__SM_RegionEnum__test__SM__main__b__ba__baa__baab;
-                          trans->arena_enum = test_test__SM_RegionEnum__test__SM__main__b__ba__baa__baab;
+                          trans->target_region_enum = test_test__SM_RegionEnum__test__SM__main__a__ab;
+                          trans->arena_enum = test_test__SM_RegionEnum__test__SM__main;
                           trans->enter_stable_state = false;
                           /* 
                            * regions_need_skip stores the RegionEnum of regions need to be skipped for big-steo maximality if this transition is executed
                            */
 
-                          trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__b__ba__baa__baab] = true;
-                          trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__b__ba] = true;
-                          trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main] = true;
-                          trans->textual_order = 4;
+                          trans->textual_order = 1;
                           g_ptr_array_add(enabled_transitions, trans);
                           /* 
                            * hier_compare_enum stores the int value for state/target/scope enum (either StateEnum or RegionEnum.
                            * For hierarchical priority comparison
                            */
 
-                          trans->hier_compare_enum = 13 + test_test__SM_RegionEnum__test__SM__main__b__ba__baa__baab;
+                          trans->hier_compare_enum = 13 + test_test__SM_RegionEnum__test__SM__main;
                         }
                       }
                       break;
@@ -1968,15 +1994,7 @@ static void test_execute_big_step_test__SM(test_test__SM_SMStruct_t* snapshot_bi
                      * regions_need_skip stores the RegionEnum of regions need to be skipped for big-steo maximality if this transition is executed
                      */
 
-                    trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main] = true;
-                    trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__a__aa] = true;
-                    trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__a__ab] = true;
-                    trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__b__ba] = true;
-                    trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__b__ba__baa__baaa] = true;
-                    trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__b__ba__baa__baab] = true;
-                    trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__b__ba__baa__baac] = true;
-                    trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__b__bb] = true;
-                    trans->textual_order = 1;
+                    trans->textual_order = 3;
                     g_ptr_array_add(enabled_transitions, trans);
                     /* 
                      * hier_compare_enum stores the int value for state/target/scope enum (either StateEnum or RegionEnum.
@@ -2069,15 +2087,7 @@ static void test_execute_big_step_test__SM(test_test__SM_SMStruct_t* snapshot_bi
                * regions_need_skip stores the RegionEnum of regions need to be skipped for big-steo maximality if this transition is executed
                */
 
-              trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main] = true;
-              trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__a__aa] = true;
-              trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__a__ab] = true;
-              trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__b__ba] = true;
-              trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__b__ba__baa__baaa] = true;
-              trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__b__ba__baa__baab] = true;
-              trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__b__ba__baa__baac] = true;
-              trans->regions_need_disabled[test_test__SM_RegionEnum__test__SM__main__b__bb] = true;
-              trans->textual_order = 2;
+              trans->textual_order = 4;
               g_ptr_array_add(enabled_transitions, trans);
               /* 
                * hier_compare_enum stores the int value for state/target/scope enum (either StateEnum or RegionEnum.
@@ -2172,7 +2182,7 @@ static void test_execute_big_step_test__SM(test_test__SM_SMStruct_t* snapshot_bi
 static gpointer test_sm_start_test__SM(gpointer queue) 
 {
   printf("$$other: other info (");
-  printf("info=%s",(((char*)("SINGLE "))));
+  printf("info=%s",(((char*)("MANY"))));
   printf(") @test:sm_start_test__SM?null\n");
   
   test_test__SM_SMStruct_t snapshot_big;

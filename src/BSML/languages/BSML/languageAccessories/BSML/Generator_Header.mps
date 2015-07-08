@@ -1474,6 +1474,13 @@
         <property name="name" nameId="tpck.1169194664001" value="a_region_enum" />
       </node>
     </node>
+    <node role="contents" roleId="x27k.6437088627575722833" type="clbe.EnumDeclaration" typeId="clbe.8811614583515725851" id="7847088120646349250" nodeInfo="ng">
+      <property name="exported" nameId="x27k.1317894735999272944" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="TransEnum" />
+      <node role="literals" roleId="clbe.8811614583515725857" type="clbe.EnumLiteral" typeId="clbe.8811614583515725853" id="7847088120646349251" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="a_trans_enum" />
+      </node>
+    </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="clbe.StructDeclaration" typeId="clbe.6394819151180597807" id="3955981243204368862" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="SMStructStatic" />
       <property name="exported" nameId="x27k.1317894735999272944" value="true" />
@@ -1519,6 +1526,29 @@
             </node>
           </node>
           <node role="sizeExpr" roleId="yq40.1452920870317474611" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3955981243204422584" nodeInfo="ng">
+            <property name="unsigned" nameId="mj1l.5192961572790190887" value="false" />
+            <property name="value" nameId="mj1l.2212975673976043696" value="20" />
+          </node>
+        </node>
+      </node>
+      <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="7847088120646494807" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="trans_interrupt" />
+        <node role="type" roleId="mj1l.318113533128716676" type="yq40.ArrayType" typeId="yq40.5679441017214012545" id="7847088120646494808" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <node role="baseType" roleId="c4fa.7763322639126652758" type="yq40.ArrayType" typeId="yq40.5679441017214012545" id="7847088120646494809" nodeInfo="ng">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+            <node role="baseType" roleId="c4fa.7763322639126652758" type="mj1l.BooleanType" typeId="mj1l.8860443239512128058" id="7847088120646494810" nodeInfo="ng">
+              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+            </node>
+            <node role="sizeExpr" roleId="yq40.1452920870317474611" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="7847088120646494811" nodeInfo="ng">
+              <property name="unsigned" nameId="mj1l.5192961572790190887" value="false" />
+              <property name="value" nameId="mj1l.2212975673976043696" value="20" />
+            </node>
+          </node>
+          <node role="sizeExpr" roleId="yq40.1452920870317474611" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="7847088120646494825" nodeInfo="ng">
             <property name="unsigned" nameId="mj1l.5192961572790190887" value="false" />
             <property name="value" nameId="mj1l.2212975673976043696" value="20" />
           </node>
@@ -1843,6 +1873,14 @@
           </node>
         </node>
       </node>
+      <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="7847088120649526033" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="trans_enum" />
+        <node role="type" roleId="mj1l.318113533128716676" type="clbe.EnumType" typeId="clbe.8811614583515725893" id="7847088120649526031" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <link role="enum" roleId="clbe.8811614583515725894" targetNodeId="7847088120646349250" resolveInfo="TransEnum" />
+        </node>
+      </node>
       <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="8025659640012827756" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="trans_name" />
         <node role="type" roleId="mj1l.318113533128716676" type="yq40.StringType" typeId="yq40.6113173064528067332" id="8025659640012827757" nodeInfo="ng">
@@ -1986,6 +2024,14 @@
     <node role="contents" roleId="x27k.6437088627575722833" type="x27k.FunctionPrototype" typeId="x27k.6437088627575724000" id="8025659640012923710" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="create_trans" />
       <property name="exported" nameId="x27k.1317894735999272944" value="false" />
+      <node role="arguments" roleId="x27k.5708867820623310661" type="x27k.Argument" typeId="x27k.7892328519581704407" id="7847088120649526176" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="trans_enum" />
+        <node role="type" roleId="mj1l.318113533128716676" type="clbe.EnumType" typeId="clbe.8811614583515725893" id="7847088120649526174" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <link role="enum" roleId="clbe.8811614583515725894" targetNodeId="7847088120646349250" resolveInfo="TransEnum" />
+        </node>
+      </node>
       <node role="arguments" roleId="x27k.5708867820623310661" type="x27k.Argument" typeId="x27k.7892328519581704407" id="8025659640012925064" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="trans_name" />
         <node role="type" roleId="mj1l.318113533128716676" type="yq40.StringType" typeId="yq40.6113173064528067332" id="8025659640012925065" nodeInfo="ng">
