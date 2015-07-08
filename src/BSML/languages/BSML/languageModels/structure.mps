@@ -94,6 +94,10 @@
     <property name="name" nameId="tpck.1169194664001" value="PreemptionEnum" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="8515844642923534393" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="PREEMPTIVE" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="0" />
+    </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6318815719351412033" nodeInfo="ig">
       <property name="internalValue" nameId="tpce.1083923523171" value="1" />
       <property name="externalValue" nameId="tpce.1083923523172" value="NON-PREEMPTIVE" />
