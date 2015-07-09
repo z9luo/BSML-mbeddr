@@ -192,10 +192,6 @@
       <property name="name" nameId="tpck.1169194664001" value="RHS" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="7950215811427461812" resolveInfo="MemoryProtocolEnum" />
     </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4942964015635921046" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="lockSystem" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="4942964015635891087" resolveInfo="LockSystemEnum" />
-    </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6318815719351411550" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="vs0r.4459718605982007336" resolveInfo="IConfigurationItem" />
     </node>
@@ -725,19 +721,6 @@
       <node role="attributed" roleId="tpce.7588428831947959310" type="tpce.AttributeInfo_AttributedConcept" typeId="tpce.6054523464627964745" id="4942964015634755862" nodeInfo="ng">
         <link role="concept" roleId="tpce.6054523464627965081" targetNodeId="x27k.6437088627575723997" resolveInfo="FunctionSignature" />
       </node>
-    </node>
-  </root>
-  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="4942964015635891087" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="config" />
-    <property name="name" nameId="tpck.1169194664001" value="LockSystemEnum" />
-    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4942964015635891088" nodeInfo="ig">
-      <property name="internalValue" nameId="tpce.1083923523171" value="0" />
-      <property name="externalValue" nameId="tpce.1083923523172" value="ASYNCRONOUS" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4942964015635891089" nodeInfo="ig">
-      <property name="internalValue" nameId="tpce.1083923523171" value="1" />
-      <property name="externalValue" nameId="tpce.1083923523172" value="SYNCRONOUS" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4942964015637514660" nodeInfo="ig">
