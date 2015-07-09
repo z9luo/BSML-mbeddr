@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-g -std=c99 `pkg-config --cflags glib-2.0`
 ODIR=./bin
-_OBJ_test=test.o
+_OBJ_test=test2.o
 OBJ_test=$(patsubst %,$(ODIR)/%,$(_OBJ_test))
 
 
