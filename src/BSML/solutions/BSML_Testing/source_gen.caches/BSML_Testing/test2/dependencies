@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="BSML_Testing.test2.Makefile" file="Makefile" />
+  <dependency className="BSML_Testing.test2.TypeSizeConfiguration (B.test2)" file="TypeSizeConfiguration (B.test2)" />
+  <dependency className="BSML_Testing.test2.test" file="test.c" />
+  <dependency className="BSML_Testing.test2.test" file="test.h" />
+</dependenciesRoot>
+

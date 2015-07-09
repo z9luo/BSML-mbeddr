@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="-bi60dikibs6oezg47ru2tlyrbaqdq6k">
+  <dep model="188fdb48-e015-4ba8-8376-b9a055336b96/r:7cb2522f-682b-447e-96b3-685187e5617f(com.mbeddr.mpsutil.modelcache.CacheState_fakeModule/com.mbeddr.mpsutil.modelcache.CacheState_fakeModel)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590281(jetbrains.mps.lang.core.actions)" hash="5l5awg1kt4goe0mhebqfo0jnj2a4iiy" />
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="5sdbpqxziyuazpb9j1p4zdk6bnvbn49" />
+  <dep model="r:2ff3ad32-451f-46a7-91af-9ce87f286536(com.mbeddr.core.modules.generator.main.addReturnToClosure@generator)" hash="-3avjaoibqnibrutclolnqk2ujgsvc8x" />
+  <dep model="r:58a558d9-50ed-4b86-91cf-66ce18b52794(com.mbeddr.core.expressions.actions)" hash="71tqs871p9dt8m0r6tkxcfrvqju3aer" />
+  <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" hash="-cn8rhfjcox25qmdrj9crfalfclcib4g" />
+  <dep model="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" hash="-5n0km4iuyivmic3hs6nlxliufs2izdt" />
+  <dep model="r:62e8aeba-0540-4aa0-8a7d-8f3e1d0d4dad(BSML.Generator_Header)" hash="ay1r3nbufbq7fhnodmdfddodsisre4t" />
+  <dep model="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" hash="2deb6huwu9500ekqho7f6axbbdsvmkn" />
+  <dep model="r:7db67fb8-d2c9-4e02-89e5-cbea9152661c(com.mbeddr.core.util.generator.template.main@generator)" hash="-2gm67tmrlzszxu9b2hfihnk6dntax8a" />
+  <dep model="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)" hash="gpju59he446c547fyfcaynmmit8ukk" />
+  <dep model="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" hash="-8occ4vh5c7mjxqosuxbkrq12g89pior" />
+  <dep model="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" hash="3tekhil1vgqucmcvsc7j6y1xfp76q82" />
+  <common hash="1iqxu977b8i2zjauy2csdmj8tdwlqp0" dependsOnNodes="true">
+    <dep root="3304579122414837699" />
+    <dep model="188fdb48-e015-4ba8-8376-b9a055336b96/r:7cb2522f-682b-447e-96b3-685187e5617f(com.mbeddr.mpsutil.modelcache.CacheState_fakeModule/com.mbeddr.mpsutil.modelcache.CacheState_fakeModel)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590281(jetbrains.mps.lang.core.actions)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:2ff3ad32-451f-46a7-91af-9ce87f286536(com.mbeddr.core.modules.generator.main.addReturnToClosure@generator)" />
+    <dep model="r:58a558d9-50ed-4b86-91cf-66ce18b52794(com.mbeddr.core.expressions.actions)" />
+    <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" />
+    <dep model="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" />
+    <dep model="r:62e8aeba-0540-4aa0-8a7d-8f3e1d0d4dad(BSML.Generator_Header)" />
+    <dep model="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" />
+    <dep model="r:7db67fb8-d2c9-4e02-89e5-cbea9152661c(com.mbeddr.core.util.generator.template.main@generator)" />
+    <dep model="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)" />
+    <dep model="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" />
+    <dep model="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" />
+    <file name="BSML_stub" />
+    <file name="Makefile" />
+    <file name="TypeSizeConfiguration (B.test2)" />
+    <file name="test.c" />
+    <file name="test.h" />
+  </common>
+  <source id="3304579122414837699" name="test" hash="-dmu0vp27znx8pr3mjl1i0zgc466gq5v" />
+  <source id="3304579122414838804" name="BuildConfiguration (B.test2)" hash="-94ihmy3xdkdxoqn4kei79oyk2d66wb" />
+</dependencies>
+
