@@ -198,6 +198,7 @@
         <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
         <property name="const" nameId="mj1l.2941277002445651368" value="false" />
       </node>
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="cmy.SMFunctionAttribute" typeId="cmy.7885136595499032660" id="8868303645546397979" nodeInfo="ng" />
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="clbe.StructDeclaration" typeId="clbe.6394819151180597807" id="2878353885461772456" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Speed" />
