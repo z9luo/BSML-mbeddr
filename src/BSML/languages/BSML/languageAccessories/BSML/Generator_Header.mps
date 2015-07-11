@@ -1138,6 +1138,28 @@
         </node>
       </node>
     </node>
+    <node role="contents" roleId="x27k.6437088627575722833" type="clbe.TypeDef" typeId="clbe.6116558314501347857" id="4017421927386474060" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="GEqualFunc" />
+      <node role="original" roleId="clbe.6116558314501347862" type="x27k.FunctionRefType" typeId="x27k.8551646674110395547" id="4017421927386474483" nodeInfo="ng">
+        <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+        <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+        <node role="returnType" roleId="x27k.8551646674110395548" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="4017421927386474519" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="2878353885459132590" resolveInfo="gboolean" />
+        </node>
+        <node role="argTypes" roleId="x27k.8551646674110395549" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="4017421927386474558" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="2878353885459132596" resolveInfo="gconstpointer" />
+        </node>
+        <node role="argTypes" roleId="x27k.8551646674110395549" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="4017421927386474695" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="2878353885459132596" resolveInfo="gconstpointer" />
+        </node>
+      </node>
+    </node>
   </root>
   <root type="x27k.ExternalModule" typeId="x27k.6116558314501417921" id="2878353885459132605" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="stdlib_stub" />
@@ -1356,6 +1378,21 @@
       <node role="arguments" roleId="x27k.5708867820623310661" type="x27k.Argument" typeId="x27k.7892328519581704407" id="7861383156477862643" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="time" />
         <node role="type" roleId="mj1l.318113533128716676" type="mj1l.UnsignedInt64tType" typeId="mj1l.8463282783691618456" id="7861383156477863077" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+        </node>
+      </node>
+    </node>
+    <node role="contents" roleId="x27k.6437088627575722833" type="x27k.FunctionPrototype" typeId="x27k.6437088627575724000" id="4017421927380914180" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="printf" />
+      <property name="exported" nameId="x27k.1317894735999272944" value="false" />
+      <node role="type" roleId="mj1l.318113533128716676" type="mj1l.VoidType" typeId="mj1l.7892328519581699353" id="4017421927380914081" nodeInfo="ng">
+        <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+        <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+      </node>
+      <node role="arguments" roleId="x27k.5708867820623310661" type="x27k.Argument" typeId="x27k.7892328519581704407" id="4017421927380914667" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="pattern" />
+        <node role="type" roleId="mj1l.318113533128716676" type="yq40.StringType" typeId="yq40.6113173064528067332" id="4017421927380914666" nodeInfo="ng">
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
         </node>
@@ -2270,7 +2307,7 @@
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="clbe.StructDeclaration" typeId="clbe.6394819151180597807" id="8942146490304237847" nodeInfo="ng">
       <property name="exported" nameId="x27k.1317894735999272944" value="true" />
-      <property name="name" nameId="tpck.1169194664001" value="_SMHandle" />
+      <property name="name" nameId="tpck.1169194664001" value="SMHandle" />
       <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="8942146490304241033" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="instance" />
         <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="8942146490304241055" nodeInfo="ng">
@@ -2294,14 +2331,6 @@
             <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="2878353885459132396" resolveInfo="GAsyncQueue" />
           </node>
         </node>
-      </node>
-    </node>
-    <node role="contents" roleId="x27k.6437088627575722833" type="clbe.TypeDef" typeId="clbe.6116558314501347857" id="8942146490304242555" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="SMHandle" />
-      <node role="original" roleId="clbe.6116558314501347862" type="clbe.StructType" typeId="clbe.6394819151180597816" id="8942146490304243749" nodeInfo="ng">
-        <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-        <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-        <link role="struct" roleId="clbe.6394819151180597817" targetNodeId="8942146490304237847" resolveInfo="_SMHandle" />
       </node>
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="8942146490318785270" nodeInfo="ng">
@@ -2339,10 +2368,10 @@
       <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="8942146490318791075" nodeInfo="ng">
         <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
         <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-        <node role="baseType" roleId="c4fa.7763322639126652758" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="8942146490318789689" nodeInfo="ng">
+        <node role="baseType" roleId="c4fa.7763322639126652758" type="clbe.StructType" typeId="clbe.6394819151180597816" id="4017421927393021913" nodeInfo="ng">
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-          <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="8942146490304242555" resolveInfo="SMHandle" />
+          <link role="struct" roleId="clbe.6394819151180597817" targetNodeId="8942146490304237847" resolveInfo="SMHandle" />
         </node>
       </node>
     </node>
@@ -2517,6 +2546,26 @@
         </node>
       </node>
     </node>
+    <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="4017421927388503992" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="empty_1436583521257_7" />
+    </node>
+    <node role="contents" roleId="x27k.6437088627575722833" type="x27k.FunctionPrototype" typeId="x27k.6437088627575724000" id="4017421927388505858" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="g_int64_hash" />
+      <property name="exported" nameId="x27k.1317894735999272944" value="false" />
+      <node role="type" roleId="mj1l.318113533128716676" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="4017421927388504239" nodeInfo="ng">
+        <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+        <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+        <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="2878353885459132586" resolveInfo="guint" />
+      </node>
+      <node role="arguments" roleId="x27k.5708867820623310661" type="x27k.Argument" typeId="x27k.7892328519581704407" id="4017421927388506096" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="v" />
+        <node role="type" roleId="mj1l.318113533128716676" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="4017421927388506095" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="2878353885459132596" resolveInfo="gconstpointer" />
+        </node>
+      </node>
+    </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="clbe.TypeDef" typeId="clbe.6116558314501347857" id="7861383156477421871" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="GHashTable" />
       <node role="original" roleId="clbe.6116558314501347862" type="clbe.StructType" typeId="clbe.6394819151180597816" id="7861383156477422080" nodeInfo="ng">
@@ -2525,9 +2574,42 @@
         <link role="struct" roleId="clbe.6394819151180597817" targetNodeId="7861383156477420617" resolveInfo="_GHashTable" />
       </node>
     </node>
+    <node role="contents" roleId="x27k.6437088627575722833" type="clbe.TypeDef" typeId="clbe.6116558314501347857" id="4017421927388542580" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="GHashFunc" />
+      <node role="original" roleId="clbe.6116558314501347862" type="x27k.FunctionRefType" typeId="x27k.8551646674110395547" id="4017421927388542817" nodeInfo="ng">
+        <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+        <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+        <node role="returnType" roleId="x27k.8551646674110395548" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="4017421927388542853" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="2878353885459132586" resolveInfo="guint" />
+        </node>
+        <node role="argTypes" roleId="x27k.8551646674110395549" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="4017421927388542892" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="2878353885459132596" resolveInfo="gconstpointer" />
+        </node>
+      </node>
+    </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="x27k.FunctionPrototype" typeId="x27k.6437088627575724000" id="7861383156477424432" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="g_hash_table_new" />
       <property name="exported" nameId="x27k.1317894735999272944" value="false" />
+      <node role="arguments" roleId="x27k.5708867820623310661" type="x27k.Argument" typeId="x27k.7892328519581704407" id="4017421927388553527" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="hash_func" />
+        <node role="type" roleId="mj1l.318113533128716676" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="4017421927388553525" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="4017421927388542580" resolveInfo="GHashFunc" />
+        </node>
+      </node>
+      <node role="arguments" roleId="x27k.5708867820623310661" type="x27k.Argument" typeId="x27k.7892328519581704407" id="4017421927388556492" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="key_equal_func" />
+        <node role="type" roleId="mj1l.318113533128716676" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="4017421927388556490" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="4017421927386474060" resolveInfo="GEqualFunc" />
+        </node>
+      </node>
       <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="7861383156477423568" nodeInfo="ng">
         <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
         <property name="const" nameId="mj1l.2941277002445651368" value="false" />

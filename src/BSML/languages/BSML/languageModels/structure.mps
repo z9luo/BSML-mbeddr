@@ -124,7 +124,7 @@
     <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="6318815719351412037" />
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6318815719351412036" nodeInfo="ig">
       <property name="internalValue" nameId="tpce.1083923523171" value="0" />
-      <property name="externalValue" nameId="tpce.1083923523172" value="SOURCE/DESTINATION ORTHOGONAL" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="SOURCE/TARGET ORTHOGONAL" />
     </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6318815719351412037" nodeInfo="ig">
       <property name="internalValue" nameId="tpce.1083923523171" value="1" />
@@ -487,6 +487,7 @@
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4517681580278098075" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="guard" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="mj1l.8860443239512128050" resolveInfo="Expression" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4517681580278098082" nodeInfo="ig">
