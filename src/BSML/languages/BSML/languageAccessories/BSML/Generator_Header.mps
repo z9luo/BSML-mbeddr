@@ -1284,6 +1284,28 @@
         </node>
       </node>
     </node>
+    <node role="contents" roleId="x27k.6437088627575722833" type="x27k.FunctionPrototype" typeId="x27k.6437088627575724000" id="4017421927397526627" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="strcmp" />
+      <property name="exported" nameId="x27k.1317894735999272944" value="false" />
+      <node role="type" roleId="mj1l.318113533128716676" type="mj1l.IntType" typeId="mj1l.8860443239512128108" id="4017421927397523495" nodeInfo="ng">
+        <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+        <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+      </node>
+      <node role="arguments" roleId="x27k.5708867820623310661" type="x27k.Argument" typeId="x27k.7892328519581704407" id="4017421927397527274" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="s1" />
+        <node role="type" roleId="mj1l.318113533128716676" type="yq40.StringType" typeId="yq40.6113173064528067332" id="4017421927397527273" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="true" />
+        </node>
+      </node>
+      <node role="arguments" roleId="x27k.5708867820623310661" type="x27k.Argument" typeId="x27k.7892328519581704407" id="4017421927397528118" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="s2" />
+        <node role="type" roleId="mj1l.318113533128716676" type="yq40.StringType" typeId="yq40.6113173064528067332" id="4017421927397528116" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="true" />
+        </node>
+      </node>
+    </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="605884903080445980" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="empty_1417209833422_2" />
     </node>
@@ -1376,7 +1398,7 @@
         <property name="const" nameId="mj1l.2941277002445651368" value="false" />
       </node>
       <node role="arguments" roleId="x27k.5708867820623310661" type="x27k.Argument" typeId="x27k.7892328519581704407" id="7861383156477862643" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="time" />
+        <property name="name" nameId="tpck.1169194664001" value="seconds" />
         <node role="type" roleId="mj1l.318113533128716676" type="mj1l.UnsignedInt64tType" typeId="mj1l.8463282783691618456" id="7861383156477863077" nodeInfo="ng">
           <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
           <property name="const" nameId="mj1l.2941277002445651368" value="false" />
@@ -1408,7 +1430,7 @@
       <property name="name" nameId="tpck.1169194664001" value="sm_msg" />
       <property name="exported" nameId="x27k.1317894735999272944" value="true" />
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="8025659640012827628" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="true" />
+        <property name="active" nameId="k146.2688792604367947988" value="false" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="name" nameId="tpck.1169194664001" value="SM_initialized" />
         <property name="text" nameId="k146.2688792604367903089" value="initialize state machine" />
@@ -1467,7 +1489,7 @@
         <property name="text" nameId="k146.2688792604367903089" value=" " />
       </node>
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="8025659640012827639" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="true" />
+        <property name="active" nameId="k146.2688792604367947988" value="false" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="name" nameId="tpck.1169194664001" value="end_big_step" />
         <property name="text" nameId="k146.2688792604367903089" value=" " />
@@ -1479,13 +1501,13 @@
         <property name="text" nameId="k146.2688792604367903089" value=" " />
       </node>
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="8025659640012827641" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="true" />
+        <property name="active" nameId="k146.2688792604367947988" value="false" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="name" nameId="tpck.1169194664001" value="end_small_step" />
         <property name="text" nameId="k146.2688792604367903089" value=" " />
       </node>
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="8025659640012827642" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="true" />
+        <property name="active" nameId="k146.2688792604367947988" value="false" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="name" nameId="tpck.1169194664001" value="other" />
         <property name="text" nameId="k146.2688792604367903089" value="other info" />
