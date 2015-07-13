@@ -2,7 +2,7 @@
 <dependenciesRoot>
   <dependency className="BSML_Testing.test1.Makefile" file="Makefile" />
   <dependency className="BSML_Testing.test1.TypeSizeConfiguration (B.test1)" file="TypeSizeConfiguration (B.test1)" />
-  <dependency className="BSML_Testing.test1.test" file="test.c" />
-  <dependency className="BSML_Testing.test1.test" file="test.h" />
+  <dependency className="BSML_Testing.test1.test1" file="test1.c" />
+  <dependency className="BSML_Testing.test1.test1" file="test1.h" />
 </dependenciesRoot>
 

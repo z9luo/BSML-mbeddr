@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-5zidvz32zrol8bl26mbjn2llgekzigx">
-  <dep model="a7ae9f84-163a-4204-9e38-4b5ab6574721/r:cebc07a9-23d7-49b1-84f2-94eef2073242(com.mbeddr.mpsutil.modelcache.CacheState_fakeModule/com.mbeddr.mpsutil.modelcache.CacheState_fakeModel)" />
+<dependencies version="2" modelHash="-94vtpi6pf1q4l36ngqzi3orwuhg4t99">
+  <dep model="b808dc8e-7234-453d-b23f-b4ce9a355cd1/r:040da45b-abb2-4c5a-935c-963de06212be(com.mbeddr.mpsutil.modelcache.CacheState_fakeModule/com.mbeddr.mpsutil.modelcache.CacheState_fakeModel)" />
   <dep model="r:00000000-0000-4000-0000-011c89590281(jetbrains.mps.lang.core.actions)" hash="5l5awg1kt4goe0mhebqfo0jnj2a4iiy" />
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="5sdbpqxziyuazpb9j1p4zdk6bnvbn49" />
   <dep model="r:2ff3ad32-451f-46a7-91af-9ce87f286536(com.mbeddr.core.modules.generator.main.addReturnToClosure@generator)" hash="-3avjaoibqnibrutclolnqk2ujgsvc8x" />
   <dep model="r:58a558d9-50ed-4b86-91cf-66ce18b52794(com.mbeddr.core.expressions.actions)" hash="71tqs871p9dt8m0r6tkxcfrvqju3aer" />
   <dep model="r:5f62df63-885f-42f0-80d6-e13ad6c51489(com.mbeddr.core.modules.gen.generator.template.main@generator)" hash="-cn8rhfjcox25qmdrj9crfalfclcib4g" />
   <dep model="r:61d840b4-12c1-49ea-b142-b2a1550a9b15(com.mbeddr.core.udt.structure)" hash="-5n0km4iuyivmic3hs6nlxliufs2izdt" />
-  <dep model="r:62e8aeba-0540-4aa0-8a7d-8f3e1d0d4dad(BSML.Generator_Header)" hash="3uygd0n0mwmsoir1em1v6teiqe1ou86" />
+  <dep model="r:62e8aeba-0540-4aa0-8a7d-8f3e1d0d4dad(BSML.Generator_Header)" hash="-6aa6zkb8qjmv0iauhiyb3zf1jmd3r60" />
   <dep model="r:75ecab8a-8931-4140-afc6-4b46398710fc(com.mbeddr.core.modules.structure)" hash="2deb6huwu9500ekqho7f6axbbdsvmkn" />
   <dep model="r:7db67fb8-d2c9-4e02-89e5-cbea9152661c(com.mbeddr.core.util.generator.template.main@generator)" hash="-2gm67tmrlzszxu9b2hfihnk6dntax8a" />
-  <dep model="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)" hash="7n0eua7r4oinywp2xfynn4hk9qh6cjv" />
+  <dep model="r:9e243717-983e-4914-a358-773594877719(BSML.generator.template.main@generator)" hash="dy6b4bxut6s79576sj1ox0bql8jji7f" />
   <dep model="r:9f0e84b6-2ec7-4f9e-83e0-feedc77b63a3(com.mbeddr.core.statements.structure)" hash="-8occ4vh5c7mjxqosuxbkrq12g89pior" />
   <dep model="r:c371cf98-dcc8-4a43-8eb8-8a8096de18b2(com.mbeddr.core.expressions.structure)" hash="3tekhil1vgqucmcvsc7j6y1xfp76q82" />
-  <common hash="-bqbuoa3u9qdi7io7hxa3e5t5tq8gvt5" dependsOnNodes="true">
+  <common hash="79inugdia228t958i41krwrzamp3foo" dependsOnNodes="true">
     <dep root="6618788459940881031" />
-    <dep model="a7ae9f84-163a-4204-9e38-4b5ab6574721/r:cebc07a9-23d7-49b1-84f2-94eef2073242(com.mbeddr.mpsutil.modelcache.CacheState_fakeModule/com.mbeddr.mpsutil.modelcache.CacheState_fakeModel)" />
+    <dep model="b808dc8e-7234-453d-b23f-b4ce9a355cd1/r:040da45b-abb2-4c5a-935c-963de06212be(com.mbeddr.mpsutil.modelcache.CacheState_fakeModule/com.mbeddr.mpsutil.modelcache.CacheState_fakeModel)" />
     <dep model="r:00000000-0000-4000-0000-011c89590281(jetbrains.mps.lang.core.actions)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:2ff3ad32-451f-46a7-91af-9ce87f286536(com.mbeddr.core.modules.generator.main.addReturnToClosure@generator)" />
@@ -31,10 +31,10 @@
     <file name="BSML_stub" />
     <file name="Makefile" />
     <file name="TypeSizeConfiguration (B.test1)" />
-    <file name="test.c" />
-    <file name="test.h" />
+    <file name="test1.c" />
+    <file name="test1.h" />
   </common>
-  <source id="6618788459940881031" name="test" hash="gwowck548y877we0rzj925s86pu9v7" />
-  <source id="6618788459940881153" name="BuildConfiguration (B.test1)" hash="-1kj5vktph180tx3313m47dth20tf4y0" />
+  <source id="6618788459940881031" name="test1" hash="-4t93y56eil7lraz2goe2bfa4vd8euxh" />
+  <source id="6618788459940881153" name="BuildConfiguration (B.test1)" hash="20l9xsipq1zr716chsttzsztunc7v99" />
 </dependencies>
 
