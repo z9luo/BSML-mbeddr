@@ -85,17 +85,20 @@ MyStateMachine sm {
 ```
 
 ## Language Features
-* Code-model co-development.
-* Composite/hierarchical states.
-* Concurrent execution of regions.
-* Event with paramter.
-* Static variable.
-* Name scoping for state/region/transition.
-* Entry block.
-* Guard condition for transitions.
-* In-event/out-event binding with C function
-
-(NOTICE: Configurable semantics is under work. New release may NOT be backward compatible!)
+* Code-model co-development
+* Composite/hierarchical states
+* Concurrent regions
+* Event with arguments
+* Event binding
+* Transition with multiple triggers
+* Negation of Triggers
+* Cross-hirarchy transition
+* Entry block
+* Function call in action/entry block
+* Variables
+* Name scoping
+* Multiple instances of State-machine
+* Environmental Input with multiple events
 
 ## Quick Start
 
