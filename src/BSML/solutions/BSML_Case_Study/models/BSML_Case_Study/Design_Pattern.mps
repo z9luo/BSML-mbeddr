@@ -58,7 +58,7 @@
     </node>
   </root>
   <root type="x27k.ImplementationModule" typeId="x27k.6437088627575722830" id="7885136595494444628" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="Singleton" />
+    <property name="name" nameId="tpck.1169194664001" value="SMCreator" />
     <node role="imports" roleId="x27k.1317894735999304826" type="vs0r.DefaultGenericChunkDependency" typeId="vs0r.747084250476811597" id="7885136595494444629" nodeInfo="ng">
       <link role="chunk" roleId="vs0r.747084250476878887" targetNodeId="3y15.6615293872267675197" resolveInfo="BSML_stub" />
     </node>
@@ -80,11 +80,11 @@
             <node role="baseType" roleId="c4fa.7763322639126652758" type="cmy.SMType" typeId="cmy.4004560854228917184" id="7885136595494623728" nodeInfo="ng">
               <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
               <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-              <link role="sm_ref" roleId="cmy.7282629872788696141" targetNodeId="7885136595494445122" resolveInfo="Factory" />
+              <link role="sm_ref" roleId="cmy.7282629872788696141" targetNodeId="7885136595494445122" resolveInfo="SMCreator" />
             </node>
           </node>
           <node role="init" roleId="c4fa.4185783222026502647" type="cmy.SMStart" typeId="cmy.8607120610936003932" id="4942964015635754408" nodeInfo="ng">
-            <link role="sm_ref" roleId="cmy.7282629872789989665" targetNodeId="7885136595494445122" resolveInfo="Factory" />
+            <link role="sm_ref" roleId="cmy.7282629872789989665" targetNodeId="7885136595494445122" resolveInfo="SMCreator" />
           </node>
         </node>
         <node role="statements" roleId="c4fa.4185783222026475862" type="c4fa.LocalVariableDeclaration" typeId="c4fa.4185783222026475238" id="4942964015635762659" nodeInfo="ng">
@@ -203,7 +203,7 @@
       </node>
     </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="cmy.SMGlobalDeclaration" typeId="cmy.5512313148880353493" id="7885136595494445122" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="Factory" />
+      <property name="name" nameId="tpck.1169194664001" value="SMCreator" />
       <node role="content" roleId="cmy.4517681580277057061" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="7885136595494445123" nodeInfo="ng">
         <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.RegionLocalDeclaration" typeId="cmy.4517681580276827431" id="7885136595494445124" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="main" />
