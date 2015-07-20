@@ -280,12 +280,6 @@
       <property name="role" nameId="tpce.1071599776563" value="binding" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="8607120610933610675" resolveInfo="CFunctionBinding" />
     </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4593410375283486905" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="combine_func" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="4593410375286711360" resolveInfo="CombineArgList" />
-    </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="3372386639992765901" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5600653557318549629" resolveInfo="IEvent" />
     </node>
