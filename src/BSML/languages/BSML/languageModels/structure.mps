@@ -543,7 +543,7 @@
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7282629872790574271" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="sm_handle" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="mj1l.8860443239512128050" resolveInfo="Expression" />
     </node>
   </root>
@@ -687,28 +687,6 @@
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="6560030277144754845" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="interfaces" />
     <property name="name" nameId="tpck.1169194664001" value="ISMElement" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4593410375283730289" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
-    <property name="name" nameId="tpck.1169194664001" value="CombineArg" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="x27k.6437088627575724001" resolveInfo="Function" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4593410375283731616" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="arg_ref" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="x27k.8444296659257696249" resolveInfo="IArgumentLike" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4593410375286711360" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />
-    <property name="name" nameId="tpck.1169194664001" value="CombineArgList" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="combine argument list" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4593410375287011896" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="content" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="4593410375283730289" resolveInfo="CombineArg" />
-    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7885136595499032660" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="entities" />

@@ -2348,29 +2348,6 @@
         <property name="const" nameId="mj1l.2941277002445651368" value="false" />
       </node>
     </node>
-    <node role="contents" roleId="x27k.6437088627575722833" type="x27k.FunctionPrototype" typeId="x27k.6437088627575724000" id="1989014375143385234" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="compare_regions" />
-      <property name="exported" nameId="x27k.1317894735999272944" value="false" />
-      <node role="arguments" roleId="x27k.5708867820623310661" type="x27k.Argument" typeId="x27k.7892328519581704407" id="1989014375143206038" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="region1" />
-        <node role="type" roleId="mj1l.318113533128716676" type="yq40.StringType" typeId="yq40.6113173064528067332" id="1989014375143206037" nodeInfo="ng">
-          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-        </node>
-      </node>
-      <node role="arguments" roleId="x27k.5708867820623310661" type="x27k.Argument" typeId="x27k.7892328519581704407" id="1989014375143207374" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="region2" />
-        <node role="type" roleId="mj1l.318113533128716676" type="yq40.StringType" typeId="yq40.6113173064528067332" id="1989014375143207372" nodeInfo="ng">
-          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-        </node>
-      </node>
-      <node role="type" roleId="mj1l.318113533128716676" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="2904461042081277142" nodeInfo="ng">
-        <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-        <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-        <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="2878353885459132588" resolveInfo="gint" />
-      </node>
-    </node>
     <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="8025659640012871152" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="empty_1416704351617_16" />
     </node>
