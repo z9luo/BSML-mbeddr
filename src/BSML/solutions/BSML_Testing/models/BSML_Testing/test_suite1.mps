@@ -1896,13 +1896,6 @@
                   <property name="const" nameId="mj1l.2941277002445651368" value="false" />
                 </node>
               </node>
-              <node role="args" roleId="cmy.4517681580277209732" type="x27k.Argument" typeId="x27k.7892328519581704407" id="2141258530419110497" nodeInfo="ng">
-                <property name="name" nameId="tpck.1169194664001" value="val" />
-                <node role="type" roleId="mj1l.318113533128716676" type="mj1l.BooleanType" typeId="mj1l.8860443239512128058" id="2141258530419110498" nodeInfo="ng">
-                  <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-                  <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-                </node>
-              </node>
               <node role="binding" roleId="cmy.6137873808666169084" type="cmy.CFunctionBinding" typeId="cmy.8607120610933610675" id="2141258530419110499" nodeInfo="ng">
                 <link role="binding" roleId="cmy.8607120610933610676" targetNodeId="fd6b.2141258530419262964" resolveInfo="set_bool" />
               </node>
@@ -1970,7 +1963,6 @@
                             <property name="unsigned" nameId="mj1l.5192961572790190887" value="false" />
                             <property name="value" nameId="mj1l.2212975673976043696" value="1" />
                           </node>
-                          <node role="actuals" roleId="cmy.5600653557319338923" type="mj1l.TrueLiteral" typeId="mj1l.8860443239512128094" id="2141258530429373356" nodeInfo="ng" />
                         </node>
                       </node>
                     </node>
@@ -2061,7 +2053,6 @@
                             <property name="unsigned" nameId="mj1l.5192961572790190887" value="false" />
                             <property name="value" nameId="mj1l.2212975673976043696" value="2" />
                           </node>
-                          <node role="actuals" roleId="cmy.5600653557319338923" type="mj1l.TrueLiteral" typeId="mj1l.8860443239512128094" id="2141258530465553976" nodeInfo="ng" />
                         </node>
                       </node>
                     </node>
@@ -2119,7 +2110,6 @@
                     <property name="unsigned" nameId="mj1l.5192961572790190887" value="false" />
                     <property name="value" nameId="mj1l.2212975673976043696" value="0" />
                   </node>
-                  <node role="actuals" roleId="cmy.5600653557319338923" type="mj1l.TrueLiteral" typeId="mj1l.8860443239512128094" id="2141258530419332978" nodeInfo="ng" />
                 </node>
               </node>
             </node>
