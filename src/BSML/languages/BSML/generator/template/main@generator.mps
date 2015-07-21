@@ -760,197 +760,14 @@
           <link role="includeTemplate" roleId="tpf8.1194566366375" targetNodeId="1685400877478197196" resolveInfo="gen_execute_big_step" />
         </node>
       </node>
-      <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="1685400877477971461" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="empty_1436390559626_1" />
-      </node>
-      <node role="contents" roleId="x27k.6437088627575722833" type="x27k.Function" typeId="x27k.6437088627575724001" id="3372386639991088041" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="execute_big_step" />
-        <property name="exported" nameId="x27k.1317894735999272944" value="false" />
-        <node role="arguments" roleId="x27k.5708867820623310661" type="x27k.Argument" typeId="x27k.7892328519581704407" id="7950215811407863955" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="snapshot_big" />
-          <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="7950215811423753148" nodeInfo="ng">
-            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-            <node role="baseType" roleId="c4fa.7763322639126652758" type="clbe.StructType" typeId="clbe.6394819151180597816" id="7950215811407863954" nodeInfo="ng">
-              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-              <link role="struct" roleId="clbe.6394819151180597817" targetNodeId="m45l.8025659640012827658" resolveInfo="SMStruct" />
-            </node>
-          </node>
-        </node>
-        <node role="arguments" roleId="x27k.5708867820623310661" type="x27k.Argument" typeId="x27k.7892328519581704407" id="3465079989151597237" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="snapshot_small" />
-          <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="3465079989151597238" nodeInfo="ng">
-            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-            <node role="baseType" roleId="c4fa.7763322639126652758" type="clbe.StructType" typeId="clbe.6394819151180597816" id="3465079989151657325" nodeInfo="ng">
-              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-              <link role="struct" roleId="clbe.6394819151180597817" targetNodeId="m45l.8025659640012827658" resolveInfo="SMStruct" />
-            </node>
-          </node>
-        </node>
-        <node role="arguments" roleId="x27k.5708867820623310661" type="x27k.Argument" typeId="x27k.7892328519581704407" id="3465079989151597240" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="snapshot_cur" />
-          <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="3465079989151597241" nodeInfo="ng">
-            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-            <node role="baseType" roleId="c4fa.7763322639126652758" type="clbe.StructType" typeId="clbe.6394819151180597816" id="3465079989151699335" nodeInfo="ng">
-              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-              <link role="struct" roleId="clbe.6394819151180597817" targetNodeId="m45l.8025659640012827658" resolveInfo="SMStruct" />
-            </node>
-          </node>
-        </node>
-        <node role="body" roleId="x27k.4185783222026475860" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="3372386639991088043" nodeInfo="ng" />
-        <node role="type" roleId="mj1l.318113533128716676" type="mj1l.VoidType" typeId="mj1l.7892328519581699353" id="3372386639991079537" nodeInfo="ng">
-          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-        </node>
-      </node>
-      <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="2213943821004472265" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="empty_1436316596116_7" />
-      </node>
-      <node role="contents" roleId="x27k.6437088627575722833" type="clbe.StructDeclaration" typeId="clbe.6394819151180597807" id="2213943821008261018" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="SMStruct" />
-        <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="8025659640012827659" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="__cur_state" />
-          <node role="type" roleId="mj1l.318113533128716676" type="clbe.EnumType" typeId="clbe.8811614583515725893" id="8025659640012827660" nodeInfo="ng">
-            <link role="enum" roleId="clbe.8811614583515725894" targetNodeId="m45l.8025659640012827651" resolveInfo="StatesEnum" />
-          </node>
-        </node>
-        <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="8025659640012827661" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="x" />
-          <node role="type" roleId="mj1l.318113533128716676" type="mj1l.BooleanType" typeId="mj1l.8860443239512128058" id="5300515325580580967" nodeInfo="ng">
-            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-          </node>
-        </node>
-        <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="485180309324322763" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="bindings" />
-          <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="485180309324324547" nodeInfo="ng">
-            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-            <node role="baseType" roleId="c4fa.7763322639126652758" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="485180309324322761" nodeInfo="ng">
-              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-              <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="m45l.8025659640004863317" resolveInfo="GPtrArray" />
-            </node>
-          </node>
-        </node>
-        <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="2213943821009123379" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="present_events" />
-          <node role="type" roleId="mj1l.318113533128716676" type="yq40.ArrayType" typeId="yq40.5679441017214012545" id="2213943821009123380" nodeInfo="ng">
-            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-            <node role="baseType" roleId="c4fa.7763322639126652758" type="yq40.PointerType" typeId="yq40.279446265608459824" id="2213943821009123381" nodeInfo="ng">
-              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-              <node role="baseType" roleId="c4fa.7763322639126652758" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="2213943821009123382" nodeInfo="ng">
-                <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-                <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-                <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="m45l.8025659640012827671" resolveInfo="Event" />
-              </node>
-            </node>
-            <node role="sizeExpr" roleId="yq40.1452920870317474611" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="2213943821009123383" nodeInfo="ng">
-              <property name="unsigned" nameId="mj1l.5192961572790190887" value="false" />
-              <property name="value" nameId="mj1l.2212975673976043696" value="20" />
-            </node>
-          </node>
-        </node>
-        <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="4572706822285332357" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="region_disabled" />
-          <node role="type" roleId="mj1l.318113533128716676" type="yq40.ArrayType" typeId="yq40.5679441017214012545" id="4572706822285333477" nodeInfo="ng">
-            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-            <node role="baseType" roleId="c4fa.7763322639126652758" type="mj1l.BooleanType" typeId="mj1l.8860443239512128058" id="4572706822285332355" nodeInfo="ng">
-              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-            </node>
-            <node role="sizeExpr" roleId="yq40.1452920870317474611" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="4572706822285333513" nodeInfo="ng">
-              <property name="unsigned" nameId="mj1l.5192961572790190887" value="false" />
-              <property name="value" nameId="mj1l.2212975673976043696" value="20" />
-            </node>
-          </node>
-        </node>
-        <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="2213943821010501244" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="static_info" />
-          <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="2213943821010501245" nodeInfo="ng">
-            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-            <node role="baseType" roleId="c4fa.7763322639126652758" type="clbe.StructType" typeId="clbe.6394819151180597816" id="2213943821010501246" nodeInfo="ng">
-              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-              <link role="struct" roleId="clbe.6394819151180597817" targetNodeId="2213943821010377095" resolveInfo="SMStructStatic" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node role="contents" roleId="x27k.6437088627575722833" type="clbe.StructDeclaration" typeId="clbe.6394819151180597807" id="2213943821010377095" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="SMStructStatic" />
-        <property name="exported" nameId="x27k.1317894735999272944" value="false" />
-        <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="2213943821010377096" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="are_regions_orthogonal" />
-          <node role="type" roleId="mj1l.318113533128716676" type="yq40.ArrayType" typeId="yq40.5679441017214012545" id="2213943821010377097" nodeInfo="ng">
-            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-            <node role="baseType" roleId="c4fa.7763322639126652758" type="yq40.ArrayType" typeId="yq40.5679441017214012545" id="2213943821010377098" nodeInfo="ng">
-              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-              <node role="baseType" roleId="c4fa.7763322639126652758" type="mj1l.BooleanType" typeId="mj1l.8860443239512128058" id="2213943821010377099" nodeInfo="ng">
-                <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-                <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-              </node>
-              <node role="sizeExpr" roleId="yq40.1452920870317474611" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="2213943821010377100" nodeInfo="ng">
-                <property name="unsigned" nameId="mj1l.5192961572790190887" value="false" />
-                <property name="value" nameId="mj1l.2212975673976043696" value="20" />
-              </node>
-            </node>
-            <node role="sizeExpr" roleId="yq40.1452920870317474611" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="2213943821010377101" nodeInfo="ng">
-              <property name="unsigned" nameId="mj1l.5192961572790190887" value="false" />
-              <property name="value" nameId="mj1l.2212975673976043696" value="20" />
-            </node>
-          </node>
-        </node>
-        <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="3955981243204420420" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="compare_elements_hier" />
-          <node role="type" roleId="mj1l.318113533128716676" type="yq40.ArrayType" typeId="yq40.5679441017214012545" id="3955981243204422234" nodeInfo="ng">
-            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-            <node role="baseType" roleId="c4fa.7763322639126652758" type="yq40.ArrayType" typeId="yq40.5679441017214012545" id="3955981243204421914" nodeInfo="ng">
-              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-              <node role="baseType" roleId="c4fa.7763322639126652758" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="3955981243204420418" nodeInfo="ng">
-                <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
-                <property name="const" nameId="mj1l.2941277002445651368" value="false" />
-                <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="m45l.2878353885459132588" resolveInfo="gint" />
-              </node>
-              <node role="sizeExpr" roleId="yq40.1452920870317474611" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3955981243204421956" nodeInfo="ng">
-                <property name="unsigned" nameId="mj1l.5192961572790190887" value="false" />
-                <property name="value" nameId="mj1l.2212975673976043696" value="20" />
-              </node>
-            </node>
-            <node role="sizeExpr" roleId="yq40.1452920870317474611" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3955981243204422584" nodeInfo="ng">
-              <property name="unsigned" nameId="mj1l.5192961572790190887" value="false" />
-              <property name="value" nameId="mj1l.2212975673976043696" value="20" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="2213943821010316177" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="empty_1436317081697_11" />
-      </node>
-      <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="2213943821008194195" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="empty_1436316958859_10" />
-      </node>
       <node role="contents" roleId="x27k.6437088627575722833" type="x27k.Function" typeId="x27k.6437088627575724001" id="8607120610935114995" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="sm_start" />
         <property name="exported" nameId="x27k.1317894735999272944" value="false" />
         <node role="body" roleId="x27k.4185783222026475860" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="8607120610935114997" nodeInfo="ng">
           <node role="statements" roleId="c4fa.4185783222026475862" type="k146.ReportStatement" typeId="k146.2688792604367964821" id="8025659640020606240" nodeInfo="ng">
             <node role="msgref" roleId="k146.2688792604367973273" type="k146.MessageRef" typeId="k146.2688792604367964823" id="8025659640020606242" nodeInfo="ng">
-              <link role="table" roleId="k146.2688792604367964824" targetNodeId="m45l.8025659640012827627" resolveInfo="sm_msg" />
               <link role="msg" roleId="k146.2688792604367964825" targetNodeId="m45l.8025659640012827642" resolveInfo="other" />
+              <link role="table" roleId="k146.2688792604367964824" targetNodeId="m45l.8025659640012827627" resolveInfo="sm_msg" />
               <node role="propVals" roleId="k146.767515563077221084" type="yq40.StringLiteral" typeId="yq40.6113173064526131575" id="8025659640020679439" nodeInfo="ng">
                 <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="8025659640020680367" nodeInfo="nn">
                   <property name="propertyName" nameId="tpck.1757699476691236117" value="value" />
@@ -1064,8 +881,8 @@
                   <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2213943821010742848" nodeInfo="sn">
                     <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2213943821010804772" nodeInfo="nn">
                       <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="2213943821010873830" nodeInfo="nn">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="dlsp.2878353885459664038" resolveInfo="genSMStructName" />
                         <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="dlsp.2878353885459664017" resolveInfo="util" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="dlsp.2878353885459664038" resolveInfo="genSMStructName" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2213943821010975162" nodeInfo="nn">
                           <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="2213943821010942044" nodeInfo="nn" />
                           <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="2213943821011053694" nodeInfo="nn">
@@ -1091,8 +908,8 @@
                   <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2213943821011125932" nodeInfo="sn">
                     <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2213943821011203638" nodeInfo="nn">
                       <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="2213943821011203639" nodeInfo="nn">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="dlsp.2878353885459664038" resolveInfo="genSMStructName" />
                         <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="dlsp.2878353885459664017" resolveInfo="util" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="dlsp.2878353885459664038" resolveInfo="genSMStructName" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2213943821011203640" nodeInfo="nn">
                           <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="2213943821011203641" nodeInfo="nn" />
                           <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="2213943821011203642" nodeInfo="nn">
@@ -1118,8 +935,8 @@
                   <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2213943821011279435" nodeInfo="sn">
                     <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2213943821011356060" nodeInfo="nn">
                       <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="2213943821011356061" nodeInfo="nn">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="dlsp.2878353885459664038" resolveInfo="genSMStructName" />
                         <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="dlsp.2878353885459664017" resolveInfo="util" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="dlsp.2878353885459664038" resolveInfo="genSMStructName" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2213943821011356062" nodeInfo="nn">
                           <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="2213943821011356063" nodeInfo="nn" />
                           <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="2213943821011356064" nodeInfo="nn">
@@ -1549,8 +1366,8 @@
                       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8607120610939153886" nodeInfo="sn">
                         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8607120610939153887" nodeInfo="nn">
                           <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6727232360812091746" nodeInfo="nn">
-                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="dlsp.2878353885459664078" resolveInfo="genBigStepFunctionName" />
                             <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="dlsp.2878353885459664017" resolveInfo="util" />
+                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="dlsp.2878353885459664078" resolveInfo="genBigStepFunctionName" />
                             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6727232360812091747" nodeInfo="nn">
                               <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="6727232360812091748" nodeInfo="nn" />
                               <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="8027418617072094474" nodeInfo="nn">
@@ -1588,8 +1405,8 @@
             <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2041445662508347163" nodeInfo="sn">
               <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2041445662508352321" nodeInfo="nn">
                 <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="2041445662508355742" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="dlsp.2878353885459664098" resolveInfo="genSMStartFunctionName" />
                   <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="dlsp.2878353885459664017" resolveInfo="util" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="dlsp.2878353885459664098" resolveInfo="genSMStartFunctionName" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2041445662508357472" nodeInfo="nn">
                     <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="2041445662508356481" nodeInfo="nn" />
                     <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="8027418617071238145" nodeInfo="nn">
@@ -1601,6 +1418,189 @@
             </node>
           </node>
         </node>
+      </node>
+      <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="1685400877477971461" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="empty_1436390559626_1" />
+      </node>
+      <node role="contents" roleId="x27k.6437088627575722833" type="x27k.Function" typeId="x27k.6437088627575724001" id="3372386639991088041" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="execute_big_step" />
+        <property name="exported" nameId="x27k.1317894735999272944" value="false" />
+        <node role="arguments" roleId="x27k.5708867820623310661" type="x27k.Argument" typeId="x27k.7892328519581704407" id="7950215811407863955" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="snapshot_big" />
+          <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="7950215811423753148" nodeInfo="ng">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+            <node role="baseType" roleId="c4fa.7763322639126652758" type="clbe.StructType" typeId="clbe.6394819151180597816" id="7950215811407863954" nodeInfo="ng">
+              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+              <link role="struct" roleId="clbe.6394819151180597817" targetNodeId="m45l.8025659640012827658" resolveInfo="SMStruct" />
+            </node>
+          </node>
+        </node>
+        <node role="arguments" roleId="x27k.5708867820623310661" type="x27k.Argument" typeId="x27k.7892328519581704407" id="3465079989151597237" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="snapshot_small" />
+          <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="3465079989151597238" nodeInfo="ng">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+            <node role="baseType" roleId="c4fa.7763322639126652758" type="clbe.StructType" typeId="clbe.6394819151180597816" id="3465079989151657325" nodeInfo="ng">
+              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+              <link role="struct" roleId="clbe.6394819151180597817" targetNodeId="m45l.8025659640012827658" resolveInfo="SMStruct" />
+            </node>
+          </node>
+        </node>
+        <node role="arguments" roleId="x27k.5708867820623310661" type="x27k.Argument" typeId="x27k.7892328519581704407" id="3465079989151597240" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="snapshot_cur" />
+          <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="3465079989151597241" nodeInfo="ng">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+            <node role="baseType" roleId="c4fa.7763322639126652758" type="clbe.StructType" typeId="clbe.6394819151180597816" id="3465079989151699335" nodeInfo="ng">
+              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+              <link role="struct" roleId="clbe.6394819151180597817" targetNodeId="m45l.8025659640012827658" resolveInfo="SMStruct" />
+            </node>
+          </node>
+        </node>
+        <node role="body" roleId="x27k.4185783222026475860" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="3372386639991088043" nodeInfo="ng" />
+        <node role="type" roleId="mj1l.318113533128716676" type="mj1l.VoidType" typeId="mj1l.7892328519581699353" id="3372386639991079537" nodeInfo="ng">
+          <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+          <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+        </node>
+      </node>
+      <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="2213943821004472265" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="empty_1436316596116_7" />
+      </node>
+      <node role="contents" roleId="x27k.6437088627575722833" type="clbe.StructDeclaration" typeId="clbe.6394819151180597807" id="2213943821008261018" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="SMStruct" />
+        <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="8025659640012827659" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="__cur_state" />
+          <node role="type" roleId="mj1l.318113533128716676" type="clbe.EnumType" typeId="clbe.8811614583515725893" id="8025659640012827660" nodeInfo="ng">
+            <link role="enum" roleId="clbe.8811614583515725894" targetNodeId="m45l.8025659640012827651" resolveInfo="StatesEnum" />
+          </node>
+        </node>
+        <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="8025659640012827661" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="x" />
+          <node role="type" roleId="mj1l.318113533128716676" type="mj1l.BooleanType" typeId="mj1l.8860443239512128058" id="5300515325580580967" nodeInfo="ng">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+          </node>
+        </node>
+        <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="485180309324322763" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="bindings" />
+          <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="485180309324324547" nodeInfo="ng">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+            <node role="baseType" roleId="c4fa.7763322639126652758" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="485180309324322761" nodeInfo="ng">
+              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+              <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="m45l.8025659640004863317" resolveInfo="GPtrArray" />
+            </node>
+          </node>
+        </node>
+        <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="2213943821009123379" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="present_events" />
+          <node role="type" roleId="mj1l.318113533128716676" type="yq40.ArrayType" typeId="yq40.5679441017214012545" id="2213943821009123380" nodeInfo="ng">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+            <node role="baseType" roleId="c4fa.7763322639126652758" type="yq40.PointerType" typeId="yq40.279446265608459824" id="2213943821009123381" nodeInfo="ng">
+              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+              <node role="baseType" roleId="c4fa.7763322639126652758" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="2213943821009123382" nodeInfo="ng">
+                <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+                <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+                <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="m45l.8025659640012827671" resolveInfo="Event" />
+              </node>
+            </node>
+            <node role="sizeExpr" roleId="yq40.1452920870317474611" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="2213943821009123383" nodeInfo="ng">
+              <property name="unsigned" nameId="mj1l.5192961572790190887" value="false" />
+              <property name="value" nameId="mj1l.2212975673976043696" value="20" />
+            </node>
+          </node>
+        </node>
+        <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="4572706822285332357" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="region_disabled" />
+          <node role="type" roleId="mj1l.318113533128716676" type="yq40.ArrayType" typeId="yq40.5679441017214012545" id="4572706822285333477" nodeInfo="ng">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+            <node role="baseType" roleId="c4fa.7763322639126652758" type="mj1l.BooleanType" typeId="mj1l.8860443239512128058" id="4572706822285332355" nodeInfo="ng">
+              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+            </node>
+            <node role="sizeExpr" roleId="yq40.1452920870317474611" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="4572706822285333513" nodeInfo="ng">
+              <property name="unsigned" nameId="mj1l.5192961572790190887" value="false" />
+              <property name="value" nameId="mj1l.2212975673976043696" value="20" />
+            </node>
+          </node>
+        </node>
+        <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="2213943821010501244" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="static_info" />
+          <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="2213943821010501245" nodeInfo="ng">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+            <node role="baseType" roleId="c4fa.7763322639126652758" type="clbe.StructType" typeId="clbe.6394819151180597816" id="2213943821010501246" nodeInfo="ng">
+              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+              <link role="struct" roleId="clbe.6394819151180597817" targetNodeId="2213943821010377095" resolveInfo="SMStructStatic" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="contents" roleId="x27k.6437088627575722833" type="clbe.StructDeclaration" typeId="clbe.6394819151180597807" id="2213943821010377095" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="SMStructStatic" />
+        <property name="exported" nameId="x27k.1317894735999272944" value="false" />
+        <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="2213943821010377096" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="are_regions_orthogonal" />
+          <node role="type" roleId="mj1l.318113533128716676" type="yq40.ArrayType" typeId="yq40.5679441017214012545" id="2213943821010377097" nodeInfo="ng">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+            <node role="baseType" roleId="c4fa.7763322639126652758" type="yq40.ArrayType" typeId="yq40.5679441017214012545" id="2213943821010377098" nodeInfo="ng">
+              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+              <node role="baseType" roleId="c4fa.7763322639126652758" type="mj1l.BooleanType" typeId="mj1l.8860443239512128058" id="2213943821010377099" nodeInfo="ng">
+                <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+                <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+              </node>
+              <node role="sizeExpr" roleId="yq40.1452920870317474611" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="2213943821010377100" nodeInfo="ng">
+                <property name="unsigned" nameId="mj1l.5192961572790190887" value="false" />
+                <property name="value" nameId="mj1l.2212975673976043696" value="20" />
+              </node>
+            </node>
+            <node role="sizeExpr" roleId="yq40.1452920870317474611" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="2213943821010377101" nodeInfo="ng">
+              <property name="unsigned" nameId="mj1l.5192961572790190887" value="false" />
+              <property name="value" nameId="mj1l.2212975673976043696" value="20" />
+            </node>
+          </node>
+        </node>
+        <node role="members" roleId="clbe.7099329415459888018" type="clbe.Member" typeId="clbe.5882395403881875736" id="3955981243204420420" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="compare_elements_hier" />
+          <node role="type" roleId="mj1l.318113533128716676" type="yq40.ArrayType" typeId="yq40.5679441017214012545" id="3955981243204422234" nodeInfo="ng">
+            <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+            <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+            <node role="baseType" roleId="c4fa.7763322639126652758" type="yq40.ArrayType" typeId="yq40.5679441017214012545" id="3955981243204421914" nodeInfo="ng">
+              <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+              <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+              <node role="baseType" roleId="c4fa.7763322639126652758" type="clbe.TypeDefType" typeId="clbe.6116558314501347863" id="3955981243204420418" nodeInfo="ng">
+                <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
+                <property name="const" nameId="mj1l.2941277002445651368" value="false" />
+                <link role="typeDef" roleId="clbe.6116558314501347864" targetNodeId="m45l.2878353885459132588" resolveInfo="gint" />
+              </node>
+              <node role="sizeExpr" roleId="yq40.1452920870317474611" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3955981243204421956" nodeInfo="ng">
+                <property name="unsigned" nameId="mj1l.5192961572790190887" value="false" />
+                <property name="value" nameId="mj1l.2212975673976043696" value="20" />
+              </node>
+            </node>
+            <node role="sizeExpr" roleId="yq40.1452920870317474611" type="mj1l.NumberLiteral" typeId="mj1l.8860443239512128103" id="3955981243204422584" nodeInfo="ng">
+              <property name="unsigned" nameId="mj1l.5192961572790190887" value="false" />
+              <property name="value" nameId="mj1l.2212975673976043696" value="20" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="2213943821010316177" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="empty_1436317081697_11" />
+      </node>
+      <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="2213943821008194195" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="empty_1436316958859_10" />
       </node>
       <node role="contents" roleId="x27k.6437088627575722833" type="x27k.EmptyModuleContent" typeId="x27k.8934095934011938595" id="2213943821004845054" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="empty_1436316608302_8" />
