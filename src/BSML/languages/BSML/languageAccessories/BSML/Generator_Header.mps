@@ -1466,7 +1466,7 @@
         </node>
       </node>
       <node role="messages" roleId="k146.2688792604367903095" type="k146.MessageDefinition" typeId="k146.2688792604367903087" id="8025659640012827631" nodeInfo="ng">
-        <property name="active" nameId="k146.2688792604367947988" value="false" />
+        <property name="active" nameId="k146.2688792604367947988" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="transition_occur" />
         <property name="kind" nameId="k146.2688792604367903094" value="1" />
         <property name="text" nameId="k146.2688792604367903089" value=" " />
