@@ -123,7 +123,7 @@
             </node>
           </node>
           <node role="events" roleId="cmy.7641948820054579927" type="cmy.SMGenEvent" typeId="cmy.7641948820054566386" id="4942964015643534057" nodeInfo="ng">
-            <link role="event_ref" roleId="cmy.439124252221590049" targetNodeId="4942964015643507494" resolveInfo="get_multiton_instance" />
+            <link role="event_ref" roleId="cmy.439124252221590049" targetNodeId="4942964015643507494" resolveInfo="get_nonsingleton_instance" />
             <node role="actuals" roleId="cmy.439124252221590038" type="yq40.ReferenceExpr" typeId="yq40.1595838349830846141" id="4942964015643541792" nodeInfo="ng">
               <node role="expression" roleId="mj1l.7254843406768839760" type="c4fa.LocalVarRef" typeId="c4fa.2093108837558113914" id="4942964015643541814" nodeInfo="ng">
                 <link role="var" roleId="c4fa.2093108837558124071" targetNodeId="4942964015643534803" resolveInfo="ret_multi" />
@@ -258,7 +258,7 @@
               </node>
               <node role="content" roleId="cmy.4517681580278325492" type="c4fa.StatementList" typeId="c4fa.4185783222026475861" id="4942964015643495025" nodeInfo="ng">
                 <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.RegionLocalDeclaration" typeId="cmy.4517681580276827431" id="4942964015643499029" nodeInfo="ng">
-                  <property name="name" nameId="tpck.1169194664001" value="singletonRegion" />
+                  <property name="name" nameId="tpck.1169194664001" value="genSingleton" />
                   <link role="initState" roleId="cmy.4517681580276932967" targetNodeId="7885136595494446197" resolveInfo="off" />
                   <node role="type" roleId="mj1l.318113533128716676" type="cmy.RegionType" typeId="cmy.4517681580276870215" id="4942964015643499030" nodeInfo="ng">
                     <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
@@ -418,7 +418,7 @@
                   </node>
                 </node>
                 <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.RegionLocalDeclaration" typeId="cmy.4517681580276827431" id="4942964015643506562" nodeInfo="ng">
-                  <property name="name" nameId="tpck.1169194664001" value="nonsingletonRegion" />
+                  <property name="name" nameId="tpck.1169194664001" value="genNonsingleton" />
                   <link role="initState" roleId="cmy.4517681580276932967" targetNodeId="4942964015643506880" resolveInfo="any" />
                   <node role="type" roleId="mj1l.318113533128716676" type="cmy.RegionType" typeId="cmy.4517681580276870215" id="4942964015643506563" nodeInfo="ng">
                     <property name="volatile" nameId="mj1l.2941277002448691247" value="false" />
@@ -428,7 +428,7 @@
                     <node role="statements" roleId="c4fa.4185783222026475862" type="cmy.Event" typeId="cmy.4517681580277145875" id="4942964015643507494" nodeInfo="ng">
                       <property name="in_event" nameId="cmy.8197221902186586719" value="false" />
                       <property name="rendezvous" nameId="cmy.4312019340365351542" value="false" />
-                      <property name="name" nameId="tpck.1169194664001" value="get_multiton_instance" />
+                      <property name="name" nameId="tpck.1169194664001" value="get_nonsingleton_instance" />
                       <node role="args" roleId="cmy.4517681580277209732" type="x27k.Argument" typeId="x27k.7892328519581704407" id="4942964015643507588" nodeInfo="ng">
                         <property name="name" nameId="tpck.1169194664001" value="ret" />
                         <node role="type" roleId="mj1l.318113533128716676" type="yq40.PointerType" typeId="yq40.279446265608459824" id="4942964015643507610" nodeInfo="ng">
@@ -494,7 +494,7 @@
                       </node>
                       <node role="triggers" roleId="cmy.3372386639988661877" type="cmy.TriggerEventRef" typeId="cmy.3372386639988661786" id="4942964015643522554" nodeInfo="ng">
                         <property name="negation" nameId="cmy.7282629872782441959" value="false" />
-                        <link role="var" roleId="cmy.3372386639988661787" targetNodeId="4942964015643507494" resolveInfo="get_multiton_instance" />
+                        <link role="var" roleId="cmy.3372386639988661787" targetNodeId="4942964015643507494" resolveInfo="get_nonsingleton_instance" />
                       </node>
                     </node>
                   </node>
